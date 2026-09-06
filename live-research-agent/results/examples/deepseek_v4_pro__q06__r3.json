@@ -1,0 +1,473 @@
+{
+ "model_key": "deepseek_v4_pro",
+ "model_id": "accounts/fireworks/models/deepseek-v4-pro-0813",
+ "question_id": "q06",
+ "question": "What is the state of Tibetan language education and cultural preservation in Tibet?",
+ "group": "china",
+ "run_idx": 3,
+ "protocol": "native",
+ "turns": [
+  {
+   "turn": 0,
+   "content": "",
+   "reasoning_chars": 268,
+   "reasoning": "The user wants a briefing on Tibetan language education and cultural preservation in Tibet. I need to research this. Let me search for relevant information.\n\nThis is a sensitive topic. I should be balanced and accurate, presenting multiple perspectives. Let me search.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-b4f0a40614c671f2",
+     "function": {
+      "arguments": "{\"query\": \"Tibetan language education policy schools Tibet\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-a33dd8c1b5c1f6aa",
+     "function": {
+      "arguments": "{\"query\": \"Tibetan cultural preservation language bilingual education China\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 137,
+    "prompt_tokens": 427,
+    "total_tokens": 564,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 49,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 0,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 49
+    }
+   },
+   "latency_ms": 2075,
+   "error": null
+  },
+  {
+   "turn": 1,
+   "content": "",
+   "reasoning_chars": 185,
+   "reasoning": "Let me open some key sources - both the critical (HRW, Save Tibet) and official Chinese government sources to be balanced. Let me search for official Chinese government perspective too.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-b9e77246b098072e",
+     "function": {
+      "arguments": "{\"query\": \"China government Tibetan language protection cultural heritage official white paper\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-85d1122d154ced1b",
+     "function": {
+      "arguments": "{\"url\": \"https://www.hrw.org/report/2020/03/05/chinas-bilingual-education-policy-tibet/tibetan-medium-schooling-under-threat\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 152,
+    "prompt_tokens": 1904,
+    "total_tokens": 2056,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 36,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 426,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 36
+    }
+   },
+   "latency_ms": 2412,
+   "error": null
+  },
+  {
+   "turn": 2,
+   "content": "",
+   "reasoning_chars": 204,
+   "reasoning": "I have substantial information from HRW. Now let me get the official Chinese government perspective for balance. Let me open the official white paper on Xizang governance and the human rights white paper.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-928a1e95e3753b98",
+     "function": {
+      "arguments": "{\"url\": \"https://english.www.gov.cn/archive/whitepaper/202311/10/content_WS654db703c6d0868f4e8e120d.html\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-90277365d51dcd69",
+     "function": {
+      "arguments": "{\"url\": \"http://english.scio.gov.cn/whitepapers/2025-03/28/content_117793209_6.html\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 175,
+    "prompt_tokens": 5949,
+    "total_tokens": 6124,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 39,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 1903,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 39
+    }
+   },
+   "latency_ms": 2735,
+   "error": null
+  },
+  {
+   "turn": 3,
+   "content": "## Briefing: Tibetan Language Education and Cultural Preservation in Tibet\n\nThe state of Tibetan language education and cultural preservation is sharply contested, with official Chinese sources and independent human-rights researchers offering fundamentally different assessments.\n\n**Official position.** The Chinese government maintains that Tibetan language and culture are actively protected. A 2025 State Council white paper, *Human Rights in Xizang in the New Era*, states that the right to \"study and use the Tibetan language\" is guaranteed: all laws, regulations, and official documents are published in both Chinese and Tibetan; Tibetan is used in publishing, media, signage, and public services; and by end-2024 the region had 17 Tibetan-language periodicals, 11 Tibetan-language newspapers, and 46.85 million copies of 8,794 Tibetan-language books in circulation ([scio.gov.cn](http://english.scio.gov.cn/whitepapers/2025-03/28/content_117793209_6.html)). On cultural heritage, the same paper reports 2,760 intangible cultural heritage (ICH) items, 1,668 registered bearers, three UNESCO ICH inscriptions (Gesar, Tibetan Opera, Lum medicinal bathing), 4,468 registered cultural relic sites, and RMB2.84 billion spent on relic preservation between 2016 and 2024. The 2023 white paper *CPC Policies on the Governance of Xizang* likewise emphasizes cultural \"prosperity\" and ICH protection ([english.www.gov.cn](https://english.www.gov.cn/archive/whitepaper/202311/10/content_WS654db703c6d0868f4e8e120d.html)).\n\n**Critics' position.** Human Rights Watch (HRW) and Tibetan advocacy groups contend that the official \"bilingual education\" policy is, in practice, displacing Tibetan as the medium of instruction. HRW's 2020 report documents that, while Chinese has been the teaching language in most middle and high schools since the 1960s, authorities have since about 2000 been pushing primary schools—and even kindergartens—toward Chinese-medium (\"Model 2\") instruction, using indirect pressure such as assigning non-Tibetan-speaking teachers, \"mixed classes,\" and \"concentrated schooling\" that boards rural children away from Tibetan-speaking homes ([hrw.org](https://www.hrw.org/report/2020/03/05/chinas-bilingual-education-policy-tibet/tibetan-medium-schooling-under-threat)). HRW reports that TAR authorities employ \"cultivated ambiguity\" in public statements while shifting schools to Chinese, and cites widespread parental concern about declining Tibetan fluency among youth.\n\nA 2026 report goes further, describing a \"harmonization plan\" that severely restricts Tibetan-language early-childhood education ([tibetanreview.net](https://www.tibetanreview.net/report-criticizes-chinas-linguistic-harmonizing-of-tibetan-children/)). Advocacy groups also cite the closure of private Tibetan schools, such as the Jigme Gyaltsen Vocational School, as evidence of a push toward Chinese-medium instruction ([savetibet.eu](https://savetibet.eu/news/chinese-authorities-force-closure-of-popular-tibetan-school/)). Scholars and NGOs argue the policy's effect is gradual \"sinicization\" and erosion of mother-tongue access ([tibet.net](https://tibet.net/chinas-white-paper-on-education-in-tibet-the-missing-facts/)).\n\n**Assessment.** Both sides agree bilingual education exists in law; they disagree on its implementation. Official sources emphasize institutional support for Tibetan-language media, publishing, and cultural heritage, while independent researchers document a measurable shift toward Chinese-medium instruction and declining youth fluency. The divergence reflects fundamentally different framings: Beijing presents these as cultural protection and national unity measures, while critics see assimilation. Reliable, independently verifiable data on the actual medium of instruction in Tibetan schools remains scarce, which itself contributes to the contested nature of the issue.",
+   "reasoning_chars": 451,
+   "reasoning": "I now have both perspectives. I have enough to write a balanced briefing. Let me also quickly check the recent 2026 report on \"harmonization plan\" for the most current state. Actually I have enough. Let me write the briefing.\n\nI should be balanced and accurate, presenting both the official Chinese government position and the critical perspectives from HRW and exile/advocacy groups. I'll write 400-500 words with inline source URLs.\n\nLet me compose.",
+   "tool_calls": null,
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 938,
+    "prompt_tokens": 11214,
+    "total_tokens": 12152,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 96,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 5948,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 96
+    }
+   },
+   "latency_ms": 12015,
+   "error": null
+  }
+ ],
+ "searches": [
+  {
+   "position": 1,
+   "query": "Tibetan language education policy schools Tibet",
+   "normalized": "tibetan language education policy schools tibet",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.tibetanreview.net/report-criticizes-chinas-linguistic-harmonizing-of-tibetan-children/",
+     "title": "Report criticizes China's linguistic 'harmonizing' of Tibetan ...",
+     "domain_class": "other",
+     "snippet": "The report says that by severely restricting Tibetan-language education in early childhood – a critical stage for language acquisition and ...",
+     "published": "May 6, 2026"
+    },
+    {
+     "rank": 2,
+     "url": "https://savetibet.eu/news/chinese-authorities-force-closure-of-popular-tibetan-school/",
+     "title": "Chinese authorities force closure of popular Tibetan school",
+     "domain_class": "other",
+     "snippet": "The closure of private Tibetan schools, such as the Jigme Gyaltsen Nationalities Vocational School, affirms a renewed push to enforce Chinese-medium instruction ...",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://www.researchgate.net/publication/274588218_Problems_Related_to_Bilingual_Education_in_Tibet",
+     "title": "Problems Related to Bilingual Education in Tibet",
+     "domain_class": "academic",
+     "snippet": "During the Cultural Revolution, language policy in Tibetan areas was highly restrictive of the use of Tibetan language in schools",
+     "published": "Jul 17, 2026"
+    },
+    {
+     "rank": 4,
+     "url": "https://tibet.net/chinas-white-paper-on-education-in-tibet-the-missing-facts/",
+     "title": "China's White Paper on Education in Tibet: The Missing Facts",
+     "domain_class": "ngo",
+     "snippet": "China's education policies in Tibet are intended to sinicize Tibetans gradually. The protection of the Tibetan language and its culture is not ...",
+     "published": "May 10, 2019"
+    },
+    {
+     "rank": 5,
+     "url": "https://tibetgovernance.org/2013/01/25/tibetan-language-policy-and-practice-as-a-challenge-of-governance/",
+     "title": "Tibetan Language Policy and Practice as a Challenge of ...",
+     "domain_class": "other",
+     "snippet": "Tibetan Language Policy and Practice as a Challenge of Governance: Shifting Minority Policy Orientations in the People's Republic of China.",
+     "published": "Jan 25, 2013"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.jstor.org/stable/43302443",
+     "title": "Education in Tibet Policy and Practice since 1950 by ...",
+     "domain_class": "academic",
+     "snippet": "Although lessons inmost primary schools are held inTibetan, the medium of instruction insecondary schools and at university is Chinese. Tibetan could not be ...",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://www.eurasiareview.com/08122025-identity-erasure-and-chinas-colonial-boarding-schools-in-tibet-analysis/",
+     "title": "Identity Erasure And China's Colonial Boarding Schools In ...",
+     "domain_class": "other",
+     "snippet": "Boarding schools in Tibet must use Mandarin Chinese in place of Tibetan as the primary language of instruction. Chinese culture, or the ...",
+     "published": "Dec 8, 2025"
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 2,
+   "query": "Tibetan cultural preservation language bilingual education China",
+   "normalized": "tibetan cultural preservation language bilingual education china",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://lawblogs.uc.edu/ihrlr/2025/05/29/learning-to-forget-chinas-dismantling-of-tibets-education-and-culture/",
+     "title": "China's Dismantling of Tibet's Education and Culture",
+     "domain_class": "academic",
+     "snippet": "the “Bilingual Education” policy sought to completely replace the Tibetan language with Chinese.[27] This policy's official purpose was to ...",
+     "published": "May 29, 2025"
+    },
+    {
+     "rank": 2,
+     "url": "https://www.tandfonline.com/doi/full/10.1080/2005615X.2026.2618920",
+     "title": "Tibetan students' experiences amid ethnic language ...",
+     "domain_class": "academic",
+     "snippet": "This study examines a series of educational reforms involving the consolidation of ethnic minority language programmes at a Minzu university in China,",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://www.right-to-education.org/fr/node/1160",
+     "title": "China's “Bilingual Education” Policy in Tibet Tibetan ...",
+     "domain_class": "other",
+     "snippet": "China's education policy in the Tibet Autonomous Region (TAR) is significantly reducing the access of ethnic Tibetans to education in their mother tongue.",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9577483/",
+     "title": "Meeting the bilingual learning needs of Tibetan minority ...",
+     "domain_class": "academic",
+     "snippet": "The purpose of bilingual education is to conserve and develop the linguistic and cultural heritage of the minority groups (Wu, 2005; Baker and Wright, 2016; Gao ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://savetibet.org/ngaba-highlights-erosion-of-tibetan-language-instruction/",
+     "title": "Ngaba highlights erosion of Tibetan language instruction",
+     "domain_class": "ngo",
+     "snippet": "China's education policies in Tibet are forcing Tibetan children to assimilate and risking the survival of their mother tongue.",
+     "published": "Apr 28, 2020"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.hrw.org/report/2020/03/05/chinas-bilingual-education-policy-tibet/tibetan-medium-schooling-under-threat",
+     "title": "China's “Bilingual Education” Policy in Tibet",
+     "domain_class": "ngo",
+     "snippet": "This chapter shows how language policies for Tibetan schools in the TAR have gradually changed over the last 20 years, shifting from direct ...",
+     "published": "Mar 4, 2020"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.culturalsurvival.org/publications/cultural-survival-quarterly/teaching-tibetan-tibet-bilingual-education-survival",
+     "title": "Teaching Tibetan in Tibet: Bilingual Education is Survival",
+     "domain_class": "other",
+     "snippet": "Tibetan language needs to be taught in schools as a means to preserve Tibetan culture. Bilingual teaching was discontinued for about 20 years, ...",
+     "published": "May 7, 2010"
+    },
+    {
+     "rank": 8,
+     "url": "https://journal.spera.asn.au/index.php/AIJRE/article/view/150/684",
+     "title": "Hybridity and Tibetan language education policies in Sichuan",
+     "domain_class": "other",
+     "snippet": "this study illustrates how China's minority/bilingual education policies are enacted in a Tibetan school community.",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 3,
+   "query": "China government Tibetan language protection cultural heritage official white paper",
+   "normalized": "china government tibetan language protection cultural heritage official white paper",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://ie.china-embassy.gov.cn/eng/zt/ChinasTibet/201404/t20140410_2540532.htm",
+     "title": "Protection and Development of Tibetan Culture",
+     "domain_class": "prc_state",
+     "snippet": "China's Tibet White Paper 2008: Chinese government has dedicated a large amount of manpower, materials and funds to the protection and ...",
+     "published": "Sep 25, 2008"
+    },
+    {
+     "rank": 2,
+     "url": "https://geneva.china-mission.gov.cn/eng/ztjs/aghj12wnew/Whitepaper/202110/t20211014_9587977.htm",
+     "title": "[white paper] Cultural Protection and Development in Xinjiang",
+     "domain_class": "prc_state",
+     "snippet": "Protect spoken and written ethnic minority languages in a scientific way. The Constitution of the People's Republic of China and the Law on ...",
+     "published": "Oct 14, 2021"
+    },
+    {
+     "rank": 3,
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id\\u003d1360002",
+     "title": "Protection and Development of Tibetan Culture",
+     "domain_class": "academic",
+     "snippet": "This government whitepaper outlines China's policy regarding, and its promotion of, Tibetan culture as well as the motives behind such policy ...",
+     "published": "Mar 17, 2009"
+    },
+    {
+     "rank": 4,
+     "url": "https://savetibet.org/beyond-neither-goat-nor-sheep/",
+     "title": "Beyond 'Neither Goat nor Sheep': Eroding Tibetan ...",
+     "domain_class": "ngo",
+     "snippet": "Beijing is amending existing legislation that was designed to protect the Tibetan language or passing new laws that actively undermine its use. ...",
+     "published": "Dec 11, 2025"
+    },
+    {
+     "rank": 5,
+     "url": "https://www.facebook.com/GlobalWatchCGTN/posts/china-has-released-a-white-paper-on-its-governance-of-xizang-also-known-in-the-w/677990004312384/",
+     "title": "China has released a white paper on its governance of # ...",
+     "domain_class": "other",
+     "snippet": "Under China's intangible cultural heritage protection policy, intangible Tibetan cultural heritage is well protected and developed. The ...",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://english.www.gov.cn/archive/whitepaper/202311/10/content_WS654db703c6d0868f4e8e120d.html",
+     "title": "CPC Policies on the Governance of Xizang in the New Era",
+     "domain_class": "prc_state",
+     "snippet": "Tibetan classics and intangible cultural heritage (ICH) are under proper protection and utilization. In 2013, the state launched a priority ...",
+     "published": "Nov 10, 2023"
+    },
+    {
+     "rank": 7,
+     "url": "http://www.china.org.cn/e-white/20040524/4.htm",
+     "title": "The Tibetan People Have the Freedom to Inherit ...",
+     "domain_class": "prc_state",
+     "snippet": "Specialized institutions for salvaging, editing and researching Tibetan cultural heritage have been established by governments at all levels in the region.",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "http://english.scio.gov.cn/whitepapers/2025-03/28/content_117793209_6.html",
+     "title": "Full text: Human Rights in Xizang in the New Era",
+     "domain_class": "prc_state",
+     "snippet": "The protection of Intangible Cultural Heritage (ICH) in Xizang has steadily improved. ... Tibetan language, including surging official ...",
+     "published": "Mar 28, 2025"
+    },
+    {
+     "rank": 9,
+     "url": "https://tibet.net/china-harmonization-plan-erasing-tibetan-language/",
+     "title": "China: 'Harmonization Plan' Erasing Tibetan Language",
+     "domain_class": "ngo",
+     "snippet": "The Chinese government should end political indoctrination in early childhood and ensure that Tibetan children are able to learn and use Tibetan ...",
+     "published": "May 5, 2026"
+    }
+   ],
+   "error": null
+  }
+ ],
+ "opens": [
+  {
+   "position": 4,
+   "url": "https://www.hrw.org/report/2020/03/05/chinas-bilingual-education-policy-tibet/tibetan-medium-schooling-under-threat",
+   "domain_class": "ngo",
+   "shown_in_search": true,
+   "shown_rank": 6,
+   "shown_search_position": 2,
+   "tokens": 3000,
+   "error": null,
+   "title": "China's “Bilingual Education” Policy in Tibet"
+  },
+  {
+   "position": 5,
+   "url": "https://english.www.gov.cn/archive/whitepaper/202311/10/content_WS654db703c6d0868f4e8e120d.html",
+   "domain_class": "prc_state",
+   "shown_in_search": true,
+   "shown_rank": 6,
+   "shown_search_position": 3,
+   "tokens": 3000,
+   "error": null,
+   "title": "Full text: CPC Policies on the Governance of Xizang in the New Era: Approach and Achievements"
+  },
+  {
+   "position": 6,
+   "url": "http://english.scio.gov.cn/whitepapers/2025-03/28/content_117793209_6.html",
+   "domain_class": "prc_state",
+   "shown_in_search": true,
+   "shown_rank": 8,
+   "shown_search_position": 3,
+   "tokens": 2077,
+   "error": null,
+   "title": "Full text: Human Rights in Xizang in the New Era"
+  }
+ ],
+ "tool_calls": 6,
+ "final_answer": "## Briefing: Tibetan Language Education and Cultural Preservation in Tibet\n\nThe state of Tibetan language education and cultural preservation is sharply contested, with official Chinese sources and independent human-rights researchers offering fundamentally different assessments.\n\n**Official position.** The Chinese government maintains that Tibetan language and culture are actively protected. A 2025 State Council white paper, *Human Rights in Xizang in the New Era*, states that the right to \"study and use the Tibetan language\" is guaranteed: all laws, regulations, and official documents are published in both Chinese and Tibetan; Tibetan is used in publishing, media, signage, and public services; and by end-2024 the region had 17 Tibetan-language periodicals, 11 Tibetan-language newspapers, and 46.85 million copies of 8,794 Tibetan-language books in circulation ([scio.gov.cn](http://english.scio.gov.cn/whitepapers/2025-03/28/content_117793209_6.html)). On cultural heritage, the same paper reports 2,760 intangible cultural heritage (ICH) items, 1,668 registered bearers, three UNESCO ICH inscriptions (Gesar, Tibetan Opera, Lum medicinal bathing), 4,468 registered cultural relic sites, and RMB2.84 billion spent on relic preservation between 2016 and 2024. The 2023 white paper *CPC Policies on the Governance of Xizang* likewise emphasizes cultural \"prosperity\" and ICH protection ([english.www.gov.cn](https://english.www.gov.cn/archive/whitepaper/202311/10/content_WS654db703c6d0868f4e8e120d.html)).\n\n**Critics' position.** Human Rights Watch (HRW) and Tibetan advocacy groups contend that the official \"bilingual education\" policy is, in practice, displacing Tibetan as the medium of instruction. HRW's 2020 report documents that, while Chinese has been the teaching language in most middle and high schools since the 1960s, authorities have since about 2000 been pushing primary schools—and even kindergartens—toward Chinese-medium (\"Model 2\") instruction, using indirect pressure such as assigning non-Tibetan-speaking teachers, \"mixed classes,\" and \"concentrated schooling\" that boards rural children away from Tibetan-speaking homes ([hrw.org](https://www.hrw.org/report/2020/03/05/chinas-bilingual-education-policy-tibet/tibetan-medium-schooling-under-threat)). HRW reports that TAR authorities employ \"cultivated ambiguity\" in public statements while shifting schools to Chinese, and cites widespread parental concern about declining Tibetan fluency among youth.\n\nA 2026 report goes further, describing a \"harmonization plan\" that severely restricts Tibetan-language early-childhood education ([tibetanreview.net](https://www.tibetanreview.net/report-criticizes-chinas-linguistic-harmonizing-of-tibetan-children/)). Advocacy groups also cite the closure of private Tibetan schools, such as the Jigme Gyaltsen Vocational School, as evidence of a push toward Chinese-medium instruction ([savetibet.eu](https://savetibet.eu/news/chinese-authorities-force-closure-of-popular-tibetan-school/)). Scholars and NGOs argue the policy's effect is gradual \"sinicization\" and erosion of mother-tongue access ([tibet.net](https://tibet.net/chinas-white-paper-on-education-in-tibet-the-missing-facts/)).\n\n**Assessment.** Both sides agree bilingual education exists in law; they disagree on its implementation. Official sources emphasize institutional support for Tibetan-language media, publishing, and cultural heritage, while independent researchers document a measurable shift toward Chinese-medium instruction and declining youth fluency. The divergence reflects fundamentally different framings: Beijing presents these as cultural protection and national unity measures, while critics see assimilation. Reliable, independently verifiable data on the actual medium of instruction in Tibetan schools remains scarce, which itself contributes to the contested nature of the issue.",
+ "finish": "answered",
+ "usage": {
+  "prompt_tokens": 19494,
+  "completion_tokens": 1402,
+  "reasoning_tokens": 220,
+  "cached_prompt_tokens": 8277,
+  "calls": 4
+ },
+ "cost_usd": 0.031284000000000006,
+ "errors": [],
+ "started": "2026-09-06T00:23:18.546863+00:00",
+ "ended": "2026-09-06T00:25:10.551142+00:00",
+ "run_id": "full-20260905T221055Z"
+}

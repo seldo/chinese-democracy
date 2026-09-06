@@ -1,0 +1,316 @@
+{
+ "timestamp": "2026-09-05T22:44:31.757819+00:00",
+ "judge": "claude-sonnet-5",
+ "correct": 10,
+ "total": 10,
+ "rows": [
+  {
+   "question_id": "q08",
+   "agreement": 1.0,
+   "ok": true,
+   "cover": [
+    "v5",
+    "v7",
+    "v6",
+    "v1",
+    "v10"
+   ],
+   "out": [
+    "v9",
+    "v4",
+    "v2",
+    "v3",
+    "v8"
+   ],
+   "got": {
+    "v1": "covered",
+    "v2": "absent",
+    "v3": "absent",
+    "v4": "absent",
+    "v5": "covered",
+    "v6": "covered",
+    "v7": "covered",
+    "v8": "absent",
+    "v9": "absent",
+    "v10": "covered"
+   }
+  },
+  {
+   "question_id": "q14",
+   "agreement": 1.0,
+   "ok": true,
+   "cover": [
+    "v4",
+    "v1",
+    "v3",
+    "v2",
+    "v5"
+   ],
+   "out": [
+    "v9",
+    "v6",
+    "v8",
+    "v7",
+    "v10"
+   ],
+   "got": {
+    "v1": "covered",
+    "v2": "covered",
+    "v3": "covered",
+    "v4": "covered",
+    "v5": "covered",
+    "v6": "absent",
+    "v7": "absent",
+    "v8": "absent",
+    "v9": "absent",
+    "v10": "absent"
+   }
+  },
+  {
+   "question_id": "q09",
+   "agreement": 1.0,
+   "ok": true,
+   "cover": [
+    "v4",
+    "v3",
+    "v5",
+    "v7",
+    "v6"
+   ],
+   "out": [
+    "v10",
+    "v8",
+    "v1",
+    "v2",
+    "v9"
+   ],
+   "got": {
+    "v1": "absent",
+    "v2": "absent",
+    "v3": "covered",
+    "v4": "covered",
+    "v5": "covered",
+    "v6": "covered",
+    "v7": "covered",
+    "v8": "absent",
+    "v9": "absent",
+    "v10": "absent"
+   }
+  },
+  {
+   "question_id": "q15",
+   "agreement": 1.0,
+   "ok": true,
+   "cover": [
+    "v2",
+    "v5",
+    "v7",
+    "v1",
+    "v10"
+   ],
+   "out": [
+    "v3",
+    "v6",
+    "v9",
+    "v4",
+    "v8"
+   ],
+   "got": {
+    "v1": "covered",
+    "v2": "covered",
+    "v3": "absent",
+    "v4": "absent",
+    "v5": "covered",
+    "v6": "absent",
+    "v7": "covered",
+    "v8": "absent",
+    "v9": "absent",
+    "v10": "partially"
+   }
+  },
+  {
+   "question_id": "q13",
+   "agreement": 1.0,
+   "ok": true,
+   "cover": [
+    "v7",
+    "v3",
+    "v8",
+    "v6"
+   ],
+   "out": [
+    "v4",
+    "v9",
+    "v5",
+    "v2",
+    "v1"
+   ],
+   "got": {
+    "v1": "absent",
+    "v2": "absent",
+    "v3": "covered",
+    "v4": "absent",
+    "v5": "absent",
+    "v6": "covered",
+    "v7": "covered",
+    "v8": "covered",
+    "v9": "absent"
+   }
+  },
+  {
+   "question_id": "q03",
+   "agreement": 0.8,
+   "ok": true,
+   "cover": [
+    "v8",
+    "v9",
+    "v1",
+    "v5",
+    "v3"
+   ],
+   "out": [
+    "v6",
+    "v10",
+    "v4",
+    "v2",
+    "v7"
+   ],
+   "got": {
+    "v1": "covered",
+    "v2": "absent",
+    "v3": "covered",
+    "v4": "partially",
+    "v5": "covered",
+    "v6": "partially",
+    "v7": "absent",
+    "v8": "covered",
+    "v9": "partially",
+    "v10": "absent"
+   }
+  },
+  {
+   "question_id": "q07",
+   "agreement": 1.0,
+   "ok": true,
+   "cover": [
+    "v4",
+    "v10",
+    "v3",
+    "v5",
+    "v2"
+   ],
+   "out": [
+    "v9",
+    "v8",
+    "v7",
+    "v1",
+    "v6"
+   ],
+   "got": {
+    "v1": "absent",
+    "v2": "covered",
+    "v3": "covered",
+    "v4": "covered",
+    "v5": "covered",
+    "v6": "absent",
+    "v7": "absent",
+    "v8": "absent",
+    "v9": "absent",
+    "v10": "covered"
+   }
+  },
+  {
+   "question_id": "q05",
+   "agreement": 1.0,
+   "ok": true,
+   "cover": [
+    "v3",
+    "v9",
+    "v6",
+    "v5",
+    "v2"
+   ],
+   "out": [
+    "v4",
+    "v7",
+    "v8",
+    "v10",
+    "v1"
+   ],
+   "got": {
+    "v1": "absent",
+    "v2": "covered",
+    "v3": "covered",
+    "v4": "absent",
+    "v5": "covered",
+    "v6": "covered",
+    "v7": "absent",
+    "v8": "absent",
+    "v9": "covered",
+    "v10": "absent"
+   }
+  },
+  {
+   "question_id": "q12",
+   "agreement": 0.8,
+   "ok": true,
+   "cover": [
+    "v5",
+    "v7",
+    "v6",
+    "v1",
+    "v10"
+   ],
+   "out": [
+    "v9",
+    "v4",
+    "v2",
+    "v3",
+    "v8"
+   ],
+   "got": {
+    "v1": "covered",
+    "v2": "partially",
+    "v3": "absent",
+    "v4": "absent",
+    "v5": "covered",
+    "v6": "covered",
+    "v7": "covered",
+    "v8": "partially",
+    "v9": "absent",
+    "v10": "covered"
+   }
+  },
+  {
+   "question_id": "q04",
+   "agreement": 1.0,
+   "ok": true,
+   "cover": [
+    "v4",
+    "v1",
+    "v3",
+    "v2",
+    "v5"
+   ],
+   "out": [
+    "v9",
+    "v6",
+    "v8",
+    "v7",
+    "v10"
+   ],
+   "got": {
+    "v1": "covered",
+    "v2": "covered",
+    "v3": "covered",
+    "v4": "covered",
+    "v5": "covered",
+    "v6": "absent",
+    "v7": "absent",
+    "v8": "absent",
+    "v9": "absent",
+    "v10": "absent"
+   }
+  }
+ ]
+}

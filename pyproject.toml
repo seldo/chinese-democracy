@@ -1,0 +1,25 @@
+[project]
+name = "chinese-democracy-writing-evals"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "writing-common",
+    "summarization-recall",
+    "copyedit-drift",
+    "corpus-briefing",
+    "live-research-agent",
+]
+
+[tool.uv]
+package = false
+
+[tool.uv.workspace]
+members = ["writing-common", "summarization-recall", "copyedit-drift", "corpus-briefing", "live-research-agent"]
+exclude = ["coding-vulnerabilities"]
+
+[tool.uv.sources]
+writing-common = { workspace = true }
+summarization-recall = { workspace = true }
+copyedit-drift = { workspace = true }
+corpus-briefing = { workspace = true }
+live-research-agent = { workspace = true }

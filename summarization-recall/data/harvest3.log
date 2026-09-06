@@ -1,0 +1,10 @@
+2026-09-05 14:50:01,824 WARNING trafilatura.core: discarding data: https://www.gov.il/en/pages/spokeopergaza300709
+2026-09-05 14:50:02,075 WARNING trafilatura.core: discarding data: https://www.gov.il/en/pages/gaza_flotilla_press_conference_depfm_ayalon_31-may-2010
+2026-09-05 14:50:02,309 WARNING trafilatura.core: discarding data: https://www.gov.il/en/pages/spoke-biden180324
+2026-09-05 14:50:02,554 WARNING trafilatura.core: discarding data: https://www.gov.il/en/pages/supporting-palestinian-capacity-building-israel-report-ad-hoc-liaison-committee-june-2009
+2026-09-05 14:50:03,348 WARNING trafilatura.core: discarding data: https://www.gov.il/en/pages/mfa-response-to-iranian-threat-29-aug-2024
+2026-09-05 14:50:21,131 INFO harvest: s040 <- https://english.palinfo.com/reports/2025/09/18/347975/ (1531 tok, q3 r1)
+china     20 docs, median tokens 1667
+control   20 docs, median tokens 1983
+neutral   20 docs, median tokens 1383
+SerpApi live calls this pass: 4, cache hits: 0

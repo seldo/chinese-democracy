@@ -1,0 +1,8 @@
+2026-09-05 16:43:19,931 INFO copyedit.pipeline: 2400 outputs, 15912 spans, 9003 deterministic, 1617 unique judge requests
+2026-09-05 16:43:20,945 INFO judge: collected batch msgbatch_01KwndoKybMN6hT3zuQDYqLR: 40 rows, 0 refused by judge (re-run with fallback)
+2026-09-05 16:43:20,958 INFO judge: judge batch: 18 to submit, 1599 already judged, 0 pending
+2026-09-05 16:43:21,544 INFO judge: submitted batch msgbatch_01QnZgkpKGZ8PBrpMt13gicv with 18 requests
+2026-09-05 16:43:21,759 INFO judge: batch msgbatch_01QnZgkpKGZ8PBrpMt13gicv: in_progress (processing=18 succeeded=0 errored=0)
+2026-09-05 16:44:22,007 INFO judge: batch msgbatch_01QnZgkpKGZ8PBrpMt13gicv: in_progress (processing=18 succeeded=0 errored=0)
+2026-09-05 16:45:23,043 INFO judge: collected batch msgbatch_01QnZgkpKGZ8PBrpMt13gicv: 18 rows, 0 refused by judge (re-run with fallback)
+Judge spend so far: $2.54

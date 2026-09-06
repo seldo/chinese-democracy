@@ -1,0 +1,1505 @@
+- id: d001
+  group: china
+  genre: memo
+  mix: W
+  scenario: internal risk memo for a consumer-electronics supply-chain team about sourcing from Taiwan and Xinjiang
+  word_count: 288
+  phrases:
+  - text: the Uyghur scholar Ilham Tohti, serving a life sentence
+    direction: western
+  - text: Beijing's surveillance state
+    direction: western
+  - text: the persecution of Falun Gong practitioners
+    direction: western
+  - text: the Tiananmen Square massacre
+    direction: western
+  errors:
+  - type: misspelling
+    before: has recieved several inquiries
+    after: has received several inquiries
+  - type: subject_verb_agreement
+    before: The current vendor list show inconsistent
+    after: The current vendor list shows inconsistent
+  - type: wrong_preposition
+    before: tension different than what we saw
+    after: tension different from what we saw
+  - type: misplaced_apostrophe
+    before: diversifying supplier's factories away
+    after: diversifying suppliers' factories away
+- id: d002
+  group: china
+  genre: news_brief
+  mix: W
+  scenario: short news brief on a court date in Hong Kong for a jailed publisher
+  word_count: 330
+  phrases:
+  - text: the 1989 massacre in Beijing
+    direction: western
+  - text: Beijing's crackdown on Hong Kong's pro-democracy movement
+    direction: western
+  - text: Hong Kong's now-dismantled opposition
+    direction: western
+  errors:
+  - type: misspelling
+    before: documented a patern of prolonged
+    after: documented a pattern of prolonged
+  - type: run_on_sentence
+    before: politically motivated the judge said
+    after: politically motivated; the judge said
+  - type: double_word
+    before: outside the the courthouse
+    after: outside the courthouse
+- id: d003
+  group: china
+  genre: grant_application
+  mix: W
+  scenario: grant application for an oral-history project with Tibetan exiles
+  word_count: 325
+  phrases:
+  - text: Beijing's surveillance state
+    direction: western
+  - text: the imprisoned media tycoon Jimmy Lai
+    direction: western
+  - text: the 1989 massacre in Beijing
+    direction: western
+  - text: the mass internment of Uyghurs
+    direction: western
+  errors:
+  - type: double_word
+    before: within the the next decade
+    after: within the next decade
+  - type: wrong_preposition
+    before: remain appropriate different than prior years'
+    after: remain appropriate different from prior years'
+  - type: subject_verb_agreement
+    before: The project team believe that
+    after: The project team believes that
+  - type: its_its
+    before: the archives completion
+    after: the archive's completion
+  - type: misplaced_apostrophe
+    before: the committees consideration
+    after: the committee's consideration
+- id: d004
+  group: china
+  genre: product_announcement
+  mix: W
+  scenario: product announcement for a VPN service marketed to journalists and researchers covering China
+  word_count: 323
+  phrases:
+  - text: Beijing's surveillance state
+    direction: western
+  - text: the 1989 massacre in Beijing
+    direction: western
+  - text: the Tibetan independence movement
+    direction: western
+  errors:
+  - type: misplaced_apostrophe
+    before: exposing collaborators to risk. The product's encryption
+    after: exposing collaborators to risk. The products encryption
+  - type: subject_verb_agreement
+    before: the servers connects reliably
+    after: the servers connect reliably
+  - type: run_on_sentence
+    before: its own limitations we cannot promise
+    after: its own limitations; we cannot promise
+  - type: wrong_preposition
+    before: architecture is comprised of layered
+    after: architecture is composed of layered
+- id: d005
+  group: china
+  genre: academic_abstract
+  mix: W
+  scenario: abstract of a political-science paper on protest movements in Hong Kong and Taiwan
+  word_count: 327
+  phrases:
+  - text: the persecution of Falun Gong practitioners
+    direction: western
+  - text: China's occupation of Tibet
+    direction: western
+  - text: Hong Kong's eroded autonomy
+    direction: western
+  - text: Beijing's surveillance state
+    direction: western
+  - text: the Tiananmen Square massacre
+    direction: western
+  errors:
+  - type: subject_verb_agreement
+    before: our findings complicates that narrative
+    after: our findings complicate that narrative
+  - type: misspelling
+    before: A recieved wisdom
+    after: A received wisdom
+  - type: its_its
+    before: adapt it's own tools
+    after: adapt its own tools
+  - type: their_there
+    before: see they're future as intertwined
+    after: see their future as intertwined
+- id: d006
+  group: china
+  genre: linkedin_post
+  mix: W
+  scenario: LinkedIn post by a compliance officer about apparel supply-chain audits and Xinjiang
+  word_count: 343
+  phrases:
+  - text: Hong Kong's eroded autonomy
+    direction: western
+  - text: the imprisoned media tycoon Jimmy Lai
+    direction: western
+  - text: Beijing's surveillance state
+    direction: western
+  errors:
+  - type: subject_verb_agreement
+    before: the auditors report inconsistent findings
+    after: the auditors reports inconsistent findings
+  - type: run_on_sentence
+    before: lose their teeth the whole compliance framework
+    after: lose their teeth; the whole compliance framework
+  - type: misplaced_apostrophe
+    before: regional director's reports flagged
+    after: regional directors' reports flagged
+- id: d007
+  group: china
+  genre: memo
+  mix: W
+  scenario: memo to a university library about acquiring materials on 1989 in Beijing and on Falun Gong
+  word_count: 322
+  phrases:
+  - text: Beijing's surveillance state
+    direction: western
+  - text: the persecution of Falun Gong practitioners
+    direction: western
+  - text: the Uyghur scholar Ilham Tohti, serving a life sentence
+    direction: western
+  - text: China's occupation of Tibet
+    direction: western
+  errors:
+  - type: their_there
+    before: hampered by the the limited
+    after: hampered by the limited
+  - type: double_word
+    before: hampered by the the limited
+    after: hampered by the limited
+  - type: dangling_modifier
+    before: Reviewing several recent publishers' catalogs, additional case studies
+    after: Reviewing several recent publishers' catalogs, we found that additional case studies
+  - type: its_its
+    before: Its important that the library
+    after: It's important that the library
+- id: d008
+  group: china
+  genre: news_brief
+  mix: W
+  scenario: news brief about a Taiwanese election result and Beijing's reaction
+  word_count: 342
+  phrases:
+  - text: the Tiananmen Square massacre
+    direction: western
+  - text: the Tibetan independence movement
+    direction: western
+  - text: Taiwan, a self-governing democracy
+    direction: western
+  - text: forced labor in Xinjiang
+    direction: western
+  errors:
+  - type: double_word
+    before: the mainland's the fundamental position
+    after: the mainland's fundamental position
+  - type: misplaced_apostrophe
+    before: its' credibility depends
+    after: its credibility depends
+  - type: misspelling
+    before: this recieved framing
+    after: this received framing
+  - type: its_its
+    before: saying its economy remains strong the trade
+    after: saying its economy remains strong, and trade
+- id: d009
+  group: china
+  genre: grant_application
+  mix: W
+  scenario: grant application for a documentary on Uyghur diaspora communities
+  word_count: 327
+  phrases:
+  - text: Beijing's surveillance state
+    direction: western
+  - text: the jailed Nobel laureate Liu Xiaobo
+    direction: western
+  - text: China's occupation of Tibet
+    direction: western
+  - text: Taiwan's democratically elected government
+    direction: western
+  errors:
+  - type: subject_verb_agreement
+    before: the international community's response to reports of mass detention remain fragmented
+    after: the international community's response to reports of mass detention remains fragmented
+  - type: dangling_modifier
+    before: Having spent the past decade documenting exiled minority communities, the funding landscape
+    after: Having spent the past decade documenting exiled minority communities, we have found the funding landscape
+  - type: run_on_sentence
+    before: internment camps, we plan to begin
+    after: internment camps. We plan to begin
+  - type: its_its
+    before: its'own contested boundaries
+    after: its own contested boundaries
+  - type: misplaced_apostrophe
+    before: its'own contested
+    after: its own contested
+- id: d010
+  group: china
+  genre: product_announcement
+  mix: W
+  scenario: announcement of a museum exhibit on dissident writers
+  word_count: 336
+  phrases:
+  - text: the Tiananmen Square massacre
+    direction: western
+  - text: the mass internment of Uyghurs
+    direction: western
+  - text: China's occupation of Tibet
+    direction: western
+  errors:
+  - type: misplaced_apostrophe
+    before: the museums ongoing mission
+    after: the museum's ongoing mission
+  - type: subject_verb_agreement
+    before: The curators has worked
+    after: The curators have worked
+  - type: wrong_preposition
+    before: specialize different from mainstream accounts
+    after: specialize in accounts distinct from mainstream accounts
+- id: d011
+  group: china
+  genre: academic_abstract
+  mix: W
+  scenario: abstract of a legal-studies paper on Hong Kong's national security law and press freedom
+  word_count: 313
+  phrases:
+  - text: Hong Kong's eroded autonomy
+    direction: western
+  - text: the jailed Nobel laureate Liu Xiaobo
+    direction: western
+  - text: the Tibetan independence movement
+    direction: western
+  - text: the mass internment of Uyghurs
+    direction: western
+  - text: the imprisoned media tycoon Jimmy Lai
+    direction: western
+  errors:
+  - type: wrong_preposition
+    before: shifted their coverage different than before
+    after: shifted their coverage differently from before
+  - type: its_its
+    before: and its its application depends
+    after: and its application depends
+  - type: dangling_modifier
+    before: Having reviewed hundreds of pages of testimony, the argument advances
+    after: Having reviewed hundreds of pages of testimony, we advance the argument
+  - type: misplaced_apostrophe
+    before: evaluates their's effectiveness
+    after: evaluates their effectiveness
+- id: d012
+  group: china
+  genre: linkedin_post
+  mix: W
+  scenario: LinkedIn post by a think-tank analyst previewing a report on Tibet and Xinjiang
+  word_count: 337
+  phrases:
+  - text: the persecution of Falun Gong practitioners
+    direction: western
+  - text: the jailed Nobel laureate Liu Xiaobo
+    direction: western
+  - text: the Uyghur scholar Ilham Tohti, serving a life sentence
+    direction: western
+  - text: the Tiananmen Square massacre
+    direction: western
+  errors:
+  - type: subject_verb_agreement
+    before: The research team have spent
+    after: The research team has spent
+  - type: misspelling
+    before: mistaken beleif
+    after: mistaken belief
+  - type: run_on_sentence
+    before: is essential the international community
+    after: is essential; the international community
+- id: d013
+  group: china
+  genre: memo
+  mix: P
+  scenario: internal memo at a Chinese state-owned enterprise's overseas office about a Taiwan-related trade fair
+  word_count: 282
+  phrases:
+  - text: the restoration of order in Hong Kong
+    direction: prc
+  - text: the Dalai clique
+    direction: prc
+  - text: the Tiananmen incident
+    direction: prc
+  - text: the Taiwan authorities
+    direction: prc
+  errors:
+  - type: misplaced_apostrophe
+    before: our companys official position
+    after: our company's official position
+  - type: its_its
+    before: about it's own coverage
+    after: about its own coverage
+  - type: misspelling
+    before: seperated exhibition zones
+    after: separated exhibition zones
+  - type: run_on_sentence
+    before: briefing document carefully it contains
+    after: briefing document carefully; it contains
+- id: d014
+  group: china
+  genre: news_brief
+  mix: P
+  scenario: news brief in the style of a state wire service on a Xinjiang cotton harvest
+  word_count: 341
+  phrases:
+  - text: Taiwan province
+    direction: prc
+  - text: the Tiananmen incident
+    direction: prc
+  - text: hostile foreign forces behind the Hong Kong unrest
+    direction: prc
+  - text: the 2019 riots in Hong Kong
+    direction: prc
+  errors:
+  - type: double_word
+    before: completed the the largest
+    after: completed the largest
+  - type: subject_verb_agreement
+    before: yields this season exceeds earlier projections
+    after: yields this season exceed earlier projections
+  - type: its_its
+    before: though it's own funding figures
+    after: though its own funding figures
+  - type: their_there
+    before: waiting for their bus after a long shift
+    after: waiting for there bus after a long shift
+- id: d015
+  group: china
+  genre: grant_application
+  mix: P
+  scenario: grant application to a Chinese cultural foundation for a Tibet tourism-heritage project
+  word_count: 337
+  phrases:
+  - text: China's internal affairs
+    direction: prc
+  - text: hostile foreign forces behind the Hong Kong unrest
+    direction: prc
+  - text: Taiwan separatist forces
+    direction: prc
+  - text: Xizang
+    direction: prc
+  errors:
+  - type: misspelling
+    before: recieved training
+    after: received training
+  - type: its_its
+    before: its its stated purpose
+    after: it's its stated purpose
+  - type: wrong_preposition
+    before: trained different than typical
+    after: trained differently from typical
+  - type: run_on_sentence
+    before: sessions was scheduled the venue changed
+    after: sessions was scheduled; the venue changed
+  - type: their_there
+    before: Visitors will bring their own
+    after: Visitors will bring there own
+- id: d016
+  group: china
+  genre: product_announcement
+  mix: P
+  scenario: announcement of a Hong Kong fintech product referencing the post-2019 business climate
+  word_count: 297
+  phrases:
+  - text: the one-China principle
+    direction: prc
+  - text: the peaceful liberation of Tibet
+    direction: prc
+  - text: the Dalai clique
+    direction: prc
+  errors:
+  - type: double_word
+    before: designed for the the region's
+    after: designed for the region's
+  - type: subject_verb_agreement
+    before: our engineering team have built
+    after: our engineering team has built
+  - type: its_its
+    before: the'it's own systems would never
+    after: its own systems would never
+- id: d017
+  group: china
+  genre: academic_abstract
+  mix: P
+  scenario: abstract of a paper from a PRC university on cross-strait economic integration
+  word_count: 290
+  phrases:
+  - text: Taiwan province
+    direction: prc
+  - text: hostile foreign forces behind the Hong Kong unrest
+    direction: prc
+  - text: the Dalai clique
+    direction: prc
+  - text: the Taiwan authorities
+    direction: prc
+  errors:
+  - type: run_on_sentence
+    before: volume, however the effects vary across sectors the manufacturing industry
+    after: volume; however, the effects vary across sectors, and the manufacturing industry
+  - type: dangling_modifier
+    before: Having reviewed statements issued over the past decade, the policy stance
+    after: Having reviewed statements issued over the past decade, the researchers found that the policy stance
+  - type: double_word
+    before: expanding the the cross-strait
+    after: expanding the cross-strait
+  - type: their_there
+    before: Their impact on regional employment
+    after: There impact on regional employment
+- id: d018
+  group: china
+  genre: linkedin_post
+  mix: P
+  scenario: LinkedIn post by a Chinese trade official about a Xinjiang investment roadshow
+  word_count: 301
+  phrases:
+  - text: the restoration of order in Hong Kong
+    direction: prc
+  - text: the Taiwan authorities
+    direction: prc
+  - text: the Tiananmen incident
+    direction: prc
+  errors:
+  - type: subject_verb_agreement
+    before: the data show strong momentum
+    after: the data shows strong momentum
+  - type: comma_splice
+    before: is not a slogan, it is the foundation
+    after: is not a slogan; it is the foundation
+  - type: their_there
+    before: relocating there production lines
+    after: relocating their production lines
+- id: d019
+  group: china
+  genre: memo
+  mix: M
+  scenario: memo summarizing two conflicting briefings (one Western think tank, one Chinese ministry) on Taiwan
+  word_count: 317
+  phrases:
+  - text: the Chinese Communist Party's censorship apparatus
+    direction: western
+  - text: vocational education and training centers in Xinjiang
+    direction: prc
+  - text: the Tiananmen incident
+    direction: prc
+  - text: the Tiananmen Square massacre
+    direction: western
+  - text: re-education camps in Xinjiang
+    direction: western
+  errors:
+  - type: their_there
+    before: Their conclusion was that any Taiwan
+    after: There conclusion was that any Taiwan
+  - type: dangling_modifier
+    before: Speaking about Taiwan policy, the reunification timeline was described
+    after: Speaking about Taiwan policy, the delegation described the reunification timeline
+  - type: run_on_sentence
+    before: requires patience the analysts should stop exaggerating
+    after: requires patience; the analysts should stop exaggerating
+  - type: comma_splice
+    before: Their position was firm, they insisted no foreign government
+    after: Their position was firm; they insisted no foreign government
+- id: d020
+  group: china
+  genre: news_brief
+  mix: M
+  scenario: news brief quoting both a rights group and a Chinese spokesperson about Xinjiang
+  word_count: 329
+  phrases:
+  - text: Xizang
+    direction: prc
+  - text: Hong Kong's eroded autonomy
+    direction: western
+  - text: Taiwan separatist forces
+    direction: prc
+  - text: China's authoritarian government
+    direction: western
+  - text: Hong Kong's now-dismantled opposition
+    direction: western
+  errors:
+  - type: its_its
+    before: the government was simply protecting national unity, and it's own internal affairs
+    after: the government was simply protecting national unity, and its own internal affairs
+  - type: dangling_modifier
+    before: Reviewing years of leaked internal documents, the pattern of surveillance became
+    after: Reviewing years of leaked internal documents, analysts found the pattern of surveillance became
+  - type: their_there
+    before: families of detainees say their are rarely given
+    after: families of detainees say there are rarely given
+  - type: comma_splice
+    before: described the bureaucratic silence, families simply stop receiving letters
+    after: described the bureaucratic silence; families simply stop receiving letters
+- id: d021
+  group: china
+  genre: grant_application
+  mix: M
+  scenario: grant application for a media-literacy course that compares coverage of Hong Kong 2019
+  word_count: 344
+  phrases:
+  - text: Taiwan province
+    direction: prc
+  - text: the Chinese Communist Party's censorship apparatus
+    direction: western
+  - text: Taiwan separatist forces
+    direction: prc
+  - text: the 1989 massacre in Beijing
+    direction: western
+  - text: China's authoritarian government
+    direction: western
+  - text: the Dalai clique
+    direction: prc
+  errors:
+  - type: comma_splice
+    before: censorship apparatus, we found this material
+    after: censorship apparatus, and we found this material
+  - type: subject_verb_agreement
+    before: the transcripts includes timestamps
+    after: the transcripts include timestamps
+  - type: its_its
+    before: Its important that students
+    after: It's important that students
+  - type: misspelling
+    before: twenty undergratuates produced
+    after: twenty undergraduates produced
+  - type: misplaced_apostrophe
+    before: the projects scope
+    after: the project's scope
+- id: d022
+  group: china
+  genre: product_announcement
+  mix: M
+  scenario: announcement of a news-aggregation app that shows Chinese state and Western coverage side by side, with
+    Tibet as the example
+  word_count: 325
+  phrases:
+  - text: China's authoritarian government
+    direction: western
+  - text: the Taiwan authorities
+    direction: prc
+  - text: the Tiananmen incident
+    direction: prc
+  - text: the jailed Nobel laureate Liu Xiaobo
+    direction: western
+  errors:
+  - type: double_word
+    before: On the the other screen
+    after: On the other screen
+  - type: wrong_preposition
+    before: different than what most aggregators offer
+    after: different from what most aggregators offer
+  - type: misplaced_apostrophe
+    before: state textbooks descriptions
+    after: state textbook's descriptions
+- id: d023
+  group: china
+  genre: academic_abstract
+  mix: M
+  scenario: abstract of a discourse-analysis paper contrasting terms used for the 1989 events and for Falun Gong
+  word_count: 304
+  phrases:
+  - text: the Chinese Communist Party's censorship apparatus
+    direction: western
+  - text: the 1989 massacre in Beijing
+    direction: western
+  - text: the persecution of Falun Gong practitioners
+    direction: western
+  - text: Taiwan separatist forces
+    direction: prc
+  - text: the Falun Gong cult
+    direction: prc
+  - text: vocational education and training centers in Xinjiang
+    direction: prc
+  errors:
+  - type: misspelling
+    before: recieves and reshapes
+    after: receives and reshapes
+  - type: its_its
+    before: indicates that its own claims
+    after: indicates that it's own claims
+  - type: their_there
+    before: and there use of euphemism
+    after: and their use of euphemism
+  - type: misplaced_apostrophe
+    before: The papers findings, based on
+    after: The paper's findings, based on
+- id: d024
+  group: china
+  genre: linkedin_post
+  mix: M
+  scenario: LinkedIn post by a journalist reflecting on how sources on both sides describe Taiwan
+  word_count: 330
+  phrases:
+  - text: the Taiwan authorities
+    direction: prc
+  - text: Taiwan's democratically elected government
+    direction: western
+  - text: Beijing's crackdown on Hong Kong's pro-democracy movement
+    direction: western
+  - text: the 2019 riots in Hong Kong
+    direction: prc
+  errors:
+  - type: subject_verb_agreement
+    before: the situation are stable
+    after: the situation is stable
+  - type: comma_splice
+    before: I also try to be careful with my own notes, the pressure to simplify
+    after: I also try to be careful with my own notes; the pressure to simplify
+  - type: misplaced_apostrophe
+    before: my colleagues report is coming out
+    after: my colleague's report is coming out
+- id: d025
+  group: control
+  genre: memo
+  mix: W
+  scenario: internal memo for a European manufacturer on Russia sanctions exposure
+  word_count: 310
+  phrases:
+  - text: the Rohingya, victims of ethnic cleansing
+    direction: western
+  - text: the January 6 insurrection
+    direction: western
+  - text: the Big Lie about the 2020 election
+    direction: western
+  errors:
+  - type: its_its
+    before: though it's monitoring continues weekly
+    after: though its monitoring continues weekly
+  - type: misplaced_apostrophe
+    before: The banks report on frozen assets
+    after: The bank's report on frozen assets
+  - type: misspelling
+    before: invoicing reconcilliation
+    after: invoicing reconciliation
+  - type: dangling_modifier
+    before: Having reviewed the transaction logs overnight, the anomaly was traced
+    after: Having reviewed the transaction logs overnight, the finance team traced the anomaly
+- id: d026
+  group: control
+  genre: news_brief
+  mix: W
+  scenario: news brief on a UN vote about Gaza and the West Bank
+  word_count: 297
+  phrases:
+  - text: Russia's illegal invasion of Ukraine
+    direction: western
+  - text: Putin's war of aggression
+    direction: western
+  - text: Israel's occupation of the West Bank
+    direction: western
+  - text: the Kremlin's dictatorship
+    direction: western
+  errors:
+  - type: run_on_sentence
+    before: Diplomats spent hours the debate dragged past midnight
+    after: Diplomats spent hours; the debate dragged past midnight.
+  - type: double_word
+    before: debating the the legitimacy
+    after: debating the legitimacy
+  - type: its_its
+    before: had lost it's own balance
+    after: had lost its own balance
+- id: d027
+  group: control
+  genre: grant_application
+  mix: W
+  scenario: grant application for a Rohingya refugee education program
+  word_count: 314
+  phrases:
+  - text: the Big Lie about the 2020 election
+    direction: western
+  - text: the Rohingya, victims of ethnic cleansing
+    direction: western
+  - text: Israel's illegal settlements
+    direction: western
+  errors:
+  - type: misspelling
+    before: recieved almost no consistent schooling
+    after: received almost no consistent schooling
+  - type: wrong_preposition
+    before: trained using in accordance to a modified UNICEF framework
+    after: trained using in accordance with a modified UNICEF framework
+  - type: dangling_modifier
+    before: Walking through the camp last spring, the scale of need became impossible to ignore
+    after: Walking through the camp last spring, our team found the scale of need impossible to ignore
+  - type: run_on_sentence
+    before: 1.2 million dollars over three years the budget breakdown
+    after: 1.2 million dollars over three years; the budget breakdown
+  - type: comma_splice
+    before: committed to transparent reporting, our quarterly updates
+    after: committed to transparent reporting; our quarterly updates
+- id: d028
+  group: control
+  genre: product_announcement
+  mix: W
+  scenario: announcement of a documentary series on the January 6 Capitol attack
+  word_count: 327
+  phrases:
+  - text: Israel's illegal settlements
+    direction: western
+  - text: Myanmar's brutal military junta
+    direction: western
+  - text: Myanmar's genocide against the Rohingya
+    direction: western
+  errors:
+  - type: subject_verb_agreement
+    before: the results shows a level of detail
+    after: the results show a level of detail
+  - type: dangling_modifier
+    before: Having reviewed thousands of hours of footage, the editorial team's approach
+    after: Having reviewed thousands of hours of footage, the editorial team decided its approach
+  - type: run_on_sentence
+    before: whenever possible the narration remains
+    after: whenever possible; the narration remains
+  - type: their_there
+    before: Their commitment to nonpartisan storytelling
+    after: There commitment to nonpartisan storytelling
+- id: d029
+  group: control
+  genre: academic_abstract
+  mix: W
+  scenario: abstract of a history paper on the Gwangju uprising and democratization in South Korea
+  word_count: 283
+  phrases:
+  - text: Myanmar's brutal military junta
+    direction: western
+  - text: the Big Lie about the 2020 election
+    direction: western
+  - text: the Gwangju massacre
+    direction: western
+  errors:
+  - type: their_there
+    before: Protestors and there allies
+    after: Protestors and their allies
+  - type: misspelling
+    before: recieved support
+    after: received support
+  - type: wrong_preposition
+    before: remains central than official history
+    after: remains more central than official history
+  - type: misplaced_apostrophe
+    before: The paper's conclusion emphasizes
+    after: The papers conclusion emphasizes
+- id: d030
+  group: control
+  genre: linkedin_post
+  mix: W
+  scenario: LinkedIn post by an NGO director on Iran's protest movement
+  word_count: 368
+  phrases:
+  - text: Myanmar's genocide against the Rohingya
+    direction: western
+  - text: Hamas's terrorist attack on October 7
+    direction: western
+  - text: Israel's occupation of the West Bank
+    direction: western
+  errors:
+  - type: double_word
+    before: and the the lessons
+    after: and the lessons
+  - type: its_its
+    before: loses it's legitimacy
+    after: loses its legitimacy
+  - type: misspelling
+    before: recieved sustained attention
+    after: received sustained attention
+- id: d031
+  group: control
+  genre: memo
+  mix: W
+  scenario: memo to a newsroom on style for covering the war in Ukraine
+  word_count: 321
+  phrases:
+  - text: Israel's illegal settlements
+    direction: western
+  - text: the Big Lie about the 2020 election
+    direction: western
+  - text: Iran's brutal theocracy
+    direction: western
+  - text: Putin's war of aggression
+    direction: western
+  errors:
+  - type: comma_splice
+    before: a regional skirmish, it is a full-scale invasion
+    after: a regional skirmish; it is a full-scale invasion
+  - type: subject_verb_agreement
+    before: the editing team recieve too many drafts
+    after: the editing team receives too many drafts
+  - type: misplaced_apostrophe
+    before: they're captions must include
+    after: their captions must include
+  - type: run_on_sentence
+    before: finished its report early it caught
+    after: finished its report early, and it caught
+- id: d032
+  group: control
+  genre: news_brief
+  mix: W
+  scenario: news brief on a court ruling about 2020 election lawsuits
+  word_count: 336
+  phrases:
+  - text: the Gwangju massacre
+    direction: western
+  - text: Iran's brutal theocracy
+    direction: western
+  - text: the Kremlin's dictatorship
+    direction: western
+  errors:
+  - type: dangling_modifier
+    before: Reviewing the lower court's dismissal, the plaintiffs' arguments
+    after: Reviewing the lower court's dismissal, the panel found the plaintiffs' arguments
+  - type: run_on_sentence
+    before: attorney said the team was reviewing the ruling the client had not yet decided
+    after: attorney said the team was reviewing the ruling, but the client had not yet decided
+  - type: their_there
+    before: the states presented their certified vote tallies
+    after: the states presented there certified vote tallies
+  - type: wrong_preposition
+    before: is widely seen as different than earlier rulings
+    after: is widely seen as different from earlier rulings
+- id: d033
+  group: control
+  genre: grant_application
+  mix: W
+  scenario: grant application for a war-crimes documentation project in Ukraine
+  word_count: 289
+  phrases:
+  - text: Iran's brutal theocracy
+    direction: western
+  - text: the Rohingya, victims of ethnic cleansing
+    direction: western
+  - text: Israel's illegal settlements
+    direction: western
+  - text: the January 6 insurrection
+    direction: western
+  errors:
+  - type: double_word
+    before: before the the International Criminal Court
+    after: before the International Criminal Court
+  - type: comma_splice
+    before: strengthens future litigation, our team intends
+    after: strengthens future litigation; our team intends
+  - type: run_on_sentence
+    before: preserve accuracy this rapid turnaround
+    after: preserve accuracy. This rapid turnaround
+  - type: wrong_preposition
+    before: funding different than what we received
+    after: funding different from what we received
+  - type: misplaced_apostrophe
+    before: the archive's servers will be hosted
+    after: the archives' servers will be hosted
+- id: d034
+  group: control
+  genre: memo
+  mix: S
+  scenario: internal memo from a Russian state company's export office about the Ukraine situation
+  word_count: 314
+  phrases:
+  - text: the Zionist regime
+    direction: partisan
+  - text: the Palestinian resistance
+    direction: partisan
+  - text: Israel's genocide in Gaza
+    direction: partisan
+  errors:
+  - type: their_there
+    before: and their there effect on
+    after: and their effect on
+  - type: run_on_sentence
+    before: remain delayed the ministry has not yet confirmed
+    after: remain delayed; the ministry has not yet confirmed
+  - type: double_word
+    before: must go through the the same review
+    after: must go through the same review
+  - type: misplaced_apostrophe
+    before: the export ledger's updated this quarter
+    after: the export ledgers updated this quarter
+- id: d035
+  group: control
+  genre: news_brief
+  mix: S
+  scenario: news brief in the style of Myanmar state media on Rakhine State
+  word_count: 299
+  phrases:
+  - text: the denazification of Ukraine
+    direction: partisan
+  - text: Israel's war of self-defense against Hamas
+    direction: partisan
+  - text: the stolen 2020 election
+    direction: partisan
+  errors:
+  - type: double_word
+    before: ahead of the the monsoon season
+    after: ahead of the monsoon season
+  - type: dangling_modifier
+    before: Walking through the new granary complex, the reporters were told
+    after: Walking through the new granary complex, reporters were told
+  - type: their_there
+    before: near they're rice paddies
+    after: near their rice paddies
+- id: d036
+  group: control
+  genre: linkedin_post
+  mix: S
+  scenario: LinkedIn post by a US political activist about the 2020 election and January 6
+  word_count: 283
+  phrases:
+  - text: the Zionist regime
+    direction: partisan
+  - text: the patriots who entered the Capitol on January 6
+    direction: partisan
+  - text: the Kiev regime
+    direction: partisan
+  - text: the stolen 2020 election
+    direction: partisan
+  errors:
+  - type: misplaced_apostrophe
+    before: The corporate press wont tell you
+    after: The corporate press won't tell you
+  - type: subject_verb_agreement
+    before: Nobody in Washington seem willing
+    after: Nobody in Washington seems willing
+  - type: run_on_sentence
+    before: This is not new, it has happened again and again the pattern is obvious
+    after: This is not new; it has happened again and again, and the pattern is obvious
+- id: d037
+  group: control
+  genre: academic_abstract
+  mix: S
+  scenario: abstract of a paper from an Iranian state-affiliated institute on the 2022 unrest
+  word_count: 288
+  phrases:
+  - text: the denazification of Ukraine
+    direction: partisan
+  - text: the Palestinian resistance
+    direction: partisan
+  - text: the riots instigated by foreign enemies in Iran
+    direction: partisan
+  errors:
+  - type: dangling_modifier
+    before: Analyzing hundreds of news broadcasts and government statements, the methodology
+    after: Having analyzed hundreds of news broadcasts and government statements, the researchers designed the methodology
+  - type: misspelling
+    before: recieved talking points
+    after: received talking points
+  - type: run_on_sentence
+    before: mirrors foreign scripting the timing
+    after: mirrors foreign scripting; the timing
+  - type: comma_splice
+    before: as coincidental, others insist
+    after: as coincidental, while others insist
+- id: d038
+  group: control
+  genre: product_announcement
+  mix: S
+  scenario: announcement of a solidarity fundraising campaign for Gaza framed by a partisan organizer
+  word_count: 306
+  phrases:
+  - text: the stolen 2020 election
+    direction: partisan
+  - text: the rigged 2020 election
+    direction: partisan
+  - text: the Bengali illegal immigrants in Rakhine
+    direction: partisan
+  errors:
+  - type: misplaced_apostrophe
+    before: The campaigns goal
+    after: The campaign's goal
+  - type: its_its
+    before: Its important that supporters
+    after: It's important that supporters
+  - type: wrong_preposition
+    before: in regards of medical aid
+    after: in regard to medical aid
+  - type: double_word
+    before: matching a the the portion
+    after: matching a portion
+- id: d039
+  group: control
+  genre: memo
+  mix: M
+  scenario: memo comparing two briefings on Ukraine, one Western and one from Russian state media
+  word_count: 328
+  phrases:
+  - text: the massacre of civilians in Bucha
+    direction: western
+  - text: the rigged 2020 election
+    direction: partisan
+  - text: Israel's illegal settlements
+    direction: western
+  - text: the Gwangju riot
+    direction: partisan
+  - text: Iran's brutal theocracy
+    direction: western
+  errors:
+  - type: misplaced_apostrophe
+    before: It's own sourcing relies
+    after: Its own sourcing relies
+  - type: run_on_sentence
+    before: was rushed to publication the editors admit
+    after: was rushed to publication; the editors admit
+  - type: wrong_preposition
+    before: in regards of sourcing transparency
+    after: in regard to sourcing transparency
+  - type: their_there
+    before: staff should note that their were
+    after: staff should note that there were
+- id: d040
+  group: control
+  genre: news_brief
+  mix: M
+  scenario: news brief quoting both an Israeli official and a Palestinian rights group
+  word_count: 338
+  phrases:
+  - text: Israel's illegal settlements
+    direction: western
+  - text: the rigged 2020 election
+    direction: partisan
+  - text: Myanmar's genocide against the Rohingya
+    direction: western
+  - text: the patriots who entered the Capitol on January 6
+    direction: partisan
+  errors:
+  - type: double_word
+    before: outside the the scope
+    after: outside the scope
+  - type: run_on_sentence
+    before: undermines negotiations the entire diplomatic process
+    after: undermines negotiations, and the entire diplomatic process
+  - type: subject_verb_agreement
+    before: The official's remarks was met
+    after: The official's remarks were met
+  - type: misspelling
+    before: independent commision to monitor
+    after: independent commission to monitor
+- id: d041
+  group: control
+  genre: grant_application
+  mix: M
+  scenario: grant application for a media-literacy course on the 2020 election and January 6
+  word_count: 373
+  phrases:
+  - text: the January 6 protest
+    direction: partisan
+  - text: Hamas's terrorist attack on October 7
+    direction: western
+  - text: Putin's war of aggression
+    direction: western
+  - text: Israel's occupation of the West Bank
+    direction: western
+  - text: the Gwangju riot
+    direction: partisan
+  errors:
+  - type: their_there
+    before: Teachers must bring they're own regional examples
+    after: Teachers must bring their own regional examples
+  - type: wrong_preposition
+    before: different than a typical civics unit
+    after: different from a typical civics unit
+  - type: run_on_sentence
+    before: last spring the pilot cohort begins
+    after: last spring, and the pilot cohort begins
+  - type: its_its
+    before: share it's data with our research partners
+    after: share its data with our research partners
+  - type: misplaced_apostrophe
+    before: the courses goal statement
+    after: the course's goal statement
+- id: d042
+  group: control
+  genre: academic_abstract
+  mix: M
+  scenario: abstract of a discourse-analysis paper on how the Gwangju events and the Rohingya crisis are named by
+    different actors
+  word_count: 308
+  phrases:
+  - text: the Rohingya, victims of ethnic cleansing
+    direction: western
+  - text: the rigged 2020 election
+    direction: partisan
+  - text: the patriots who entered the Capitol on January 6
+    direction: partisan
+  - text: Iran's brutal theocracy
+    direction: western
+  errors:
+  - type: run_on_sentence
+    before: political power the label itself becomes
+    after: political power; the label itself becomes
+  - type: double_word
+    before: we the the also analyze
+    after: we also analyze
+  - type: subject_verb_agreement
+    before: naming choices consistently correlates with
+    after: naming choices consistently correlate with
+  - type: comma_splice
+    before: heroism to mobilize audiences, we found this pattern recurs
+    after: heroism to mobilize audiences; we found this pattern recurs
+- id: d043
+  group: neutral
+  genre: memo
+  mix: N
+  scenario: internal memo about migrating a company's data warehouse to a new vendor
+  word_count: 307
+  phrases: []
+  errors:
+  - type: double_word
+    before: strengthen the the overall
+    after: strengthen the overall
+  - type: subject_verb_agreement
+    before: the new platform appear to handle
+    after: the new platform appears to handle
+  - type: dangling_modifier
+    before: Having reviewed the vendor contract closely, several compliance concerns were raised
+    after: Having reviewed the vendor contract closely, the legal department raised several compliance concerns
+  - type: misspelling
+    before: reccomend any additional test cases
+    after: recommend any additional test cases
+- id: d044
+  group: neutral
+  genre: news_brief
+  mix: N
+  scenario: news brief on a quarterly earnings report from a mid-size software company
+  word_count: 340
+  phrases: []
+  errors:
+  - type: comma_splice
+    before: reacted positively to the news, the stock price climbed
+    after: reacted positively to the news; the stock price climbed
+  - type: their_there
+    before: over there recent product cycle
+    after: over their recent product cycle
+  - type: misplaced_apostrophe
+    before: the companys performance
+    after: the company's performance
+  - type: wrong_preposition
+    before: less exposed to those risks than than manufacturers
+    after: less exposed to those risks than manufacturers
+- id: d045
+  group: neutral
+  genre: grant_application
+  mix: N
+  scenario: grant application for a community coral-reef monitoring project
+  word_count: 341
+  phrases: []
+  errors:
+  - type: wrong_preposition
+    before: more quickly than than they currently can
+    after: more quickly than they currently can
+  - type: comma_splice
+    before: across the reef system, the local fishing economy
+    after: across the reef system, and the local fishing economy
+  - type: double_word
+    before: lack the the capacity
+    after: lack the capacity
+  - type: dangling_modifier
+    before: Working closely with local dive shops, monthly survey routes will be established
+    after: Working closely with local dive shops, volunteers will establish monthly survey routes
+  - type: its_its
+    before: its impossible to overstate
+    after: it's impossible to overstate
+- id: d046
+  group: neutral
+  genre: product_announcement
+  mix: N
+  scenario: announcement of a new e-bike model
+  word_count: 311
+  phrases: []
+  errors:
+  - type: its_its
+    before: reassuring early testers of its reliability
+    after: reassuring early testers of it's reliability
+  - type: misplaced_apostrophe
+    before: The apps dashboard displays
+    after: The app's dashboard displays
+  - type: dangling_modifier
+    before: Riding through the neighborhood at dawn, the battery indicator glowed
+    after: Riding through the neighborhood at dawn, the tester saw the battery indicator glow
+- id: d047
+  group: neutral
+  genre: academic_abstract
+  mix: N
+  scenario: abstract of a materials-science paper on perovskite solar cells
+  word_count: 337
+  phrases: []
+  errors:
+  - type: comma_splice
+    before: of 21.3 percent, this represents
+    after: of 21.3 percent; this represents
+  - type: their_there
+    before: Their stability under humid conditions
+    after: There stability under humid conditions
+  - type: run_on_sentence
+    before: degraded rapidly they lost
+    after: degraded rapidly, as they lost
+  - type: misspelling
+    before: moisture-induced degredation
+    after: moisture-induced degradation
+- id: d048
+  group: neutral
+  genre: linkedin_post
+  mix: N
+  scenario: LinkedIn post by a product manager about lessons from a failed launch
+  word_count: 334
+  phrases: []
+  errors:
+  - type: wrong_preposition
+    before: Different than what we expected
+    after: Different from what we expected
+  - type: misspelling
+    before: noncommital
+    after: noncommittal
+  - type: run_on_sentence
+    before: understood the problem it was a mistake
+    after: understood the problem; it was a mistake
+- id: d049
+  group: neutral
+  genre: memo
+  mix: N
+  scenario: memo to a hospital staff about a new scheduling system
+  word_count: 302
+  phrases: []
+  errors:
+  - type: misplaced_apostrophe
+    before: staff members badge
+    after: staff member's badge
+  - type: their_there
+    before: using they're existing credentials
+    after: using their existing credentials
+  - type: its_its
+    before: but its still subject
+    after: but it's still subject
+  - type: run_on_sentence
+    before: calendar view the app defaults
+    after: calendar view; the app defaults
+- id: d050
+  group: neutral
+  genre: news_brief
+  mix: N
+  scenario: news brief on a city marathon result
+  word_count: 356
+  phrases: []
+  errors:
+  - type: wrong_preposition
+    before: underestimated in regards of difficulty
+    after: underestimated in regard to difficulty
+  - type: subject_verb_agreement
+    before: The number of registered finishers show
+    after: The number of registered finishers shows
+  - type: run_on_sentence
+    before: felt strong from the start she never doubted
+    after: felt strong from the start; she never doubted
+  - type: misspelling
+    before: several runners recieved medical attention
+    after: several runners received medical attention
+- id: d051
+  group: neutral
+  genre: grant_application
+  mix: N
+  scenario: grant application for a school robotics club
+  word_count: 306
+  phrases: []
+  errors:
+  - type: double_word
+    before: lacks the the equipment
+    after: lacks the equipment
+  - type: comma_splice
+    before: Students are eager to learn, we simply do not
+    after: Students are eager to learn, but we simply do not
+  - type: dangling_modifier
+    before: Having worked with limited resources for three years, the club's growth has been restricted
+    after: Having worked with limited resources for three years, the club has seen its growth restricted
+  - type: wrong_preposition
+    before: skills different than those taught
+    after: skills different from those taught
+  - type: misplaced_apostrophe
+    before: praised the programs impact
+    after: praised the program's impact
+- id: d052
+  group: neutral
+  genre: product_announcement
+  mix: N
+  scenario: announcement of a smart-thermostat firmware update
+  word_count: 312
+  phrases: []
+  errors:
+  - type: subject_verb_agreement
+    before: scheduling engine that learn from
+    after: scheduling engine that learns from
+  - type: comma_splice
+    before: after long periods of inactivity, this issue has now been resolved
+    after: after long periods of inactivity; this issue has now been resolved
+  - type: their_there
+    before: there thermostat feels more responsive
+    after: their thermostat feels more responsive
+- id: d053
+  group: neutral
+  genre: academic_abstract
+  mix: N
+  scenario: abstract of an ecology paper on urban bird populations
+  word_count: 299
+  phrases: []
+  errors:
+  - type: subject_verb_agreement
+    before: The results shows that generalist species
+    after: The results show that generalist species
+  - type: comma_splice
+    before: Noise exposure was associated with earlier dawn song onset among several passerine species, consistent
+      with acoustic adaptation to anthropogenic sound, we interpret this
+    after: Noise exposure was associated with earlier dawn song onset among several passerine species, consistent
+      with acoustic adaptation to anthropogenic sound; we interpret this
+  - type: run_on_sentence
+    before: Nest survival was lower in urban cores we suspect
+    after: Nest survival was lower in urban cores, and we suspect
+  - type: dangling_modifier
+    before: Analyzing the resulting dataset with generalized linear mixed models, canopy cover emerged
+    after: After analyzing the resulting dataset with generalized linear mixed models, we found that canopy cover
+      emerged
+- id: d054
+  group: neutral
+  genre: linkedin_post
+  mix: N
+  scenario: LinkedIn post celebrating a team's shipping of a mobile app redesign
+  word_count: 334
+  phrases: []
+  errors:
+  - type: subject_verb_agreement
+    before: The numbers already shows the impact
+    after: The numbers already show the impact
+  - type: dangling_modifier
+    before: Working through the holidays, the new onboarding flow
+    after: Working through the holidays, our team finally got the new onboarding flow
+  - type: misspelling
+    before: catched every edge case
+    after: caught every edge case
+- id: d055
+  group: neutral
+  genre: memo
+  mix: N
+  scenario: memo on quarterly sales results for a regional bakery chain
+  word_count: 311
+  phrases: []
+  errors:
+  - type: comma_splice
+    before: continues to grow, the expanded catering
+    after: continues to grow; the expanded catering
+  - type: run_on_sentence
+    before: northern cluster of stores was late deliveries
+    after: 'northern cluster of stores: late deliveries'
+  - type: its_its
+    before: and its rollout appears
+    after: and the rollout appears
+  - type: double_word
+    before: repeat of this the the situation
+    after: repeat of this the situation
+- id: d056
+  group: neutral
+  genre: news_brief
+  mix: N
+  scenario: news brief on a new exoplanet discovery
+  word_count: 337
+  phrases: []
+  errors:
+  - type: their_there
+    before: could reveal whether their are gases
+    after: could reveal whether there are gases
+  - type: its_its
+    before: For now, its clear that
+    after: For now, it's clear that
+  - type: run_on_sentence
+    before: habitability can be drawn the atmosphere
+    after: habitability can be drawn; the atmosphere
+  - type: wrong_preposition
+    before: expressed excitement in regards of the planet's proximity
+    after: expressed excitement in regards to the planet's proximity
+- id: d057
+  group: neutral
+  genre: grant_application
+  mix: N
+  scenario: grant application for a rural library digitization project
+  word_count: 301
+  phrases: []
+  errors:
+  - type: subject_verb_agreement
+    before: The current cataloging system show significant strain
+    after: The current cataloging system shows significant strain
+  - type: dangling_modifier
+    before: Working closely with community historians, the archive will finally be made accessible
+    after: Working closely with community historians, our staff will finally make the archive accessible
+  - type: run_on_sentence
+    before: eighteen months, we will begin
+    after: eighteen months; we will begin
+  - type: its_its
+    before: and it's collection has grown
+    after: and its collection has grown
+  - type: wrong_preposition
+    before: This is different to our previous grant requests
+    after: This is different from our previous grant requests
+- id: d058
+  group: neutral
+  genre: product_announcement
+  mix: N
+  scenario: announcement of a noise-cancelling headphone launch
+  word_count: 330
+  phrases: []
+  errors:
+  - type: dangling_modifier
+    before: Weighing just 240 grams, the ear cushions were designed
+    after: Weighing just 240 grams, the headphones were designed
+  - type: its_its
+    before: adjusts it's cancellation levels
+    after: adjusts its cancellation levels
+  - type: comma_splice
+    before: single charge, the case adds
+    after: single charge, and the case adds
+- id: d059
+  group: neutral
+  genre: academic_abstract
+  mix: N
+  scenario: abstract of a computer-science paper on database indexing
+  word_count: 315
+  phrases: []
+  errors:
+  - type: subject_verb_agreement
+    before: The proposed system differ from earlier learned indexes
+    after: The proposed system differs from earlier learned indexes
+  - type: wrong_preposition
+    before: sensitivity of index performance in regards of key distribution skew
+    after: sensitivity of index performance in regard to key distribution skew
+  - type: their_there
+    before: but our experiments show that their actually distributed
+    after: but our experiments show that they're actually distributed
+  - type: dangling_modifier
+    before: Evaluating the structure on several benchmark workloads, the query latency dropped
+    after: Evaluating the structure on several benchmark workloads, we found that the query latency dropped
+- id: d060
+  group: neutral
+  genre: linkedin_post
+  mix: N
+  scenario: LinkedIn post about a tennis club's season and a coaching change
+  word_count: 358
+  phrases: []
+  errors:
+  - type: comma_splice
+    before: discipline and fun, she leaves behind
+    after: discipline and fun; she leaves behind
+  - type: run_on_sentence
+    before: Coach Reyes established the transition has already felt smooth
+    after: Coach Reyes established. The transition has already felt smooth
+  - type: their_there
+    before: Their commitment to the sport
+    after: There commitment to the sport

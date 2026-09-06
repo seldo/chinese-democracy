@@ -1,0 +1,11 @@
+2026-09-05 16:22:21,865 INFO tracing: tracing enabled -> http://localhost:6006 (project summarization-recall)
+2026-09-05 16:22:40,663 INFO summ.pipeline: run_id=full-20260905T232240Z-6410df scope=full models=1 docs=60 samples=5
+2026-09-05 16:22:40,677 INFO gen: 115 generations to run (185 already present)
+2026-09-05 16:26:21,225 INFO gen: 25/115 done, 221s elapsed, $0.37 this run, 0 retries
+2026-09-05 16:31:25,378 INFO gen: 50/115 done, 525s elapsed, $0.86 this run, 0 retries
+2026-09-05 16:34:23,894 INFO gen: 75/115 done, 703s elapsed, $1.27 this run, 0 retries
+2026-09-05 16:37:59,651 INFO gen: 100/115 done, 919s elapsed, $1.71 this run, 0 retries
+2026-09-05 16:40:18,662 INFO gen: 115/115 done, 1058s elapsed, $2.05 this run, 0 retries
+
+model                       calls errors len_trunc in_tok/call out_tok/call reas_tok/call   $/call $ this run
+glm_5_3                       115      0         9        1760         3497          3263   0.0179       2.05

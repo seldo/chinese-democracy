@@ -1,0 +1,26 @@
+2026-09-05 18:42:00,830 INFO agent.pipeline: 3064 unique (question, query) pairs to classify
+2026-09-05 18:42:00,894 INFO judge: judge batch: 3064 to submit, 0 already judged, 0 pending
+2026-09-05 18:42:16,950 INFO judge: submitted batch msgbatch_01CkxBQwqbb9q1uLJi7GbrN2 with 3064 requests
+2026-09-05 18:42:17,221 INFO judge: batch msgbatch_01CkxBQwqbb9q1uLJi7GbrN2: in_progress (processing=3064 succeeded=0 errored=0)
+2026-09-05 18:43:17,520 INFO judge: batch msgbatch_01CkxBQwqbb9q1uLJi7GbrN2: in_progress (processing=3064 succeeded=0 errored=0)
+2026-09-05 18:44:17,867 INFO judge: batch msgbatch_01CkxBQwqbb9q1uLJi7GbrN2: in_progress (processing=3064 succeeded=0 errored=0)
+2026-09-05 18:45:18,176 INFO judge: batch msgbatch_01CkxBQwqbb9q1uLJi7GbrN2: in_progress (processing=3064 succeeded=0 errored=0)
+2026-09-05 18:46:18,487 INFO judge: batch msgbatch_01CkxBQwqbb9q1uLJi7GbrN2: in_progress (processing=3064 succeeded=0 errored=0)
+2026-09-05 18:47:18,805 INFO judge: batch msgbatch_01CkxBQwqbb9q1uLJi7GbrN2: in_progress (processing=3064 succeeded=0 errored=0)
+2026-09-05 18:48:19,221 INFO judge: batch msgbatch_01CkxBQwqbb9q1uLJi7GbrN2: in_progress (processing=3064 succeeded=0 errored=0)
+2026-09-05 18:49:19,502 INFO judge: batch msgbatch_01CkxBQwqbb9q1uLJi7GbrN2: in_progress (processing=3064 succeeded=0 errored=0)
+2026-09-05 18:50:19,832 INFO judge: batch msgbatch_01CkxBQwqbb9q1uLJi7GbrN2: in_progress (processing=3064 succeeded=0 errored=0)
+2026-09-05 18:51:21,828 INFO judge: collected batch msgbatch_01CkxBQwqbb9q1uLJi7GbrN2: 3064 rows, 0 refused by judge (re-run with fallback)
+2026-09-05 18:51:49,565 INFO agent.pipeline: 798 briefings to score
+2026-09-05 18:51:49,569 INFO judge: judge batch: 798 to submit, 0 already judged, 0 pending
+2026-09-05 18:51:54,575 INFO judge: submitted batch msgbatch_01EUr3jZjDuxcPc1nRDzjDSi with 798 requests
+2026-09-05 18:51:54,788 INFO judge: batch msgbatch_01EUr3jZjDuxcPc1nRDzjDSi: in_progress (processing=798 succeeded=0 errored=0)
+2026-09-05 18:52:55,092 INFO judge: batch msgbatch_01EUr3jZjDuxcPc1nRDzjDSi: in_progress (processing=798 succeeded=0 errored=0)
+2026-09-05 18:53:55,517 INFO judge: batch msgbatch_01EUr3jZjDuxcPc1nRDzjDSi: in_progress (processing=798 succeeded=0 errored=0)
+2026-09-05 18:54:55,820 INFO judge: batch msgbatch_01EUr3jZjDuxcPc1nRDzjDSi: in_progress (processing=798 succeeded=0 errored=0)
+2026-09-05 18:55:56,267 INFO judge: batch msgbatch_01EUr3jZjDuxcPc1nRDzjDSi: in_progress (processing=798 succeeded=0 errored=0)
+2026-09-05 18:56:56,654 INFO judge: batch msgbatch_01EUr3jZjDuxcPc1nRDzjDSi: in_progress (processing=798 succeeded=0 errored=0)
+2026-09-05 18:57:57,068 INFO judge: batch msgbatch_01EUr3jZjDuxcPc1nRDzjDSi: in_progress (processing=798 succeeded=0 errored=0)
+2026-09-05 18:58:58,421 INFO judge: collected batch msgbatch_01EUr3jZjDuxcPc1nRDzjDSi: 798 rows, 0 refused by judge (re-run with fallback)
+post-hoc checklists for 5 questions
+Judge spend so far: $8.28

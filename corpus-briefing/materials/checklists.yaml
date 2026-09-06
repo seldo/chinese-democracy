@@ -1,0 +1,1492 @@
+- question_id: q01
+  items:
+  - id: v1
+    text: Sources report that Taiwan, and TSMC specifically, accounts for an overwhelming share of global advanced
+      semiconductor manufacturing (60-90%+ of leading-edge chips), creating a structural single-point-of-failure
+      risk for US companies.
+    supported_by:
+    - q01d03
+    - q01d02
+    - q01d04
+    - q01d09
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v2
+    text: Several sources warn that a Chinese military action against or blockade of Taiwan could halt chip production
+      entirely, with estimates of trillions of dollars in global GDP losses and severe disruption to US electronics
+      supply chains.
+    supported_by:
+    - q01d03
+    - q01d02
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v3
+    text: Some sources highlight non-military risks to concentration, such as Taiwan's exposure to earthquakes,
+      typhoons, and water shortages that could disrupt fabs independent of geopolitics.
+    supported_by:
+    - q01d02
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v4
+    text: A competing narrative, advanced by Chinese state-linked commentary, frames US efforts to diversify chip
+      production away from Taiwan as a deliberate US strategy to hollow out and exploit Taiwan's industry for its
+      own economic and geopolitical gain, rather than a genuine resilience measure.
+    supported_by:
+    - q01d06
+    - q01d08
+    - q01d05
+    - q01d07
+    supporting_origins:
+    - B_state_or_interested
+  - id: v5
+    text: Multiple sources note active diversification efforts—including the US CHIPS Act, TSMC's fabs in Arizona/Japan/Germany,
+      and a new US-Taiwan trade deal requiring $250-500B in Taiwan investment into the US—intended to reduce US
+      reliance on Taiwan-based manufacturing.
+    supported_by:
+    - q01d02
+    - q01d11
+    - q01d10
+    - q01d07
+    - q01d03
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v6
+    text: Several sources, citing TSMC founder Morris Chang, argue that reshoring advanced manufacturing to the
+      US is economically inefficient, with overseas fabs facing significantly higher costs (20-50%+) and lower margins
+      than Taiwan-based production, raising doubts about how much concentration risk can realistically be reduced.
+    supported_by:
+    - q01d11
+    - q01d02
+    - q01d04
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v7
+    text: Some sources emphasize that Taiwan's 'silicon shield'—its dominance in chipmaking—is viewed as a deterrent
+      that incentivizes the US and allies to defend Taiwan, meaning diversification could paradoxically weaken US
+      strategic commitment to the island.
+    supported_by:
+    - q01d03
+    - q01d04
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v8
+    text: Forecasts from industry analysts project Taiwan's share of global foundry capacity will decline moderately
+      (e.g., from 46% to 41% by 2027) as China and the US build up domestic capacity, though Taiwan is expected
+      to retain dominance in the most advanced process nodes.
+    supported_by:
+    - q01d09
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v9
+    text: 'One source highlights an additional layer of concentration risk specific to US electronics firms: extreme
+      customer concentration at TSMC itself, where a small number of clients like Apple and increasingly Nvidia
+      account for outsized shares of leading-edge node capacity, meaning allocation decisions by TSMC could disproportionately
+      affect specific US companies.'
+    supported_by:
+    - q01d12
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v10
+    text: Some sources argue TSMC itself is caught between US and Chinese mainland pressures—reliant on the US for
+      technology, financing, and equipment while depending on the Chinese mainland for market access and manufacturing
+      footprint—which adds geopolitical volatility to its ability to serve US customers reliably.
+    supported_by:
+    - q01d05
+    - q01d06
+    supporting_origins:
+    - B_state_or_interested
+  off_topic_docs: []
+- question_id: q02
+  items:
+  - id: v1
+    text: Researcher Adrian Zenz and reports based on Chinese government documents and state media estimate that
+      over half a million minority workers per year, particularly Uighurs, are coerced into seasonal cotton picking
+      through labour transfer programs.
+    supported_by:
+    - q02d04
+    - q02d02
+    - q02d01
+    - q02d11
+    - q02d10
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v2
+    text: Multiple sources describe labour transfer and 'poverty alleviation' programs as involving ideological
+      training, discouragement of 'illegal religious activities,' and 'thought education' aimed at changing workers'
+      behaviour and religious practices.
+    supported_by:
+    - q02d04
+    - q02d01
+    - q02d11
+    - q02d10
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v3
+    text: Satellite imagery and reporting suggest factories are sometimes built within or near internment/re-education
+      camps, implying links between detention and forced labour, though a Global Times investigation disputes this
+      characterization based on interviews at one such factory.
+    supported_by:
+    - q02d01
+    - q02d05
+    - q02d07
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+  - id: v4
+    text: China's government and state media (e.g., CGTN, Global Times) deny forced labour allegations, asserting
+      that cotton harvesting is now largely mechanized (with figures cited from ~70% up to 90-97%), reducing reliance
+      on manual labor and undermining claims of coercion.
+    supported_by:
+    - q02d06
+    - q02d05
+    - q02d07
+    supporting_origins:
+    - B_state_or_interested
+  - id: v5
+    text: The Better Cotton Initiative's Shanghai office stated it found no evidence of forced labor in Xinjiang
+      after internal audits, though its global headquarters had separately suspended licensing over forced labor
+      risk concerns, and statements were later removed from its website.
+    supported_by:
+    - q02d08
+    supporting_origins:
+    - B_state_or_interested
+  - id: v6
+    text: Human rights coalitions and researchers argue that despite mechanization, forced labor persists in other
+      forms, such as transferring Uighur farmers into surveilled factory work, and that long-staple cotton in southern
+      Xinjiang still requires manual picking not easily mechanized.
+    supported_by:
+    - q02d10
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v7
+    text: A coalition of over 180 rights groups estimates that as many as one in five cotton garments sold worldwide
+      may be tainted by Uighur forced labor, given Xinjiang's dominance in China's and global cotton supply, prompting
+      major fashion brands to face scrutiny and calls for boycotts.
+    supported_by:
+    - q02d02
+    - q02d03
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v8
+    text: Reports indicate some brands and Chinese suppliers reroute Xinjiang cotton through third countries like
+      Vietnam to obscure its origin and evade import restrictions, raising concerns about supply chain traceability.
+    supported_by:
+    - q02d12
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v9
+    text: US and international policymakers have responded with import restrictions, sanctions, and legislative
+      action (e.g., Uyghur Forced Labor Prevention Act, Withhold Release Orders) targeting Xinjiang cotton and companies
+      linked to it, while some Chinese brands publicly continue using Xinjiang cotton.
+    supported_by:
+    - q02d04
+    - q02d09
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v10
+    text: A commentary published by Chinese state broadcaster CGTN frames Western forced-labor and genocide allegations
+      as politically motivated attempts to undermine China's Belt and Road strategy, arguing that labor and employment
+      programs in Xinjiang are legitimate development policies rather than coercion.
+    supported_by:
+    - q02d06
+    supporting_origins:
+    - B_state_or_interested
+  off_topic_docs: []
+- question_id: q03
+  items:
+  - id: v1
+    text: Multiple sources report that surveys and business chamber statements show declining foreign business confidence,
+      with many firms considering relocating capital or operations, particularly to Singapore, since the NSL and
+      Article 23 were enacted.
+    supported_by:
+    - q03d02
+    - q03d10
+    - q03d03
+    - q03d04
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v2
+    text: Some sources note that broad and ambiguous definitions in the NSL and Article 23 (e.g., around state secrets,
+      espionage, and foreign interference) create legal uncertainty that critics say could ensnare multinational
+      executives, chambers of commerce, and NGOs.
+    supported_by:
+    - q03d02
+    - q03d10
+    - q03d03
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v3
+    text: Hong Kong and Chinese government spokespeople argue the NSL has restored stability and order after 2019
+      unrest, and that this stability is what actually attracts and reassures investors and businesses.
+    supported_by:
+    - q03d05
+    - q03d06
+    - q03d07
+    - q03d08
+    supporting_origins:
+    - B_state_or_interested
+  - id: v4
+    text: Government and pro-Beijing sources cite economic data—such as record IPO fundraising, capital inflows,
+      and continued presence of thousands of foreign companies including US firms—as evidence the NSL has not harmed
+      Hong Kong's status as a financial hub.
+    supported_by:
+    - q03d07
+    - q03d05
+    supporting_origins:
+    - B_state_or_interested
+  - id: v5
+    text: Some sources report that despite concerns, most multinational companies have not fully exited Hong Kong,
+      instead adopting a 'sit and wait' approach or expanding operations in Singapore as a hedge while maintaining
+      a Hong Kong presence.
+    supported_by:
+    - q03d04
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v6
+    text: Several sources describe a broader exodus of both foreign residents and capital from Hong Kong, including
+      departures of foreign media, NGOs, and high-net-worth individuals seeking relocation assistance, which is
+      linked to the NSL's chilling effect.
+    supported_by:
+    - q03d01
+    - q03d02
+    - q03d10
+    - q03d04
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v7
+    text: Foreign governments and officials, including the UK and EU, have stated that the NSL breaches Hong Kong's
+      handover agreements and damages its attractiveness as an international business hub, a claim the Hong Kong
+      government firmly rejects as foreign interference.
+    supported_by:
+    - q03d01
+    - q03d02
+    - q03d05
+    - q03d07
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+  - id: v8
+    text: Some individual foreign residents and business owners report that the NSL has made Hong Kong feel safer
+      and more stable for conducting business and daily life, crediting it with restoring order after the 2019 unrest.
+    supported_by:
+    - q03d08
+    supporting_origins:
+    - B_state_or_interested
+  - id: v9
+    text: Analysts and academics note that the arrests and trials of prominent figures like Jimmy Lai, along with
+      closures of pro-democracy outlets, have raised concerns among businesses about rule of law and judicial independence,
+      even as the government insists judicial independence remains intact with continued appointment of overseas
+      judges.
+    supported_by:
+    - q03d07
+    - q03d09
+    - q03d03
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v10
+    text: Some commentary situates business concerns within a broader geopolitical framing, arguing that Western
+      criticism of the NSL reflects a wider US-China strategic rivalry rather than solely business-specific harms.
+    supported_by:
+    - q03d07
+    - q03d11
+    supporting_origins:
+    - B_state_or_interested
+    - C_academic_or_industry
+  off_topic_docs:
+  - q03d12
+- question_id: q04
+  items:
+  - id: v1
+    text: Chinese state media and officials characterize Lai Ching-te as a dangerous separatist whose 'Taiwan independence'
+      stance will worsen cross-strait tensions and require countermeasures.
+    supported_by:
+    - q04d08
+    - q04d06
+    - q04d04
+    - q04d05
+    - q04d07
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+  - id: v2
+    text: US-based analysts and Lai's own statements emphasize continuity with Tsai Ing-wen's status quo policy
+      rather than a sharp break toward independence.
+    supported_by:
+    - q04d10
+    - q04d12
+    - q04d01
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v3
+    text: Beijing responded to Lai's election and inauguration with military exercises (including Joint Sword-2024A)
+      and diplomatic pressure, such as encouraging Taiwan's remaining diplomatic allies to switch recognition to
+      China.
+    supported_by:
+    - q04d06
+    - q04d04
+    - q04d11
+    - q04d09
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v4
+    text: Lai has called for peace and dialogue with Beijing on equal terms while simultaneously pledging to strengthen
+      Taiwan's defenses against potential Chinese aggression.
+    supported_by:
+    - q04d02
+    - q04d10
+    - q04d12
+    - q04d01
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v5
+    text: China insists that acceptance of the '1992 Consensus' is a prerequisite for resuming official cross-strait
+      communication, which Lai and his running mate have rejected or called outdated.
+    supported_by:
+    - q04d06
+    - q04d12
+    - q04d07
+    - q04d09
+    supporting_origins:
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v6
+    text: Lai won the 2024 election with only a plurality (about 40%) and his DPP lost its legislative majority,
+      which some sources argue shows he lacks a mandate and does not represent mainstream opinion on the island.
+    supported_by:
+    - q04d06
+    - q04d03
+    - q04d07
+    - q04d09
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v7
+    text: Analysts note that domestic political division and legislative gridlock between the DPP and opposition
+      KMT/TPP have complicated Lai's ability to govern and to consistently pursue his cross-strait and defense agenda.
+    supported_by:
+    - q04d02
+    - q04d07
+    - q04d09
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v8
+    text: The United States has repeatedly stated it does not support Taiwan independence and urges caution, while
+      continuing to supply arms and unofficial support, reflecting a balancing act shaping cross-strait prospects.
+    supported_by:
+    - q04d08
+    - q04d03
+    - q04d01
+    - q04d09
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v9
+    text: Some sources frame the overall trajectory of cross-strait relations as increasingly tense and potentially
+      heading toward conflict, given China's military buildup and reported 2027 timeline for capability to take
+      Taiwan by force.
+    supported_by:
+    - q04d04
+    - q04d11
+    - q04d09
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v10
+    text: Chinese commentary portrays US actions—such as Lai's transits through the US and visits by American officials—as
+      provocations that worsen cross-strait tensions and reflect US interference in what China considers an internal
+      matter.
+    supported_by:
+    - q04d08
+    - q04d05
+    supporting_origins:
+    - B_state_or_interested
+  off_topic_docs: []
+- question_id: q05
+  items:
+  - id: v1
+    text: Multiple sources report that US export controls have accelerated and catalyzed China's drive for semiconductor
+      self-sufficiency, with massive state investment (e.g., over $200 billion) and progress by companies like SiCarrier,
+      Naura, AMEC, and SMEE.
+    supported_by:
+    - q05d01
+    - q05d11
+    - q05d02
+    - q05d07
+    - q05d09
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v2
+    text: Several sources note that China still faces a significant technology gap, particularly lacking advanced
+      lithography (EUV) capability and remaining dependent on foreign equipment like ASML's DUV tools for advanced
+      chip manufacturing.
+    supported_by:
+    - q05d03
+    - q05d09
+    - q05d07
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v3
+    text: Some sources argue export controls have had limited or counterproductive effects, mainly damaging US companies
+      (e.g., Nvidia's multi-billion-dollar losses) while only marginally slowing Chinese frontier AI chip development.
+    supported_by:
+    - q05d04
+    - q05d06
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+  - id: v4
+    text: A CFR analysis disputes claims that Huawei is closing the AI chip gap with Nvidia, arguing export controls
+      are working and the performance/production gap is widening rather than narrowing.
+    supported_by:
+    - q05d10
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v5
+    text: Chinese government officials and commentators characterize US export controls, tariffs, and remote-access
+      restrictions as a 'zero-sum' or market-distorting strategy that will backfire on the US and harm global supply
+      chains.
+    supported_by:
+    - q05d05
+    - q05d08
+    supporting_origins:
+    - B_state_or_interested
+  - id: v6
+    text: Reports describe the expansion of controls beyond chips themselves to chipmaking equipment, EDA software,
+      cloud/remote computing access, and even tariffs on advanced semiconductor imports, showing an escalating and
+      broadening scope of restrictions.
+    supported_by:
+    - q05d11
+    - q05d03
+    - q05d05
+    - q05d08
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v7
+    text: Some sources highlight that US allies (Netherlands/ASML, Taiwan/TSMC) face difficult choices and have
+      been pressured to align export restrictions with Washington, sometimes creating friction or partial compliance.
+    supported_by:
+    - q05d03
+    - q05d11
+    - q05d02
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v8
+    text: Analysts note that despite controls, Chinese firms like Huawei and SMIC have made notable strides (e.g.,
+      Mate 60 Pro, Ascend chips), partly by using workarounds, stockpiling, and foreign tool access, complicating
+      enforcement.
+    supported_by:
+    - q05d02
+    - q05d04
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v9
+    text: One source uses a semiconductor-as-natural-resource framework to argue controls should be narrowly targeted
+      to avoid unintended harm to US firms and global industry, warning against overly broad restrictions.
+    supported_by:
+    - q05d12
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v10
+    text: Some commentary extends the discussion to non-semiconductor sectors (aerospace/COMAC engines) to argue
+      export controls broadly harm US industry and accelerate Chinese self-reliance across strategic technologies.
+    supported_by:
+    - q05d06
+    supporting_origins:
+    - B_state_or_interested
+  off_topic_docs: []
+- question_id: q06
+  items:
+  - id: v1
+    text: Several sources report that China has expanded boarding schools for Tibetan children, with estimates of
+      up to 80% of Tibetan children (roughly one million) attending, often from preschool age, forcibly separating
+      them from families and causing psychological trauma.
+    supported_by:
+    - q06d01
+    - q06d02
+    - q06d12
+    - q06d10
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v2
+    text: Multiple sources state that Chinese has increasingly replaced Tibetan as the medium of instruction, starting
+      even at kindergarten level under the 2021 'Children's Speech Harmonization Plan,' leading to rapid loss of
+      Tibetan fluency among young children.
+    supported_by:
+    - q06d01
+    - q06d02
+    - q06d03
+    - q06d04
+    - q06d10
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v3
+    text: Chinese government sources and officials counter that boarding schools are a practical necessity due to
+      sparse population distribution, not an assimilation tool, and are entirely voluntary and beneficial.
+    supported_by:
+    - q06d01
+    - q06d07
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+  - id: v4
+    text: Chinese state media and officials assert that bilingual education is thriving, citing statistics on Tibetan-language
+      classes, textbooks, teachers, and high rates of students taking Tibetan-language exams, and reject comparisons
+      to colonial boarding schools as slander.
+    supported_by:
+    - q06d06
+    - q06d07
+    - q06d08
+    supporting_origins:
+    - B_state_or_interested
+  - id: v5
+    text: Human rights researchers and UN experts argue that China's 'bilingual education' policy is deliberately
+      ambiguous and in practice leads to Chinese dominance, violating international human rights law protections
+      for minority language education.
+    supported_by:
+    - q06d01
+    - q06d03
+    - q06d04
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v6
+    text: Sources report that Tibetans who advocate for or even discuss mother-tongue education have faced criminalization,
+      detention, and imprisonment, such as the cases of Tashi Wangchuk and Tsering Dorje.
+    supported_by:
+    - q06d03
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v7
+    text: Chinese government white papers and officials frame current policies as continuing the liberation of Tibetans
+      from a backward, oppressive feudal serfdom system, with education and cultural investment as evidence of progress
+      and human rights advancement.
+    supported_by:
+    - q06d06
+    - q06d07
+    - q06d08
+    - q06d05
+    supporting_origins:
+    - B_state_or_interested
+  - id: v8
+    text: Some sources highlight the closure of private Tibetan schools and monasteries, such as Gangjong Sherig
+      Norbu Lobling, as part of a broader pattern of eliminating independent Tibetan cultural and linguistic institutions.
+    supported_by:
+    - q06d10
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v9
+    text: US lawmakers and international bodies have called for UN investigations into forced family separation
+      and cultural erasure in Tibet, drawing parallels to indigenous boarding school histories in the US, Canada,
+      and Australia.
+    supported_by:
+    - q06d12
+    - q06d01
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v10
+    text: One source notes that shifting US political priorities and funding cuts to human rights reporting and
+      Tibetan refugee support organizations have reduced international scrutiny and documentation of Tibetan cultural
+      and linguistic erasure.
+    supported_by:
+    - q06d11
+    supporting_origins:
+    - C_academic_or_industry
+  off_topic_docs:
+  - q06d09
+  - q06d11
+- question_id: q07
+  items:
+  - id: v1
+    text: EU sanctions on Russia have caused a sharp decline in euro area exports to Russia, particularly in goods
+      like electrical machinery, vehicles and transport equipment, directly hitting European manufacturers who previously
+      sold to that market.
+    supported_by:
+    - q07d12
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v2
+    text: Small and medium-sized European manufacturers, such as Italian fashion producers, remain legally able
+      to export certain lower-value goods to Russia but face severe payment collection problems due to financial-sector
+      sanctions.
+    supported_by:
+    - q07d04
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v3
+    text: Some sources argue that overall euro area financial exposure to Russia was already limited before the
+      invasion, with FDI as the largest component, suggesting the direct financial exposure of European firms is
+      relatively contained.
+    supported_by:
+    - q07d12
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v4
+    text: Sources note that European manufacturers, particularly in sectors tied to Russian supply chains like car
+      production and aviation, have been hit hard by export controls and self-sanctioning, though this is framed
+      mainly as damage to the Russian economy rather than European exposure.
+    supported_by:
+    - q07d10
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v5
+    text: Some analyses suggest that tariffs rather than embargoes on Russian energy imports could reduce Russian
+      economic welfare while limiting costs to EU consumers and industry, implying a policy design question for
+      how exposed European manufacturers need to be.
+    supported_by:
+    - q07d09
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v6
+    text: Reporting on European corporate ties to Russian energy firms, such as a former German chancellor's chairmanship
+      of Rosneft, highlights individual and reputational exposure of European business figures to Russia sanctions
+      controversies.
+    supported_by:
+    - q07d03
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v7
+    text: Some sources argue that early sanctions against Russian individuals were largely symbolic and had limited
+      direct economic impact on European businesses or the broader economy.
+    supported_by:
+    - q07d02
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v8
+    text: The EU's energy dependence on Russia, exemplified by debates over Nord Stream 2, created significant exposure
+      for European energy and manufacturing sectors reliant on Russian gas, with European companies co-financing
+      the pipeline.
+    supported_by:
+    - q07d06
+    supporting_origins:
+    - B_state_or_interested
+  - id: v9
+    text: Sources report that the EU's oil embargo and price cap on Russian exports have had uneven effectiveness,
+      with implications for European shipping, insurance, and trading firms involved in enforcing or circumventing
+      these measures.
+    supported_by:
+    - q07d11
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v10
+    text: Continued EU sanctions escalation in response to hybrid incidents (e.g., drone attacks, sabotage) raises
+      the prospect of further restrictions that could increase exposure for European firms still engaged with Russia-linked
+      entities.
+    supported_by:
+    - q07d01
+    supporting_origins:
+    - A_western_press_or_ngo
+  off_topic_docs:
+  - q07d07
+  - q07d08
+  - q07d05
+  - q07d03
+- question_id: q08
+  items:
+  - id: v1
+    text: Multiple sources report that armed groups, particularly the M23 militia (backed by Rwandan troops), control
+      key mining sites in eastern DRC such as Rubaya and impose taxes/levies on coltan production, generating hundreds
+      of thousands of dollars per month to fund their operations.
+    supported_by:
+    - q08d01
+    - q08d03
+    - q08d04
+    - q08d02
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v2
+    text: Several sources state that conflict minerals (the 3Ts—tin, tantalum, tungsten—and gold) have been a key
+      driver of violence, mass displacement, and human rights abuses including sexual violence in eastern Congo
+      for decades.
+    supported_by:
+    - q08d09
+    - q08d12
+    - q08d05
+    - q08d11
+    supporting_origins:
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v3
+    text: An investigation by Global Witness alleges that major global electronics and tech brands (Amazon, Ericsson,
+      Sony, Microsoft, Toyota, Nvidia, Vodafone) are likely unknowingly sourcing coltan smuggled through Rwanda
+      from M23-controlled mines, implicating due diligence failures.
+    supported_by:
+    - q08d01
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v4
+    text: Traceability and due diligence schemes such as the International Tin Supply Chain Initiative (Itsci) and
+      the Responsible Minerals Initiative (RMI) are criticized by some sources as failing to detect conflict coltan
+      entering supply chains, while the RMI itself defends its assurance processes and points to increased vigilance
+      measures.
+    supported_by:
+    - q08d01
+    - q08d03
+    - q08d05
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+  - id: v5
+    text: Some sources report measurable progress from transparency legislation like the Dodd-Frank Act Section
+      1502, citing reduced armed-group control of 3T mines and increased smelter/refiner audits, though the law
+      does not require companies to divest from Congo entirely.
+    supported_by:
+    - q08d12
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v6
+    text: Rwanda is repeatedly named as a central transit and export point for smuggled Congolese coltan, with reports
+      of contamination of Rwandan production by conflict minerals and rising Rwandan coltan export figures, though
+      Rwandan officials deny backing M23 or profiting from conflict minerals.
+    supported_by:
+    - q08d01
+    - q08d03
+    - q08d04
+    - q08d02
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v7
+    text: Journalistic accounts describe artisanal miners at sites like Rubaya working in dangerous, low-paid conditions
+      under armed-group administration, with some miners reporting slightly improved conditions or wages under M23
+      control compared to previous militias like the Wazalendo.
+    supported_by:
+    - q08d04
+    - q08d02
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v8
+    text: Some sources highlight the Trump administration's minerals-for-security diplomacy, including a 2025 US-brokered
+      DRC-Rwanda peace deal and a US-DRC critical minerals partnership, framed as an effort to secure Western/US
+      access to Congolese minerals and counter Chinese dominance in the sector.
+    supported_by:
+    - q08d04
+    - q08d02
+    - q08d11
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v9
+    text: Sources note that despite conflict, some parts of DRC remain unaffected by fighting and continue legitimate
+      mining livelihoods, and that certification mechanisms (like ICGLR validation) have designated hundreds of
+      mines as conflict-free.
+    supported_by:
+    - q08d05
+    - q08d12
+    supporting_origins:
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v10
+    text: Sources vary in estimating Congo's share of global coltan/tantalum production, ranging from about 15-20%
+      to over 40%, reflecting differing data sources and time periods.
+    supported_by:
+    - q08d09
+    - q08d03
+    - q08d02
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  off_topic_docs:
+  - q08d10
+- question_id: q09
+  items:
+  - id: v1
+    text: Multiple sources report that international unions, NGOs and labor federations issued joint calls and open
+      letters urging garment brands to publicly condemn the coup, support the Civil Disobedience Movement, and protect
+      striking workers.
+    supported_by:
+    - q09d11
+    - q09d01
+    - q09d04
+    - q09d03
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v2
+    text: Several sources describe how garment workers, especially young women, played a leading role in anti-coup
+      protests and strikes, facing intimidation, dismissal, and violent crackdowns by security forces.
+    supported_by:
+    - q09d01
+    - q09d04
+    - q09d03
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v3
+    text: Some sources report that certain brands (H&M, Benetton, Mango) paused new orders or issued statements
+      condemning the coup, while others took a wait-and-see approach without concrete action.
+    supported_by:
+    - q09d01
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v4
+    text: Multiple sources report that by 2022-2023 several major brands (H&M, Inditex/Zara, Primark, Lidl, Fast
+      Retailing, Mango, C&A, Marks & Spencer, Tesco, Aldi South, Muji) announced intentions to phase out or responsibly
+      exit Myanmar sourcing, often without firm timelines.
+    supported_by:
+    - q09d09
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v5
+    text: One source presents a labor activist's view that brand exits have been too slow or vague, allowing continued
+      labor abuses, with data showing rising violations linked to brands still sourcing from Myanmar.
+    supported_by:
+    - q09d09
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v6
+    text: A differing perspective, attributed to the Myanmar Centre for Responsible Business, suggests that brand
+      withdrawals and reduced orders have destabilized production and worsened working conditions and job security
+      for workers.
+    supported_by:
+    - q09d09
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v7
+    text: Sources report that an ILO Commission of Inquiry and an ETI-commissioned independent assessment found
+      far-reaching violations of freedom of association and forced labour conventions, complicating human rights
+      due diligence for companies remaining in Myanmar.
+    supported_by:
+    - q09d12
+    - q09d09
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v8
+    text: A 2024-2025 report by the Business & Human Rights Resource Centre documents hundreds of labor rights abuse
+      allegations linked to numerous international apparel brands still sourcing from Myanmar, including forced
+      overtime, unsafe conditions, and gender-based violence.
+    supported_by:
+    - q09d10
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v9
+    text: One source highlights that attacks on Chinese-owned garment factories (some supplying Western brands like
+      C&A) sparked diplomatic tension between Myanmar and China and raised concerns about worker safety amid the
+      unrest.
+    supported_by:
+    - q09d02
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v10
+    text: Sources note that Myanmar's garment sector is economically significant, employing hundreds of thousands
+      and representing roughly a third of exports, making brands' decisions to stay or exit consequential for workers'
+      livelihoods, with debate over whether sanctions or divestment help or harm workers.
+    supported_by:
+    - q09d01
+    - q09d03
+    supporting_origins:
+    - A_western_press_or_ngo
+  off_topic_docs: []
+- question_id: q10
+  items:
+  - id: v1
+    text: Sources report that sanctions have severely damaged Iran's oil exports, GDP growth, and government revenue,
+      with the JCPOA re-imposition of sanctions causing renewed contraction, rial depreciation, and inflation.
+    supported_by:
+    - q10d10
+    - q10d11
+    - q10d07
+    supporting_origins:
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v2
+    text: Several documents note that the rial has repeatedly collapsed to record lows against the dollar, prompting
+      central bank interventions like currency crackdowns, gold coin sales, and proposed redenomination to curb
+      inflation.
+    supported_by:
+    - q10d01
+    - q10d08
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+  - id: v3
+    text: Some sources argue that sanctions have deterred foreign companies and investors, who exit or avoid the
+      Iranian market due to fear of losing access to the US market and dollar-based financial system, discouraging
+      both trade and technological investment.
+    supported_by:
+    - q10d11
+    - q10d07
+    supporting_origins:
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v4
+    text: One economist source contends that Iran's government actually benefits from sanctions as a convenient
+      excuse for its own economic mismanagement, and that the country's core problems (low productivity, lack of
+      investment) predate and are independent of sanctions.
+    supported_by:
+    - q10d03
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v5
+    text: One account argues that broad-based sanctions strengthen conservative/hardline factions, deepen middle-class
+      dependence on the state, and are unpopular among Iranians who blame foreign powers as much as their own government.
+    supported_by:
+    - q10d02
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v6
+    text: The 2015 JCPOA nuclear deal is presented by Iranian officials and some analyses as a diplomatic success
+      that lifted sanctions, unfroze billions in assets, and was expected to boost GDP growth and foreign investment.
+    supported_by:
+    - q10d10
+    - q10d06
+    supporting_origins:
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v7
+    text: Despite the JCPOA, sources note that foreign investment inflows remained slower than expected, and subsequent
+      US withdrawal from the deal and re-imposed sanctions undermined economic stabilization gains.
+    supported_by:
+    - q10d01
+    - q10d11
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v8
+    text: Some sources report that US sanctions policy has spurred international efforts (EU Blocking Statute, SPV,
+      alternative payment systems in euros, rupees, renminbi) to circumvent dollar dependency, though these are
+      seen as unlikely to succeed at scale in the near term.
+    supported_by:
+    - q10d11
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v9
+    text: An expert source distinguishes among sanction types, arguing that defense- and nuclear-targeted sanctions
+      have limited additional impact, while trade inspection and financial restrictions disproportionately harm
+      ordinary consumers through inflation and eroded purchasing power.
+    supported_by:
+    - q10d07
+    supporting_origins:
+    - B_state_or_interested
+  - id: v10
+    text: Recent reporting describes escalating inflation (over 30-45%) and soaring food/commodity prices in Iran
+      amid renewed UN snapback sanctions and regional conflict, compounding hardship for ordinary citizens and undermining
+      both domestic and foreign investment.
+    supported_by:
+    - q10d08
+    - q10d07
+    supporting_origins:
+    - B_state_or_interested
+  off_topic_docs:
+  - q10d04
+  - q10d05
+  - q10d12
+  - q10d09
+- question_id: q11
+  items:
+  - id: v1
+    text: Multiple sources report that Houthi attacks on Red Sea shipping, launched in solidarity with Palestinians
+      amid Israel's Gaza offensive, forced major carriers (Maersk, MSC, CMA CGM, Hapag-Lloyd, Evergreen) to suspend
+      Red Sea transits and reroute via the Cape of Good Hope.
+    supported_by:
+    - q11d02
+    - q11d08
+    - q11d06
+    - q11d05
+    - q11d03
+    - q11d01
+    - q11d10
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v2
+    text: Several sources quantify the scale of diversion, noting that 90% or more of container traffic bound for
+      the Suez Canal was rerouted, Suez transits fell sharply (up to 70% below 2023 levels), and Cape of Good Hope
+      traffic surged.
+    supported_by:
+    - q11d02
+    - q11d06
+    - q11d05
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+  - id: v3
+    text: Sources document sharp spikes in freight rates and shipping costs following the diversions, with container
+      rates rising from roughly $1,000-1,500 to $4,000-6,800 per container depending on route, though some report
+      these increases remained well below pandemic-era peaks.
+    supported_by:
+    - q11d08
+    - q11d05
+    - q11d03
+    - q11d10
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v4
+    text: Multiple sources describe knock-on effects for manufacturers and retailers, including factory idling in
+      Europe (Tesla, Volvo, Suzuki), delayed fashion collections, and parts shortages, alongside claims that some
+      large US retailers felt prepared due to diversified supply chains.
+    supported_by:
+    - q11d02
+    - q11d03
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v5
+    text: Sources report significant economic harm to Egypt, whose Suez Canal Authority lost substantial revenue
+      (estimated in the millions of dollars per day/transit) due to reduced canal traffic.
+    supported_by:
+    - q11d02
+    - q11d06
+    - q11d05
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+  - id: v6
+    text: Some sources report that oil and energy shipments were also affected, with major companies like Shell
+      and BP rerouting tankers around Africa and anticipating short-term price impacts.
+    supported_by:
+    - q11d02
+    - q11d08
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+  - id: v7
+    text: Later reporting indicates that despite ceasefires between Israel and Hamas or the US and Houthis, shipping
+      experts and carriers remained skeptical that vessels would quickly return to the Red Sea, citing lack of firm
+      security guarantees and the complexity of restoring shipping networks.
+    supported_by:
+    - q11d04
+    - q11d11
+    - q11d12
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v8
+    text: One source reports that a subsequent escalation—joint US-Israel strikes on Iran in early 2026—further
+      shattered hopes of a return of container shipping to the Red Sea, causing carriers like CMA CGM to reverse
+      plans to resume Suez transits.
+    supported_by:
+    - q11d09
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v9
+    text: A broader 2025 year-end analysis situates the Red Sea crisis within a wider pattern of maritime disruption
+      worldwide, including conflicts in the Black Sea, Caribbean, and Strait of Hormuz, and notes that global maritime
+      trade growth slowed sharply amid these tensions.
+    supported_by:
+    - q11d06
+    supporting_origins:
+    - B_state_or_interested
+  - id: v10
+    text: Freight market updates show fluctuating rate trends over time, with rates rising sharply in early 2024
+      amid the crisis but later softening in 2025 as ceasefire talks and potential Red Sea returns were anticipated,
+      alongside unrelated developments like new US tariff policy.
+    supported_by:
+    - q11d12
+    - q11d10
+    supporting_origins:
+    - C_academic_or_industry
+  off_topic_docs: []
+- question_id: q12
+  items:
+  - id: v1
+    text: Multiple sources describe a divide between semi-solid-state batteries (with some liquid/gel component,
+      using oxide or NMC-based systems) and all-solid-state batteries (no liquid electrolyte), with semi-solid seen
+      as easier to commercialize first.
+    supported_by:
+    - q12d01
+    - q12d09
+    - q12d02
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v2
+    text: Several sources report that electrolyte material choice—sulfide, oxide, polymer, or halide—represents
+      distinct manufacturing approaches, each with tradeoffs in ionic conductivity, brittleness, air/moisture stability,
+      and processability.
+    supported_by:
+    - q12d11
+    - q12d04
+    - q12d10
+    - q12d12
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v3
+    text: Sulfide-based approaches (e.g., Solid Power, BYD, Argonne) are reported to allow roll-to-roll processing
+      similar to conventional lithium-ion manufacturing and offer high ionic conductivity, but face stability and
+      moisture-sensitivity challenges.
+    supported_by:
+    - q12d04
+    - q12d02
+    - q12d11
+    - q12d10
+    - q12d12
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v4
+    text: Oxide-based approaches (e.g., WeLion/Nio, QuantumScape's ceramic separator) are noted for good stability
+      but are harder to mass-manufacture due to brittleness, requiring specialized equipment like QuantumScape's
+      Cobra tool.
+    supported_by:
+    - q12d09
+    - q12d08
+    - q12d11
+    - q12d10
+    supporting_origins:
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v5
+    text: Some automakers and startups (QuantumScape, Toyota, Samsung SDI/BMW/Solid Power) are pursuing lithium-metal
+      anodes for higher energy density, while others (UC San Diego/LG, NIO's silicon-graphite) use silicon-based
+      anodes to avoid lithium-metal handling and temperature constraints.
+    supported_by:
+    - q12d05
+    - q12d07
+    - q12d03
+    - q12d09
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v6
+    text: Industry experts (Galyen, Abuelsamid) express skepticism that any manufacturer has yet solved the combined
+      challenges of cost, life validation, and performance under real-world automotive stress, and dispute marketing
+      claims like NIO's 'semi-solid-state' framing.
+    supported_by:
+    - q12d01
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v7
+    text: Chinese manufacturers (BYD, SAIC, CATL, Changan, Chery, Dongfeng) are reported to be aggressively pursuing
+      rapid commercialization and mass production timelines around 2027-2030, positioning China as a potential leader
+      in solid-state capacity.
+    supported_by:
+    - q12d02
+    - q12d09
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  - id: v8
+    text: Western/Korean players (Samsung SDI, BMW, Solid Power, QuantumScape, Factorial) emphasize collaborative
+      validation partnerships and gradual scale-up (pilot lines, prototype shipments) rather than rapid mass-market
+      rollout.
+    supported_by:
+    - q12d07
+    - q12d05
+    - q12d06
+    - q12d08
+    - q12d04
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+  - id: v9
+    text: National laboratory initiatives (DOE-funded Ames and Argonne facilities) are developing shared manufacturing
+      capabilities—such as roll-to-roll coating, atomic layer deposition, and cell prototyping—to support both solid-state
+      and flow battery scale-up across industry.
+    supported_by:
+    - q12d12
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v10
+    text: Some sources highlight expansion of solid-state battery manufacturing beyond EVs into aerospace, defense,
+      robotics, and grid storage applications, broadening the commercial rationale for different manufacturing approaches.
+    supported_by:
+    - q12d06
+    - q12d03
+    - q12d10
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  off_topic_docs: []
+- question_id: q13
+  items:
+  - id: v1
+    text: One source frames SMRs' history as evidence that economics has repeatedly undermined small reactor projects
+      and predicts this pattern will likely continue.
+    supported_by:
+    - q13d01
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v2
+    text: Some sources describe a major U.S. government funding push (DOE's $900 million program) aimed at moving
+      light-water Gen III+ SMRs toward near-term commercial deployment, while experts note that this funding is
+      far short of what's needed to actually build a reactor and that 'nobody is writing the checks' yet.
+    supported_by:
+    - q13d02
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v3
+    text: Industry and government sources argue SMRs offer economic advantages through factory fabrication, modularity,
+      serial production, scalability, and reduced financial risk compared with large reactors.
+    supported_by:
+    - q13d05
+    - q13d06
+    - q13d11
+    - q13d10
+    supporting_origins:
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v4
+    text: The IEA presents an optimistic outlook, projecting the first commercial SMR projects around 2030 and total
+      SMR capacity reaching 40 GW under current policies or up to 120 GW by 2050 with stronger policy support.
+    supported_by:
+    - q13d09
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v5
+    text: Recent industry announcements, such as X-energy's graphite supply chain expansion with SGL Carbon, are
+      cited as evidence of growing commercial momentum and supply-chain readiness for SMR fleet deployment.
+    supported_by:
+    - q13d08
+    supporting_origins:
+    - B_state_or_interested
+  - id: v6
+    text: One source raises the concern that civilian nuclear (including SMR) investment may partly serve to cross-subsidize
+      military submarine programs, questioning the true commercial rationale and cost competitiveness of nuclear
+      power such as SMRs.
+    supported_by:
+    - q13d03
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v7
+    text: Some countries, such as Jordan, are reported to be shifting from plans for large-scale reactors toward
+      considering small modular reactors as a more feasible or affordable option.
+    supported_by:
+    - q13d07
+    supporting_origins:
+    - B_state_or_interested
+  - id: v8
+    text: Despite being the only SMR design approved by the NRC, NuScale's flagship U.S. project was cancelled after
+      costs rose 75% due to inflation and interest-rate increases, illustrating continued commercial struggles even
+      for the most advanced SMR projects.
+    supported_by:
+    - q13d02
+    - q13d06
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+  - id: v9
+    text: Multiple sources note there are over 100 SMR designs in development globally across various coolant technologies
+      (light water, gas, molten salt, liquid metal), reflecting strong industry interest but also technological
+      fragmentation and uncertainty about which designs will reach commercialization first.
+    supported_by:
+    - q13d05
+    - q13d10
+    supporting_origins:
+    - B_state_or_interested
+    - C_academic_or_industry
+  off_topic_docs:
+  - q13d04
+  - q13d12
+- question_id: q14
+  items:
+  - id: v1
+    text: Several sources report that generative AI adoption in enterprises remains limited despite hype, with barriers
+      including data privacy, regulation, IT infrastructure, budget constraints, and lack of skilled talent.
+    supported_by:
+    - q14d01
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v2
+    text: One source cites an MIT study finding that 95% of generative AI pilots fail to deliver measurable profit-and-loss
+      impact, attributing this to weak operational processes, documentation, and collaboration rather than the technology
+      itself.
+    supported_by:
+    - q14d03
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v3
+    text: Multiple sources report a rigorous NBER/Stanford/MIT study of customer support agents finding generative
+      AI tools boosted productivity (issues resolved per hour) by an average of 14%, with novice/low-skilled workers
+      gaining up to 34-35%, while experienced workers saw minimal benefit.
+    supported_by:
+    - q14d02
+    - q14d08
+    - q14d11
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v4
+    text: One source describes a Harvard/Wharton/MIT study of consultants finding generative AI can boost performance
+      by nearly 40% on tasks within its capability 'frontier,' but decrease performance by up to 19-24 percentage
+      points on tasks outside that frontier, highlighting risks of overreliance.
+    supported_by:
+    - q14d09
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v5
+    text: One source reports that generative AI (GitHub Copilot) shifted software developers' work patterns toward
+      more core coding and less project management and peer collaboration, with less-experienced developers gaining
+      the most and increasing exposure to new programming languages.
+    supported_by:
+    - q14d10
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v6
+    text: Several sources highlight sector-specific enterprise deployments—CRM/ERP systems for marketing, sales,
+      and customer service (Microsoft Dynamics), retail frontline associate support, and HR chatbots—reporting concrete
+      productivity and satisfaction gains.
+    supported_by:
+    - q14d08
+    - q14d07
+    - q14d06
+    supporting_origins:
+    - B_state_or_interested
+  - id: v7
+    text: Some sources report survey data showing generative AI is reshaping C-suite structure and executive collaboration,
+      with rising adoption of Chief AI Officers and cross-functional alliances driving measurable outcomes like
+      faster HR transactions and reduced sales forecast errors.
+    supported_by:
+    - q14d06
+    supporting_origins:
+    - B_state_or_interested
+  - id: v8
+    text: One source reports that Canadian CEOs surveyed by IBM see generative AI as a competitive necessity worth
+      increased risk-taking, expect workforce growth and new AI-related hiring, and rate their AI governance favorably
+      relative to global peers.
+    supported_by:
+    - q14d05
+    supporting_origins:
+    - B_state_or_interested
+  - id: v9
+    text: One source finds a persistent 'AI trust gap' between business leaders and employees regarding generative
+      AI adoption, with many employees lacking confidence that AI implementation prioritizes their interests, and
+      highlights the need for transparency to sustain adoption.
+    supported_by:
+    - q14d04
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v10
+    text: One source reports broader survey data indicating two-thirds of organizations have achieved productivity
+      and efficiency gains from enterprise AI adoption, though revenue growth from AI remains largely aspirational,
+      and insufficient worker skills are cited as the top barrier to further integration.
+    supported_by:
+    - q14d12
+    supporting_origins:
+    - C_academic_or_industry
+  off_topic_docs: []
+- question_id: q15
+  items:
+  - id: v1
+    text: Multiple sources describe hydrogen-based direct reduction of iron (H2-DRI) combined with electric arc
+      furnaces as a leading technological pathway to replace coal-based blast furnaces.
+    supported_by:
+    - q15d11
+    - q15d05
+    - q15d10
+    - q15d09
+    - q15d04
+    - q15d08
+    - q15d06
+    - q15d03
+    - q15d01
+    - q15d02
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v2
+    text: Several sources note that increasing use of scrap steel recycling via electric arc furnaces is a key decarbonization
+      lever, though limited by finite scrap availability.
+    supported_by:
+    - q15d10
+    - q15d07
+    - q15d04
+    - q15d03
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v3
+    text: Sources report that iron ore electrolysis is an emerging alternative technology that could cut emissions
+      even further than hydrogen-DRI, though it is less mature.
+    supported_by:
+    - q15d11
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v4
+    text: Some sources highlight capturing or reducing coalbed/coke-oven methane as a complementary, low-cost strategy
+      to cut emissions rather than fully replacing existing processes.
+    supported_by:
+    - q15d11
+    supporting_origins:
+    - C_academic_or_industry
+  - id: v5
+    text: Several sources emphasize that government policy, subsidies, and public funding (e.g., UK's £600m and
+      US Inflation Reduction Act) are seen as necessary to enable the transition given high capital costs of green
+      steel plants.
+    supported_by:
+    - q15d04
+    - q15d03
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v6
+    text: Industry and analyst sources stress the need for common definitions, standards, and measurement methodologies
+      for 'green steel' to enable markets and demand commitments.
+    supported_by:
+    - q15d11
+    - q15d09
+    - q15d08
+    - q15d12
+    supporting_origins:
+    - B_state_or_interested
+    - C_academic_or_industry
+  - id: v7
+    text: Some sources argue that a new UK direct reduced iron (DRI) plant may be a costly 'white elephant' and
+      question its priority compared to reducing energy costs, revealing industry disagreement over this specific
+      strategy.
+    supported_by:
+    - q15d03
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v8
+    text: One source discusses how the quality of iron ore feedstock (e.g., Australia's lower-grade hematite ores)
+      affects the feasibility of hydrogen-based steelmaking, requiring beneficiation or shifts toward magnetite.
+    supported_by:
+    - q15d01
+    supporting_origins:
+    - A_western_press_or_ngo
+  - id: v9
+    text: Multiple sources describe large-scale green hydrogen production and storage projects (e.g., HYBRIT, Iberdrola/H2
+      Green Steel) as critical enablers for fossil-free steelmaking, while noting hydrogen supply and cost remain
+      major bottlenecks.
+    supported_by:
+    - q15d06
+    - q15d02
+    - q15d05
+    supporting_origins:
+    - A_western_press_or_ngo
+    - B_state_or_interested
+  - id: v10
+    text: Sources note that a 'just transition' involving local communities, workforce training, and job protection
+      is emphasized as an important social dimension of steel decarbonization strategies.
+    supported_by:
+    - q15d11
+    - q15d04
+    supporting_origins:
+    - A_western_press_or_ngo
+    - C_academic_or_industry
+  off_topic_docs:
+  - q15d12

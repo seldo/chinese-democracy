@@ -1,0 +1,13 @@
+2026-09-05 16:46:04,652 INFO summ.pipeline: 4768 judge requests (2400 summaries, 2368 traces)
+2026-09-05 16:46:07,052 INFO judge: collected batch msgbatch_01W7GPHZNeQqyZwiAtXQsEUJ: 509 rows, 0 refused by judge (re-run with fallback)
+2026-09-05 16:46:07,282 INFO judge: judge batch: 78 to submit, 4690 already judged, 0 pending
+2026-09-05 16:46:08,187 INFO judge: submitted batch msgbatch_01NAWQgHPH7Cj11Wff4ZFXM9 with 78 requests
+2026-09-05 16:46:08,649 INFO judge: batch msgbatch_01NAWQgHPH7Cj11Wff4ZFXM9: in_progress (processing=78 succeeded=0 errored=0)
+2026-09-05 16:47:08,904 INFO judge: batch msgbatch_01NAWQgHPH7Cj11Wff4ZFXM9: in_progress (processing=78 succeeded=0 errored=0)
+2026-09-05 16:48:09,225 INFO judge: batch msgbatch_01NAWQgHPH7Cj11Wff4ZFXM9: in_progress (processing=78 succeeded=0 errored=0)
+2026-09-05 16:49:09,568 INFO judge: batch msgbatch_01NAWQgHPH7Cj11Wff4ZFXM9: in_progress (processing=78 succeeded=0 errored=0)
+2026-09-05 16:50:09,971 INFO judge: batch msgbatch_01NAWQgHPH7Cj11Wff4ZFXM9: in_progress (processing=78 succeeded=0 errored=0)
+2026-09-05 16:51:10,279 INFO judge: batch msgbatch_01NAWQgHPH7Cj11Wff4ZFXM9: in_progress (processing=78 succeeded=0 errored=0)
+2026-09-05 16:52:10,569 INFO judge: batch msgbatch_01NAWQgHPH7Cj11Wff4ZFXM9: in_progress (processing=78 succeeded=0 errored=0)
+2026-09-05 16:53:11,829 INFO judge: collected batch msgbatch_01NAWQgHPH7Cj11Wff4ZFXM9: 78 rows, 0 refused by judge (re-run with fallback)
+Judge spend so far: $50.31

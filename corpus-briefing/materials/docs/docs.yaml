@@ -1,0 +1,3066 @@
+- id: q01d01
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q01
+  url: https://www.csis.org/blogs/strategic-technologies-blog/beyond-us-china-technology-competition
+  final_url: https://www.csis.org/blogs/strategic-technologies-blog/beyond-us-china-technology-competition
+  title: Beyond U.S.-China Technology Competition | Strategic Technologies Blog | CSIS
+  query: Taiwan semiconductor TSMC concentration risk supply chain (site:cfr.org OR site:bbc.com OR site:apnews.com
+    OR site:csis.org OR site:theguardian.com OR site:cnbc.com)
+  query_index: 0
+  rank: 10
+  retrieved_date: '2026-09-05'
+  token_count: 1199
+  token_count_untrimmed: 1881
+  question_id: q01
+  origin: A_western_press_or_ngo
+  domain_scope: q01
+  max_per_domain: 2
+- id: q02d04
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q02
+  url: https://www.theguardian.com/world/2020/dec/15/xinjiang-china-more-than-half-a-million-forced-to-pick-cotton-report-finds
+  final_url: https://www.theguardian.com/world/2020/dec/15/xinjiang-china-more-than-half-a-million-forced-to-pick-cotton-report-finds
+  title: 'Xinjiang: more than half a million forced to pick cotton, report suggests'
+  query: Xinjiang cotton forced labor (site:bbc.com OR site:hrw.org OR site:apnews.com OR site:theguardian.com OR
+    site:amnesty.org OR site:cnn.com)
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 876
+  token_count_untrimmed: 876
+  question_id: q02
+  origin: A_western_press_or_ngo
+  domain_scope: q02
+  max_per_domain: 2
+- id: q02d02
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q02
+  url: https://www.bbc.com/news/world-asia-china-56535822
+  final_url: https://www.bbc.com/news/world-asia-china-56535822
+  title: 'Xinjiang cotton: How do I know if it''s in my jeans?'
+  query: Xinjiang cotton forced labor (site:bbc.com OR site:hrw.org OR site:apnews.com OR site:theguardian.com OR
+    site:amnesty.org OR site:cnn.com)
+  query_index: 0
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 809
+  token_count_untrimmed: 809
+  question_id: q02
+  origin: A_western_press_or_ngo
+  domain_scope: q02
+  max_per_domain: 2
+- id: q02d01
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q02
+  url: https://www.bbc.com/news/extra/nz0g306v8c/china-tainted-cotton
+  final_url: https://www.bbc.com/news/extra/nz0g306v8c/china-tainted-cotton
+  title: China’s ‘tainted’ cotton
+  query: Xinjiang cotton forced labor (site:bbc.com OR site:hrw.org OR site:apnews.com OR site:theguardian.com OR
+    site:amnesty.org OR site:cnn.com)
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1165
+  token_count_untrimmed: 2724
+  question_id: q02
+  origin: A_western_press_or_ngo
+  domain_scope: q02
+  max_per_domain: 2
+- id: q02d06
+  group: china
+  source_type: B_state_or_interested
+  topic: q02
+  url: https://news.cgtn.com/news/2026-02-06/Restoring-truth-in-Xinjiang-Deconstructing-forced-Labor-narrative-1KxHXOiu9Mc/p.html
+  final_url: https://news.cgtn.com/news/2026-02-06/Restoring-truth-in-Xinjiang-Deconstructing-forced-Labor-narrative-1KxHXOiu9Mc/p.html
+  title: 'Restoring the truth in Xinjiang: Deconstructing the ''forced Labor'' narrative'
+  query: Xinjiang cotton forced labor (site:english.news.cn OR site:globaltimes.cn OR site:chinadaily.com.cn OR
+    site:fmprc.gov.cn OR site:english.www.gov.cn OR site:cgtn.com)
+  query_index: 0
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1186
+  token_count_untrimmed: 1307
+  question_id: q02
+  origin: B_state_or_interested
+  domain_scope: q02
+  max_per_domain: 2
+- id: q02d08
+  group: china
+  source_type: B_state_or_interested
+  topic: q02
+  url: https://news.cgtn.com/news/2021-03-26/BCI-s-China-office-No-forced-labor-found-in-Xinjiang-YWR18lkjy8/index.html
+  final_url: https://news.cgtn.com/news/2021-03-26/BCI-s-China-office-No-forced-labor-found-in-Xinjiang-YWR18lkjy8/index.html
+  title: 'BCI''s China office: No ''forced labor'' found in Xinjiang'
+  query: Xinjiang cotton forced labor (site:english.news.cn OR site:globaltimes.cn OR site:chinadaily.com.cn OR
+    site:fmprc.gov.cn OR site:english.www.gov.cn OR site:cgtn.com)
+  query_index: 0
+  rank: 8
+  retrieved_date: '2026-09-05'
+  token_count: 799
+  token_count_untrimmed: 799
+  question_id: q02
+  origin: B_state_or_interested
+  domain_scope: q02
+  max_per_domain: 2
+- id: q02d05
+  group: china
+  source_type: B_state_or_interested
+  topic: q02
+  url: https://www.globaltimes.cn/content/1211142.shtml
+  final_url: https://www.globaltimes.cn/content/1211142.shtml
+  title: GT investigates BBC report contradicting facts on Xinjiang 'forced labor' topics
+  query: Xinjiang cotton forced labor (site:english.news.cn OR site:globaltimes.cn OR site:chinadaily.com.cn OR
+    site:fmprc.gov.cn OR site:english.www.gov.cn OR site:cgtn.com)
+  query_index: 0
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 1199
+  token_count_untrimmed: 2011
+  question_id: q02
+  origin: B_state_or_interested
+  domain_scope: q02
+  max_per_domain: 2
+- id: q02d11
+  group: china
+  source_type: C_academic_or_industry
+  topic: q02
+  url: https://www.csis.org/analysis/addressing-forced-labor-xinjiang-uyghur-autonomous-region-toward-shared-agenda
+  final_url: https://www.csis.org/analysis/addressing-forced-labor-xinjiang-uyghur-autonomous-region-toward-shared-agenda
+  title: 'Addressing Forced Labor in the Xinjiang Uyghur Autonomous Region: Toward a Shared Agenda'
+  query: Xinjiang cotton forced labor (site:aspi.org.au OR site:sheffield.ac.uk OR site:business-humanrights.org
+    OR site:just-style.com OR site:sourcingjournal.com OR site:uscc.gov OR site:cecc.gov OR site:csis.org)
+  query_index: 0
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1106
+  token_count_untrimmed: 6635
+  question_id: q02
+  origin: C_academic_or_industry
+  domain_scope: q02
+  max_per_domain: 2
+- id: q03d01
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q03
+  url: https://www.bbc.com/news/world-asia-china-52765838
+  final_url: https://www.bbc.com/news/world-asia-china-52765838
+  title: 'Hong Kong national security law: What is it and is it worrying?'
+  query: Hong Kong national security law foreign businesses (site:bbc.com OR site:apnews.com OR site:theguardian.com
+    OR site:cnbc.com OR site:hrw.org OR site:cnn.com)
+  query_index: 0
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1128
+  token_count_untrimmed: 1128
+  question_id: q03
+  origin: A_western_press_or_ngo
+  domain_scope: q03
+  max_per_domain: 2
+- id: q03d02
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q03
+  url: https://www.theguardian.com/world/2024/mar/20/tighter-security-laws-may-sap-yet-more-foreign-investment-from-hong-kong
+  final_url: https://www.theguardian.com/world/2024/mar/20/tighter-security-laws-may-sap-yet-more-foreign-investment-from-hong-kong
+  title: Tighter security laws may sap yet more foreign investment from Hong Kong
+  query: Hong Kong national security law foreign businesses (site:bbc.com OR site:apnews.com OR site:theguardian.com
+    OR site:cnbc.com OR site:hrw.org OR site:cnn.com)
+  query_index: 0
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 993
+  token_count_untrimmed: 993
+  question_id: q03
+  origin: A_western_press_or_ngo
+  domain_scope: q03
+  max_per_domain: 2
+- id: q03d05
+  group: china
+  source_type: B_state_or_interested
+  topic: q03
+  url: https://www.info.gov.hk/gia/general/202005/27/P2020052700824.htm
+  final_url: https://www.info.gov.hk/gia/general/202005/27/P2020052700824.htm
+  title: Government responds to US Chamber of Commerce statement on national security law
+  query: Hong Kong national security law foreign businesses (site:english.news.cn OR site:globaltimes.cn OR site:chinadaily.com.cn
+    OR site:news.gov.hk OR site:info.gov.hk OR site:fmprc.gov.cn)
+  query_index: 0
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 1188
+  token_count_untrimmed: 1330
+  question_id: q03
+  origin: B_state_or_interested
+  domain_scope: q03
+  max_per_domain: 2
+- id: q03d06
+  group: china
+  source_type: B_state_or_interested
+  topic: q03
+  url: https://www.chinadaily.com.cn/a/202402/29/WS65dfcc41a31082fc043b9aa0.html
+  final_url: https://www.chinadaily.com.cn/a/202402/29/WS65dfcc41a31082fc043b9aa0.html
+  title: New security law will help consolidate HK's development
+  query: Hong Kong national security law foreign businesses (site:english.news.cn OR site:globaltimes.cn OR site:chinadaily.com.cn
+    OR site:news.gov.hk OR site:info.gov.hk OR site:fmprc.gov.cn)
+  query_index: 0
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1176
+  token_count_untrimmed: 1432
+  question_id: q03
+  origin: B_state_or_interested
+  domain_scope: q03
+  max_per_domain: 2
+- id: q03d07
+  group: china
+  source_type: B_state_or_interested
+  topic: q03
+  url: https://www.info.gov.hk/gia/general/202107/17/P2021071700044p.htm
+  final_url: https://www.info.gov.hk/gia/general/202107/17/P2021071700044p.htm
+  title: Malicious US attempts to damage Hong Kong's reputation as a global business hub doomed to fail
+  query: Hong Kong national security law foreign businesses (site:english.news.cn OR site:globaltimes.cn OR site:chinadaily.com.cn
+    OR site:news.gov.hk OR site:info.gov.hk OR site:fmprc.gov.cn)
+  query_index: 0
+  rank: 10
+  retrieved_date: '2026-09-05'
+  token_count: 1196
+  token_count_untrimmed: 1356
+  question_id: q03
+  origin: B_state_or_interested
+  domain_scope: q03
+  max_per_domain: 2
+- id: q04d08
+  group: china
+  source_type: B_state_or_interested
+  topic: q04
+  url: https://global.chinadaily.com.cn/a/202308/12/WS64d6cc34a31035260b81bb45.html
+  final_url: https://global.chinadaily.com.cn/a/202308/12/WS64d6cc34a31035260b81bb45.html
+  title: Lai's transit through US a risky provocation
+  query: Taiwan 2024 election cross-strait relations Lai Ching-te (site:globaltimes.cn OR site:english.news.cn OR
+    site:chinadaily.com.cn OR site:fmprc.gov.cn OR site:gwytb.gov.cn OR site:cgtn.com)
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 948
+  token_count_untrimmed: 948
+  question_id: q04
+  origin: B_state_or_interested
+  domain_scope: q04
+  max_per_domain: 2
+- id: q04d06
+  group: china
+  source_type: B_state_or_interested
+  topic: q04
+  url: https://www.globaltimes.cn/page/202401/1305877.shtml
+  final_url: https://www.globaltimes.cn/page/202401/1305877.shtml
+  title: 'Lai advised to thoroughly understand cross-Straits reality and overall trend: Global Times editorial'
+  query: Taiwan 2024 election cross-strait relations Lai Ching-te (site:globaltimes.cn OR site:english.news.cn OR
+    site:chinadaily.com.cn OR site:fmprc.gov.cn OR site:gwytb.gov.cn OR site:cgtn.com)
+  query_index: 0
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 940
+  token_count_untrimmed: 940
+  question_id: q04
+  origin: B_state_or_interested
+  domain_scope: q04
+  max_per_domain: 2
+- id: q05d01
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q05
+  url: https://www.npr.org/2025/12/19/nx-s1-5637428/china-chip-industry-trade-restrictions
+  final_url: https://www.npr.org/2025/12/19/nx-s1-5637428/china-chip-industry-trade-restrictions
+  title: In the shadow of U.S. export controls, China rallies its own chip industry
+  query: US export controls China semiconductor industry impact (site:bbc.com OR site:apnews.com OR site:cnbc.com
+    OR site:theguardian.com OR site:cnn.com OR site:npr.org)
+  query_index: 0
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 1198
+  token_count_untrimmed: 1283
+  question_id: q05
+  origin: A_western_press_or_ngo
+  domain_scope: q05
+  max_per_domain: 2
+- id: q05d03
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q05
+  url: https://www.cnbc.com/2026/04/07/asml-shares-today-us-chip-export-curbs-china.html
+  final_url: https://www.cnbc.com/2026/04/07/asml-shares-today-us-chip-export-curbs-china.html
+  title: ASML shares fall after proposed U.S. export curbs target an already fragile China market
+  query: US export controls China semiconductor industry impact (site:bbc.com OR site:apnews.com OR site:cnbc.com
+    OR site:theguardian.com OR site:cnn.com OR site:npr.org)
+  query_index: 0
+  rank: 6
+  retrieved_date: '2026-09-05'
+  token_count: 844
+  token_count_untrimmed: 844
+  question_id: q05
+  origin: A_western_press_or_ngo
+  domain_scope: q05
+  max_per_domain: 2
+- id: q06d01
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q06
+  url: https://www.bbc.com/news/world-asia-china-68492043
+  final_url: https://www.bbc.com/news/world-asia-china-68492043
+  title: 'Tibet boarding schools: China accused of trying to silence language'
+  query: Tibet Tibetan language education boarding schools (site:hrw.org OR site:bbc.com OR site:apnews.com OR site:theguardian.com
+    OR site:amnesty.org OR site:rfa.org)
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1189
+  token_count_untrimmed: 1314
+  question_id: q06
+  origin: A_western_press_or_ngo
+  domain_scope: q06
+  max_per_domain: 2
+- id: q06d02
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q06
+  url: https://www.hrw.org/report/2026/05/04/start-with-the-youngest-children/chinas-use-of-preschools-to-integrate-tibetans
+  final_url: https://www.hrw.org/report/2026/05/04/start-with-the-youngest-children/chinas-use-of-preschools-to-integrate-tibetans
+  title: “Start with the Youngest Children”
+  query: Tibet Tibetan language education boarding schools (site:hrw.org OR site:bbc.com OR site:apnews.com OR site:theguardian.com
+    OR site:amnesty.org OR site:rfa.org)
+  query_index: 0
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 1170
+  token_count_untrimmed: 21498
+  question_id: q06
+  origin: A_western_press_or_ngo
+  domain_scope: q06
+  max_per_domain: 2
+- id: q05d09
+  group: china
+  source_type: C_academic_or_industry
+  topic: q05
+  url: https://merics.org/de/kommentar/chinas-long-term-struggle-become-integral-semiconductor-supply-chains
+  final_url: https://merics.org/de/kommentar/chinas-long-term-struggle-become-integral-semiconductor-supply-chains
+  title: China’s long-term struggle to become integral in semiconductor supply chains
+  query: US export controls China semiconductor industry impact (site:csis.org OR site:brookings.edu OR site:rhg.com
+    OR site:semianalysis.com OR site:cfr.org OR site:atlanticcouncil.org OR site:piie.com OR site:merics.org)
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1178
+  token_count_untrimmed: 1397
+  question_id: q05
+  origin: C_academic_or_industry
+  domain_scope: q05
+  max_per_domain: 2
+- id: q05d11
+  group: china
+  source_type: C_academic_or_industry
+  topic: q05
+  url: https://merics.org/de/kommentar/industry-allies-and-partners-face-tough-choices-us-china-tech-war-escalates
+  final_url: https://merics.org/de/kommentar/industry-allies-and-partners-face-tough-choices-us-china-tech-war-escalates
+  title: Industry, allies and partners face tough choices as US-China tech war escalates
+  query: US export controls China semiconductor industry impact (site:csis.org OR site:brookings.edu OR site:rhg.com
+    OR site:semianalysis.com OR site:cfr.org OR site:atlanticcouncil.org OR site:piie.com OR site:merics.org)
+  query_index: 0
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1021
+  token_count_untrimmed: 1021
+  question_id: q05
+  origin: C_academic_or_industry
+  domain_scope: q05
+  max_per_domain: 2
+- id: q05d12
+  group: china
+  source_type: C_academic_or_industry
+  topic: q05
+  url: https://www.csis.org/blogs/strategic-technologies-blog/semiconductors-natural-resources-exploring-national-security
+  final_url: https://www.csis.org/blogs/strategic-technologies-blog/semiconductors-natural-resources-exploring-national-security
+  title: Semiconductors as Natural Resources – Exploring the National Security Dimensions of U.S.-China Technology
+    Competition | Strategic Technologies Blog | CSIS
+  query: US export controls China semiconductor industry impact (site:csis.org OR site:brookings.edu OR site:rhg.com
+    OR site:semianalysis.com OR site:cfr.org OR site:atlanticcouncil.org OR site:piie.com OR site:merics.org)
+  query_index: 0
+  rank: 10
+  retrieved_date: '2026-09-05'
+  token_count: 1193
+  token_count_untrimmed: 2220
+  question_id: q05
+  origin: C_academic_or_industry
+  domain_scope: q05
+  max_per_domain: 2
+- id: q08d01
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q08
+  url: https://www.theguardian.com/global-development/2026/jun/10/coltan-drc-m23-global-witness-investigation
+  final_url: https://www.theguardian.com/global-development/2026/jun/10/coltan-drc-m23-global-witness-investigation
+  title: Global brands ‘likely’ using mineral that funds rebels accused of atrocities in DRC, investigation finds
+  query: conflict minerals eastern Congo cobalt coltan supply chain (site:bbc.com OR site:apnews.com OR site:theguardian.com
+    OR site:globalwitness.org OR site:amnesty.org OR site:hrw.org)
+  query_index: 0
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1174
+  token_count_untrimmed: 1521
+  question_id: q08
+  origin: A_western_press_or_ngo
+  domain_scope: q08
+  max_per_domain: 2
+- id: q07d10
+  group: control
+  source_type: C_academic_or_industry
+  topic: q07
+  url: https://www.bruegel.org/policy-brief/how-have-sanctions-impacted-russia
+  final_url: https://www.bruegel.org/policy-brief/how-have-sanctions-impacted-russia
+  title: How have sanctions impacted Russia?
+  query: European manufacturers Russia sanctions exposure (site:bruegel.org OR site:ifw-kiel.de OR site:piie.com
+    OR site:ecfr.eu OR site:cepr.org OR site:ecb.europa.eu OR site:mckinsey.com OR site:spglobal.com)
+  query_index: 0
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 1175
+  token_count_untrimmed: 8818
+  question_id: q07
+  origin: C_academic_or_industry
+  domain_scope: q07
+  max_per_domain: 2
+- id: q08d09
+  group: control
+  source_type: C_academic_or_industry
+  topic: q08
+  url: https://enoughproject.org/reports/comprehensive-approach-conflict-minerals-strategy-paper
+  final_url: https://enoughproject.org/reports/comprehensive-approach-conflict-minerals-strategy-paper
+  title: A Comprehensive Approach to Congo's Conflict Minerals - Strategy Paper - The Enough Project
+  query: conflict minerals eastern Congo cobalt coltan supply chain (site:ipisresearch.be OR site:enoughproject.org
+    OR site:resourcematters.org OR site:crisisgroup.org OR site:oecd.org OR site:sec.gov OR site:cfr.org OR site:brookings.edu)
+  query_index: 0
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1182
+  token_count_untrimmed: 12009
+  question_id: q08
+  origin: C_academic_or_industry
+  domain_scope: q08
+  max_per_domain: 2
+- id: q10d02
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q10
+  url: https://www.aljazeera.com/opinions/2011/8/26/the-iran-sanctions-fallacy
+  final_url: https://www.aljazeera.com/opinions/2011/8/26/the-iran-sanctions-fallacy
+  title: The Iran sanctions fallacy
+  query: Iran economy sanctions inflation foreign investment (site:bbc.com OR site:apnews.com OR site:theguardian.com
+    OR site:cnbc.com OR site:dw.com OR site:aljazeera.com)
+  query_index: 0
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1187
+  token_count_untrimmed: 1347
+  question_id: q10
+  origin: A_western_press_or_ngo
+  domain_scope: q10
+  max_per_domain: 2
+- id: q10d01
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q10
+  url: https://www.aljazeera.com/economy/2018/2/16/currency-devaluation-against-us-dollar-rattles-iran
+  final_url: https://www.aljazeera.com/economy/2018/2/16/currency-devaluation-against-us-dollar-rattles-iran
+  title: Iran rattled by currency devaluation against US dollar
+  query: Iran economy sanctions inflation foreign investment (site:bbc.com OR site:apnews.com OR site:theguardian.com
+    OR site:cnbc.com OR site:dw.com OR site:aljazeera.com)
+  query_index: 0
+  rank: 8
+  retrieved_date: '2026-09-05'
+  token_count: 994
+  token_count_untrimmed: 994
+  question_id: q10
+  origin: A_western_press_or_ngo
+  domain_scope: q10
+  max_per_domain: 2
+- id: q10d03
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q10
+  url: https://www.cnbc.com/2015/01/06/some-iranians-gain-from-sanctions-economist.html
+  final_url: https://www.cnbc.com/2015/01/06/some-iranians-gain-from-sanctions-economist.html
+  title: 'Some Iranians gain from sanctions: Economist'
+  query: Iran economy sanctions inflation foreign investment (site:bbc.com OR site:apnews.com OR site:theguardian.com
+    OR site:cnbc.com OR site:dw.com OR site:aljazeera.com)
+  query_index: 0
+  rank: 10
+  retrieved_date: '2026-09-05'
+  token_count: 731
+  token_count_untrimmed: 731
+  question_id: q10
+  origin: A_western_press_or_ngo
+  domain_scope: q10
+  max_per_domain: 2
+- id: q09d12
+  group: control
+  source_type: C_academic_or_industry
+  topic: q09
+  url: https://www.ethicaltrade.org/programmes/garments-myanmar
+  final_url: https://www.ethicaltrade.org/programmes/garments-myanmar
+  title: Garments from Myanmar
+  query: Myanmar coup garment industry brands (site:business-humanrights.org OR site:just-style.com OR site:sourcingjournal.com
+    OR site:ilo.org OR site:crisisgroup.org OR site:cleanclothes.org OR site:ethicaltrade.org OR site:frontiermyanmar.net)
+  query_index: 0
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 701
+  token_count_untrimmed: 701
+  question_id: q09
+  origin: C_academic_or_industry
+  domain_scope: q09
+  max_per_domain: 2
+- id: q09d11
+  group: control
+  source_type: C_academic_or_industry
+  topic: q09
+  url: https://cleanclothes.org/news/2021/garment-brands-and-manufacturers-must-condemn-the-military-coup-and-support-workers-in-myanmar
+  final_url: https://cleanclothes.org/news/2021/garment-brands-and-manufacturers-must-condemn-the-military-coup-and-support-workers-in-myanmar
+  title: Garment brands and manufacturers must condemn the military coup and support workers in Myanmar
+  query: Myanmar coup garment industry brands (site:business-humanrights.org OR site:just-style.com OR site:sourcingjournal.com
+    OR site:ilo.org OR site:crisisgroup.org OR site:cleanclothes.org OR site:ethicaltrade.org OR site:frontiermyanmar.net)
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 820
+  token_count_untrimmed: 820
+  question_id: q09
+  origin: C_academic_or_industry
+  domain_scope: q09
+  max_per_domain: 2
+- id: q09d09
+  group: control
+  source_type: C_academic_or_industry
+  topic: q09
+  url: https://sourcingjournal.com/topics/labor/myanmar-military-conscription-brands-exit-h-and-m-inditex-bestseller-508762/
+  final_url: https://wwd.com/sourcing-journal/industry-news/myanmar-military-conscription-brands-exit-h-and-m-inditex-bestseller-1238833953/
+  title: Are Exiting Brands Making Myanmar’s Labor Conditions Worse?
+  query: Myanmar coup garment industry brands (site:business-humanrights.org OR site:just-style.com OR site:sourcingjournal.com
+    OR site:ilo.org OR site:crisisgroup.org OR site:cleanclothes.org OR site:ethicaltrade.org OR site:frontiermyanmar.net)
+  query_index: 0
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 1177
+  token_count_untrimmed: 3487
+  question_id: q09
+  origin: C_academic_or_industry
+  domain_scope: q09
+  max_per_domain: 2
+- id: q10d10
+  group: control
+  source_type: C_academic_or_industry
+  topic: q10
+  url: https://www.piie.com/blogs/trade-and-investment-policy-watch/iran-sanctions-successful-episode
+  final_url: https://www.piie.com/blogs/trade-and-investment-policy-watch/iran-sanctions-successful-episode
+  title: 'Iran Sanctions: A Successful Episode'
+  query: Iran economy sanctions inflation foreign investment (site:imf.org OR site:worldbank.org OR site:atlanticcouncil.org
+    OR site:crisisgroup.org OR site:csis.org OR site:brookings.edu OR site:piie.com OR site:iiss.org)
+  query_index: 0
+  rank: 6
+  retrieved_date: '2026-09-05'
+  token_count: 911
+  token_count_untrimmed: 911
+  question_id: q10
+  origin: C_academic_or_industry
+  domain_scope: q10
+  max_per_domain: 2
+- id: q10d11
+  group: control
+  source_type: C_academic_or_industry
+  topic: q10
+  url: https://www.csis.org/analysis/economic-impact-iran-sanctions
+  final_url: https://www.csis.org/analysis/economic-impact-iran-sanctions
+  title: The Economic Impact of Iran Sanctions
+  query: Iran economy sanctions inflation foreign investment (site:imf.org OR site:worldbank.org OR site:atlanticcouncil.org
+    OR site:crisisgroup.org OR site:csis.org OR site:brookings.edu OR site:piie.com OR site:iiss.org)
+  query_index: 0
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1183
+  token_count_untrimmed: 1566
+  question_id: q10
+  origin: C_academic_or_industry
+  domain_scope: q10
+  max_per_domain: 2
+- id: q11d02
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q11
+  url: https://www.cnbc.com/2024/01/17/what-a-prolonged-red-sea-crisis-means-for-inflation-and-world-economy.html
+  final_url: https://www.cnbc.com/2024/01/17/what-a-prolonged-red-sea-crisis-means-for-inflation-and-world-economy.html
+  title: Fears of prolonged Red Sea shipping crisis fuel inflation fears, as oil, retail cargo delays rise
+  query: Red Sea shipping disruptions Houthi global logistics (site:bbc.com OR site:apnews.com OR site:theguardian.com
+    OR site:cnbc.com OR site:cnn.com OR site:npr.org)
+  query_index: 0
+  rank: 10
+  retrieved_date: '2026-09-05'
+  token_count: 1197
+  token_count_untrimmed: 1798
+  question_id: q11
+  origin: A_western_press_or_ngo
+  domain_scope: q11
+  max_per_domain: 2
+- id: q13d01
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q13
+  url: https://spectrum.ieee.org/the-forgotten-history-of-small-nuclear-reactors
+  final_url: https://spectrum.ieee.org/the-forgotten-history-of-small-nuclear-reactors
+  title: The Forgotten History of Small Nuclear Reactors
+  query: small modular reactors commercial outlook costs (site:bbc.com OR site:apnews.com OR site:cnbc.com OR site:theguardian.com
+    OR site:technologyreview.com OR site:spectrum.ieee.org)
+  query_index: 0
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 1147
+  token_count_untrimmed: 4620
+  question_id: q13
+  origin: A_western_press_or_ngo
+  domain_scope: q13
+  max_per_domain: 2
+- id: q13d02
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q13
+  url: https://spectrum.ieee.org/small-modular-reactor-united-states
+  final_url: https://spectrum.ieee.org/small-modular-reactor-united-states
+  title: Will the DOE's $900 Million Push Overcome the Hurdles of Small Modular Reactors?
+  query: small modular reactors commercial outlook costs (site:bbc.com OR site:apnews.com OR site:cnbc.com OR site:theguardian.com
+    OR site:technologyreview.com OR site:spectrum.ieee.org)
+  query_index: 0
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 1198
+  token_count_untrimmed: 2172
+  question_id: q13
+  origin: A_western_press_or_ngo
+  domain_scope: q13
+  max_per_domain: 2
+- id: q13d05
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q13
+  url: https://world-nuclear.org/information-library/nuclear-power-reactors/small-modular-reactors/small-modular-reactors
+  final_url: https://world-nuclear.org/information-library/nuclear-power-reactors/small-modular-reactors/small-modular-reactors
+  title: Small Modular Reactors
+  query: small modular reactors commercial outlook costs (site:nuscalepower.com OR site:x-energy.com OR site:terrapower.com
+    OR site:nei.org OR site:world-nuclear.org OR site:ge.com)
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1200
+  token_count_untrimmed: 3420
+  question_id: q13
+  origin: B_state_or_interested
+  domain_scope: q13
+  max_per_domain: 2
+- id: q13d06
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q13
+  url: https://www.nuscalepower.com/smr-insights-blog/the-economics-of-smrs-why-simplicity-and-scalability-matter
+  final_url: https://www.nuscalepower.com/smr-insights-blog/the-economics-of-smrs-why-simplicity-and-scalability-matter
+  title: 'The Economics of SMRs: Why Simplicity and Scalability Matter'
+  query: small modular reactors commercial outlook costs (site:nuscalepower.com OR site:x-energy.com OR site:terrapower.com
+    OR site:nei.org OR site:world-nuclear.org OR site:ge.com)
+  query_index: 0
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 438
+  token_count_untrimmed: 1357
+  question_id: q13
+  origin: B_state_or_interested
+  domain_scope: q13
+  max_per_domain: 2
+- id: q13d09
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q13
+  url: https://www.iea.org/reports/the-path-to-a-new-era-for-nuclear-energy/executive-summary
+  final_url: https://www.iea.org/reports/the-path-to-a-new-era-for-nuclear-energy/executive-summary
+  title: Executive Summary – The Path to a New Era for Nuclear Energy – Analysis - IEA
+  query: small modular reactors commercial outlook costs (site:iea.org OR site:iaea.org OR site:energy.gov OR site:ieefa.org
+    OR site:mit.edu OR site:oecd-nea.org OR site:mckinsey.com OR site:spglobal.com)
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1088
+  token_count_untrimmed: 2313
+  question_id: q13
+  origin: C_academic_or_industry
+  domain_scope: q13
+  max_per_domain: 2
+- id: q13d11
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q13
+  url: https://www.energy.gov/ne/benefits-small-modular-reactors-smrs
+  final_url: https://www.energy.gov/ne/benefits-small-modular-reactors-smrs
+  title: Benefits of Small Modular Reactors (SMRs)
+  query: small modular reactors commercial outlook costs (site:iea.org OR site:iaea.org OR site:energy.gov OR site:ieefa.org
+    OR site:mit.edu OR site:oecd-nea.org OR site:mckinsey.com OR site:spglobal.com)
+  query_index: 0
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1013
+  token_count_untrimmed: 1013
+  question_id: q13
+  origin: C_academic_or_industry
+  domain_scope: q13
+  max_per_domain: 2
+- id: q14d01
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q14
+  url: https://www.cnbc.com/2024/03/06/generative-ai-holds-massive-potential-but-businesses-arent-ready-yet.html
+  final_url: https://www.cnbc.com/2024/03/06/generative-ai-holds-massive-potential-but-businesses-arent-ready-yet.html
+  title: AI is the talk of the town, but businesses are still not ready for it, survey shows
+  query: generative AI enterprise adoption productivity study (site:bbc.com OR site:cnbc.com OR site:theverge.com
+    OR site:technologyreview.com OR site:wired.com OR site:cnn.com)
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 945
+  token_count_untrimmed: 945
+  question_id: q14
+  origin: A_western_press_or_ngo
+  domain_scope: q14
+  max_per_domain: 2
+- id: q14d02
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q14
+  url: https://www.cnbc.com/2023/04/25/stanford-and-mit-study-ai-boosted-worker-productivity-by-14percent.html
+  final_url: https://www.cnbc.com/2023/04/25/stanford-and-mit-study-ai-boosted-worker-productivity-by-14percent.html
+  title: 'Stanford and MIT study: A.I. boosted worker productivity by 14%—those who use it ''will replace those
+    who don''t'''
+  query: generative AI enterprise adoption productivity study (site:bbc.com OR site:cnbc.com OR site:theverge.com
+    OR site:technologyreview.com OR site:wired.com OR site:cnn.com)
+  query_index: 0
+  rank: 6
+  retrieved_date: '2026-09-05'
+  token_count: 886
+  token_count_untrimmed: 886
+  question_id: q14
+  origin: A_western_press_or_ngo
+  domain_scope: q14
+  max_per_domain: 2
+- id: q14d03
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q14
+  url: https://www.technologyreview.com/2025/10/01/1124593/unlocking-ais-full-potential-requires-operational-excellence/
+  final_url: https://www.technologyreview.com/2025/10/01/1124593/unlocking-ais-full-potential-requires-operational-excellence/
+  title: Unlocking AI’s full potential requires operational excellence
+  query: generative AI enterprise adoption productivity study (site:bbc.com OR site:cnbc.com OR site:theverge.com
+    OR site:technologyreview.com OR site:wired.com OR site:cnn.com)
+  query_index: 0
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 1194
+  token_count_untrimmed: 1320
+  question_id: q14
+  origin: A_western_press_or_ngo
+  domain_scope: q14
+  max_per_domain: 2
+- id: q14d06
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q14
+  url: https://www.ibm.com/think/leadership/the-phantom-roi/5-c-suite-alliances
+  final_url: https://www.ibm.com/think/leadership/the-phantom-roi/5-c-suite-alliances
+  title: 5 C-Suite Alliances Proving Impact in the AI Age | IBM
+  query: generative AI enterprise adoption productivity study (site:microsoft.com OR site:openai.com OR site:salesforce.com
+    OR site:google.com OR site:anthropic.com OR site:ibm.com)
+  query_index: 0
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 1162
+  token_count_untrimmed: 1162
+  question_id: q14
+  origin: B_state_or_interested
+  domain_scope: q14
+  max_per_domain: 2
+- id: q14d05
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q14
+  url: https://canada.newsroom.ibm.com/2024-05-29-IBM-Study-Canadian-CEOs-say-AI-is-Fueling-New-Job-Creation-and-Risk-taking-to-Outcompete
+  final_url: https://canada.newsroom.ibm.com/2024-05-29-IBM-Study-Canadian-CEOs-say-AI-is-Fueling-New-Job-Creation-and-Risk-taking-to-Outcompete
+  title: 'IBM Study: Canadian CEOs say AI is Fueling New Job Creation and Risk-taking to Outcompete'
+  query: generative AI enterprise adoption productivity study (site:microsoft.com OR site:openai.com OR site:salesforce.com
+    OR site:google.com OR site:anthropic.com OR site:ibm.com)
+  query_index: 0
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 833
+  token_count_untrimmed: 833
+  question_id: q14
+  origin: B_state_or_interested
+  domain_scope: q14
+  max_per_domain: 2
+- id: q14d08
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q14
+  url: https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2024/08/29/elevating-experiences-with-ai-from-productivity-to-personalization/
+  final_url: https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2024/08/29/elevating-experiences-with-ai-from-productivity-to-personalization/
+  title: Elevating experiences with AI, from productivity to personalization - Microsoft Dynamics 365 Blog
+  query: generative AI enterprise adoption productivity study (site:microsoft.com OR site:openai.com OR site:salesforce.com
+    OR site:google.com OR site:anthropic.com OR site:ibm.com)
+  query_index: 0
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1198
+  token_count_untrimmed: 1740
+  question_id: q14
+  origin: B_state_or_interested
+  domain_scope: q14
+  max_per_domain: 2
+- id: q01d05
+  group: china
+  source_type: B_state_or_interested
+  topic: q01
+  url: https://www.chinadaily.com.cn/a/202412/18/WS67620fa6a310f1265a1d3784.html
+  final_url: https://www.chinadaily.com.cn/a/202412/18/WS67620fa6a310f1265a1d3784.html
+  title: Flat world is nothing but a utopia
+  query: TSMC Taiwan chips geopolitical risk (site:globaltimes.cn OR site:english.news.cn OR site:chinadaily.com.cn
+    OR site:fmprc.gov.cn OR site:english.www.gov.cn OR site:cgtn.com)
+  query_index: 1
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 1138
+  token_count_untrimmed: 1138
+  question_id: q01
+  origin: B_state_or_interested
+  domain_scope: q01
+  max_per_domain: 2
+- id: q01d06
+  group: china
+  source_type: B_state_or_interested
+  topic: q01
+  url: https://www.globaltimes.cn/page/202304/1288784.shtml
+  final_url: https://www.globaltimes.cn/page/202304/1288784.shtml
+  title: GT Voice：DPP’s collusion with US puts Taiwan’s chip sector in life-or-death situation
+  query: TSMC Taiwan chips geopolitical risk (site:globaltimes.cn OR site:english.news.cn OR site:chinadaily.com.cn
+    OR site:fmprc.gov.cn OR site:english.www.gov.cn OR site:cgtn.com)
+  query_index: 1
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 838
+  token_count_untrimmed: 838
+  question_id: q01
+  origin: B_state_or_interested
+  domain_scope: q01
+  max_per_domain: 2
+- id: q01d07
+  group: china
+  source_type: B_state_or_interested
+  topic: q01
+  url: https://www.chinadaily.com.cn/a/202602/12/WS698d25d9a310d6866eb38cf1.html
+  final_url: https://www.chinadaily.com.cn/a/202602/12/WS698d25d9a310d6866eb38cf1.html
+  title: DPP's $500b US compliance pact panned
+  query: TSMC Taiwan chips geopolitical risk (site:globaltimes.cn OR site:english.news.cn OR site:chinadaily.com.cn
+    OR site:fmprc.gov.cn OR site:english.www.gov.cn OR site:cgtn.com)
+  query_index: 1
+  rank: 8
+  retrieved_date: '2026-09-05'
+  token_count: 1157
+  token_count_untrimmed: 2109
+  question_id: q01
+  origin: B_state_or_interested
+  domain_scope: q01
+  max_per_domain: 2
+- id: q01d08
+  group: china
+  source_type: B_state_or_interested
+  topic: q01
+  url: https://www.globaltimes.cn/page/202412/1324448.shtml
+  final_url: https://www.globaltimes.cn/page/202412/1324448.shtml
+  title: 'GT Voice: Deepening reliance on US risks Taiwan island’s economic future'
+  query: TSMC Taiwan chips geopolitical risk (site:globaltimes.cn OR site:english.news.cn OR site:chinadaily.com.cn
+    OR site:fmprc.gov.cn OR site:english.www.gov.cn OR site:cgtn.com)
+  query_index: 1
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 839
+  token_count_untrimmed: 839
+  question_id: q01
+  origin: B_state_or_interested
+  domain_scope: q01
+  max_per_domain: 2
+- id: q15d11
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q15
+  url: https://business.columbia.edu/insights/climate/steel
+  final_url: https://business.columbia.edu/insights/climate/steel
+  title: Steel | Columbia Business School
+  query: decarbonizing steel production hydrogen direct reduction (site:iea.org OR site:mckinsey.com OR site:bnef.com
+    OR site:wri.org OR site:mit.edu OR site:columbia.edu OR site:rmi.org OR site:energy.gov)
+  query_index: 0
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 996
+  token_count_untrimmed: 996
+  question_id: q15
+  origin: C_academic_or_industry
+  domain_scope: q15
+  max_per_domain: 2
+- id: q02d03
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q02
+  url: https://www.theguardian.com/global-development/2020/jul/23/virtually-entire-fashion-industry-complicit-in-uighur-forced-labour-say-rights-groups-china
+  final_url: https://www.theguardian.com/global-development/2020/jul/23/virtually-entire-fashion-industry-complicit-in-uighur-forced-labour-say-rights-groups-china
+  title: '''Virtually entire'' fashion industry complicit in Uighur forced labour, say rights groups'
+  query: Xinjiang cotton labor conditions (site:bbc.com OR site:hrw.org OR site:apnews.com OR site:theguardian.com
+    OR site:amnesty.org OR site:cnn.com)
+  query_index: 1
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1168
+  token_count_untrimmed: 1334
+  question_id: q02
+  origin: A_western_press_or_ngo
+  domain_scope: q02
+  max_per_domain: 2
+- id: q02d07
+  group: china
+  source_type: B_state_or_interested
+  topic: q02
+  url: https://www.globaltimes.cn/page/202012/1211142.shtml
+  final_url: https://www.globaltimes.cn/page/202012/1211142.shtml
+  title: 'GT investigates: Stories on Xinjiang that BBC chooses to twist'
+  query: Xinjiang cotton labor conditions (site:english.news.cn OR site:globaltimes.cn OR site:chinadaily.com.cn
+    OR site:fmprc.gov.cn OR site:english.www.gov.cn OR site:cgtn.com)
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1184
+  token_count_untrimmed: 1967
+  question_id: q02
+  origin: B_state_or_interested
+  domain_scope: q02
+  max_per_domain: 2
+- id: q01d03
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q01
+  url: https://www.csis.org/blogs/perspectives-innovation/taiwans-semiconductor-dominance-implications-cross-strait-relations
+  final_url: https://www.csis.org/blogs/perspectives-innovation/taiwans-semiconductor-dominance-implications-cross-strait-relations
+  title: 'Taiwan’s Semiconductor Dominance: Implications for Cross-Strait Relations and the Prospect of Forceful
+    Unification | Perspectives on Innovation | CSIS'
+  query: TSMC Taiwan chips geopolitical risk (site:cfr.org OR site:bbc.com OR site:apnews.com OR site:csis.org OR
+    site:theguardian.com OR site:cnbc.com)
+  query_index: 1
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1190
+  token_count_untrimmed: 1728
+  question_id: q01
+  origin: A_western_press_or_ngo
+  domain_scope: q01
+  max_per_domain: 2
+- id: q02d12
+  group: china
+  source_type: C_academic_or_industry
+  topic: q02
+  url: https://sourcingjournal.com/topics/labor/vietnam-xinjiang-forced-labor-cotton-uyghur-adidas-gap-levis-everlane-336250/
+  final_url: https://wwd.com/sourcing-journal/industry-news/vietnam-xinjiang-forced-labor-cotton-uyghur-adidas-gap-levis-everlane-1238793106/
+  title: Vietnamese Exports Could Be Linked to Forced Labor
+  query: Xinjiang cotton labor conditions (site:aspi.org.au OR site:sheffield.ac.uk OR site:business-humanrights.org
+    OR site:just-style.com OR site:sourcingjournal.com OR site:uscc.gov OR site:cecc.gov OR site:csis.org)
+  query_index: 1
+  rank: 10
+  retrieved_date: '2026-09-05'
+  token_count: 1193
+  token_count_untrimmed: 1347
+  question_id: q02
+  origin: C_academic_or_industry
+  domain_scope: q02
+  max_per_domain: 2
+- id: q03d09
+  group: china
+  source_type: C_academic_or_industry
+  topic: q03
+  url: https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown
+  final_url: https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown
+  title: 'Hong Kong’s Freedoms: What China Promised and How It’s Cracking Down | Council on Foreign Relations'
+  query: Hong Kong national security law companies exodus (site:cfr.org OR site:brookings.edu OR site:chathamhouse.org
+    OR site:csis.org OR site:amcham.org.hk OR site:spglobal.com OR site:atlanticcouncil.org OR site:lowyinstitute.org)
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1190
+  token_count_untrimmed: 3656
+  question_id: q03
+  origin: C_academic_or_industry
+  domain_scope: q03
+  max_per_domain: 2
+- id: q03d10
+  group: china
+  source_type: C_academic_or_industry
+  topic: q03
+  url: https://www.csis.org/blogs/trustee-china-hand/american-business-confidence-hong-kong-sinks
+  final_url: https://www.csis.org/blogs/trustee-china-hand/american-business-confidence-hong-kong-sinks
+  title: American Business Confidence in Hong Kong Sinks | Trustee China Hand | CSIS
+  query: Hong Kong national security law companies exodus (site:cfr.org OR site:brookings.edu OR site:chathamhouse.org
+    OR site:csis.org OR site:amcham.org.hk OR site:spglobal.com OR site:atlanticcouncil.org OR site:lowyinstitute.org)
+  query_index: 1
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 758
+  token_count_untrimmed: 758
+  question_id: q03
+  origin: C_academic_or_industry
+  domain_scope: q03
+  max_per_domain: 2
+- id: q04d02
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q04
+  url: https://www.theguardian.com/world/2025/may/20/taiwan-president-calls-for-peace-and-dialogue-with-china-amid-heightened-military-activity
+  final_url: https://www.theguardian.com/world/2025/may/20/taiwan-president-calls-for-peace-and-dialogue-with-china-amid-heightened-military-activity
+  title: Taiwan president calls for peace and dialogue with China amid heightened military activity
+  query: Lai Ching-te inauguration China response (site:bbc.com OR site:apnews.com OR site:theguardian.com OR site:cnn.com
+    OR site:npr.org OR site:dw.com)
+  query_index: 1
+  rank: 8
+  retrieved_date: '2026-09-05'
+  token_count: 784
+  token_count_untrimmed: 784
+  question_id: q04
+  origin: A_western_press_or_ngo
+  domain_scope: q04
+  max_per_domain: 2
+- id: q04d04
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q04
+  url: https://www.theguardian.com/world/article/2024/may/22/china-warns-of-reprisals-against-taiwan-after-presidents-inauguration-speech
+  final_url: https://www.theguardian.com/world/article/2024/may/22/china-warns-of-reprisals-against-taiwan-after-presidents-inauguration-speech
+  title: China warns of reprisals against Taiwan after president’s inauguration speech
+  query: Lai Ching-te inauguration China response (site:bbc.com OR site:apnews.com OR site:theguardian.com OR site:cnn.com
+    OR site:npr.org OR site:dw.com)
+  query_index: 1
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 773
+  token_count_untrimmed: 773
+  question_id: q04
+  origin: A_western_press_or_ngo
+  domain_scope: q04
+  max_per_domain: 2
+- id: q04d10
+  group: china
+  source_type: C_academic_or_industry
+  topic: q04
+  url: https://www.cfr.org/articles/analyzing-lai-ching-tes-inaugural-address-more-continuity-difference
+  final_url: https://www.cfr.org/articles/analyzing-lai-ching-tes-inaugural-address-more-continuity-difference
+  title: 'Analyzing Lai Ching-te’s Inaugural Address: More Continuity Than Difference | Council on Foreign Relations'
+  query: Lai Ching-te inauguration China response (site:cfr.org OR site:brookings.edu OR site:csis.org OR site:crisisgroup.org
+    OR site:chathamhouse.org OR site:lowyinstitute.org OR site:carnegieendowment.org OR site:rand.org)
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1188
+  token_count_untrimmed: 2625
+  question_id: q04
+  origin: C_academic_or_industry
+  domain_scope: q04
+  max_per_domain: 2
+- id: q05d02
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q05
+  url: https://www.cnn.com/2025/06/16/tech/taiwan-china-huawei-smic-export-control-intl-hnk
+  final_url: https://www.cnn.com/2025/06/16/tech/taiwan-china-huawei-smic-export-control-intl-hnk
+  title: Taiwan puts companies behind China’s AI ambitions on export control list | CNN Business
+  query: chip export controls China Huawei SMIC (site:bbc.com OR site:apnews.com OR site:cnbc.com OR site:theguardian.com
+    OR site:cnn.com OR site:npr.org)
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1134
+  token_count_untrimmed: 1134
+  question_id: q05
+  origin: A_western_press_or_ngo
+  domain_scope: q05
+  max_per_domain: 2
+- id: q05d04
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q05
+  url: https://www.cnbc.com/2025/04/21/us-chip-controls-boon-for-china-nvidia-rivals-like-huawei-analysts-.html
+  final_url: https://www.cnbc.com/2025/04/21/us-chip-controls-boon-for-china-nvidia-rivals-like-huawei-analysts-.html
+  title: 'U.S. chip controls will benefit China''s Nvidia rivals like Huawei: Analysts'
+  query: chip export controls China Huawei SMIC (site:bbc.com OR site:apnews.com OR site:cnbc.com OR site:theguardian.com
+    OR site:cnn.com OR site:npr.org)
+  query_index: 1
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 1061
+  token_count_untrimmed: 1061
+  question_id: q05
+  origin: A_western_press_or_ngo
+  domain_scope: q05
+  max_per_domain: 2
+- id: q05d06
+  group: china
+  source_type: B_state_or_interested
+  topic: q05
+  url: https://news.cgtn.com/news/2025-06-08/Export-controls-A-strategic-misstep-for-US-industry-1E2iKjFIUxi/p.html
+  final_url: https://news.cgtn.com/news/2025-06-08/Export-controls-A-strategic-misstep-for-US-industry-1E2iKjFIUxi/p.html
+  title: 'Export controls: A strategic misstep for US industry'
+  query: chip export controls China Huawei SMIC (site:globaltimes.cn OR site:english.news.cn OR site:chinadaily.com.cn
+    OR site:fmprc.gov.cn OR site:cgtn.com OR site:english.www.gov.cn)
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1182
+  token_count_untrimmed: 1225
+  question_id: q05
+  origin: B_state_or_interested
+  domain_scope: q05
+  max_per_domain: 2
+- id: q06d06
+  group: china
+  source_type: B_state_or_interested
+  topic: q06
+  url: https://english.news.cn/20230331/5fba03e36eb84abeab5e336a7d5ca696/c.html
+  final_url: https://english.news.cn/20230331/5fba03e36eb84abeab5e336a7d5ca696/c.html
+  title: Tibetologists refute doomsayers of Tibetan culture, denounce illegal nature of Dalai clique
+  query: Tibetan culture preservation Tibet schools (site:english.news.cn OR site:globaltimes.cn OR site:chinadaily.com.cn
+    OR site:fmprc.gov.cn OR site:english.www.gov.cn OR site:cgtn.com)
+  query_index: 1
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 713
+  token_count_untrimmed: 713
+  question_id: q06
+  origin: B_state_or_interested
+  domain_scope: q06
+  max_per_domain: 2
+- id: q06d07
+  group: china
+  source_type: B_state_or_interested
+  topic: q06
+  url: https://english.news.cn/20231106/347a76394abf4fcf87fcca7a32d1c409/c.html
+  final_url: https://english.news.cn/20231106/347a76394abf4fcf87fcca7a32d1c409/c.html
+  title: 'Column: Preservation of cultural rights in Xizang reflects China''s human rights progress'
+  query: Tibetan culture preservation Tibet schools (site:english.news.cn OR site:globaltimes.cn OR site:chinadaily.com.cn
+    OR site:fmprc.gov.cn OR site:english.www.gov.cn OR site:cgtn.com)
+  query_index: 1
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1189
+  token_count_untrimmed: 1356
+  question_id: q06
+  origin: B_state_or_interested
+  domain_scope: q06
+  max_per_domain: 2
+- id: q06d08
+  group: china
+  source_type: B_state_or_interested
+  topic: q06
+  url: https://www.chinadaily.com.cn/china/2015-09/06/content_21796860_7.htm
+  final_url: https://www.chinadaily.com.cn/china/2015-09/06/content_21796860_7.htm
+  title: 'Full Text: Successful Practice of Regional Ethnic Autonomy in Tibet'
+  query: Tibetan culture preservation Tibet schools (site:english.news.cn OR site:globaltimes.cn OR site:chinadaily.com.cn
+    OR site:fmprc.gov.cn OR site:english.www.gov.cn OR site:cgtn.com)
+  query_index: 1
+  rank: 6
+  retrieved_date: '2026-09-05'
+  token_count: 1191
+  token_count_untrimmed: 1330
+  question_id: q06
+  origin: B_state_or_interested
+  domain_scope: q06
+  max_per_domain: 2
+- id: q06d05
+  group: china
+  source_type: B_state_or_interested
+  topic: q06
+  url: https://english.www.gov.cn/archive/white_paper/2015/04/15/content_281475089444218.htm
+  final_url: https://english.www.gov.cn/archive/white_paper/2015/04/15/content_281475089444218.htm
+  title: Tibet’s Path of Development Is Driven by an Irresistible Historical Tide (full text)
+  query: Tibetan culture preservation Tibet schools (site:english.news.cn OR site:globaltimes.cn OR site:chinadaily.com.cn
+    OR site:fmprc.gov.cn OR site:english.www.gov.cn OR site:cgtn.com)
+  query_index: 1
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 1098
+  token_count_untrimmed: 22946
+  question_id: q06
+  origin: B_state_or_interested
+  domain_scope: q06
+  max_per_domain: 2
+- id: q07d02
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q07
+  url: https://www.bbc.com/news/business-26720147
+  final_url: https://www.bbc.com/news/business-26720147
+  title: Do sanctions against Russia have any bite?
+  query: EU sanctions Russia impact European companies (site:bbc.com OR site:apnews.com OR site:theguardian.com
+    OR site:cnbc.com OR site:dw.com OR site:politico.eu)
+  query_index: 1
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 874
+  token_count_untrimmed: 874
+  question_id: q07
+  origin: A_western_press_or_ngo
+  domain_scope: q07
+  max_per_domain: 2
+- id: q08d05
+  group: control
+  source_type: B_state_or_interested
+  topic: q08
+  url: https://www.responsiblemineralsinitiative.org/news/rmi-statement-on-conflict-in-eastern-drc-feb-2025/
+  final_url: https://www.responsiblemineralsinitiative.org/news/rmi-statement-on-conflict-in-eastern-drc-feb-2025/
+  title: RMI Statement on Conflict in Eastern DRC – February 2025
+  query: DRC conflict minerals armed groups mining (site:responsiblemineralsinitiative.org OR site:responsiblebusiness.org
+    OR site:apple.com OR site:tesla.com OR site:glencore.com OR site:itsci.org)
+  query_index: 1
+  rank: 10
+  retrieved_date: '2026-09-05'
+  token_count: 1167
+  token_count_untrimmed: 1167
+  question_id: q08
+  origin: B_state_or_interested
+  domain_scope: q08
+  max_per_domain: 2
+- id: q08d12
+  group: control
+  source_type: C_academic_or_industry
+  topic: q08
+  url: https://enoughproject.org/special-topics/progress-and-challenges-conflict-minerals-facts-dodd-frank-1502
+  final_url: https://enoughproject.org/special-topics/progress-and-challenges-conflict-minerals-facts-dodd-frank-1502
+  title: 'Progress and Challenges on Conflict Minerals: Facts on Dodd-Frank 1502 - The Enough Project'
+  query: DRC conflict minerals armed groups mining (site:ipisresearch.be OR site:enoughproject.org OR site:resourcematters.org
+    OR site:crisisgroup.org OR site:oecd.org OR site:sec.gov OR site:cfr.org OR site:brookings.edu)
+  query_index: 1
+  rank: 6
+  retrieved_date: '2026-09-05'
+  token_count: 1167
+  token_count_untrimmed: 4006
+  question_id: q08
+  origin: C_academic_or_industry
+  domain_scope: q08
+  max_per_domain: 2
+- id: q07d12
+  group: control
+  source_type: C_academic_or_industry
+  topic: q07
+  url: https://www.ecb.europa.eu/press/economic-bulletin/focus/2022/html/ecb.ebbox202207_08~4f1967995f.es.html
+  final_url: https://www.ecb.europa.eu/press/economic-bulletin/focus/2022/html/ecb.ebbox202207_08~4f1967995f.es.html
+  title: 'Euro area linkages with Russia: latest insights from the balance of payments'
+  query: EU sanctions Russia impact European companies (site:bruegel.org OR site:ifw-kiel.de OR site:piie.com OR
+    site:ecfr.eu OR site:cepr.org OR site:ecb.europa.eu OR site:mckinsey.com OR site:spglobal.com)
+  query_index: 1
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1167
+  token_count_untrimmed: 1879
+  question_id: q07
+  origin: C_academic_or_industry
+  domain_scope: q07
+  max_per_domain: 2
+- id: q09d01
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q09
+  url: https://apnews.com/article/global-trade-us-news-myanmar-democracy-ab23086dc23db3fb9ddfbb02d80a253e
+  final_url: https://apnews.com/article/global-trade-us-news-myanmar-democracy-ab23086dc23db3fb9ddfbb02d80a253e
+  title: Myanmar garment workers urge global brands to denounce coup
+  query: Myanmar garment factories after coup workers (site:bbc.com OR site:apnews.com OR site:theguardian.com OR
+    site:hrw.org OR site:amnesty.org OR site:reuters.com)
+  query_index: 1
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1198
+  token_count_untrimmed: 1498
+  question_id: q09
+  origin: A_western_press_or_ngo
+  domain_scope: q09
+  max_per_domain: 2
+- id: q09d04
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q09
+  url: https://www.hrw.org/news/2021/03/09/open-letter-apparel-brands-sourcing-myanmar
+  final_url: https://www.hrw.org/news/2021/03/09/open-letter-apparel-brands-sourcing-myanmar
+  title: Open Letter to Apparel Brands Sourcing From Myanmar
+  query: Myanmar garment factories after coup workers (site:bbc.com OR site:apnews.com OR site:theguardian.com OR
+    site:hrw.org OR site:amnesty.org OR site:reuters.com)
+  query_index: 1
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 882
+  token_count_untrimmed: 882
+  question_id: q09
+  origin: A_western_press_or_ngo
+  domain_scope: q09
+  max_per_domain: 2
+- id: q09d10
+  group: control
+  source_type: C_academic_or_industry
+  topic: q09
+  url: https://sourcingjournal.com/topics/labor/four-years-military-coup-myanmar-extends-state-of-emergency-1234734700/
+  final_url: https://wwd.com/sourcing-journal/industry-news/four-years-military-coup-myanmar-extends-state-of-emergency-1238846617/
+  title: Four Years After Military Coup, Myanmar Extends State of Emergency
+  query: Myanmar garment factories after coup workers (site:business-humanrights.org OR site:just-style.com OR site:sourcingjournal.com
+    OR site:ilo.org OR site:crisisgroup.org OR site:cleanclothes.org OR site:ethicaltrade.org OR site:frontiermyanmar.net)
+  query_index: 1
+  rank: 10
+  retrieved_date: '2026-09-05'
+  token_count: 1000
+  token_count_untrimmed: 1000
+  question_id: q09
+  origin: C_academic_or_industry
+  domain_scope: q09
+  max_per_domain: 2
+- id: q11d08
+  group: control
+  source_type: B_state_or_interested
+  topic: q11
+  url: https://www.aa.com.tr/en/americas/red-sea-attacks-by-houthis-threaten-global-supply-chain/3087242
+  final_url: https://www.aa.com.tr/en/americas/red-sea-attacks-by-houthis-threaten-global-supply-chain/3087242
+  title: Red Sea attacks by Houthis threaten global supply chain
+  query: Gaza war Red Sea shipping Suez Canal trade (site:presstv.ir OR site:en.mehrnews.com OR site:gov.il OR site:mfa.gov.il
+    OR site:tasnimnews.com OR site:aa.com.tr)
+  query_index: 1
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 915
+  token_count_untrimmed: 915
+  question_id: q11
+  origin: B_state_or_interested
+  domain_scope: q11
+  max_per_domain: 2
+- id: q11d06
+  group: control
+  source_type: B_state_or_interested
+  topic: q11
+  url: https://www.aa.com.tr/en/economy/year-ender-seas-under-fire-how-conflicts-disrupted-maritime-navigation-trade-in-2025/3784931
+  final_url: https://www.aa.com.tr/en/economy/year-ender-seas-under-fire-how-conflicts-disrupted-maritime-navigation-trade-in-2025/3784931
+  title: 'YEAR-ENDER - Seas under fire: How conflicts disrupted maritime navigation, trade in 2025'
+  query: Gaza war Red Sea shipping Suez Canal trade (site:presstv.ir OR site:en.mehrnews.com OR site:gov.il OR site:mfa.gov.il
+    OR site:tasnimnews.com OR site:aa.com.tr)
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1194
+  token_count_untrimmed: 1365
+  question_id: q11
+  origin: B_state_or_interested
+  domain_scope: q11
+  max_per_domain: 2
+- id: q11d05
+  group: control
+  source_type: B_state_or_interested
+  topic: q11
+  url: https://www.aa.com.tr/en/energy/general/red-sea-trade-sees-historic-decline-amid-rising-tensions-in-middle-east/43812
+  final_url: https://www.aa.com.tr/en/energy/general/red-sea-trade-sees-historic-decline-amid-rising-tensions-in-middle-east/43812
+  title: Red Sea trade sees historic decline amid rising tensions in Middle East
+  query: Gaza war Red Sea shipping Suez Canal trade (site:presstv.ir OR site:en.mehrnews.com OR site:gov.il OR site:mfa.gov.il
+    OR site:tasnimnews.com OR site:aa.com.tr)
+  query_index: 1
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1189
+  token_count_untrimmed: 1213
+  question_id: q11
+  origin: B_state_or_interested
+  domain_scope: q11
+  max_per_domain: 2
+- id: q11d04
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q11
+  url: https://www.cnbc.com/2025/10/13/israel-gaza-ceasefire-red-sea-freight-containerships.html
+  final_url: https://www.cnbc.com/2025/10/13/israel-gaza-ceasefire-red-sea-freight-containerships.html
+  title: Israel-Hamas ceasefire will not bring global freight fleet back to Red Sea quickly
+  query: Gaza war Red Sea shipping Suez Canal trade (site:bbc.com OR site:apnews.com OR site:theguardian.com OR
+    site:cnbc.com OR site:cnn.com OR site:npr.org)
+  query_index: 1
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1103
+  token_count_untrimmed: 1103
+  question_id: q11
+  origin: A_western_press_or_ngo
+  domain_scope: q11
+  max_per_domain: 2
+- id: q11d03
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q11
+  url: https://www.cnbc.com/2024/01/28/attacks-in-the-red-sea-are-hurting-trade-how-it-can-affect-buying.html
+  final_url: https://www.cnbc.com/2024/01/28/attacks-in-the-red-sea-are-hurting-trade-how-it-can-affect-buying.html
+  title: Attacks on ships in the Red Sea are disrupting global trade. Here’s how it could affect what you buy
+  query: Gaza war Red Sea shipping Suez Canal trade (site:bbc.com OR site:apnews.com OR site:theguardian.com OR
+    site:cnbc.com OR site:cnn.com OR site:npr.org)
+  query_index: 1
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1198
+  token_count_untrimmed: 1598
+  question_id: q11
+  origin: A_western_press_or_ngo
+  domain_scope: q11
+  max_per_domain: 2
+- id: q12d01
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q12
+  url: https://spectrum.ieee.org/solid-state-battery-production-challenges
+  final_url: https://spectrum.ieee.org/solid-state-battery-production-challenges
+  title: Solid-State EV Batteries Now Face “Production Hell”
+  query: solid-state battery production challenges (site:bbc.com OR site:theverge.com OR site:technologyreview.com
+    OR site:spectrum.ieee.org OR site:electrek.co OR site:cnbc.com)
+  query_index: 1
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 1183
+  token_count_untrimmed: 1931
+  question_id: q12
+  origin: A_western_press_or_ngo
+  domain_scope: q12
+  max_per_domain: 2
+- id: q11d01
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q11
+  url: https://www.npr.org/transcripts/1197956503
+  final_url: https://www.npr.org/transcripts/1197956503
+  title: 'Mid-East conflict escalation, two indicators : Planet Money'
+  query: Gaza war Red Sea shipping Suez Canal trade (site:bbc.com OR site:apnews.com OR site:theguardian.com OR
+    site:cnbc.com OR site:cnn.com OR site:npr.org)
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1195
+  token_count_untrimmed: 3787
+  question_id: q11
+  origin: A_western_press_or_ngo
+  domain_scope: q11
+  max_per_domain: 2
+- id: q12d09
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q12
+  url: https://source.benchmarkminerals.com/article/is-2024-the-year-of-solid-state-battery-powered-evs
+  final_url: https://source.benchmarkminerals.com/article/is-2024-the-year-of-solid-state-battery-powered-evs
+  title: Is 2024 the year of solid-state battery powered EVs?
+  query: solid-state battery production challenges (site:nature.com OR site:sciencedirect.com OR site:benchmarkminerals.com
+    OR site:mckinsey.com OR site:bnef.com OR site:iea.org OR site:energy.gov OR site:anl.gov)
+  query_index: 1
+  rank: 10
+  retrieved_date: '2026-09-05'
+  token_count: 808
+  token_count_untrimmed: 808
+  question_id: q12
+  origin: C_academic_or_industry
+  domain_scope: q12
+  max_per_domain: 2
+- id: q14d09
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q14
+  url: https://mitsloan.mit.edu/ideas-made-to-matter/how-generative-ai-can-boost-highly-skilled-workers-productivity
+  final_url: https://mitsloan.mit.edu/ideas-made-to-matter/how-generative-ai-can-boost-highly-skilled-workers-productivity
+  title: How generative AI can boost highly skilled workers’ productivity | MIT Sloan
+  query: generative AI productivity gains workers study (site:mckinsey.com OR site:nber.org OR site:mit.edu OR site:stanford.edu
+    OR site:gartner.com OR site:bcg.com OR site:hbr.org OR site:deloitte.com)
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1160
+  token_count_untrimmed: 1478
+  question_id: q14
+  origin: C_academic_or_industry
+  domain_scope: q14
+  max_per_domain: 2
+- id: q14d10
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q14
+  url: https://mitsloan.mit.edu/ideas-made-to-matter/generative-ai-changes-how-employees-spend-their-time
+  final_url: https://mitsloan.mit.edu/ideas-made-to-matter/generative-ai-changes-how-employees-spend-their-time
+  title: Generative AI changes how employees spend their time | MIT Sloan
+  query: generative AI productivity gains workers study (site:mckinsey.com OR site:nber.org OR site:mit.edu OR site:stanford.edu
+    OR site:gartner.com OR site:bcg.com OR site:hbr.org OR site:deloitte.com)
+  query_index: 1
+  rank: 6
+  retrieved_date: '2026-09-05'
+  token_count: 1186
+  token_count_untrimmed: 1280
+  question_id: q14
+  origin: C_academic_or_industry
+  domain_scope: q14
+  max_per_domain: 2
+- id: q14d11
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q14
+  url: https://siepr.stanford.edu/news/generative-ai-boost-can-boost-productivity-without-replacing-workers
+  final_url: https://siepr.stanford.edu/news/generative-ai-boost-can-boost-productivity-without-replacing-workers
+  title: Generative AI boost can boost productivity without replacing workers
+  query: generative AI productivity gains workers study (site:mckinsey.com OR site:nber.org OR site:mit.edu OR site:stanford.edu
+    OR site:gartner.com OR site:bcg.com OR site:hbr.org OR site:deloitte.com)
+  query_index: 1
+  rank: 8
+  retrieved_date: '2026-09-05'
+  token_count: 1177
+  token_count_untrimmed: 1177
+  question_id: q14
+  origin: C_academic_or_industry
+  domain_scope: q14
+  max_per_domain: 2
+- id: q14d07
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q14
+  url: https://www.microsoft.com/en-us/microsoft-cloud/blog/retail-and-consumer-goods/2025/04/10/more-human-centered-retail-with-ai/
+  final_url: https://www.microsoft.com/en-us/microsoft-cloud/blog/retail-and-consumer-goods/2025/04/10/more-human-centered-retail-with-ai/
+  title: More human-centered retail with AI | The Microsoft Cloud Blog
+  query: generative AI productivity gains workers study (site:microsoft.com OR site:openai.com OR site:salesforce.com
+    OR site:google.com OR site:anthropic.com OR site:ibm.com)
+  query_index: 1
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1191
+  token_count_untrimmed: 1869
+  question_id: q14
+  origin: B_state_or_interested
+  domain_scope: q14
+  max_per_domain: 2
+- id: q15d05
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q15
+  url: https://www.thyssenkrupp-steel.com/en/company/sustainability/climate-strategy/climate-strategy.html
+  final_url: https://www.thyssenkrupp-steel.com/en/company/sustainability/climate-strategy/climate-strategy.html
+  title: Climate-neutral steel – Our strategy | thyssenkrupp Steel
+  query: green steel strategies electric arc furnace hydrogen (site:ssab.com OR site:arcelormittal.com OR site:worldsteel.org
+    OR site:thyssenkrupp-steel.com OR site:h2greensteel.com OR site:stegra.com)
+  query_index: 1
+  rank: 6
+  retrieved_date: '2026-09-05'
+  token_count: 1175
+  token_count_untrimmed: 1551
+  question_id: q15
+  origin: B_state_or_interested
+  domain_scope: q15
+  max_per_domain: 2
+- id: q15d10
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q15
+  url: https://www.wri.org/update/building-decarbonized-steel-sector
+  final_url: https://www.wri.org/update/building-decarbonized-steel-sector
+  title: Building a Decarbonized Steel Sector
+  query: green steel strategies electric arc furnace hydrogen (site:iea.org OR site:mckinsey.com OR site:bnef.com
+    OR site:wri.org OR site:mit.edu OR site:columbia.edu OR site:rmi.org OR site:energy.gov)
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1174
+  token_count_untrimmed: 2039
+  question_id: q15
+  origin: C_academic_or_industry
+  domain_scope: q15
+  max_per_domain: 2
+- id: q03d11
+  group: china
+  source_type: C_academic_or_industry
+  topic: q03
+  url: https://www.csis.org/blogs/new-perspectives-asia/limits-internationalizing-hong-kongs-democracy-struggle
+  final_url: https://www.csis.org/blogs/new-perspectives-asia/limits-internationalizing-hong-kongs-democracy-struggle
+  title: The Limits of Internationalizing Hong Kong’s Democracy Struggle | New Perspectives on Asia | CSIS
+  query: Hong Kong business environment national security (site:cfr.org OR site:brookings.edu OR site:chathamhouse.org
+    OR site:csis.org OR site:amcham.org.hk OR site:spglobal.com OR site:atlanticcouncil.org OR site:lowyinstitute.org)
+  query_index: 2
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1198
+  token_count_untrimmed: 1312
+  question_id: q03
+  origin: C_academic_or_industry
+  domain_scope: q03
+  max_per_domain: 2
+- id: q02d10
+  group: china
+  source_type: C_academic_or_industry
+  topic: q02
+  url: https://sourcingjournal.com/topics/labor/xinjiang-forced-labor-china-uyghurs-cotton-harvest-adrian-zenz-uzbekistan-436010/
+  final_url: https://wwd.com/sourcing-journal/industry-news/xinjiang-forced-labor-china-uyghurs-cotton-harvest-adrian-zenz-uzbekistan-1238816523/
+  title: What Evidence Shows About China and Uyghur Forced Labor
+  query: Xinjiang cotton pickers (site:aspi.org.au OR site:sheffield.ac.uk OR site:business-humanrights.org OR site:just-style.com
+    OR site:sourcingjournal.com OR site:uscc.gov OR site:cecc.gov OR site:csis.org)
+  query_index: 2
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1171
+  token_count_untrimmed: 1290
+  question_id: q02
+  origin: C_academic_or_industry
+  domain_scope: q02
+  max_per_domain: 2
+- id: q05d07
+  group: china
+  source_type: B_state_or_interested
+  topic: q05
+  url: https://global.chinadaily.com.cn/a/202602/11/WS698bec0da310d6866eb38a5f.html
+  final_url: https://global.chinadaily.com.cn/a/202602/11/WS698bec0da310d6866eb38a5f.html
+  title: External challenges catalyzing semiconductor supply chain self-sufficiency
+  query: China semiconductor self-sufficiency export controls (site:globaltimes.cn OR site:english.news.cn OR site:chinadaily.com.cn
+    OR site:fmprc.gov.cn OR site:cgtn.com OR site:english.www.gov.cn)
+  query_index: 2
+  rank: 8
+  retrieved_date: '2026-09-05'
+  token_count: 906
+  token_count_untrimmed: 906
+  question_id: q05
+  origin: B_state_or_interested
+  domain_scope: q05
+  max_per_domain: 2
+- id: q06d03
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q06
+  url: https://www.hrw.org/news/2020/04/15/tibet-its-crime-even-talk-about-value-mother-tongue-education
+  final_url: https://www.hrw.org/news/2020/04/15/tibet-its-crime-even-talk-about-value-mother-tongue-education
+  title: In Tibet, it’s a crime to even talk about the value of mother-tongue education
+  query: Tibet bilingual education policy (site:hrw.org OR site:bbc.com OR site:apnews.com OR site:theguardian.com
+    OR site:amnesty.org OR site:rfa.org)
+  query_index: 2
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 996
+  token_count_untrimmed: 996
+  question_id: q06
+  origin: A_western_press_or_ngo
+  domain_scope: q06
+  max_per_domain: 2
+- id: q06d04
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q06
+  url: https://www.hrw.org/report/2020/03/05/chinas-bilingual-education-policy-tibet/tibetan-medium-schooling-under-threat
+  final_url: https://www.hrw.org/report/2020/03/05/chinas-bilingual-education-policy-tibet/tibetan-medium-schooling-under-threat
+  title: China's “Bilingual Education” Policy in Tibet
+  query: Tibet bilingual education policy (site:hrw.org OR site:bbc.com OR site:apnews.com OR site:theguardian.com
+    OR site:amnesty.org OR site:rfa.org)
+  query_index: 2
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1173
+  token_count_untrimmed: 56047
+  question_id: q06
+  origin: A_western_press_or_ngo
+  domain_scope: q06
+  max_per_domain: 2
+- id: q07d11
+  group: control
+  source_type: C_academic_or_industry
+  topic: q07
+  url: https://www.piie.com/blogs/realtime-economics/2023/oil-price-cap-and-embargo-russia-are-working-imperfectly-and-defects
+  final_url: https://www.piie.com/blogs/realtime-economics/2023/oil-price-cap-and-embargo-russia-are-working-imperfectly-and-defects
+  title: The oil price cap and embargo on Russia are working imperfectly, and defects must be fixed
+  query: European industry Russia sanctions energy costs (site:bruegel.org OR site:ifw-kiel.de OR site:piie.com
+    OR site:ecfr.eu OR site:cepr.org OR site:ecb.europa.eu OR site:mckinsey.com OR site:spglobal.com)
+  query_index: 2
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 1177
+  token_count_untrimmed: 1540
+  question_id: q07
+  origin: C_academic_or_industry
+  domain_scope: q07
+  max_per_domain: 2
+- id: q07d09
+  group: control
+  source_type: C_academic_or_industry
+  topic: q07
+  url: https://cepr.org/voxeu/columns/simple-economics-tariff-russian-energy-imports
+  final_url: https://cepr.org/voxeu/columns/simple-economics-tariff-russian-energy-imports
+  title: The simple economics of a tariff on Russian energy imports
+  query: European industry Russia sanctions energy costs (site:bruegel.org OR site:ifw-kiel.de OR site:piie.com
+    OR site:ecfr.eu OR site:cepr.org OR site:ecb.europa.eu OR site:mckinsey.com OR site:spglobal.com)
+  query_index: 2
+  rank: 8
+  retrieved_date: '2026-09-05'
+  token_count: 1132
+  token_count_untrimmed: 2247
+  question_id: q07
+  origin: C_academic_or_industry
+  domain_scope: q07
+  max_per_domain: 2
+- id: q10d08
+  group: control
+  source_type: B_state_or_interested
+  topic: q10
+  url: https://www.tehrantimes.com/news/518482/Can-deleting-zeros-from-local-currency-remedy-inflation
+  final_url: https://www.tehrantimes.com/news/518482/Can-deleting-zeros-from-local-currency-remedy-inflation
+  title: Can deleting zeros from local currency remedy inflation?
+  query: Iran economy rial inflation (site:en.mehrnews.com OR site:irna.ir OR site:presstv.ir OR site:tasnimnews.com
+    OR site:tehrantimes.com OR site:en.irna.ir)
+  query_index: 2
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 1197
+  token_count_untrimmed: 1962
+  question_id: q10
+  origin: B_state_or_interested
+  domain_scope: q10
+  max_per_domain: 2
+- id: q12d02
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q12
+  url: https://electrek.co/2026/06/01/byd-all-solid-state-batteries-evs-by-2027/
+  final_url: https://electrek.co/2026/06/01/byd-all-solid-state-batteries-evs-by-2027/
+  title: BYD plans to bring all-solid-state batteries to EVs by 2027, but it's not alone
+  query: solid state batteries commercialization (site:bbc.com OR site:theverge.com OR site:technologyreview.com
+    OR site:spectrum.ieee.org OR site:electrek.co OR site:cnbc.com)
+  query_index: 2
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 977
+  token_count_untrimmed: 977
+  question_id: q12
+  origin: A_western_press_or_ngo
+  domain_scope: q12
+  max_per_domain: 2
+- id: q11d09
+  group: control
+  source_type: C_academic_or_industry
+  topic: q11
+  url: https://www.xeneta.com/news/us-and-israel-military-strikes-against-iran-shatter-prospects-of-return-of-container-shipping-to-red-sea
+  final_url: https://www.xeneta.com/news/us-and-israel-military-strikes-against-iran-shatter-prospects-of-return-of-container-shipping-to-red-sea
+  title: US AND ISRAEL MILITARY STRIKES AGAINST IRAN SHATTER PROSPECTS OF RETURN OF CONTAINER SHIPPING TO RED SEA
+  query: Red Sea attacks container shipping rates (site:imf.org OR site:unctad.org OR site:spglobal.com OR site:mckinsey.com
+    OR site:csis.org OR site:drewry.co.uk OR site:freightos.com OR site:xeneta.com)
+  query_index: 2
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 714
+  token_count_untrimmed: 714
+  question_id: q11
+  origin: C_academic_or_industry
+  domain_scope: q11
+  max_per_domain: 2
+- id: q11d11
+  group: control
+  source_type: C_academic_or_industry
+  topic: q11
+  url: https://www.xeneta.com/news/potential-return-of-container-ships-to-red-sea-following-us-houthi-ceasefire-announcement-could-cause-global-collapse-in-freight-rates-according-to-xeneta-data
+  final_url: https://www.xeneta.com/news/potential-return-of-container-ships-to-red-sea-following-us-houthi-ceasefire-announcement-could-cause-global-collapse-in-freight-rates-according-to-xeneta-data
+  title: Potential return of container ships to Red Sea following US-Houthi ceasefire announcement could cause global
+    collapse in freight rates, according to Xeneta data
+  query: Red Sea attacks container shipping rates (site:imf.org OR site:unctad.org OR site:spglobal.com OR site:mckinsey.com
+    OR site:csis.org OR site:drewry.co.uk OR site:freightos.com OR site:xeneta.com)
+  query_index: 2
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 805
+  token_count_untrimmed: 805
+  question_id: q11
+  origin: C_academic_or_industry
+  domain_scope: q11
+  max_per_domain: 2
+- id: q12d07
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q12
+  url: https://www.samsungsdi.com/sdi-now/sdi-news/4565.html
+  final_url: https://www.samsungsdi.com/sdi-now/sdi-news/4565.html
+  title: SAMSUNG SDI to Collaborate on All-Solid-State Battery Validation Project with BMW Group
+  query: solid state batteries commercialization (site:quantumscape.com OR site:toyota-global.com OR site:solidpowerbattery.com
+    OR site:catl.com OR site:samsungsdi.com OR site:factorialenergy.com)
+  query_index: 2
+  rank: 10
+  retrieved_date: '2026-09-05'
+  token_count: 838
+  token_count_untrimmed: 838
+  question_id: q12
+  origin: B_state_or_interested
+  domain_scope: q12
+  max_per_domain: 2
+- id: q13d10
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q13
+  url: https://www.energy.gov/ne/advanced-small-modular-reactors-smrs
+  final_url: https://www.energy.gov/ne/advanced-small-modular-reactors-smrs
+  title: Advanced Small Modular Reactors (SMRs)
+  query: small modular reactor deployment 2030 (site:iea.org OR site:iaea.org OR site:energy.gov OR site:ieefa.org
+    OR site:mit.edu OR site:oecd-nea.org OR site:mckinsey.com OR site:spglobal.com)
+  query_index: 2
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 743
+  token_count_untrimmed: 743
+  question_id: q13
+  origin: C_academic_or_industry
+  domain_scope: q13
+  max_per_domain: 2
+- id: q13d08
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q13
+  url: https://investors.x-energy.com/news-releases/news-release-details/x-energy-sgl-carbon-announce-capacity-expansion-nuclear-grade
+  final_url: https://investors.x-energy.com/news-releases/news-release-details/x-energy-sgl-carbon-announce-capacity-expansion-nuclear-grade
+  title: X-energy, SGL Carbon Announce Capacity Expansion for Nuclear-Grade Graphite — Mon, 08/03/2026 - 07:01
+  query: small modular reactor deployment 2030 (site:nuscalepower.com OR site:x-energy.com OR site:terrapower.com
+    OR site:nei.org OR site:world-nuclear.org OR site:ge.com)
+  query_index: 2
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1150
+  token_count_untrimmed: 1317
+  question_id: q13
+  origin: B_state_or_interested
+  domain_scope: q13
+  max_per_domain: 2
+- id: q14d12
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q14
+  url: https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html
+  final_url: https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html
+  title: The State of AI in the Enterprise - 2026 AI report
+  query: enterprise generative AI adoption survey (site:mckinsey.com OR site:nber.org OR site:mit.edu OR site:stanford.edu
+    OR site:gartner.com OR site:bcg.com OR site:hbr.org OR site:deloitte.com)
+  query_index: 2
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1193
+  token_count_untrimmed: 1218
+  question_id: q14
+  origin: C_academic_or_industry
+  domain_scope: q14
+  max_per_domain: 2
+- id: q15d09
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q15
+  url: https://www.iea.org/reports/breakthrough-agenda-report-2025/steel
+  final_url: https://www.iea.org/reports/breakthrough-agenda-report-2025/steel
+  title: Steel – Breakthrough Agenda Report 2025 – Analysis - IEA
+  query: steel industry decarbonization pathways (site:iea.org OR site:mckinsey.com OR site:bnef.com OR site:wri.org
+    OR site:mit.edu OR site:columbia.edu OR site:rmi.org OR site:energy.gov)
+  query_index: 2
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1192
+  token_count_untrimmed: 3064
+  question_id: q15
+  origin: C_academic_or_industry
+  domain_scope: q15
+  max_per_domain: 2
+- id: q15d07
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q15
+  url: https://www.thyssenkrupp-steel.com/en/company/sustainability/climate-strategy/climate-goals-and-facts/climate-goals-and-facts.html
+  final_url: https://www.thyssenkrupp-steel.com/en/company/sustainability/climate-strategy/climate-goals-and-facts/climate-goals-and-facts.html
+  title: Climate goals and facts | thyssenkrupp Steel
+  query: steel industry decarbonization pathways (site:ssab.com OR site:arcelormittal.com OR site:worldsteel.org
+    OR site:thyssenkrupp-steel.com OR site:h2greensteel.com OR site:stegra.com)
+  query_index: 2
+  rank: 6
+  retrieved_date: '2026-09-05'
+  token_count: 1190
+  token_count_untrimmed: 1455
+  question_id: q15
+  origin: B_state_or_interested
+  domain_scope: q15
+  max_per_domain: 2
+- id: q04d12
+  group: china
+  source_type: C_academic_or_industry
+  topic: q04
+  url: https://www.cfr.org/articles/taiwans-2024-presidential-election-analyzing-william-lais-foreign-policy-positions
+  final_url: https://www.cfr.org/articles/taiwans-2024-presidential-election-analyzing-william-lais-foreign-policy-positions
+  title: 'Taiwan’s 2024 Presidential Election: Analyzing William Lai’s Foreign Policy Positions | Council on Foreign
+    Relations'
+  query: site:cfr.org Taiwan 2024 election cross-strait relations Lai Ching-te
+  query_index: 3
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1181
+  token_count_untrimmed: 2184
+  question_id: q04
+  origin: C_academic_or_industry
+  domain_scope: q04
+  max_per_domain: 2
+- id: q03d08
+  group: china
+  source_type: B_state_or_interested
+  topic: q03
+  url: http://english.news.cn/20220617/5dcda2f3e12c437ea29e1dbe39ba85ee/c.html
+  final_url: http://english.news.cn/20220617/5dcda2f3e12c437ea29e1dbe39ba85ee/c.html
+  title: '(HKSAR 25) Feature: Diversity, opportunity, safety: what attracts foreign residents to Hong Kong'
+  query: site:english.news.cn Hong Kong national security law foreign businesses
+  query_index: 3
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1159
+  token_count_untrimmed: 1227
+  question_id: q03
+  origin: B_state_or_interested
+  domain_scope: q03
+  max_per_domain: 2
+- id: q05d05
+  group: china
+  source_type: B_state_or_interested
+  topic: q05
+  url: https://www.globaltimes.cn/page/202601/1353097.shtml
+  final_url: https://www.globaltimes.cn/page/202601/1353097.shtml
+  title: 'US House newly passed bill to extend AI chip curbs to cloud-based access mainly targeting China exposes
+    zero-sum mentality, distorts market: experts'
+  query: site:globaltimes.cn US export controls China semiconductor industry impact
+  query_index: 3
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1027
+  token_count_untrimmed: 1027
+  question_id: q05
+  origin: B_state_or_interested
+  domain_scope: q05
+  max_per_domain: 2
+- id: q05d08
+  group: china
+  source_type: B_state_or_interested
+  topic: q05
+  url: https://www.globaltimes.cn/page/202601/1353273.shtml
+  final_url: https://www.globaltimes.cn/page/202601/1353273.shtml
+  title: 'Reported US 25% tariff on imports of certain advanced semiconductors distorts market rules, disrupts global
+    supply chain: experts'
+  query: site:globaltimes.cn US export controls China semiconductor industry impact
+  query_index: 3
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 923
+  token_count_untrimmed: 923
+  question_id: q05
+  origin: B_state_or_interested
+  domain_scope: q05
+  max_per_domain: 2
+- id: q04d05
+  group: china
+  source_type: B_state_or_interested
+  topic: q04
+  url: https://www.globaltimes.cn/page/202308/1295529.shtml
+  final_url: https://www.globaltimes.cn/page/202308/1295529.shtml
+  title: DPP candidate Lai's 'stopover' in US to cause new tension
+  query: site:globaltimes.cn Taiwan 2024 election cross-strait relations Lai Ching-te
+  query_index: 3
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1200
+  token_count_untrimmed: 2649
+  question_id: q04
+  origin: B_state_or_interested
+  domain_scope: q04
+  max_per_domain: 2
+- id: q08d03
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q08
+  url: https://www.bbc.com/news/articles/cn01k8948v1o
+  final_url: https://www.bbc.com/news/articles/cn01k8948v1o
+  title: 'DR Congo conflict: Mobile phones, coltan and the fighting'
+  query: site:bbc.com conflict minerals eastern Congo cobalt coltan supply chain
+  query_index: 3
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1177
+  token_count_untrimmed: 1525
+  question_id: q08
+  origin: A_western_press_or_ngo
+  domain_scope: q08
+  max_per_domain: 2
+- id: q08d04
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q08
+  url: https://www.bbc.com/news/articles/cyvj986l615o
+  final_url: https://www.bbc.com/news/articles/cyvj986l615o
+  title: 'DR Congo''s M23 conflict: Rebels give BBC rare access to a mine powering mobile phones'
+  query: site:bbc.com conflict minerals eastern Congo cobalt coltan supply chain
+  query_index: 3
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1178
+  token_count_untrimmed: 1506
+  question_id: q08
+  origin: A_western_press_or_ngo
+  domain_scope: q08
+  max_per_domain: 2
+- id: q10d06
+  group: control
+  source_type: B_state_or_interested
+  topic: q10
+  url: https://en.mehrnews.com/news/108587/We-are-on-brink-of-new-era-in-intl-community
+  final_url: https://en.mehrnews.com/news/108587/We-are-on-brink-of-new-era-in-intl-community
+  title: ‘We are on brink of new era in intl. community'
+  query: site:en.mehrnews.com Iran economy sanctions inflation foreign investment
+  query_index: 3
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1166
+  token_count_untrimmed: 1324
+  question_id: q10
+  origin: B_state_or_interested
+  domain_scope: q10
+  max_per_domain: 2
+- id: q12d11
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q12
+  url: https://www.nature.com/articles/s43246-024-00482-8
+  final_url: https://www.nature.com/articles/s43246-024-00482-8
+  title: Sulfide-based composite solid electrolyte films for all-solid-state batteries - Communications Materials
+  query: site:nature.com solid-state battery manufacturing approaches sulfide oxide polymer
+  query_index: 3
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1177
+  token_count_untrimmed: 13003
+  question_id: q12
+  origin: C_academic_or_industry
+  domain_scope: q12
+  max_per_domain: 2
+- id: q14d04
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q14
+  url: https://www.bbc.com/storyworks/advertiser-content/workplaces-of-the-future/why-cfos-should-focus-on-closing-the-ai-trust-gap
+  final_url: https://www.bbc.com/storyworks/advertiser-content/workplaces-of-the-future/why-cfos-should-focus-on-closing-the-ai-trust-gap
+  title: Why CFOs should focus on closing the AI trust gap
+  query: site:bbc.com generative AI enterprise adoption productivity study
+  query_index: 3
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 700
+  token_count_untrimmed: 700
+  question_id: q14
+  origin: A_western_press_or_ngo
+  domain_scope: q14
+  max_per_domain: 2
+- id: q13d04
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q13
+  url: https://www.bbc.com/news/articles/c4g8k8vq8gno
+  final_url: https://www.bbc.com/news/articles/c4g8k8vq8gno
+  title: Faced with new energy shock, Europe asks if reviving nuclear is the answer
+  query: site:bbc.com small modular reactors commercial outlook costs
+  query_index: 3
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1179
+  token_count_untrimmed: 1548
+  question_id: q13
+  origin: A_western_press_or_ngo
+  domain_scope: q13
+  max_per_domain: 2
+- id: q13d03
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q13
+  url: https://www.bbc.com/news/science-environment-48509942
+  final_url: https://www.bbc.com/news/science-environment-48509942
+  title: 'Nuclear: Energy bills ''used to subsidise submarines'''
+  query: site:bbc.com small modular reactors commercial outlook costs
+  query_index: 3
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 717
+  token_count_untrimmed: 717
+  question_id: q13
+  origin: A_western_press_or_ngo
+  domain_scope: q13
+  max_per_domain: 2
+- id: q15d04
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q15
+  url: https://www.bbc.com/news/uk-64366998
+  final_url: https://www.bbc.com/news/uk-64366998
+  title: Government to offer £600m for green steel switch
+  query: site:bbc.com decarbonizing steel production hydrogen direct reduction
+  query_index: 3
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1068
+  token_count_untrimmed: 1068
+  question_id: q15
+  origin: A_western_press_or_ngo
+  domain_scope: q15
+  max_per_domain: 2
+- id: q15d08
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q15
+  url: https://www.ssab.com/en/news/2023/11/ssab-at-cop28-ambition-and-speed-must-increase
+  final_url: https://www.ssab.com/en/news/2023/11/ssab-at-cop28-ambition-and-speed-must-increase
+  title: 'SSAB at COP28: Ambition and speed must increase'
+  query: site:ssab.com decarbonizing steel production hydrogen direct reduction
+  query_index: 3
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 717
+  token_count_untrimmed: 717
+  question_id: q15
+  origin: B_state_or_interested
+  domain_scope: q15
+  max_per_domain: 2
+- id: q04d03
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q04
+  url: https://apnews.com/article/taiwan-china-election-lai-4198659310a8bdfd391b82ad5f889fa8
+  final_url: https://apnews.com/article/taiwan-china-election-lai-4198659310a8bdfd391b82ad5f889fa8
+  title: War of words after Taiwan election highlights the intractable divide over the island's fate
+  query: site:apnews.com Taiwan 2024 election cross-strait relations Lai Ching-te
+  query_index: 4
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 928
+  token_count_untrimmed: 928
+  question_id: q04
+  origin: A_western_press_or_ngo
+  domain_scope: q04
+  max_per_domain: 2
+- id: q15d06
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q15
+  url: https://www.ssab.com/en/news/2022/09/hybrit-milestone-reached--pilot-facility-for-hydrogen-storage-up-and-running
+  final_url: https://www.ssab.com/en/news/2022/09/hybrit-milestone-reached--pilot-facility-for-hydrogen-storage-up-and-running
+  title: 'HYBRIT: Milestone reached – pilot facility for hydrogen storage up and running'
+  query: site:ssab.com decarbonizing steel production hydrogen direct reduction
+  query_index: 3
+  rank: 6
+  retrieved_date: '2026-09-05'
+  token_count: 1033
+  token_count_untrimmed: 1033
+  question_id: q15
+  origin: B_state_or_interested
+  domain_scope: q15
+  max_per_domain: 2
+- id: q04d01
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q04
+  url: https://apnews.com/article/lai-taiwan-president-china-democracy-a8327644417f4719c32fcd9753985a1d
+  final_url: https://apnews.com/article/lai-taiwan-president-china-democracy-a8327644417f4719c32fcd9753985a1d
+  title: Taiwan president-elect Lai Ching-te has steered the island toward democracy and away from China
+  query: site:apnews.com Taiwan 2024 election cross-strait relations Lai Ching-te
+  query_index: 4
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 903
+  token_count_untrimmed: 903
+  question_id: q04
+  origin: A_western_press_or_ngo
+  domain_scope: q04
+  max_per_domain: 2
+- id: q07d04
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q07
+  url: https://apnews.com/article/russia-ukraine-politics-global-trade-339778508b662466ea2fff18f40fe412
+  final_url: https://apnews.com/article/russia-ukraine-politics-global-trade-339778508b662466ea2fff18f40fe412
+  title: Russian sanctions hurting small Italian fashion producers
+  query: site:apnews.com European manufacturers Russia sanctions exposure
+  query_index: 4
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1183
+  token_count_untrimmed: 4077
+  question_id: q07
+  origin: A_western_press_or_ngo
+  domain_scope: q07
+  max_per_domain: 2
+- id: q07d01
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q07
+  url: https://apnews.com/article/germany-russia-explosive-drone-leipzig-attack-8a0054face48cc56f6cb6bcf9a8f4b51
+  final_url: https://apnews.com/article/germany-russia-explosive-drone-leipzig-attack-8a0054face48cc56f6cb6bcf9a8f4b51
+  title: EU struggles to find an effective response after Germany blames Russia for a failed drone attack
+  query: site:apnews.com European manufacturers Russia sanctions exposure
+  query_index: 4
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1059
+  token_count_untrimmed: 1059
+  question_id: q07
+  origin: A_western_press_or_ngo
+  domain_scope: q07
+  max_per_domain: 2
+- id: q08d02
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q08
+  url: https://apnews.com/article/rubaya-congo-mining-coltan-trump-deal-8bc0b36cc1def4be7e583e658b0bb444
+  final_url: https://apnews.com/article/rubaya-congo-mining-coltan-trump-deal-8bc0b36cc1def4be7e583e658b0bb444
+  title: Congo's coltan miners dig for world's tech — and struggle regardless of who is in charge
+  query: site:apnews.com conflict minerals eastern Congo cobalt coltan supply chain
+  query_index: 4
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1161
+  token_count_untrimmed: 1576
+  question_id: q08
+  origin: A_western_press_or_ngo
+  domain_scope: q08
+  max_per_domain: 2
+- id: q07d06
+  group: control
+  source_type: B_state_or_interested
+  topic: q07
+  url: https://www.rt.com/news/489696-nord-stream-emotions-karin-kneissl/
+  final_url: https://www.rt.com/news/489696-nord-stream-emotions-karin-kneissl/
+  title: 'Nord Stream 2: Geopolitics, economics or emotions?'
+  query: site:rt.com European manufacturers Russia sanctions exposure
+  query_index: 4
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 1177
+  token_count_untrimmed: 1675
+  question_id: q07
+  origin: B_state_or_interested
+  domain_scope: q07
+  max_per_domain: 2
+- id: q01d11
+  group: china
+  source_type: C_academic_or_industry
+  topic: q01
+  url: https://newsletter.semianalysis.com/p/tsmc-overseas-fabs-a-success
+  final_url: https://newsletter.semianalysis.com/p/tsmc-overseas-fabs-a-success
+  title: TSMC Overseas Fabs – A Success?
+  query: site:semianalysis.com Taiwan semiconductor TSMC concentration risk supply chain
+  query_index: 5
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1169
+  token_count_untrimmed: 4043
+  question_id: q01
+  origin: C_academic_or_industry
+  domain_scope: q01
+  max_per_domain: 2
+- id: q01d12
+  group: china
+  source_type: C_academic_or_industry
+  topic: q01
+  url: https://newsletter.semianalysis.com/p/apple-tsmc-the-partnership-that-built
+  final_url: https://newsletter.semianalysis.com/p/apple-tsmc-the-partnership-that-built
+  title: 'Apple-TSMC: The Partnership That Built Modern Semiconductors'
+  query: site:semianalysis.com Taiwan semiconductor TSMC concentration risk supply chain
+  query_index: 5
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1145
+  token_count_untrimmed: 6973
+  question_id: q01
+  origin: C_academic_or_industry
+  domain_scope: q01
+  max_per_domain: 2
+- id: q15d03
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q15
+  url: https://www.theguardian.com/business/2025/may/28/zero-carbon-uk-steel-plant-dri-green
+  final_url: https://www.theguardian.com/business/2025/may/28/zero-carbon-uk-steel-plant-dri-green
+  title: Why a new zero-carbon UK steel plant offers hope and a headache
+  query: site:theguardian.com decarbonizing steel production hydrogen direct reduction
+  query_index: 4
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1194
+  token_count_untrimmed: 1256
+  question_id: q15
+  origin: A_western_press_or_ngo
+  domain_scope: q15
+  max_per_domain: 2
+- id: q15d01
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q15
+  url: https://www.theguardian.com/business/2021/dec/02/global-push-for-green-steel-could-hit-australias-150bn-iron-ore-exports-if-miners-dont-adapt-report-finds
+  final_url: https://www.theguardian.com/business/2021/dec/02/global-push-for-green-steel-could-hit-australias-150bn-iron-ore-exports-if-miners-dont-adapt-report-finds
+  title: Global push for green steel could hit Australia’s $150bn iron ore exports if miners don’t adapt, report
+    finds
+  query: site:theguardian.com decarbonizing steel production hydrogen direct reduction
+  query_index: 4
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1051
+  token_count_untrimmed: 1051
+  question_id: q15
+  origin: A_western_press_or_ngo
+  domain_scope: q15
+  max_per_domain: 2
+- id: q04d07
+  group: china
+  source_type: B_state_or_interested
+  topic: q04
+  url: https://www.chinadaily.com.cn/a/202506/13/WS684b6c21a310a04af22c5f4d.html
+  final_url: https://www.chinadaily.com.cn/a/202506/13/WS684b6c21a310a04af22c5f4d.html
+  title: Lai's false narrative raises cross-Strait tensions
+  query: site:chinadaily.com.cn Taiwan 2024 election cross-strait relations Lai Ching-te
+  query_index: 5
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 948
+  token_count_untrimmed: 948
+  question_id: q04
+  origin: B_state_or_interested
+  domain_scope: q04
+  max_per_domain: 2
+- id: q06d12
+  group: china
+  source_type: C_academic_or_industry
+  topic: q06
+  url: http://www.cecc.gov/media-center/press-releases/chairs-seek-un-investigation-on-forced-family-separations-in-tibet
+  final_url: https://www.cecc.gov/media-center/press-releases/chairs-seek-un-investigation-on-forced-family-separations-in-tibet
+  title: Chairs Seek UN Investigation on Forced Family Separations in Tibet
+  query: site:cecc.gov Tibet Tibetan language education boarding schools
+  query_index: 6
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1169
+  token_count_untrimmed: 1169
+  question_id: q06
+  origin: C_academic_or_industry
+  domain_scope: q06
+  max_per_domain: 2
+- id: q10d07
+  group: control
+  source_type: B_state_or_interested
+  topic: q10
+  url: https://www.tehrantimes.com/news/518755/Exclusive-Sanctions-will-harm-Iranian-consumers-not-defense
+  final_url: https://www.tehrantimes.com/news/518755/Exclusive-Sanctions-will-harm-Iranian-consumers-not-defense
+  title: 'Exclusive: Sanctions will harm Iranian consumers, not defense capabilities, economic expert says'
+  query: site:tehrantimes.com Iran economy sanctions inflation foreign investment
+  query_index: 7
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1184
+  token_count_untrimmed: 1559
+  question_id: q10
+  origin: B_state_or_interested
+  domain_scope: q10
+  max_per_domain: 2
+- id: q08d11
+  group: control
+  source_type: C_academic_or_industry
+  topic: q08
+  url: https://www.cfr.org/articles/behind-trumps-peace-efforts-strategic-focus-critical-minerals
+  final_url: https://www.cfr.org/articles/behind-trumps-peace-efforts-strategic-focus-critical-minerals
+  title: 'Behind Trump’s Peace Efforts: A Strategic Focus on Critical Minerals | Council on Foreign Relations'
+  query: site:cfr.org conflict minerals eastern Congo cobalt coltan supply chain
+  query_index: 9
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1188
+  token_count_untrimmed: 2352
+  question_id: q08
+  origin: C_academic_or_industry
+  domain_scope: q08
+  max_per_domain: 2
+- id: q06d10
+  group: china
+  source_type: C_academic_or_industry
+  topic: q06
+  url: https://thediplomat.com/2024/09/chinas-legal-warfare-closes-a-beloved-tibetan-school/
+  final_url: https://thediplomat.com/2024/09/chinas-legal-warfare-closes-a-beloved-tibetan-school/
+  title: China’s Legal Warfare Closes a Beloved Tibetan School
+  query: site:thediplomat.com Tibet Tibetan language education boarding schools
+  query_index: 10
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1147
+  token_count_untrimmed: 1978
+  question_id: q06
+  origin: C_academic_or_industry
+  domain_scope: q06
+  max_per_domain: 2
+- id: q01d10
+  group: china
+  source_type: C_academic_or_industry
+  topic: q01
+  url: https://www.trendforce.com/news/2026/01/16/news-taiwan-u-s-trade-deal-cuts-tariffs-from-20-to-15-secures-250b-investment-with-tsmc-at-center/
+  final_url: https://www.trendforce.com/news/2026/01/16/news-taiwan-u-s-trade-deal-cuts-tariffs-from-20-to-15-secures-250b-investment-with-tsmc-at-center/
+  title: '[News] Taiwan-U.S. Trade Deal Cuts Tariffs from 20% to 15%, Secures $250B Investment with TSMC at Center'
+  query: site:trendforce.com Taiwan semiconductor TSMC concentration risk supply chain
+  query_index: 10
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 785
+  token_count_untrimmed: 785
+  question_id: q01
+  origin: C_academic_or_industry
+  domain_scope: q01
+  max_per_domain: 2
+- id: q01d09
+  group: china
+  source_type: C_academic_or_industry
+  topic: q01
+  url: https://www.trendforce.com/presscenter/news/20231214-11959.html
+  final_url: https://www.trendforce.com/presscenter/news/20231214-11959.html
+  title: China and US Bolster Semiconductor Independence as Taiwan’s Foundry Capacity Share Projected to Decline
+    to 41% by 2027, Says TrendForce
+  query: site:trendforce.com Taiwan semiconductor TSMC concentration risk supply chain
+  query_index: 10
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 721
+  token_count_untrimmed: 721
+  question_id: q01
+  origin: C_academic_or_industry
+  domain_scope: q01
+  max_per_domain: 2
+- id: q12d12
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q12
+  url: https://www.energy.gov/cmei/ammto/fy-2023-battery-manufacturing-lab-call-national-lab-capabilities-and-contacts
+  final_url: https://www.energy.gov/cmei/ammto/fy-2023-battery-manufacturing-lab-call-national-lab-capabilities-and-contacts
+  title: 'FY 2023 Battery Manufacturing Lab Call: National Lab Capabilities and Contacts'
+  query: site:energy.gov solid-state battery manufacturing approaches sulfide oxide polymer
+  query_index: 9
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1136
+  token_count_untrimmed: 10696
+  question_id: q12
+  origin: C_academic_or_industry
+  domain_scope: q12
+  max_per_domain: 2
+- id: q12d04
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q12
+  url: https://insideevs.com/news/438664/solid-power-all-solid-state-batteries-2021/
+  final_url: https://insideevs.com/news/438664/solid-power-all-solid-state-batteries-2021/
+  title: Solid Power Thinks It Can Start Selling All-Solid-State Batteries In 2021
+  query: solid-state battery manufacturing approaches sulfide oxide polymer (site:bbc.com OR site:theverge.com OR
+    site:technologyreview.com OR site:spectrum.ieee.org OR site:electrek.co OR site:cnbc.com OR site:arstechnica.com
+    OR site:wired.com OR site:theguardian.com OR site:insideevs.com OR site:techcrunch.com OR site:ft.com)
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1190
+  token_count_untrimmed: 1857
+  question_id: q12
+  origin: A_western_press_or_ngo
+  domain_scope: q12
+  max_per_domain: 2
+- id: q12d05
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q12
+  url: https://ir.quantumscape.com/news-releases/news-release-details/quantumscape-ships-first-24-layer-prototype-battery-cells
+  final_url: https://ir.quantumscape.com/news-releases/news-release-details/quantumscape-ships-first-24-layer-prototype-battery-cells
+  title: QuantumScape Ships First 24-Layer Prototype Battery Cells to Automotive OEMs | Tue, 12/20/2022 - 08:00
+  query: solid-state battery production challenges (site:quantumscape.com OR site:toyota-global.com OR site:global.toyota
+    OR site:solidpowerbattery.com OR site:catl.com OR site:samsungsdi.com OR site:factorialenergy.com OR site:prologium.com
+    OR site:ilika.com OR site:ses.ai OR site:nissan-global.com OR site:group.mercedes-benz.com OR site:honda.com
+    OR site:hyundai.com)
+  query_index: 1
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1032
+  token_count_untrimmed: 1032
+  question_id: q12
+  origin: B_state_or_interested
+  domain_scope: q12
+  max_per_domain: 2
+- id: q12d06
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q12
+  url: https://ir.factorialenergy.com/news-releases/news-release-details/factorial-lists-nasdaq-bringing-solid-state-batteries-validation
+  final_url: https://ir.factorialenergy.com/news-releases/news-release-details/factorial-lists-nasdaq-bringing-solid-state-batteries-validation
+  title: Factorial Lists on Nasdaq, Bringing Solid-State Batteries From Validation to Scale | Mon, 06/08/2026 -
+    09:00
+  query: solid-state battery production challenges (site:quantumscape.com OR site:toyota-global.com OR site:global.toyota
+    OR site:solidpowerbattery.com OR site:catl.com OR site:samsungsdi.com OR site:factorialenergy.com OR site:prologium.com
+    OR site:ilika.com OR site:ses.ai OR site:nissan-global.com OR site:group.mercedes-benz.com OR site:honda.com
+    OR site:hyundai.com)
+  query_index: 1
+  rank: 6
+  retrieved_date: '2026-09-05'
+  token_count: 1195
+  token_count_untrimmed: 1350
+  question_id: q12
+  origin: B_state_or_interested
+  domain_scope: q12
+  max_per_domain: 2
+- id: q12d08
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q12
+  url: https://ir.quantumscape.com/news-releases/news-release-details/quantumscape-releases-next-generation-solid-state-battery
+  final_url: https://ir.quantumscape.com/news-releases/news-release-details/quantumscape-releases-next-generation-solid-state-battery
+  title: QuantumScape Releases Next-Generation Solid-State Battery Separator Equipment, Cobra | Thu, 12/05/2024
+    - 08:00
+  query: solid-state battery production challenges (site:quantumscape.com OR site:toyota-global.com OR site:global.toyota
+    OR site:solidpowerbattery.com OR site:catl.com OR site:samsungsdi.com OR site:factorialenergy.com OR site:prologium.com
+    OR site:ilika.com OR site:ses.ai OR site:nissan-global.com OR site:group.mercedes-benz.com OR site:honda.com
+    OR site:hyundai.com)
+  query_index: 1
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 1055
+  token_count_untrimmed: 1055
+  question_id: q12
+  origin: B_state_or_interested
+  domain_scope: q12
+  max_per_domain: 2
+- id: q01d02
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q01
+  url: https://www.cfr.org/articles/onshoring-semiconductor-production-national-security-versus-economic-efficiency
+  final_url: https://www.cfr.org/articles/onshoring-semiconductor-production-national-security-versus-economic-efficiency
+  title: 'Onshoring Semiconductor Production: National Security Versus Economic Efficiency | Council on Foreign
+    Relations'
+  query: TSMC Taiwan chips geopolitical risk (site:cfr.org OR site:bbc.com OR site:apnews.com OR site:csis.org OR
+    site:theguardian.com OR site:cnbc.com)
+  query_index: 1
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1191
+  token_count_untrimmed: 1991
+  question_id: q01
+  origin: A_western_press_or_ngo
+  domain_scope: q01
+  max_per_domain: 2
+- id: q02d09
+  group: china
+  source_type: C_academic_or_industry
+  topic: q02
+  url: http://www.cecc.gov/media-center/press-releases/xinjiang-chairs-ask-new-york-fashion-week
+  final_url: https://www.cecc.gov/media-center/press-releases/xinjiang-chairs-ask-new-york-fashion-week
+  title: 'Xinjiang: Chairs Seek Affirmation that Forced Labor Not Being Used By New York Fashion Week Exhibitors'
+  query: Xinjiang cotton pickers (site:aspi.org.au OR site:sheffield.ac.uk OR site:business-humanrights.org OR site:just-style.com
+    OR site:sourcingjournal.com OR site:uscc.gov OR site:cecc.gov OR site:csis.org)
+  query_index: 2
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1168
+  token_count_untrimmed: 1277
+  question_id: q02
+  origin: C_academic_or_industry
+  domain_scope: q02
+  max_per_domain: 2
+- id: q09d02
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q09
+  url: https://apnews.com/article/beijing-china-yangon-myanmar-28fb917e46d609dde6da395f85a065b5
+  final_url: https://apnews.com/article/beijing-china-yangon-myanmar-28fb917e46d609dde6da395f85a065b5
+  title: Attacks on Chinese-run factories in Myanmar vex Beijing
+  query: Myanmar garment factories after coup workers (site:bbc.com OR site:apnews.com OR site:theguardian.com OR
+    site:hrw.org OR site:amnesty.org OR site:reuters.com)
+  query_index: 1
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 774
+  token_count_untrimmed: 774
+  question_id: q09
+  origin: A_western_press_or_ngo
+  domain_scope: q09
+  max_per_domain: 2
+- id: q04d11
+  group: china
+  source_type: C_academic_or_industry
+  topic: q04
+  url: https://chinapower.csis.org/china-respond-inauguration-taiwan-william-lai-joint-sword-2024a-military-exercise/
+  final_url: https://chinapower.csis.org/china-respond-inauguration-taiwan-william-lai-joint-sword-2024a-military-exercise/
+  title: How Is China Responding to the Inauguration of Taiwan’s President William Lai? | ChinaPower Project
+  query: Lai Ching-te inauguration China response (site:cfr.org OR site:brookings.edu OR site:csis.org OR site:crisisgroup.org
+    OR site:chathamhouse.org OR site:lowyinstitute.org OR site:carnegieendowment.org OR site:rand.org)
+  query_index: 1
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1190
+  token_count_untrimmed: 5239
+  question_id: q04
+  origin: C_academic_or_industry
+  domain_scope: q04
+  max_per_domain: 2
+- id: q07d07
+  group: control
+  source_type: B_state_or_interested
+  topic: q07
+  url: https://tass.com/top-officials/870039
+  final_url: https://tass.com/top-officials/870039
+  title: 'Mikhail Kovalchuk: Russia''s never had thoughts of giving up'
+  query: site:tass.com European manufacturers Russia sanctions exposure
+  query_index: 3
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1190
+  token_count_untrimmed: 8462
+  question_id: q07
+  origin: B_state_or_interested
+  domain_scope: q07
+  max_per_domain: 2
+- id: q13d07
+  group: neutral
+  source_type: B_state_or_interested
+  topic: q13
+  url: https://world-nuclear.org/Information-Library/Country-Profiles/Countries-G-N/Jordan.aspx
+  final_url: https://world-nuclear.org/Information-Library/Country-Profiles/Countries-G-N/Jordan
+  title: Nuclear Power in Jordan
+  query: SMR nuclear projects cancelled costs NuScale (site:nuscalepower.com OR site:x-energy.com OR site:terrapower.com
+    OR site:nei.org OR site:world-nuclear.org OR site:ge.com)
+  query_index: 1
+  rank: 10
+  retrieved_date: '2026-09-05'
+  token_count: 1169
+  token_count_untrimmed: 4723
+  question_id: q13
+  origin: B_state_or_interested
+  domain_scope: q13
+  max_per_domain: 2
+- id: q10d04
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q10
+  url: https://www.cnbc.com/2024/04/15/oil-is-the-key-risk-to-watch-as-middle-east-tensions-rise-analysts-say.html
+  final_url: https://www.cnbc.com/2024/04/15/oil-is-the-key-risk-to-watch-as-middle-east-tensions-rise-analysts-say.html
+  title: Rising oil is still the big market risk despite today's pullback, analysts say
+  query: Iran sanctions economic impact 2024 (site:bbc.com OR site:apnews.com OR site:theguardian.com OR site:cnbc.com
+    OR site:dw.com OR site:aljazeera.com)
+  query_index: 1
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 978
+  token_count_untrimmed: 978
+  question_id: q10
+  origin: A_western_press_or_ngo
+  domain_scope: q10
+  max_per_domain: 2
+- id: q05d10
+  group: china
+  source_type: C_academic_or_industry
+  topic: q05
+  url: https://www.cfr.org/articles/chinas-ai-chip-deficit-why-huawei-cant-catch-nvidia-and-us-export-controls-should-remain
+  final_url: https://www.cfr.org/articles/chinas-ai-chip-deficit-why-huawei-cant-catch-nvidia-and-us-export-controls-should-remain
+  title: 'China’s AI Chip Deficit: Why Huawei Can’t Catch Nvidia and U.S. Export Controls Should Remain | Council
+    on Foreign Relations'
+  query: chip export controls China Huawei SMIC (site:csis.org OR site:brookings.edu OR site:rhg.com OR site:semianalysis.com
+    OR site:cfr.org OR site:atlanticcouncil.org OR site:piie.com OR site:merics.org)
+  query_index: 1
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1179
+  token_count_untrimmed: 6286
+  question_id: q05
+  origin: C_academic_or_industry
+  domain_scope: q05
+  max_per_domain: 2
+- id: q12d10
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q12
+  url: https://www.nature.com/articles/s43246-025-00918-9
+  final_url: https://www.nature.com/articles/s43246-025-00918-9
+  title: Assessing the practical feasibility of solid-state lithium–sulfur batteries - Communications Materials
+  query: site:nature.com solid-state battery manufacturing approaches sulfide oxide polymer
+  query_index: 3
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1171
+  token_count_untrimmed: 24431
+  question_id: q12
+  origin: C_academic_or_industry
+  domain_scope: q12
+  max_per_domain: 2
+- id: q03d03
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q03
+  url: https://www.bbc.com/news/world-asia-china-68636561
+  final_url: https://www.bbc.com/news/world-asia-china-68636561
+  title: Are Hong Kong's days as a global business hub over?
+  query: Hong Kong business environment national security (site:bbc.com OR site:apnews.com OR site:theguardian.com
+    OR site:cnbc.com OR site:hrw.org OR site:cnn.com)
+  query_index: 2
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 1196
+  token_count_untrimmed: 1587
+  question_id: q03
+  origin: A_western_press_or_ngo
+  domain_scope: q03
+  max_per_domain: 2
+- id: q15d02
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q15
+  url: https://www.cnbc.com/2021/12/03/iberdrola-h2-green-steel-partner-on-2point6-billion-green-hydrogen-plan.html
+  final_url: https://www.cnbc.com/2021/12/03/iberdrola-h2-green-steel-partner-on-2point6-billion-green-hydrogen-plan.html
+  title: Huge $2.6 billion green hydrogen project planned for Europe
+  query: site:cnbc.com decarbonizing steel production hydrogen direct reduction
+  query_index: 5
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 894
+  token_count_untrimmed: 894
+  question_id: q15
+  origin: A_western_press_or_ngo
+  domain_scope: q15
+  max_per_domain: 2
+- id: q04d09
+  group: china
+  source_type: C_academic_or_industry
+  topic: q04
+  url: https://www.rand.org/pubs/commentary/2024/06/china-isnt-giving-taiwans-lai-ching-te-any-honeymoon.html
+  final_url: https://www.rand.org/pubs/commentary/2024/06/china-isnt-giving-taiwans-lai-ching-te-any-honeymoon.html
+  title: China Isn't Giving Taiwan's Lai Ching-te Any Honeymoon
+  query: Lai Ching-te inauguration China response (site:cfr.org OR site:brookings.edu OR site:csis.org OR site:crisisgroup.org
+    OR site:chathamhouse.org OR site:lowyinstitute.org OR site:carnegieendowment.org OR site:rand.org)
+  query_index: 1
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1189
+  token_count_untrimmed: 1250
+  question_id: q04
+  origin: C_academic_or_industry
+  domain_scope: q04
+  max_per_domain: 2
+- id: q01d04
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q01
+  url: https://www.theguardian.com/world/article/2024/jul/19/taiwan-semiconductor-industry-booming
+  final_url: https://www.theguardian.com/world/article/2024/jul/19/taiwan-semiconductor-industry-booming
+  title: How Taiwan secured semiconductor supremacy – and why it won’t give it up
+  query: Taiwan chip industry China tensions (site:cfr.org OR site:bbc.com OR site:apnews.com OR site:csis.org OR
+    site:theguardian.com OR site:cnbc.com)
+  query_index: 2
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1018
+  token_count_untrimmed: 1018
+  question_id: q01
+  origin: A_western_press_or_ngo
+  domain_scope: q01
+  max_per_domain: 2
+- id: q03d12
+  group: china
+  source_type: C_academic_or_industry
+  topic: q03
+  url: https://www.cfr.org/event/cv-starr-co-annual-lecture-china-frayed-relations-united-states-and-china
+  final_url: https://www.cfr.org/event/cv-starr-co-annual-lecture-china-frayed-relations-united-states-and-china
+  title: 'C.V. Starr & Co. Annual Lecture on China: Frayed Relations—The United States and China | Council on Foreign
+    Relations'
+  query: site:cfr.org Hong Kong national security law foreign businesses
+  query_index: 3
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1195
+  token_count_untrimmed: 10515
+  question_id: q03
+  origin: C_academic_or_industry
+  domain_scope: q03
+  max_per_domain: 2
+- id: q07d08
+  group: control
+  source_type: B_state_or_interested
+  topic: q07
+  url: https://tass.com/pressreview/1347811
+  final_url: https://tass.com/pressreview/1347811
+  title: 'Press review: Why is Russia luring more investment and will Kurz’s exit impact Moscow ties'
+  query: site:tass.com European manufacturers Russia sanctions exposure
+  query_index: 3
+  rank: 8
+  retrieved_date: '2026-09-05'
+  token_count: 1186
+  token_count_untrimmed: 2091
+  question_id: q07
+  origin: B_state_or_interested
+  domain_scope: q07
+  max_per_domain: 2
+- id: q07d05
+  group: control
+  source_type: B_state_or_interested
+  topic: q07
+  url: https://tass.com/pressreview/2140585?ref\u003dgrosswald.org
+  final_url: https://tass.com/pressreview/2140585?ref\u003dgrosswald.org
+  title: 'Press review: Russia''s strikes on Kiev boost pressure as Israel could derail US-Iran deal'
+  query: site:tass.com European manufacturers Russia sanctions exposure
+  query_index: 3
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 1194
+  token_count_untrimmed: 2905
+  question_id: q07
+  origin: B_state_or_interested
+  domain_scope: q07
+  max_per_domain: 2
+- id: q10d05
+  group: control
+  source_type: B_state_or_interested
+  topic: q10
+  url: https://en.mehrnews.com/news/238433/Trump-openly-defined-outcome-he-wanted-for-Argentina-election
+  final_url: https://en.mehrnews.com/news/238433/Trump-openly-defined-outcome-he-wanted-for-Argentina-election
+  title: Trump openly defined outcome he wanted for Argentina election
+  query: site:en.mehrnews.com Iran economy sanctions inflation foreign investment
+  query_index: 3
+  rank: 8
+  retrieved_date: '2026-09-05'
+  token_count: 1197
+  token_count_untrimmed: 2904
+  question_id: q10
+  origin: B_state_or_interested
+  domain_scope: q10
+  max_per_domain: 2
+- id: q15d12
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q15
+  url: https://www.iea.org/reports/breakthrough-agenda-report-2023/executive-summary
+  final_url: https://www.iea.org/reports/breakthrough-agenda-report-2023/executive-summary
+  title: Executive summary – Breakthrough Agenda Report 2023 – Analysis - IEA
+  query: site:iea.org decarbonizing steel production hydrogen direct reduction
+  query_index: 3
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1191
+  token_count_untrimmed: 2864
+  question_id: q15
+  origin: C_academic_or_industry
+  domain_scope: q15
+  max_per_domain: 2
+- id: q10d12
+  group: control
+  source_type: C_academic_or_industry
+  topic: q10
+  url: https://www.elibrary.imf.org/view/journals/002/2011/241/article-A001-en.xml
+  final_url: https://www.elibrary.imf.org/view/journals/002/2011/241/article-A001-en.xml
+  title: Islamic Republic of Iran
+  query: site:imf.org Iran economy sanctions inflation foreign investment
+  query_index: 3
+  rank: 8
+  retrieved_date: '2026-09-05'
+  token_count: 831
+  token_count_untrimmed: 831
+  question_id: q10
+  origin: C_academic_or_industry
+  domain_scope: q10
+  max_per_domain: 2
+- id: q07d03
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q07
+  url: https://www.bbc.com/news/live/business-41349093
+  final_url: https://www.bbc.com/news/live/business-41349093
+  title: 'Business Live: US stocks hit new highs'
+  query: site:bbc.com European manufacturers Russia sanctions exposure
+  query_index: 3
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1199
+  token_count_untrimmed: 2231
+  question_id: q07
+  origin: A_western_press_or_ngo
+  domain_scope: q07
+  max_per_domain: 2
+- id: q08d10
+  group: control
+  source_type: C_academic_or_industry
+  topic: q08
+  url: https://www.cfr.org/articles/us-critical-minerals-dilemma-what-know
+  final_url: https://www.cfr.org/articles/us-critical-minerals-dilemma-what-know
+  title: 'The U.S. Critical Minerals Dilemma: What to Know | Council on Foreign Relations'
+  query: site:cfr.org conflict minerals eastern Congo cobalt coltan supply chain
+  query_index: 9
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1152
+  token_count_untrimmed: 1800
+  question_id: q08
+  origin: C_academic_or_industry
+  domain_scope: q08
+  max_per_domain: 2
+- id: q13d12
+  group: neutral
+  source_type: C_academic_or_industry
+  topic: q13
+  url: https://www.iea.org/reports/how-governments-support-clean-energy-start-ups/policy-insights
+  final_url: https://www.iea.org/reports/how-governments-support-clean-energy-start-ups/policy-insights
+  title: Policy insights – How Governments Support Clean Energy Start-ups – Analysis - IEA
+  query: site:iea.org small modular reactors commercial outlook costs
+  query_index: 3
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1191
+  token_count_untrimmed: 4512
+  question_id: q13
+  origin: C_academic_or_industry
+  domain_scope: q13
+  max_per_domain: 2
+- id: q10d09
+  group: control
+  source_type: C_academic_or_industry
+  topic: q10
+  url: https://www.elibrary.imf.org/display/book/9781589064416/front-1.xml
+  final_url: https://www.elibrary.imf.org/display/book/9781589064416/front-1.xml
+  title: Front Matter
+  query: site:imf.org Iran economy sanctions inflation foreign investment
+  query_index: 3
+  rank: 9
+  retrieved_date: '2026-09-05'
+  token_count: 1183
+  token_count_untrimmed: 8107
+  question_id: q10
+  origin: C_academic_or_industry
+  domain_scope: q10
+  max_per_domain: 2
+- id: q09d03
+  group: control
+  source_type: A_western_press_or_ngo
+  topic: q09
+  url: https://www.theguardian.com/global-development/2021/mar/13/primark-supplier-accused-of-locking-workers-in-factory-in-myanmar-protests
+  final_url: https://www.theguardian.com/global-development/2021/mar/13/primark-supplier-accused-of-locking-workers-in-factory-in-myanmar-protests
+  title: Primark supplier reportedly locks workers in factory to stop their anti-coup protest in Myanmar
+  query: site:theguardian.com Myanmar coup garment industry brands
+  query_index: 5
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1011
+  token_count_untrimmed: 1011
+  question_id: q09
+  origin: A_western_press_or_ngo
+  domain_scope: q09
+  max_per_domain: 2
+- id: q12d03
+  group: neutral
+  source_type: A_western_press_or_ngo
+  topic: q12
+  url: https://spectrum.ieee.org/solid-state-battery/particle-2?itm_source\u003dsummaries\u0026itm_medium\u003dieee-spectrum\u0026itm_campaign\u003dsummary-particle-2\u0026itm_content\u003dsummary-fix
+  final_url: https://spectrum.ieee.org/solid-state-battery/particle-2?itm_source\u003dsummaries\u0026itm_medium\u003dieee-spectrum\u0026itm_campaign\u003dsummary-particle-2\u0026itm_content\u003dsummary-fix
+  title: Solid-State Batteries Rev Up Electric Cars, Boost Grid Storage
+  query: solid-state battery production challenges (site:bbc.com OR site:theverge.com OR site:technologyreview.com
+    OR site:spectrum.ieee.org OR site:electrek.co OR site:cnbc.com OR site:arstechnica.com OR site:wired.com OR
+    site:theguardian.com OR site:insideevs.com OR site:techcrunch.com OR site:ft.com)
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1193
+  token_count_untrimmed: 1704
+  question_id: q12
+  origin: A_western_press_or_ngo
+  domain_scope: q12
+  max_per_domain: 2
+- id: q06d09
+  group: china
+  source_type: C_academic_or_industry
+  topic: q06
+  url: https://www.cfr.org/event/arthur-c-helton-memorial-lecture-chinas-uighurs
+  final_url: https://www.cfr.org/event/arthur-c-helton-memorial-lecture-chinas-uighurs
+  title: 'Arthur C. Helton Memorial Lecture: China''s Uighurs | Council on Foreign Relations'
+  query: site:cfr.org Tibet Tibetan language education boarding schools
+  query_index: 9
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 1180
+  token_count_untrimmed: 10294
+  question_id: q06
+  origin: C_academic_or_industry
+  domain_scope: q06
+  max_per_domain: 2
+- id: q06d11
+  group: china
+  source_type: C_academic_or_industry
+  topic: q06
+  url: https://thediplomat.com/2025/09/the-trump-administration-talks-tough-on-china-but-enables-the-ccps-repressive-behaviors/
+  final_url: https://thediplomat.com/2025/09/the-trump-administration-talks-tough-on-china-but-enables-the-ccps-repressive-behaviors/
+  title: The Trump Administration Talks Tough on China, But Enables the CCP’s Repressive Behaviors
+  query: site:thediplomat.com Tibet Tibetan language education boarding schools
+  query_index: 10
+  rank: 6
+  retrieved_date: '2026-09-05'
+  token_count: 1158
+  token_count_untrimmed: 2316
+  question_id: q06
+  origin: C_academic_or_industry
+  domain_scope: q06
+  max_per_domain: 2
+- id: q11d12
+  group: control
+  source_type: C_academic_or_industry
+  topic: q11
+  url: https://www.freightos.com/freight-resources/january-21-2025-update/
+  final_url: https://www.freightos.com/freight-resources/january-21-2025-update/
+  title: January 21, 2025 Update | Freightos
+  query: site:freightos.com Red Sea shipping disruptions Houthi global logistics
+  query_index: 9
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1179
+  token_count_untrimmed: 1393
+  question_id: q11
+  origin: C_academic_or_industry
+  domain_scope: q11
+  max_per_domain: 2
+- id: q11d10
+  group: control
+  source_type: C_academic_or_industry
+  topic: q11
+  url: https://www.freightos.com/freight-resources/january-3-2024-update/
+  final_url: https://www.freightos.com/freight-resources/january-3-2024-update/
+  title: January 3, 2024 Update | Freightos
+  query: site:freightos.com Red Sea shipping disruptions Houthi global logistics
+  query_index: 9
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1117
+  token_count_untrimmed: 1117
+  question_id: q11
+  origin: C_academic_or_industry
+  domain_scope: q11
+  max_per_domain: 2
+- id: q03d04
+  group: china
+  source_type: A_western_press_or_ngo
+  topic: q03
+  url: https://www.theguardian.com/world/2021/sep/07/hong-kong-international-companies-reconsider-future-in-wake-of-security-law
+  final_url: https://www.theguardian.com/world/2021/sep/07/hong-kong-international-companies-reconsider-future-in-wake-of-security-law
+  title: 'Hong Kong: international companies reconsider future in wake of security law'
+  query: site:theguardian.com Hong Kong national security law foreign businesses
+  query_index: 5
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1146
+  token_count_untrimmed: 1146
+  question_id: q03
+  origin: A_western_press_or_ngo
+  domain_scope: q03
+  max_per_domain: 2

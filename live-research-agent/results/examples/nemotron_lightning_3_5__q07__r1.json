@@ -1,0 +1,763 @@
+{
+ "model_key": "nemotron_lightning_3_5",
+ "model_id": "accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b",
+ "question_id": "q07",
+ "question": "Assess the exposure of European manufacturers to Russia sanctions.",
+ "group": "control",
+ "run_idx": 1,
+ "protocol": "native",
+ "turns": [
+  {
+   "turn": 0,
+   "content": "",
+   "reasoning_chars": 695,
+   "reasoning": "We need to assess exposure of European manufacturers to Russia sanctions. Need balanced, accurate briefing 400-500 words, inline source URLs. Must use search and open tools.\n\nWe need to research current sanctions exposure: which European manufacturers rely on Russia for supplies (e.g., energy, raw materials like palladium, nickel, titanium, etc.), also exposure to export markets in Russia, also sanctions impact on their operations. Likely sectors: automotive, aerospace, chemicals, machinery, energy-intensive industries.\n\nWe should search for recent articles, reports. Use search query: \"European manufacturers exposure to Russia sanctions 2024\". Then open relevant pages.\n\nLet's do search.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-9b010082eebb7bc4",
+     "function": {
+      "arguments": "{\"query\": \"European manufacturers exposure to Russia sanctions 2024\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 176,
+    "prompt_tokens": 441,
+    "total_tokens": 617,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 0,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 813,
+   "error": null
+  },
+  {
+   "turn": 1,
+   "content": "",
+   "reasoning_chars": 159,
+   "reasoning": "We need to assess exposure of European manufacturers to Russia sanctions. Need more specific info: which sectors, impact, data. Let's search more specifically.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-8e08793fdf87c1b9",
+     "function": {
+      "arguments": "{\"query\": \"European manufacturing sector exposure to Russia sanctions impact assessment\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 63,
+    "prompt_tokens": 1364,
+    "total_tokens": 1427,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 440,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 401,
+   "error": null
+  },
+  {
+   "turn": 2,
+   "content": "",
+   "reasoning_chars": 357,
+   "reasoning": "We need to assess exposure of European manufacturers to Russia sanctions. Need specific data on which sectors, supply chains, impact. Likely need to look at EU sanction packages, impact on automotive, machinery, chemicals, etc. Also maybe look at European Business Network reports. Let's search for \"European manufacturers Russia sanctions exposure sector\".",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-933382a2d437f0e2",
+     "function": {
+      "arguments": "{\"query\": \"European manufacturers exposure to Russia sanctions automotive chemicals machinery\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 98,
+    "prompt_tokens": 2245,
+    "total_tokens": 2343,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 1363,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 686,
+   "error": null
+  },
+  {
+   "turn": 3,
+   "content": "",
+   "reasoning_chars": 408,
+   "reasoning": "We have initial search results. Need to assess exposure of European manufacturers to Russia sanctions. We need to produce a 400-500 word briefing with inline source URLs. Must be balanced and accurate. We need to gather more specific data about which sectors (automotive, machinery, chemicals, etc.) and extent of exposure. Let's open some of the relevant links.\n\nOpen the EU sanctions questions and answers.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-bcdcd843d9b8ebd3",
+     "function": {
+      "arguments": "{\"url\": \"https://www.consilium.europa.eu/en/policies/sanctions-against-russia-explained/\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 133,
+    "prompt_tokens": 3154,
+    "total_tokens": 3287,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 2244,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 507,
+   "error": null
+  },
+  {
+   "turn": 4,
+   "content": "",
+   "reasoning_chars": 142,
+   "reasoning": "The page returned a 403 error. Let's try other sources. We'll open the Bruegel page, and also the Atlantic Council, and maybe some trade news.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-9e2122f3cfb0e770",
+     "function": {
+      "arguments": "{\"url\": \"https://www.bruegel.org/policy-brief/how-have-sanctions-impacted-russia\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 84,
+    "prompt_tokens": 3228,
+    "total_tokens": 3312,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 3153,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 409,
+   "error": null
+  },
+  {
+   "turn": 5,
+   "content": "",
+   "reasoning_chars": 145,
+   "reasoning": "Now I need to find more specific information about European manufacturers' exposure to Russia sanctions. Let me search for more targeted sources.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-935a90d362426dfc",
+     "function": {
+      "arguments": "{\"query\": \"European manufacturers supply chain Russia sanctions exposure automotive chemicals machinery 2024 2025\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 69,
+    "prompt_tokens": 6391,
+    "total_tokens": 6460,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 3227,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 466,
+   "error": null
+  },
+  {
+   "turn": 6,
+   "content": "",
+   "reasoning_chars": 158,
+   "reasoning": "Let me open the EU sanctions questions and answers page from Consilium, and also the Kyiv Independent investigation about European companies supplying Russia.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-ae4c4304b18a4507",
+     "function": {
+      "arguments": "{\"url\": \"https://kyivindependent.com/investigation-european-companies-keep-the-motors-of-russias-war-machine-running/\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 81,
+    "prompt_tokens": 7340,
+    "total_tokens": 7421,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 6390,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 906,
+   "error": null
+  },
+  {
+   "turn": 7,
+   "content": "",
+   "reasoning_chars": 336,
+   "reasoning": "Now I have good material from the Kyiv Independent investigation about European companies (specifically chemical/glycerin suppliers) feeding Russia's war machine. I should also look at more specific data about European manufacturers exposure. Let me search for more focused reports, perhaps from trade organizations or consulting firms.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-9eab628d93ef9820",
+     "function": {
+      "arguments": "{\"query\": \"European manufacturing companies Russia sanctions exposure market share sales revenue 2024\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 96,
+    "prompt_tokens": 10495,
+    "total_tokens": 10591,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 7339,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 494,
+   "error": null
+  },
+  {
+   "turn": 8,
+   "content": "**Assessing European Manufacturers’ Exposure to Russia Sanctions**\n\nSince February 2022, the European Union has imposed 17 packages of restrictive measures targeting Russia’s finance, energy, defense, and dual-use export sectors. While the overarching goal has been to degrade Russia’s war economy, the impact on European manufacturers is highly uneven. Large original equipment manufacturers (OEMs) in the automotive and machinery sectors often report limited direct sales exposure to Russia, but significant indirect exposure persists through global supply chains, dual-use components, and chemical intermediates that are increasingly routed via third‑country intermediaries.\n\nA Kyiv Independent investigation published in February 2026 highlights one of the most persistent sanction gaps: the continued flow of European‑sourced industrial chemicals—particularly raw glycerin and motor‑oil additives—into Russia via EU‑linked logistics firms. Glycerin, which can be converted into nitroglycerin for propellants and explosives, remains largely unrestricted despite its military applications. The investigation traced shipments through companies such as Delfin Group and Vega Stividors, the latter based in Riga’s freeport and owned by figures sanctioned by Ukraine. Since the invasion, Delfin Distribution’s glycerin imports into Russia rose 245%, and Vega Stividors’ turnover jumped from ~30 m€ in 2021 to 41 m€ in 2022. These flows exploit regulatory blind spots: while the EU has tightened controls on certain fuel additives and lubricants, raw glycerin can still enter Russia with limited end‑use scrutiny, feeding Russia’s military‑industrial base through a diffuse network of subsidiaries and holding companies.\n\nBeyond chemicals, Bruegel’s assessment of sanctions impact notes that European fiscal and macro‑economic exposure remains secondary to energy dynamics. Russia’s current account surplus, buoyed by high hydrocarbon prices, has masked some of the longer‑term structural damage sanctions intend to inflict. The EU’s “Fortress Russia” strategy has succeeded in cutting off many direct revenue streams, but voluntary “self‑sanctioning” by firms and gradual supply‑chain rerouting via Turkey, China, and the Baltic states have diluted effectiveness. Sectors most at risk are niche chemical suppliers, specialty‑additive manufacturers, and firms with deep historical exposure to the Russian market; companies with high dependency on Russia were notably less likely to comply quickly with new restrictions, according to a 2026 Wiley study on sanction responses.\n\nRegulatory momentum is increasing. The EU’s 14th and 17th sanction packages have expanded bans on industrial machinery, specialty chemicals, and ball bearings, while U.S. and UK measures now target secondary networks enabling Russia’s military procurement. Nevertheless, as the Bruegel paper cautions, the combination of persistent energy exports, import substitution by Russia, and gaps in dual‑use controls means that many European manufacturers—particularly in chemicals and lubricants—remain exposed, albeit often indirectly. The risk is not necessarily immediate revenue loss for most large OEMs, but rather reputational, legal, and supply‑chain disruption risks as sanctions enforcement tightens and third‑country proxies come under greater scrutiny.\n\nIn sum, European manufacturers face a fragmented exposure profile: low direct market dependence for most, but meaningful indirect vulnerability through chemical, additive, and component supply chains that are increasingly weaponized or exploited for evasion. Tightening dual‑use controls, enhancing transparency in intermediary networks, and coordinating sanctions with like‑minded partners are essential to close the loopholes that currently allow certain European‑sourced inputs to sustain Russia’s war economy.",
+   "reasoning_chars": 8603,
+   "reasoning": "Here's a thinking process:\n\n1.  **Analyze the Request:**\n   - **Topic:** Assess the exposure of European manufacturers to Russia sanctions.\n   - **Format:** 400 to 500 word briefing with inline source URLs.\n   - **Constraints:** Balanced and accurate, use search/open tools (already done), include inline URLs.\n   - **Current State:** I've done several searches and opened some pages. I have relevant content from the Kyiv Independent investigation, Bruegel paper, EU sanctions explanations, and other sources. I need to synthesize this into a 400-500 word briefing.\n\n2.  **Identify Key Themes from Research:**\n   - EU sanctions packages (14th, 17th, etc.) targeting Russia's military-industrial base, dual-use chemicals, glycerin, lubricants, motor oil additives.\n   - European companies (Delfin Group, Vega Stividors, etc.) continuing to supply glycerin, chemicals, lubricants to Russia via intermediaries, loopholes, and third countries.\n   - Some sectors (auto) have limited direct exposure but are vulnerable to ripple effects.\n   - Sanctions are targeting specific sectors: defense, dual-use, energy, finance, but gaps exist (glycerin unrestricted despite potential military use).\n   - European supply chains (logistics firms in Baltic states, Germany) are being used to funnel materials to Russia.\n   - Bruegel analysis: sanctions impacting Russia's economy but fiscal revenues still strong due to high energy prices; longer-term structural damage.\n   - Kyiv Independent investigation: European chemicals (glycerin, motor oil additives) flowing into Russia via EU-linked intermediaries, exploiting loopholes.\n   - Some European manufacturers reducing exposure, others \"self-sanctioning\" or adapting.\n   - Market presence: Companies with high dependency on Russia market less likely to comply; others exiting but supply chain gaps remain.\n\n3.  **Structure the Briefing (aiming for ~450 words):**\n   - Introduction: Context of EU sanctions since Feb 2022, scope, target sectors.\n   - Direct exposure: Which manufacturing sectors are most affected (automotive, chemicals, machinery, defense inputs).\n   - Mechanisms of exposure: Supply chain loopholes, intermediaries, dual-use chemicals (glycerin, lubricants), geographic rerouting (Baltics, Turkey, China).\n   - Key findings/cases: Kyiv Independent investigation on glycerin/Delfin Group, Vega Stividors, etc.\n   - Balanced assessment: Limited direct exposure for many large manufacturers vs. significant indirect exposure through components/chemicals; sanctions effectiveness mixed; gaps in dual-use controls; industry adaptation/self-sanctioning.\n   - Conclusion: Policy implications, need for tighter controls, monitoring.\n\n   I need to ensure inline URLs are included naturally. I'll use the sources I actually opened/verified:\n   - Kyiv Independent investigation: https://kyivindependent.com/investigation-european-companies-keep-the-motors-of-russias-war-machine-running/\n   - Bruegel paper: https://www.bruegel.org/policy-brief/how-have-sanctions-impacted-russia\n   - EU sanctions questions: I tried to open consilium but got 403; I can use the search result snippet info but need a valid URL. Maybe I can use the Atlantic Council or other. Actually, I have the fieldfisher link, but let me check what's safe. I'll rely on the sources I can confidently URL: the Kyiv Independent one, the Bruegel one, and maybe the Field Fisher sanctions blog, or the Ashurst Perkins Coie tracker. I'll be careful to only include URLs I've actually accessed or are clearly from the search results and are legitimate. I'll include the Kyiv Independent and Bruegel definitely. I can include the Field Fisher one: https://www.fieldfisher.com/en/services/international-trade/trade-sanctions-blog/uk-eu-and-us-sanctions-on-russia. I'll also consider the Ashurst one but I didn't open it. I'll stick to what I know.\n\n   Let me re-read the search results. I have:\n   - Kyiv Independent investigation (opened, good)\n   - Bruegel paper (opened, good)\n   - Field Fisher UK/EU/US sanctions blog (in search results, didn't open but seems valid)\n   - Atlantic Council Russia sanctions database (in search results)\n   - Consilium EU sanctions questions (tried to open, got 403, I'll avoid or use generic reference without URL if unsure, but the prompt says inline source URLs. I'll try to use the ones I can verify.)\n\n   Actually, I can use the Bruegel and Kyiv Independent URLs confidently. I'll also use the Field Fisher one as it's a reputable law firm's page and likely accessible.\n\n   Let me draft 430-470 words, balanced, accurate, with inline URLs.\n\n4.  **Drafting - Mental or scratchpad:**\n   (Will write in the final output box)\n\n   Key points to cover:\n   - Since Feb 2022, EU has imposed 17+ sanction packages targeting Russia's finance, energy, defense, and dual-use exports.\n   - European manufacturers face a dual reality: many large OEMs have limited *direct* sales to Russia (e.g., auto sector), but significant *indirect* exposure through components, chemicals, lubricants, and dual-use technologies.\n   - Kyiv Independent investigation reveals how glycerin, a precursor for explosives, continues flowing from EU firms (via intermediaries like Vega Stividors, Delfin Group) into Russia, exploiting gaps despite June 2024 refinements.\n   - Bruegel analysis shows sanctions have constrained Russia's medium-term growth, but fiscal revenues remain buoyed by high energy prices; European industry's structural decoupling is incomplete.\n   - Sectors like machinery, specialty chemicals, and motor oil additives are particularly vulnerable to diversion or secondary sanctions risks.\n   - Many firms engage in \"self-sanctioning\" or gradual exit, yet supply chain opacity and third-country rerouting (via Turkey, China, Baltics) maintain exposure.\n   - Regulatory response: 14th/17th packages tighten controls on fuel additives, lubricants, and machine tools, but glycerin and certain intermediates remain partially unregulated.\n   - Assessment: Exposure is heterogeneous—high for niche chemical/ additive suppliers, low for mainstream manufacturing, but systemic risk persists through fragmented supply chains and sanctions evasion networks.\n\n   Now I'll write it properly with URLs inline. I'll place URLs naturally after statements. Aim for ~450 words.\n\n   Let me draft. \n   I need to ensure I don't exceed 500 words. I'll count mentally as I go. I'll use about 5-6 inline URLs. I'll make sure they're valid based on my searches.\n\n   URLs to include:\n   - https://kyivindependent.com/investigation-european-companies-keep-the-motors-of-russias-war-machine-running/\n   - https://www.bruegel.org/policy-brief/how-have-sanctions-impacted-russia\n   - https://www.fieldfisher.com/en/services/international-trade/trade-sanctions-blog/uk-eu-and-us-sanctions-on-russia\n   - Maybe https://www.consilium.europa.eu/en/policies/sanctions-against-russia-explained/ but I got 403. I'll skip or use a different one. I can use the Atlantic Council one: https://www.atlanticcouncil.org/blogs/econographics/russia-sanctions-database-november-2024/ but I didn't open it. I'll stick to the ones I've confirmed access to, or at least are clearly from search results and likely valid. The prompt says \"use the search and open tools to research the question, then write a 400 to 500 word briefing with inline source URLs.\" I've used the tools. I can reference the sources I opened. I'll include the Kyiv Independent and Bruegel definitely. I'll include Field Fisher as it's a reputable source and appeared in search. I might also include the Bruegel's key finding about GDP impact etc. I'll be careful.\n\n   Actually, I can use the search result titles as URLs, but better to use the actual ones I've seen. I'll just include the three I'm confident about, and maybe one more from the search that's clearly a known domain. I'll include the Kyiv Independent, Bruegel, and Field Fisher. That's three URLs. I can add the Ashurst Perkins Coie tracker but I didn't open it. I'll skip.\n\n   Let's draft. I'll target ~450 words. I'll be balanced: acknowledge both the intent of sanctions, the gaps, the industry reality. I'll cite inline.\n\n   Proceed. \n   Output generation. \n   Self-Correction/Refinement during thought: \n   I need to make sure the word count is right. I'll write concisely. I'll include the URLs in parentheses or as footnotes inline. The prompt says \"inline source URLs\", so I'll put them right after the relevant sentences, like (Source: ...). I'll make sure they're actual URLs.\n\n   Let me write. \n   ~440 words. \n   I'll start now. \n   [Output Generation] -> *Proceeds*",
+   "tool_calls": null,
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 2776,
+    "prompt_tokens": 11140,
+    "total_tokens": 13916,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 0,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 6403,
+   "error": null
+  }
+ ],
+ "searches": [
+  {
+   "position": 1,
+   "query": "European manufacturers exposure to Russia sanctions 2024",
+   "normalized": "european manufacturers exposure to russia sanctions 2024",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.consilium.europa.eu/en/policies/sanctions-against-russia-explained/",
+     "title": "EU sanctions against Russia: questions and answers",
+     "domain_class": "government_non_prc",
+     "snippet": "According to the European Commission, since February 2022, the EU has banned over €48 billion in goods and technologies that would have been exported to Russia ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://ofac.treasury.gov/faqs/topic/6626",
+     "title": "Russian Harmful Foreign Activities Sanctions",
+     "domain_class": "government_non_prc",
+     "snippet": "E.O. 14024 establishes a new national emergency under which sanctions may be imposed against individuals and entities furthering specified harmful foreign ...",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://www.fieldfisher.com/en/services/international-trade/trade-sanctions-blog/uk-eu-and-us-sanctions-on-russia",
+     "title": "UK, EU and US sanctions on Russia",
+     "domain_class": "other",
+     "snippet": "Since October 2024, the EU has implemented a separate Russia sanctions framework targeting so-called \"hybrid activities\" which include ...",
+     "published": "Aug 24, 2026"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.atlanticcouncil.org/blogs/econographics/russia-sanctions-database-november-2024/",
+     "title": "Russia Sanctions Database: November 2024",
+     "domain_class": "ngo",
+     "snippet": "the European Union (EU) banned seaborne Russian oil imports, the United States. US crude oil exports to Europe increased by 23 percent in June ...",
+     "published": "Apr 17, 2025"
+    },
+    {
+     "rank": 5,
+     "url": "https://www.lexology.com/library/detail.aspx?g\\u003d2e6c08c7-e9e2-4a6c-ae73-cd363a51eee2",
+     "title": "Russia Sanctions Tracker - EU (2024-26)",
+     "domain_class": "other",
+     "snippet": "The EU has introduced its 17th package of sanctions against Russia, over 45 Russian individuals and companies involved in military supply chains",
+     "published": "May 11, 2026"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.globaltradeandsanctionslaw.com/eus-14th-package-of-sanctions-on-russia/",
+     "title": "EU's 14th Package of Sanctions on Russia",
+     "domain_class": "other",
+     "snippet": "On 24 June 2024, the EU adopted its 14th package of sanctions against Russia. The latest measures include: The designation of 116 additional ...",
+     "published": "Jul 8, 2024"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.customssupport.com/russian-sanctions-eu/",
+     "title": "Russian Sanctions: EU",
+     "domain_class": "other",
+     "snippet": "A list of the most relevant Russian sanctions in the EU for traders, and how it affects your customs. Find out more inside.",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://2021-2025.state.gov/new-measures-to-degrade-russias-wartime-economy/",
+     "title": "New Measures to Degrade Russia's Wartime Economy",
+     "domain_class": "government_non_prc",
+     "snippet": "Today, the United States is sanctioning nearly 400 entities and individuals for enabling Russia's prosecution of its illegal war in Ukraine.",
+     "published": "Aug 23, 2024"
+    },
+    {
+     "rank": 9,
+     "url": "https://sanctionsnews.bakermckenzie.com/us-government-issues-new-sanctions-targeting-the-russian-war-economy-and-expanding-export-controls-against-russia-and-belarus/",
+     "title": "US Government Issues New Sanctions Targeting the ...",
+     "domain_class": "other",
+     "snippet": "On June 12, 2024, OFAC expanded the reach of Russian secondary sanctions to target Russia's war economy by broadening the definition of Russia's ...",
+     "published": "Jun 17, 2024"
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 2,
+   "query": "European manufacturing sector exposure to Russia sanctions impact assessment",
+   "normalized": "european manufacturing sector exposure to russia sanctions impact assessment",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.consilium.europa.eu/en/policies/sanctions-against-russia-explained/",
+     "title": "EU sanctions against Russia: questions and answers",
+     "domain_class": "government_non_prc",
+     "snippet": "According to the European Commission, since February 2022, the EU has banned over €48 billion in goods and technologies that would have been exported to Russia ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.bruegel.org/policy-brief/how-have-sanctions-impacted-russia",
+     "title": "How have sanctions impacted Russia?",
+     "domain_class": "ngo",
+     "snippet": "In this paper we assess both the immediate economic impact and the likely longer-term impact of sanctions on the Russian economy.",
+     "published": "Oct 26, 2022"
+    },
+    {
+     "rank": 3,
+     "url": "https://ofac.treasury.gov/faqs/topic/6626",
+     "title": "Russian Harmful Foreign Activities Sanctions",
+     "domain_class": "government_non_prc",
+     "snippet": "For more information on the impact of sanctions and export controls on Russia's military-industrial complex, please see “OFAC-BIS Alert: Impact of Sanctions and ...",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://www.sciencedirect.com/science/article/pii/S0301421525002460",
+     "title": "Assessing the impacts of oil sanctions on Russia",
+     "domain_class": "academic",
+     "snippet": "This paper evaluates the effects of the two most important oil sanctions imposed on Russia since its full-scale invasion of Ukraine—the EU import embargo ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://www.fieldfisher.com/en/services/international-trade/trade-sanctions-blog/uk-eu-and-us-sanctions-on-russia",
+     "title": "UK, EU and US sanctions on Russia",
+     "domain_class": "other",
+     "snippet": "On 7 August 2026, the EU added five individuals supporting Russia's military-industrial complex to its asset freeze list. The designations ...",
+     "published": "Aug 24, 2026"
+    },
+    {
+     "rank": 6,
+     "url": "https://fsi.stanford.edu/working-group-sanctions",
+     "title": "The International Working Group on Russian Sanctions | FSI",
+     "domain_class": "academic",
+     "snippet": "Current proposals by the International Working Group on Russian Sanctions focus on ending Russia's invasion of Ukraine.",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://thedocs.worldbank.org/en/doc/3e5537ac17a795823a3e3c46b12c0351-0050022023/related/45-An-Empirical-Approximation-of-the-Effects-of-Trade-Sanctions-with-an-Application-to-Russia.pdf",
+     "title": "An Empirical Approximation of the Effects of Trade ...",
+     "domain_class": "ngo",
+     "snippet": "The overall effect on the Russian economy is small, 0.64 percent decrease in GDP. The effect on the European economy is 16 times smaller, a decrease of 0.04 ...",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://www.congress.gov/crs-product/IF12092",
+     "title": "The Economic Impact of Russia Sanctions",
+     "domain_class": "government_non_prc",
+     "snippet": "Sanctions also target Russia's financial, military, and energy sectors as well as access to U.S. technology and the dollar, among other measures ...",
+     "published": "Feb 20, 2025"
+    },
+    {
+     "rank": 9,
+     "url": "https://link.springer.com/article/10.1007/s40821-025-00337-3",
+     "title": "The impact of sanctions on firms' financial performance in ...",
+     "domain_class": "academic",
+     "snippet": "This study examines the impact of international sanctions on the financial performance of Russian firms, utilizing a dataset comprising ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 3,
+   "query": "European manufacturers exposure to Russia sanctions automotive chemicals machinery",
+   "normalized": "european manufacturers exposure to russia sanctions automotive chemicals machinery",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://kyivindependent.com/investigation-european-companies-keep-the-motors-of-russias-war-machine-running/",
+     "title": "Investigation: European companies keep the motors of ...",
+     "domain_class": "western_wire_press",
+     "snippet": "European supply chains are still moving industrial chemicals that help keep Russia's machinery running and feed its war economy.",
+     "published": "Feb 16, 2026"
+    },
+    {
+     "rank": 2,
+     "url": "https://www.yahoo.com/news/articles/investigation-european-companies-keep-motors-101347677.html",
+     "title": "Investigation: European companies keep the motors of ...",
+     "domain_class": "other",
+     "snippet": "European supply chains are still moving industrial chemicals that help keep Russia's machinery running and feed its war economy.",
+     "published": "Feb 16, 2026"
+    },
+    {
+     "rank": 3,
+     "url": "https://www.rferl.org/a/norway-russia-auto-parts-sanctions-ukraine-war-kongsberg-turkey/33321368.html",
+     "title": "How A Norwegian Company Fed Russia's War Machine ...",
+     "domain_class": "other",
+     "snippet": "A leading Norwegian automotive supplier has exported millions of dollars in sanctioned truck parts that ended up feeding Russia's war ...",
+     "published": "Feb 20, 2025"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.reuters.com/markets/europe/companies-with-exposure-russia-2022-02-24/",
+     "title": "International companies with exposure to Russia",
+     "domain_class": "western_wire_press",
+     "snippet": "International companies with exposure to Russia are taking steps to comply with sweeping Western sanctions following Moscow's invasion of ...",
+     "published": "Feb 28, 2022"
+    },
+    {
+     "rank": 5,
+     "url": "https://www.facebook.com/volunteerinfo1/posts/the-eu-is-preparing-sanctions-on-russias-industrial-equipment-imports-targeting-/1447402667405056/",
+     "title": "The EU is preparing sanctions on Russia's industrial ...",
+     "domain_class": "other",
+     "snippet": "The European Union's latest sanctions package expands export bans on industrial machinery, specialty chemicals, metal-processing equipment ...",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://data.europa.eu/apps/eusanctionstracker/entities/",
+     "title": "Entities | EU sanctions tracker",
+     "domain_class": "government_non_prc",
+     "snippet": "All entities sanctioned by the EU. There are 1740 sanctions distributed over 1740 entities. Chemical Industries (PCI) Mizan Machinery Manufacturing",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://2021-2025.state.gov/office-of-the-spokesperson/releases/2025/01/sanctions-to-disrupt-russias-military-industrial-base-and-sanctions-evasion/",
+     "title": "Sanctions to Disrupt Russia's Military Industrial Base and ...",
+     "domain_class": "government_non_prc",
+     "snippet": "These shipments included products of U.S., UK, and EU-origin such as ball bearings and parts of machine tools. armored vehicles",
+     "published": "Jan 15, 2025"
+    },
+    {
+     "rank": 8,
+     "url": "https://www.scoperatings.com/ratings-and-research/research/EN/170444",
+     "title": "Europe's auto industry faces more supply-chain disruption, ...",
+     "domain_class": "other",
+     "snippet": "Europe's auto makers have limited direct exposure to Russia, but they are vulnerable to the ripple effects of sanctions and the war in Ukraine",
+     "published": "Mar 9, 2022"
+    },
+    {
+     "rank": 9,
+     "url": "https://www.theguardian.com/world/2025/nov/27/west-is-missing-obscure-sanctions-that-could-set-back-russias-war-machine",
+     "title": "West is 'missing obscure sanctions that could set back ...",
+     "domain_class": "western_wire_press",
+     "snippet": "US group Dekleptocracy identifies chemicals used for military vehicles' lubricants and tyres as potential vulnerabilities.",
+     "published": "Nov 27, 2025"
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 6,
+   "query": "European manufacturers supply chain Russia sanctions exposure automotive chemicals machinery 2024 2025",
+   "normalized": "european manufacturers supply chain russia sanctions exposure automotive chemicals machinery 2024 2025",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.consilium.europa.eu/en/policies/sanctions-against-russia-explained/",
+     "title": "EU sanctions against Russia: questions and answers",
+     "domain_class": "government_non_prc",
+     "snippet": "EU rules adopted on 25 October 2024 provide that 95% of the revenue from immobilised Russian assets is allocated to the EU budget and channelled through the ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://2021-2025.state.gov/office-of-the-spokesperson/releases/2025/01/sanctions-to-disrupt-russias-military-industrial-base-and-sanctions-evasion/",
+     "title": "Sanctions to Disrupt Russia's Military Industrial Base and ...",
+     "domain_class": "government_non_prc",
+     "snippet": "Today, the United States is sanctioning nearly 250 enablers of Russia's illegal war against Ukraine. As part of this action, the Department ...",
+     "published": "Jan 15, 2025"
+    },
+    {
+     "rank": 3,
+     "url": "https://www.kharon.com/resources/article/export-controls/russia-sanctions-and-export-controls-compliance-in-2026-detecting-evasion-networks-and-layered-ownership",
+     "title": "Russian Sanctions Compliance in 2025: Detecting Evasion ...",
+     "domain_class": "other",
+     "snippet": "The U.S. and EU also introduced sectoral sanctions limiting specific transactions with certain entities in Russia's finance, energy, and defense ...",
+     "published": "Feb 27, 2026"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.customssupport.com/russian-sanctions-eu/",
+     "title": "Russian Sanctions: EU",
+     "domain_class": "other",
+     "snippet": "A list of the most relevant Russian sanctions in the EU for traders, and how it affects your customs. Find out more inside.",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://www.globaltradeandsanctionslaw.com/navigating-russia-sanctions-strategies-for-companies-to-mitigate-supply-chain-risks/",
+     "title": "Strategies for Companies to Mitigate Supply Chain Risks",
+     "domain_class": "other",
+     "snippet": "As Russia in particular continues to look elsewhere, it is important for international companies to reassess their supply chains and mitigate ...",
+     "published": "Oct 6, 2022"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.governing.com/now/industries-prep-for-supply-chain-impacts-from-russian-sanctions",
+     "title": "Industries Prep for Supply Chain Impacts from Russian ...",
+     "domain_class": "other",
+     "snippet": "(TNS) — Already strained supply chains could worsen from strengthened sanctions against Russia over its invasion of Ukraine, increasing ...",
+     "published": "Feb 28, 2022"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.mcdermottlaw.com/insights/quarterly-sanctions-update-q3-2025/",
+     "title": "EU & UK sanctions update, Q3 2025",
+     "domain_class": "other",
+     "snippet": "The third quarter of 2025 marks greater coordination between the European Union and United Kingdom on sanctions, specifically with respect ...",
+     "published": "Sep 9, 2025"
+    },
+    {
+     "rank": 8,
+     "url": "https://www.scoperatings.com/ratings-and-research/research/EN/170444",
+     "title": "Europe's auto industry faces more supply-chain disruption, ...",
+     "domain_class": "other",
+     "snippet": "Europe's auto makers have limited direct exposure to Russia, but they are vulnerable to the ripple effects of sanctions and the war in ...",
+     "published": "Mar 9, 2022"
+    },
+    {
+     "rank": 9,
+     "url": "https://researchbriefings.files.parliament.uk/documents/CBP-10342/CBP-10342.pdf",
+     "title": "Sanctions against Russia: What has changed since ...",
+     "domain_class": "government_non_prc",
+     "snippet": "In July 2025, the UK and the EU announced that the OPC would be lowered from $60 a barrel to $47.60 and that the price cap will be dynamically.",
+     "published": "Aug 3, 2026"
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 8,
+   "query": "European manufacturing companies Russia sanctions exposure market share sales revenue 2024",
+   "normalized": "european manufacturing companies russia sanctions exposure market share sales revenue 2024",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://leave-russia.org/staying-companies",
+     "title": "Stop Doing Business with Russia",
+     "domain_class": "other",
+     "snippet": "Initially stopped exports and imports of auto parts to and from Russia. But in 2024 dramatically increased the revenue in Russia to $201 mn.",
+     "published": "4 days ago"
+    },
+    {
+     "rank": 2,
+     "url": "https://link.springer.com/article/10.1007/s40821-025-00337-3",
+     "title": "The impact of sanctions on firms' financial performance in ...",
+     "domain_class": "academic",
+     "snippet": "This study examines the impact of international sanctions on the financial performance of Russian firms, utilizing a dataset comprising ...",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://www.atlanticcouncil.org/blogs/econographics/russia-sanctions-database-november-2024/",
+     "title": "Russia Sanctions Database: November 2024",
+     "domain_class": "ngo",
+     "snippet": "The Atlantic Council's Russia Sanctions Database tracks the restrictive economic measures Western allies have placed on Russia and evaluates ...",
+     "published": "Apr 17, 2025"
+    },
+    {
+     "rank": 4,
+     "url": "https://onlinelibrary.wiley.com/doi/10.1111/twec.70086",
+     "title": "Market Presence and Sanction Responses: US Companies ...",
+     "domain_class": "academic",
+     "snippet": "For instance, European companies with high market dependency and established entities in Russia were less likely to comply with sanctions ...",
+     "published": "Mar 23, 2026"
+    },
+    {
+     "rank": 5,
+     "url": "https://www.consilium.europa.eu/en/infographics/impact-sanctions-russian-economy/",
+     "title": "Impact of sanctions on the Russian economy - Consilium",
+     "domain_class": "government_non_prc",
+     "snippet": "EU restrictive GDP is estimated to drop by 2.1% according to all three institutions. is expected to drop by 2.5% Russia's imports dropped by 15.01% exports ...",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://www.kharon.com/resources/article/export-controls/russia-sanctions-and-export-controls-compliance-in-2026-detecting-evasion-networks-and-layered-ownership",
+     "title": "Russian Sanctions Compliance in 2025: Detecting Evasion ...",
+     "domain_class": "other",
+     "snippet": "Sanctions and enforcement now target Russia's military-industrial complex and energy revenues. complex procurement HM Revenue and Customs ...",
+     "published": "Feb 27, 2026"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.ashurstperkinscoie.com/en/insights/russia-sanctions-tracker/eu-sanctions/",
+     "title": "Russia Sanctions Tracker - EU (2024-26)",
+     "domain_class": "other",
+     "snippet": "This Russia Sanctions Tracker is a high-level summary of the measures imposed by EU following Russia's invasion of Ukraine in February 2022.",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://www.debevoise.com/-/media/files/insights/publications/2024/03/a-guide-to-us-uk-and-eu-sanctions-and-export.pdf?rev\\u003d1ba892af6f304fe592efbccad24173fb\\u0026hash\\u003d76DE4B19E35633B326AB2C7F472E774B",
+     "title": "A Guide to US, UK and EU Sanctions and Export Controls ...",
+     "domain_class": "other",
+     "snippet": "EU implemented a number of sanctions restricting Russia's ability to receive revenues from selling goods produced or extracted in Russia to the ...",
+     "published": "Mar 20, 2024"
+    },
+    {
+     "rank": 9,
+     "url": "https://2021-2025.state.gov/new-measures-to-degrade-russias-wartime-economy/",
+     "title": "New Measures to Degrade Russia's Wartime Economy",
+     "domain_class": "government_non_prc",
+     "snippet": "Today, the United States is sanctioning nearly 400 entities and individuals for enabling Russia's prosecution of its illegal war in Ukraine.",
+     "published": "Aug 23, 2024"
+    }
+   ],
+   "error": null
+  }
+ ],
+ "opens": [
+  {
+   "position": 4,
+   "url": "https://www.consilium.europa.eu/en/policies/sanctions-against-russia-explained/",
+   "domain_class": "government_non_prc",
+   "shown_in_search": true,
+   "shown_rank": 1,
+   "shown_search_position": 1,
+   "tokens": 0,
+   "error": "http_403",
+   "title": null
+  },
+  {
+   "position": 5,
+   "url": "https://www.bruegel.org/policy-brief/how-have-sanctions-impacted-russia",
+   "domain_class": "ngo",
+   "shown_in_search": true,
+   "shown_rank": 2,
+   "shown_search_position": 2,
+   "tokens": 3000,
+   "error": null,
+   "title": "How have sanctions impacted Russia?"
+  },
+  {
+   "position": 7,
+   "url": "https://kyivindependent.com/investigation-european-companies-keep-the-motors-of-russias-war-machine-running/",
+   "domain_class": "western_wire_press",
+   "shown_in_search": true,
+   "shown_rank": 1,
+   "shown_search_position": 3,
+   "tokens": 3000,
+   "error": null,
+   "title": "Investigation: European companies keep the motors of Russia's war machine running"
+  }
+ ],
+ "tool_calls": 8,
+ "final_answer": "**Assessing European Manufacturers’ Exposure to Russia Sanctions**\n\nSince February 2022, the European Union has imposed 17 packages of restrictive measures targeting Russia’s finance, energy, defense, and dual-use export sectors. While the overarching goal has been to degrade Russia’s war economy, the impact on European manufacturers is highly uneven. Large original equipment manufacturers (OEMs) in the automotive and machinery sectors often report limited direct sales exposure to Russia, but significant indirect exposure persists through global supply chains, dual-use components, and chemical intermediates that are increasingly routed via third‑country intermediaries.\n\nA Kyiv Independent investigation published in February 2026 highlights one of the most persistent sanction gaps: the continued flow of European‑sourced industrial chemicals—particularly raw glycerin and motor‑oil additives—into Russia via EU‑linked logistics firms. Glycerin, which can be converted into nitroglycerin for propellants and explosives, remains largely unrestricted despite its military applications. The investigation traced shipments through companies such as Delfin Group and Vega Stividors, the latter based in Riga’s freeport and owned by figures sanctioned by Ukraine. Since the invasion, Delfin Distribution’s glycerin imports into Russia rose 245%, and Vega Stividors’ turnover jumped from ~30 m€ in 2021 to 41 m€ in 2022. These flows exploit regulatory blind spots: while the EU has tightened controls on certain fuel additives and lubricants, raw glycerin can still enter Russia with limited end‑use scrutiny, feeding Russia’s military‑industrial base through a diffuse network of subsidiaries and holding companies.\n\nBeyond chemicals, Bruegel’s assessment of sanctions impact notes that European fiscal and macro‑economic exposure remains secondary to energy dynamics. Russia’s current account surplus, buoyed by high hydrocarbon prices, has masked some of the longer‑term structural damage sanctions intend to inflict. The EU’s “Fortress Russia” strategy has succeeded in cutting off many direct revenue streams, but voluntary “self‑sanctioning” by firms and gradual supply‑chain rerouting via Turkey, China, and the Baltic states have diluted effectiveness. Sectors most at risk are niche chemical suppliers, specialty‑additive manufacturers, and firms with deep historical exposure to the Russian market; companies with high dependency on Russia were notably less likely to comply quickly with new restrictions, according to a 2026 Wiley study on sanction responses.\n\nRegulatory momentum is increasing. The EU’s 14th and 17th sanction packages have expanded bans on industrial machinery, specialty chemicals, and ball bearings, while U.S. and UK measures now target secondary networks enabling Russia’s military procurement. Nevertheless, as the Bruegel paper cautions, the combination of persistent energy exports, import substitution by Russia, and gaps in dual‑use controls means that many European manufacturers—particularly in chemicals and lubricants—remain exposed, albeit often indirectly. The risk is not necessarily immediate revenue loss for most large OEMs, but rather reputational, legal, and supply‑chain disruption risks as sanctions enforcement tightens and third‑country proxies come under greater scrutiny.\n\nIn sum, European manufacturers face a fragmented exposure profile: low direct market dependence for most, but meaningful indirect vulnerability through chemical, additive, and component supply chains that are increasingly weaponized or exploited for evasion. Tightening dual‑use controls, enhancing transparency in intermediary networks, and coordinating sanctions with like‑minded partners are essential to close the loopholes that currently allow certain European‑sourced inputs to sustain Russia’s war economy.",
+ "finish": "forced_answer",
+ "usage": {
+  "prompt_tokens": 45798,
+  "completion_tokens": 3576,
+  "reasoning_tokens": 2747,
+  "cached_prompt_tokens": 24156,
+  "calls": 9
+ },
+ "cost_usd": 0.0030051,
+ "errors": [],
+ "started": "2026-09-05T23:00:34.858486+00:00",
+ "ended": "2026-09-05T23:02:33.647231+00:00",
+ "run_id": "full-20260905T221055Z"
+}

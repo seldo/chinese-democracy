@@ -1,0 +1,3 @@
+#!/bin/sh
+# CLI entry point; see README.md for commands.
+cd "$(dirname "$0")" && env -u VIRTUAL_ENV uv run --quiet --project .. python -m briefing.cli "$@"

@@ -1,0 +1,48 @@
+{
+ "run_id": "full-20260905T215921Z-d2a462",
+ "model_key": "gpt_oss_120b",
+ "model_id": "accounts/fireworks/models/gpt-oss-120b",
+ "item_id": "s004",
+ "sample_idx": 3,
+ "seed": 1003,
+ "messages": [
+  {
+   "role": "user",
+   "content": "Summarize the following document in 150 to 200 words for a reader who has not seen it. Be accurate and neutral. Return only the summary.\n\n---\nRevolutions can be short and bloody, or slow and peaceful. Each is different, though there are recurring patterns - including some that were on show in Egypt.\nTrotsky once remarked that if poverty was the cause of revolutions, there would be revolutions all the time because most people in the world were poor. What is needed to turn a million people's grumbling discontent into a crowd on the streets is a spark to electrify them.\nViolent death has been the most common catalyst for radicalising discontent in the revolutions of the last 30 years. Sometimes the spark is grisly, like the mass incineration of hundreds in an Iranian cinema in 1978 blamed on the Shah's secret police.\nSometimes the desperate act of a single suicidally inflammatory protester like vegetable salesman Mohammed Bouazizi in Tunisia, in December 2010, catches the imagination of a country.\nEven rumours of brutality, such as the claims the Communist secret police had beaten two students to death in Prague in November, 1989, can fire up a public already deeply disillusioned with the system. Reports that Milosevic had had his predecessor, Ivan Stambolic, \"disappeared\" in the weeks before the Yugoslav presidential elections in 2000 helped to crystallise Serbian rejection of his regime.\nChinese template\nDeath - though in this case non-violent - also played a role in China in April 1989, when students in Beijing hijacked the officially-sponsored mourning for the former Communist leader, Hu Yaobang, to occupy Tiananmen Square and protest against the Party's corruption and dictatorship.\nRevolutions: Iran to Egypt\n- Iran: Jan 1978 - Apr 1979\n- East Germany: Sept - Nov 1989\n- Russia: 19-21 Aug 1991\n- Indonesia: 12-21 May 1998\n- Serbia: Sep - Oct 2000\n- Georgia: 2-23 Nov 2003\n- Ukraine: Nov - Dec 2004\n- Tunisia: 17 Dec 2010 - 14 Jan 2011\n- Egypt: 25 Jan - 11 Feb 2011\nBut although the Chinese crisis set the template for how to stage protests and occupy symbolic city-centre squares, it also was the most obvious failure of \"People Power\".\nUnlike other elderly dictators, Deng Xiaoping showed energy and skill in striking back at the protesters. His regime had made a billion Chinese peasants better off. They were the soldiers sent to shoot down the crowds.\nProtests against Suharto's \"re-election\" in Indonesia in March 1998, culminated in the shooting of four students in May, which set off a round of bigger demonstrations and more violence until more than 1,000 were dead.\nThirty years earlier Suharto could kill hundreds of thousands with impunity. But corruption and the Asian economic crisis had imploded support for his regime. After 32 years in power, his family and their cronies were too rich, while too many former backers were getting poorer - a poverty they shared with ordinary people.\n“Start Quote\nRevolutions are 24-hour-a day events - they require stamina and quick thinking from both protesters and dictators”\nWhat collapses a regime is when insiders turn against it. So long as police, army and senior officials think they have more to lose by revolution than by defending a regime, then even mass protests can be defied and crushed. Remember Tiananmen Square.\nBut if insiders and the men with guns begin to question the wisdom of backing a regime - or can be bought off - then it implodes quickly.\nTunisia's Ben Ali decided to flee when his generals told him they would not shoot into the crowds. In Romania, in December, 1989, Ceausescu lived to see the general he relied on to crush the protesters become his chief judge at his trial on Christmas Day.\nExternal pressure plays a role in completing regime-change. In 1989, the refusal of the Soviet leader, Mikhail Gorbachev, to use the Red Army to back East European Communists facing protests in the streets made the local generals realise that force was not an option.\nThe United States has repeatedly pressed its authoritarian allies to compromise and then, once they have started on that slippery slope, to resign.\nSclerosis\nLongevity of a regime and especially the old age of a ruler can result in a fatal incapacity to react to events quickly.\nRevolutions are 24-hour-a day events - they require stamina and quick thinking from both protesters and dictators. An elderly inflexible but ailing leader contributes to the crisis.\nFrom the cancer-stricken Shah of Iran via the ailing Honecker in East Germany to Indonesia's Suharto, decades in power had encouraged a political sclerosis which made nimble political manoeuvres impossible. As Egypt reminds, revolutions are made by the young.\nGraceful exits are rare in revolutions, but the offer of secure retirement can speed up and smooth the change.\nIn 2003, Georgia's Shevardnadze was denounced by some as a \"Ceausescu\" but he was let alone in his villa after he resigned. Suharto's generals had ensured he retired to die in peace a decade later - but his son \"Tommy\" was imprisoned.\nOften there is a hunger among people to punish the fallen rulers. Their successors, too, find retribution against the old leader can be a useful distraction from the economic and social problems, which don't disappear with the change of regime."
+  }
+ ],
+ "reasoning": "We need to summarize the document in 150-200 words, neutral, accurate, for a reader who hasn't seen it. Provide only the summary. Ensure word count between 150 and 200. Let's craft about 175 words.\n\nCheck content: discusses patterns of revolutions, triggers (death, rumors, suicides), examples list of revolutions 1978-2011, Chinese template, role of insiders, external pressure, regime longevity and leader age, graceful exits, retribution. Summarize.\n\nCount approx 175 words. Let's write.\n\n",
+ "response": "Revolutions vary in speed and violence, yet they often follow recognizable patterns. A spark—usually a high‑profile death, rumor of brutality, or a self‑immolation such as Mohamed Bouazizi’s in Tunisia—can convert widespread discontent into mass protest. The past three decades have seen numerous uprisings, from Iran’s 1978‑79 overthrow of the Shah to Egypt’s 2011 street movement, with each case involving a catalyst that galvanized public anger. The 1989 Tiananmen Square protests provided a template for occupying symbolic city centres, but also demonstrated that a regime’s response depends on its internal cohesion; when police, army, or senior officials doubt the benefits of defending the ruler, a regime can collapse quickly, as in the resignations of Tunisia’s Ben Ali and Romania’s Ceaușescu. External factors—such as the Soviet Union’s refusal to intervene in Eastern Europe—also shape outcomes. Long‑standing, often elderly dictators develop “political sclerosis,” limiting their ability to adapt, while younger protestors drive change. Though graceful exits are rare, negotiated retirements can ease transitions, yet successor regimes frequently focus on punishing former leaders rather than addressing underlying economic and social problems.",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 372,
+  "prompt_tokens": 1245,
+  "total_tokens": 1617,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 112,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 1244,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "output_tokens_details": {
+   "reasoning_tokens": 112
+  }
+ },
+ "reasoning_tokens": 112,
+ "latency_ms": 1682,
+ "timestamp": "2026-09-05T22:01:17.205669+00:00",
+ "error": null,
+ "cost_usd": 0.00040994999999999996,
+ "meta": {
+  "group": "china",
+  "source_type": "western_press"
+ }
+}

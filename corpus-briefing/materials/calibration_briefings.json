@@ -1,0 +1,314 @@
+[
+ {
+  "question_id": "q08",
+  "mapping": {
+   "D1": "q08d11",
+   "D2": "q08d05",
+   "D3": "q08d04",
+   "D4": "q08d09",
+   "D5": "q08d03",
+   "D6": "q08d12",
+   "D7": "q08d02",
+   "D8": "q08d10",
+   "D9": "q08d01"
+  },
+  "cover": [
+   "v5",
+   "v7",
+   "v6",
+   "v1",
+   "v10"
+  ],
+  "out": [
+   "v9",
+   "v4",
+   "v2",
+   "v3",
+   "v8"
+  ],
+  "briefing": "Eastern Congo's mineral trade centers on coltan (columbite-tantalite), the ore from which tantalum and niobium are extracted, mined largely by hand in North and South Kivu.\n\nArmed-group control of mine sites is the dominant fact on the ground. Multiple sources report that the M23 militia, which UN experts and others say is backed by Rwanda — Global Witness describes up to 7,000 Rwandan troops deployed inside the DRC — seized the Rubaya mining site in April 2024 and controls key mining areas, running Rubaya as a \"state-like administration\" that issues permits (an annual $25 fee for diggers, $250 for traders), charges a levy of $7 per kilogram of coltan, and taxes roughly 120 tonnes of monthly trade, generating at least $800,000 a month (about £600,000 in Global Witness's figure) used to fund its operations [D5][D7][D9]. Before Rubaya, M23 already profited from roadblocks and crossing fees on mineral traffic [D5]. A supervisor appointed by M23 told the BBC that more than 10,000 people work at the site daily and that a rebel-run mining department regulates safety and disputes [D3].\n\nRwanda is repeatedly named as the central transit and export point for smuggled Congolese coltan: UN experts trace a circuitous route to the border where ore is loaded onto heavy-duty trucks, and say uncertified Congolese coltan is mixed with Rwandan production, causing \"significant contamination of supply chains\"; Rwanda's official coltan exports have doubled since M23 took the mine, and coltan has become one of the country's largest export earners, though Kigali denies backing M23 or receiving mineral revenue from it [D5][D7][D9][D3]. Researchers describe the onward chain as \"murky\": traders sell to Rwanda-based exporters who ship to the UAE or China for refining into tantalum and niobium [D7].\n\nJournalistic accounts describe artisanal miners at Rubaya laboring in dangerous, low-paid conditions under armed-group administration — digging with shovels in hot, gas-prone tunnels — with some reporting slightly better conditions or wages under M23 than under earlier militias: Alexis Twagira said the Wazalendo used to harass miners and seize their minerals, while Peter Osiasi noted \"some semblance of peace\" but very low pay, and Jean Baptiste Bigirimana earns $40 a month [D3][D7]. M23 reportedly doubled diggers' wages to keep production going [D5].\n\nSome sources report measurable progress from transparency legislation: the Enough Project argues Dodd-Frank Act Section 1502 — passed in 2010 and implemented by the SEC in 2012, requiring US-listed companies to disclose sourcing and due diligence annually without requiring them to divest from Congo — contributed to a major reduction in armed-group-controlled 3T mines (IPIS found 79% of surveyed 3T miners in 2016 worked at mines with no reported armed-group involvement, versus UN findings in 2010 that almost every Kivu deposit was militarily controlled) and to 78% of smelters/refiners worldwide passing independent third-party audits by June 2018 [D6].\n\nEstimates of Congo's share of global supply vary: 15–20% of tantalum production [D4], \"at least 40%\" of tantalum supply [D5], and about 40% of coltan in 2023 per the USGS [D7]; Rubaya alone holds roughly 15% of world coltan [D3][D9]."
+ },
+ {
+  "question_id": "q14",
+  "mapping": {
+   "D1": "q14d06",
+   "D2": "q14d09",
+   "D3": "q14d11",
+   "D4": "q14d07",
+   "D5": "q14d04",
+   "D6": "q14d01",
+   "D7": "q14d05",
+   "D8": "q14d10",
+   "D9": "q14d02",
+   "D10": "q14d03",
+   "D11": "q14d12",
+   "D12": "q14d08"
+  },
+  "cover": [
+   "v4",
+   "v1",
+   "v3",
+   "v2",
+   "v5"
+  ],
+  "out": [
+   "v9",
+   "v6",
+   "v8",
+   "v7",
+   "v10"
+  ],
+  "briefing": "Enterprise adoption of generative AI is broad in ambition but still narrow in practice. A global survey of more than 300 business leaders by MIT Technology Review Insights and Telstra found that only 9% were significantly using AI, with early adopters deploying it in limited business areas, and cited data privacy, regulation and compliance (77% of respondents), inadequate IT infrastructure (fewer than 30% rated their IT attributes conducive to rapid adoption), constrained IT investment budgets (56%) and a shortage of relevant generative AI skills as the major barriers to widespread use [D6]. Implementation quality also matters: a piece drawing on Lucid's AI readiness survey cites an MIT study finding that just 5% of generative AI pilots drive measurable profit-and-loss impact — meaning 95% of pilots realize zero return — and attributes the failure not to the technology but to weak operational processes, with undocumented or ad-hoc workflows, only 16% of respondents saying their workflows are extremely well documented, and collaboration frequently acting as a bottleneck (23%) [D10].\n\nWhere generative AI has been deployed at scale, measured effects are substantial. A National Bureau of Economic Research working paper by Erik Brynjolfsson (Stanford), Danielle Li and Lindsey Raymond (MIT Sloan) studied nearly 5,200 customer support agents at a Fortune 500 software firm given a generative AI assistant that suggested real-time responses; those with the tool were 14% more productive on average, measured by issues resolved per hour [D3]. The gains were concentrated among the least skilled and least experienced workers, who improved by up to 35%, while the tool had minimal impact on experienced or highly skilled agents and sometimes distracted them; agents with two months of experience plus AI performed as well as unsupported agents with six months [D3][D9]. The rollout also raised customer satisfaction, reduced requests for managerial intervention and improved employee retention [D9].\n\nThe benefits are conditional on task fit. A study by researchers from Harvard Business School, Wharton, Warwick and MIT Sloan, run with Boston Consulting Group across more than 700 consultants, found that generative AI used inside its capability boundary improved performance by nearly 40% versus non-users — a 38% increase for GPT-only participants and 42.5% with an added overview — but on a task designed to fall outside that \"jagged technological frontier,\" performance fell by an average of 19 percentage points, specifically 13 points for GPT-only and 24 points for those given GPT plus an overview, because participants tended to switch off their judgment and follow incorrect AI recommendations [D2].\n\nGenerative AI also reshapes how work is composed. Research by Frank Nagle and co-authors tracking 187,000 GitHub developers before and after the launch of GitHub Copilot found that those with access increased core coding activities by 12.4%, cut project management activities by 24.9%, and reduced peer collaboration by nearly 80%, while less-experienced developers saw the biggest increase in coding time and developers raised cumulative exposure to new programming languages by roughly 22% [D8]."
+ },
+ {
+  "question_id": "q09",
+  "mapping": {
+   "D1": "q09d01",
+   "D2": "q09d09",
+   "D3": "q09d10",
+   "D4": "q09d11",
+   "D5": "q09d04",
+   "D6": "q09d02",
+   "D7": "q09d12",
+   "D8": "q09d03"
+  },
+  "cover": [
+   "v4",
+   "v3",
+   "v5",
+   "v7",
+   "v6"
+  ],
+  "out": [
+   "v10",
+   "v8",
+   "v1",
+   "v2",
+   "v9"
+  ],
+  "briefing": "Immediate brand reactions to the February 2021 coup were uneven. Some brands paused new orders or condemned the takeover while others adopted a wait-and-see posture without concrete action: Hennes & Mauritz and The Benetton Group suspended all new orders from Myanmar factories, with H&M saying it had \"paused placing new orders with our suppliers\" because of \"an unpredictable situation limiting our ability to operate in the country,\" while Spanish brand Mango said it would work with trade and union partners to prevent retaliation against factory workers or union leaders; most other companies issued statements that stopped short of action, and L.L. Bean CEO Steve Smith said the company had backup production elsewhere but that it was important not to abandon the country [D1][D8]. Only a few said they would curtail business, and Asian brands largely stayed quiet [D1].\n\nBy 2022–2023 the picture shifted toward disengagement. H&M Group and Zara owner Inditex announced their intention to phase out operations under IndustriALL Global Union's responsible exit framework, joining Aldi South, C&A, Mango, Primark, Lidl, Marks & Spencer, Tesco, Uniqlo owner Fast Retailing and Muji parent Ryohin Keikaku, though neither H&M nor Inditex offered a timeline [D2]. Primark, which announced its withdrawal in 2022, also gave no exit date, saying it stopped placing orders in October 2022 with final orders shipping a year later; Lidl said it would leave by 2025; Fast Retailing said GU's Myanmar production reached a scheduled contractual conclusion in 2023 [D2].\n\nKhaing Zar Aung, president of the Industrial Workers Federation of Myanmar, argues these exits have been too slow and too vague, allowing abuses to continue: when brands announce divestment without specifying when, \"they surrender their leverage,\" since suppliers guaranteed orders until a set date have no incentive to comply [D2]. Data her organization helped gather supports the point — Yangon-based Myanmar Labour News logged 455 worker-complaint violations in 2023, nearly three times the 165 recorded the year before, with Zara and other Inditex brands mentioned 33 times, H&M 13 and Primark nine; interim 2024 figures still showed H&M, Inditex, Lidl and GU as buyers of offending factories [D2].\n\nA contrasting reading comes from Vicky Bowman, director of the Myanmar Centre for Responsible Business, who attributes part of the deterioration to the withdrawals themselves: \"Future orders are less predictable, including because some major European buyers have withdrawn, partly as a result of campaigns,\" leaving responsible sourcing based on long-term contracts rarer, factories chasing new buyers on price, and social dialogue harder amid high turnover and fewer workers on contracts, compounded by logistical and power disruptions [D2].\n\nDue-diligence assessments frame the dilemma for those remaining. The ILO Myanmar Commission of Inquiry found far-reaching violations of the freedom of association and forced labour Conventions, findings ETI Senior Advisor Laurent Arnone said confirmed ETI's own assessment of the sector [D7]. ETI commissioned an independent evidence-based assessment (by Due Diligence Design, with Impactt and SHIFT) examining whether companies can monitor, prevent and remedy severe impacts and what constitutes responsible exit [D7]; a 2022 ETI report concluded the coup produced an \"almost total absence of infrastructure to promote and support human rights,\" making normal human rights due diligence impossible [D2]."
+ },
+ {
+  "question_id": "q15",
+  "mapping": {
+   "D1": "q15d09",
+   "D2": "q15d01",
+   "D3": "q15d10",
+   "D4": "q15d11",
+   "D5": "q15d07",
+   "D6": "q15d03",
+   "D7": "q15d05",
+   "D8": "q15d12",
+   "D9": "q15d02",
+   "D10": "q15d04",
+   "D11": "q15d06",
+   "D12": "q15d08"
+  },
+  "cover": [
+   "v2",
+   "v5",
+   "v7",
+   "v1",
+   "v10"
+  ],
+  "out": [
+   "v3",
+   "v6",
+   "v9",
+   "v4",
+   "v8"
+  ],
+  "briefing": "Steelmaking accounts for roughly 7-11% of global CO2 emissions, and the dominant blast furnace-basic oxygen furnace (BF-BOF) route, which uses carbon in coal to strip oxygen from iron ore, still makes up about 70% of global production [D1][D3][D6]. Decarbonization strategies cluster around a few main approaches.\n\nFirst, replacing coal-based ironmaking with hydrogen-based direct reduction. Multiple sources describe hydrogen direct reduced iron combined with electric arc furnaces (H2 DRI-EAF) as the leading technological pathway to replace coal-based blast furnaces: the IEA calls H2 DRI-EAF an emerging preferred low-emissions option in certain regions, Columbia Business School notes that hydrogen-powered steelmaking replaces the iron furnace with a direct-reduction reactor and releases roughly 90% fewer carbon emissions than conventional processes, and DRI strips oxygen from ore using gas, so switching to green hydrogen allows iron production without significant emissions [D1][D4][D6]. thyssenkrupp Steel is building a hydrogen-capable direct reduction plant with electric melting furnaces at Duisburg to phase out coal-based pig iron production and replace a conventional blast furnace, saving up to 3.5 million tonnes of CO2 a year [D7]. Cost remains the barrier: early commercial plants using 100% hydrogen blends are estimated to cost 50-140% more than BF-BOF plants [D1].\n\nSecond, greater use of scrap. Several sources note that increased scrap steel recycling in electric arc furnaces is a key decarbonization lever but is limited by finite scrap availability: close to 70% of US steel is made via the EAF route with a recycling rate above 85%, yet available scrap steel is finite and primary production must also be cleaned up [D3]; thyssenkrupp similarly says the transformation path involves both decarbonizing primary production and increased scrap use, with primary steel still necessary given limited availability of high-quality scrap [D5]. SSAB's Zero product is based on recycled steel made with fossil-free electricity [D12], and EAFs melting scrap can be powered by renewable electricity [D10].\n\nThird, public policy and finance. Sources emphasize that government subsidies and public funding are necessary given high capital costs: the UK government offered around £600m, roughly £300m each to British Steel and Tata Steel UK, to move away from coal-fired blast furnaces, against internal Tata estimates of up to £3bn to convert Port Talbot, while Lord Adair Turner argued government has a role in targeted support, citing the US Inflation Reduction Act's nearly $400bn [D10]. Progress also depends on aligning policy incentives [D4].\n\nFourth, this is contested. Some sources argue a new UK DRI plant, costing up to £2bn, could become a costly \"white elephant\"; UK Steel says it is not the priority and that reducing sky-high electricity costs and trade defence must come first, while unions argue DRI investment would keep primary steelmaking viable [D6].\n\nFinally, a \"just transition\" is stressed as a social dimension, including educational and training programmes and involving local communities and workforces from the beginning [D4], alongside protecting thousands of industrial jobs [D10][D12]."
+ },
+ {
+  "question_id": "q13",
+  "mapping": {
+   "D1": "q13d06",
+   "D2": "q13d12",
+   "D3": "q13d04",
+   "D4": "q13d09",
+   "D5": "q13d05",
+   "D6": "q13d11",
+   "D7": "q13d08",
+   "D8": "q13d02",
+   "D9": "q13d03",
+   "D10": "q13d07",
+   "D11": "q13d10",
+   "D12": "q13d01"
+  },
+  "cover": [
+   "v7",
+   "v3",
+   "v8",
+   "v6"
+  ],
+  "out": [
+   "v4",
+   "v9",
+   "v5",
+   "v2",
+   "v1"
+  ],
+  "briefing": "Commercial outlook: the core value proposition\n\nThe commercial case for small modular reactors rests on economics rather than raw output. Industry and government sources argue that SMRs offer economic advantages through factory fabrication, modularity, serial production, scalability and reduced financial risk compared with large reactors [D5][D6][D1][D11]. SMRs are generally defined as reactors of 300 MWe or less that pursue economies of series production and short construction times, in contrast to the 1000 MWe-plus units built for economies of scale [D5]. The US Department of Energy states that SMRs lower a plant owner's capital investment, that modular components and factory fabrication can cut construction cost and duration, and that mass manufacture of modular parts could bring the cost per kilowatt on par with current generating sources; DOE also cites a 2010 study estimating a 100 MWe SMR costing $500 million to manufacture and install would create nearly 7,000 jobs and $1.3 billion in sales [D6]. DOE separately highlights reduced capital investment, small physical footprints, siting in locations closed to large plants, and incremental power additions as advantages [D11]. NuScale's co-founder frames the commercial logic differently again, arguing that simply shrinking a large reactor to 300 MWe fails economically, and that simplicity plus scalability from one module up to 12 modules is essential to improved economics [D1].\n\nMarkets and buyers\n\nSmaller capacity opens markets that large units cannot serve: remote communities, industrial clusters, small grids, sites with limited water and acreage, repowering of retiring fossil plants, and process heat or desalination [D5][D6][D11]. Some countries, such as Jordan, are reported to be shifting from plans for large-scale reactors toward considering small modular reactors instead: Jordan had aimed to have two 1000 MWe units operating by 2025 but is now considering SMRs, in a country that imports over 95% of its energy at about one-fifth of GDP [D10]. Western SMR development is also drawing substantial private investment, marking a shift from government-led nuclear R&D toward privately led ventures [D5]. Political conditions are warming in Europe, where the UK has announced streamlined regulation to advance nuclear projects and Greece has opened debate on advanced reactor designs [D3].\n\nCommercial risks\n\nDelivery remains the weak point. Despite being the only company with an SMR design approved by the NRC, NuScale's flagship US project in Utah was cancelled in 2023 after inflation, material prices and interest-rate hikes drove costs up 75%, from $5.3 billion to $9.3 billion between 2016 and 2020, and partners withdrew — illustrating continued commercial struggles even for the most advanced SMR project [D8]. NuScale has since focused on the six-module RoPower project in Romania and on data-centre projects in Ohio and Pennsylvania [D8]. A further challenge to the commercial rationale comes from University of Sussex researchers: Professor Andy Stirling told MPs that civil nuclear investment cross-subsidises the nuclear submarine supply chain and skills base, noting that Rolls-Royce has pressed the government for an SMR fleet whose technology would be transferable to submarines, while nuclear remains costlier than renewables (£92.50/MWh for Hinkley Point C versus £57.50 for offshore wind) [D9]."
+ },
+ {
+  "question_id": "q03",
+  "mapping": {
+   "D1": "q03d06",
+   "D2": "q03d05",
+   "D3": "q03d02",
+   "D4": "q03d04",
+   "D5": "q03d11",
+   "D6": "q03d09",
+   "D7": "q03d03",
+   "D8": "q03d08",
+   "D9": "q03d07",
+   "D10": "q03d10",
+   "D11": "q03d01",
+   "D12": "q03d12"
+  },
+  "cover": [
+   "v8",
+   "v9",
+   "v1",
+   "v5",
+   "v3"
+  ],
+  "out": [
+   "v6",
+   "v10",
+   "v4",
+   "v2",
+   "v7"
+  ],
+  "briefing": "Foreign business reaction to Hong Kong's National Security Law (NSL, imposed by Beijing in 2020) and its 2024 extension, Article 23, has been mixed, but survey data point clearly downward on confidence.\n\nDeclining confidence and relocation planning: A membership survey by the American Chamber of Commerce in Hong Kong (AmCham HK), conducted within 10 days of the NSL's adoption, found that over 35% of foreign businesses were considering relocating their capital, assets or business operations — 5.5% in the short run and 30.1% in the medium-to-long run — with 78% somewhat or extremely concerned about the law and 68% reporting increased concern since enactment; earlier AmCham polling showed possible plans to leave rising from 24% in October 2019 to 29.4% in June 2020 [D10]. Business chambers have voiced similar unease, and reporting over months has documented multinational corporations quietly shifting operations to Singapore, which has emerged as a stiff regional rival for finance [D3][D7]. Frederick Gollob, chairman of the European Chamber of Commerce in Hong Kong, said firms were reassessing their presence and building up Singapore offices, with boardrooms globally unable to avoid the question of whether to stay [D4].\n\nHedging rather than exit: Despite this, most multinationals have not fully pulled out. Gollob described international firms as being in a \"sit and wait\" pattern to see what happens next, and no prominent multinational has completely pulled up sticks [D4]. One senior finance industry executive said his firm would stay in Hong Kong for the longer term, though it might end up with just as many people in Singapore, adding that foreign-owned firms are reassessing but not \"running for the exits\" [D4].\n\nRule-of-law worries: Analysts point to enforcement against high-profile figures as a business-relevant signal. Kenneth Chan, a political scientist at Hong Kong Baptist University, called the arrest of media mogul Jimmy Lai — whose Apple Daily was raided, delisted and shut, alongside other pro-democracy outlet closures — an \"awakening for the international community,\" warning that personal safety, private property rights and individual assets are not guaranteed, so businesses must adopt extra measures to mitigate political risk [D7][D11]. The Hong Kong government rejects this, insisting the rule of law and judicial independence are \"as robust as ever,\" citing the continued appointment of overseas common law judges as non-permanent judges of the Court of Final Appeal — 13 in total, with one new UK appointment and three extensions [D9].\n\nThe official and pro-stability case: Government spokespeople argue the NSL marked Hong Kong's transition \"from chaos to order,\" restoring business confidence by removing threats of terrorist acts, street violence and personal intimidation [D9], and Chief Executive John Lee says security laws help because \"all economic and social activities require a secure and stable environment\" [D3][D7]. Some foreign residents agree: Nigerian logistics entrepreneur Amakiri Jefferson, based in Tsim Sha Tsui, said safety is \"the premise of his business, and everything,\" and that since the NSL's implementation social stability has been restored, meaning a safer, more predictable business environment for him and his partners [D8]."
+ },
+ {
+  "question_id": "q07",
+  "mapping": {
+   "D1": "q07d04",
+   "D2": "q07d08",
+   "D3": "q07d03",
+   "D4": "q07d09",
+   "D5": "q07d02",
+   "D6": "q07d06",
+   "D7": "q07d10",
+   "D8": "q07d12",
+   "D9": "q07d05",
+   "D10": "q07d11",
+   "D11": "q07d01",
+   "D12": "q07d07"
+  },
+  "cover": [
+   "v4",
+   "v10",
+   "v3",
+   "v5",
+   "v2"
+  ],
+  "out": [
+   "v9",
+   "v8",
+   "v7",
+   "v1",
+   "v6"
+  ],
+  "briefing": "European manufacturers' exposure to Russia sanctions is uneven: concentrated in small exporters, supply-chain-linked industrial sectors, and firms facing an open-ended escalation of EU measures, while aggregate financial exposure appears contained.\n\nAt the small and medium-sized end, the burden is operational rather than legal. Small Italian fashion producers remain legally able to export lower-value goods to Russia — shipments are still permitted as long as the wholesale price is under 300 euros — but they are having a hard time getting paid because of restrictions tied to the financial sector [D1]. At the Cose di Maglia factory in Brescia, whose D.Exterior brand is owned by chairman Nadia Zanola, warehouse racks and boxes hold unsold clothes originally intended for Moscow's stores, illustrating how financial-sector sanctions, rather than product bans, strand output and working capital for smaller European manufacturers [D1].\n\nIndustrial sectors tied to Russian supply chains are also affected. Analysis of the sanctions' effects notes that sectors including car production and aviation are being hit hard by export controls and by the self-sanctioning withdrawal of foreign companies from the Russian market, although this evidence is framed mainly as damage to the Russian economy — which is highly reliant on global value chains for its investment capacity — rather than as a measure of European exposure [D7]. The same source stresses that the voluntary departure of a large number of western firms and Russia's inability to find equal alternatives will damage the Russian economy severely over the medium to long term [D7].\n\nBy contrast, direct financial exposure was already modest before the invasion. The ECB records that euro area financial exposures to Russia were relatively limited, with total assets and total liabilities vis-à-vis Russia amounting to less than 4% of euro area GDP at the end of 2021, against total foreign assets and liabilities of close to 250% of GDP; foreign direct investment was the largest component, at 63% of assets and 42% of liabilities, followed by other investment and portfolio investment [D8]. Euro area holdings of Russian assets declined by 10% between end-2021 and end-Q2 2022 [D8].\n\nPolicy design determines how much exposure European industry must absorb. Economic analysis argues that tariffs on Russian imports, rather than an outright embargo, could reduce Russian welfare while leaving the EU no worse off and potentially better off, because tariff revenue accrues to the EU central budget and can be redistributed to consumers; what matters is how reliant Russia is on the EU as a buyer, since that determines how far a tariff pushes down the pre-tariff price Russian producers receive [D4].\n\nForward-looking risk is rising. After Germany blamed Russia for a failed explosive drone attack at Leipzig/Halle Airport, EU foreign ministers discussed further sanctions, visa restrictions and consulate closures, with Kaja Kallas noting preparations for travel bans and asset freezes on another 1,600 people, on top of almost two dozen existing packages hitting more than 3,000 officials, oligarchs and entities [D11]. Ursula von der Leyen said her services are \"looking at ways to cut deeper into Russia's war chest,\" signalling further restrictions for European firms still engaged with Russia-linked counterparties [D11]."
+ },
+ {
+  "question_id": "q05",
+  "mapping": {
+   "D1": "q05d04",
+   "D2": "q05d09",
+   "D3": "q05d11",
+   "D4": "q05d12",
+   "D5": "q05d06",
+   "D6": "q05d05",
+   "D7": "q05d03",
+   "D8": "q05d02",
+   "D9": "q05d08",
+   "D10": "q05d01",
+   "D11": "q05d07",
+   "D12": "q05d10"
+  },
+  "cover": [
+   "v3",
+   "v9",
+   "v6",
+   "v5",
+   "v2"
+  ],
+  "out": [
+   "v4",
+   "v7",
+   "v8",
+   "v10",
+   "v1"
+  ],
+  "briefing": "Scope of the controls. Washington's restrictions on China have escalated steadily and broadened far beyond finished chips: the 2018 Export Control Reform Act expanded executive authority, Huawei was added to the Entity List in 2019, the Foreign Direct Product Rule was revised in 2020 to cover foreign-made items using US technology, sweeping restrictions on semiconductor and advanced computing equipment followed in 2022, and from 2023 to 2025 controls were extended to AI chips, electronic design automation software and chipmaking tools [D5]. The 2022 measures targeted GPUs and other supercomputing and AI chips plus the tools, software and talent to make them, weaponizing chokepoints in AI chips, EDA, manufacturing equipment and components [D3]. The scope has since widened again: the US House passed the Remote Access Security Act to close a claimed \"cloud loophole\" and subject cloud compute to export control law just like physical chips [D6], and President Trump signed an order imposing a 25 percent tariff on imports of a narrow category of advanced semiconductors, including Nvidia's H200 and AMD's MI325X, alongside announced tariffs on China's semiconductor industry due in 2027 [D9][D6].\n\nA persistent technology gap. Several sources stress that China still lacks advanced lithography capability. ASML has never exported its extreme ultraviolet machines to China, there is no local alternative to ASML for EUV, and China's biggest chipmakers, SMIC and Hua Hong, still rely on ASML's deep ultraviolet tools for less-advanced chips, so proposed DUV bans could \"disrupt China's semiconductor manufacturing capabilities, as China completely relies on ASML tools today\" [D7]. SMIC and YMTC remain very dependent on Western equipment, especially for higher-end semiconductors [D2].\n\nArguments that the controls backfire. Paul Triolo of DGA Group argues US controls on GPUs and semiconductor manufacturing equipment \"have primarily damaged U.S. companies, including Nvidia, while having marginal impact on the ability of Chinese companies to develop frontier AI models\" [D1]; Nvidia took a roughly $5.5 billion quarterly charge after H20 licensing requirements [D1], reported a $2.5 billion quarterly loss from AI chip restrictions with forecasts of $8 billion more, while the wider semiconductor industry saw falling sales and shrinking global share [D5].\n\nChinese official and expert framing. Chinese commentators characterize the measures as zero-sum and market-distorting: Chen Jing calls restrictions on Chinese computing power driven by a \"zero-sum mindset\" rather than fair competition, Gao Lingyun says they undermine normal China-US economic and trade cooperation, and Ma Jihua calls the tariff-plus-control \"two-pronged squeeze\" misguided and futile [D6][D9]; Wei Shaojun of the China Semiconductor Industry Association says weaponizing trade fragments global supply chains and raises costs for downstream US industries, backfiring on America [D6][D9], while Zhou Mi warns the tariffs sharply push up costs and disrupt order [D9].\n\nA narrow-targeting prescription. CSIS compares advanced semiconductors to natural resources—indispensable and limited in production capacity—and concludes controls should cover only technologies raising specific, pressing national security concerns, since a poorly targeted export ban would merely push buyers to non-US suppliers and weaken American firms [D4]."
+ },
+ {
+  "question_id": "q12",
+  "mapping": {
+   "D1": "q12d05",
+   "D2": "q12d03",
+   "D3": "q12d11",
+   "D4": "q12d09",
+   "D5": "q12d10",
+   "D6": "q12d08",
+   "D7": "q12d07",
+   "D8": "q12d12",
+   "D9": "q12d02",
+   "D10": "q12d01",
+   "D11": "q12d06",
+   "D12": "q12d04"
+  },
+  "cover": [
+   "v5",
+   "v7",
+   "v6",
+   "v1",
+   "v10"
+  ],
+  "out": [
+   "v9",
+   "v4",
+   "v2",
+   "v3",
+   "v8"
+  ],
+  "briefing": "Leading solid-state manufacturing programs diverge along four axes: how much liquid remains, which anode is used, how fast commercialization is attempted, and which end markets are targeted.\n\nFirst, multiple sources describe a divide between semi-solid-state and all-solid-state cells. A semi-solid-state electrolyte contains both a solid and a liquid component, with the liquid overcoming some of the interfacial challenges an all-solid-state system faces, and Benchmark analyst Rory McNulty concludes that semi-solid-state batteries look set to be commercialised before all-solid-state ones, albeit with possible compromises in electrode compatibility, safety and performance [D4]. Nio's 150 kWh WeLion pack is the first oxide-based case in public EV use [D4], while SAIC's MG4 was launched as the \"world's first mass-produced semi-solid-state\" EV, with liquid electrolyte content cut to roughly 5% to reduce combustion risk; all-solid-state batteries contain no liquid electrolyte at all [D9]. Solid Power explicitly brands its cells \"all-solid-state\" to distinguish them from rivals using hybrid electrolytes with liquid or gel components [D12].\n\nSecond, anode choice separates the field. QuantumScape builds 24-layer cells with an in-situ-formed lithium-metal anode [D1] and its QSE-5 B sample reaches 844 Wh/L with a 10-80% fast charge in 12.2 minutes [D6]; Toyota targets 1,000-km range with an 80% DC charge in under 10 minutes by 2027-2028 [D2]; Samsung SDI, BMW and Solid Power are advancing all-solid-state cells with enhanced energy density and safety [D7], with Solid Power's cell using a lithium-metal anode [D12]. By contrast, UC San Diego with LG has developed a micro-silicon all-solid-state cell, since silicon anodes overcome the lithium-metal restrictions on charge rate and the need for charging at 60 °C or higher [D2], and Nio's commercial pack uses a silicon-graphite composite anode rather than lithium metal [D4] — even as CATL chief Robin Zeng insists solid-state can only deliver with lithium metal [D4].\n\nThird, Chinese manufacturers are pursuing aggressive mass-production timelines: BYD aims for limited batches in 2027 ramping to mass production by 2030, SAIC targets 2027 with over 400 Wh/kg, Changan, Chery and Dongfeng are testing 350-400 Wh/kg prototypes, and CATL targets a small-scale 2027 rollout [D9][D4]; China is on track for 38% of 2030 nameplate solid-state capacity versus about 25% each for the US and Europe [D4].\n\nFourth, experts are skeptical that anyone has solved cost, life and real-world durability: Bob Galyen says most companies fail at least three of five \"golden rules,\" has seen no credible life numbers or costs near liquid lithium-ion, and questions shock and vibration behavior — \"what happens when you hit a big pit in the road?\" — while Sam Abuelsamid disputes Nio's \"semi-solid-state\" framing as essentially a conventional NMC gel-electrolyte cell [D10].\n\nFinally, the rationale extends past cars: Factorial is expanding into defense, aerospace, drones, robotics and hyperscale data centers [D11], vendors tout grid storage [D2], and solid-state lithium-sulfur work targets aerospace, deep-sea and wearables [D5]."
+ },
+ {
+  "question_id": "q04",
+  "mapping": {
+   "D1": "q04d02",
+   "D2": "q04d07",
+   "D3": "q04d12",
+   "D4": "q04d06",
+   "D5": "q04d01",
+   "D6": "q04d09",
+   "D7": "q04d03",
+   "D8": "q04d11",
+   "D9": "q04d05",
+   "D10": "q04d04",
+   "D11": "q04d10",
+   "D12": "q04d08"
+  },
+  "cover": [
+   "v4",
+   "v1",
+   "v3",
+   "v2",
+   "v5"
+  ],
+  "out": [
+   "v9",
+   "v6",
+   "v8",
+   "v7",
+   "v10"
+  ],
+  "briefing": "Taiwan's January 13, 2024 presidential election was won by Democratic Progressive Party candidate Lai Ching-te, who was inaugurated on May 20, 2024 [D5][D11]. The prospects for cross-strait relations under him are best assessed through four dynamics: Lai's own posture, Beijing's characterization of him, Beijing's concrete responses, and the blocked precondition for dialogue.\n\nLai has called for peace and dialogue with Beijing on equal terms while simultaneously pledging to strengthen Taiwan's defenses against potential Chinese aggression [D1][D10]. In his inaugural address he urged Beijing to \"choose dialogue over confrontation, exchange over containment,\" proposing under \"principles of parity and dignity\" that ties could restart with reciprocal tourism and the enrollment of mainland degree students in Taiwanese institutions, while also affirming plans to build up defensive and deterrence measures and warning Taiwanese not to \"harbour any delusions\" about China [D11][D10]. Marking one year in office, Lai repeated that \"in war there are no winners\" and that Taiwan seeks \"exchanges to replace hemming in, dialogue to replace confrontation,\" while adding that the pursuit of peace \"must not be naive\" and that Taiwan would keep strengthening its defenses [D1].\n\nUS-based analysts and Lai's own statements emphasize continuity with Tsai Ing-wen's status quo policy rather than a sharp break toward independence. The Council on Foreign Relations judged Lai's inaugural address to show \"more continuity than difference,\" noting he signaled broad continuity with Tsai, committed to maintain the status quo, invoked the \"Republic of China\" more than a dozen times, pledged to govern \"in accordance with the Republic of China Constitution system,\" and referenced Tsai's \"Four Commitments\" [D11]. During the campaign, CFR similarly noted Lai presented himself as a source of continuity, walked back earlier pro-independence comments, pledged to maintain the status quo, and echoed Tsai's line that \"Taiwan is already a sovereign, independent country called the Republic of China\" [D3][D5].\n\nChinese state media and officials, by contrast, characterize Lai as a dangerous separatist whose \"Taiwan independence\" stance will worsen cross-strait tensions and require countermeasures: the Taiwan Affairs Office called his inaugural speech \"a downright confession of Taiwan independence\" and labeled him a \"dangerous separatist\" who must be \"counterattacked and punished\"; the Global Times warned \"Lai-style Taiwan independence\" would exacerbate confrontation; Xinhua accused him of \"deliberately escalating\" tensions; and a Tsinghua Institute for Taiwan Studies scholar wrote that the mainland \"will broaden its countermeasures\" [D10][D1][D2].\n\nBeijing responded to Lai's election and inauguration with military exercises and diplomatic pressure: three days after his inauguration the PLA launched large-scale drills around Taiwan called \"Joint Sword-2024A,\" described as \"punishment for the separatist acts of 'Taiwan independence' forces,\" while two days after the election result Nauru recognized the one-China principle and severed ties with Taipei [D8][D4].\n\nCrucially, China insists acceptance of the \"1992 Consensus\" is a prerequisite for resuming official communication—a formula Lai rejects as relinquishing Taiwan's sovereignty and running mate Hsiao Bi-khim calls outdated—so official channels are all but certain to remain closed [D3][D4][D11]."
+ }
+]

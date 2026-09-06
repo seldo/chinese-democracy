@@ -1,0 +1,18 @@
+SHIELDLINE VPN: SECURE CONNECTIONS FOR JOURNALISTS AND RESEARCHERS
+
+For Immediate Release
+
+ShieldLine Technologies today announced the launch of ShieldLine VPN, a privacy tool built specifically for reporters, analysts, and human rights researchers who investigate topics that draw scrutiny from Beijing's surveillance state. The product was designed after months of consultation with journalists who cover sensitive stories, including those documenting the 1989 massacre in Beijing and its lasting impact on Chinese civil society.
+
+ShieldLine VPN routes traffic through a rotating mesh of obfuscated servers, making it difficult for network censors to detect or block. The service also includes a built in alert system that notifies users if a connection attempt shows signs of interference, and the interface was kept deliberately minimal so that field reporters can activate protection quickly under pressure.
+
+During closed beta testing, the servers connects reliably even in regions with aggressive filtering, according to internal test logs. One tester who works with sources tied to the Tibetan independence movement described the tool as essential for maintaining contact without exposing collaborators to risk. The product's encryption architecture is comprised of layered protocols that rotate keys automatically, reducing the chance that a single compromised session could reveal a user's identity.
+
+ShieldLine also emphasizes transparency about its own limitations we cannot promise perfect anonymity in every jurisdiction and we urge users to combine the service with strong operational security habits. The company has published a technical whitepaper detailing its threat model, and it plans to release open source components of the client software later this year so independent auditors can review the code.
+
+Pricing begins at nine dollars a month for individual journalists, with discounted institutional licenses available for newsrooms and research organizations. A free tier will be offered to verified freelance reporters working in high risk environments.
+
+For more information, press inquiries, or to request early access, contact press@shieldlinevpn.example or visit our website.
+
+Sincerely,
+The ShieldLine Communications Team

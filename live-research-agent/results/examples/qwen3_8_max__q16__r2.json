@@ -1,0 +1,860 @@
+{
+ "model_key": "qwen3_8_max",
+ "model_id": "accounts/fireworks/models/qwen3p8-max",
+ "question_id": "q16",
+ "question": "How has Hong Kong's status as an international financial centre changed since 2020?",
+ "group": "china",
+ "run_idx": 2,
+ "protocol": "native",
+ "turns": [
+  {
+   "turn": 0,
+   "content": "I'll research Hong Kong's evolving status as an international financial centre since 2020.",
+   "reasoning_chars": 58,
+   "reasoning": "Let me research this question. I'll do multiple searches.\n",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-bc3411c10d91ec9c",
+     "function": {
+      "arguments": "{\"query\": \"Hong Kong international financial centre status decline since 2020\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-84624cea7f730e43",
+     "function": {
+      "arguments": "{\"query\": \"Global Financial Centres Index 2024 Hong Kong ranking Singapore\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 483,
+    "total_tokens": 592,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 13,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 0,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 13
+    }
+   },
+   "latency_ms": 1020,
+   "error": null
+  },
+  {
+   "turn": 1,
+   "content": "",
+   "reasoning_chars": 228,
+   "reasoning": "Let me get more details. Let me look at the GFCI rankings over time, IPO market, Stock Connect, wealth management, talent outflow, national security law impact, and recent revival.\n\nLet me search for several things in parallel.\n",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-a96d67d530d80f8d",
+     "function": {
+      "arguments": "{\"query\": \"Hong Kong IPO market 2025 revival world's largest listing venue\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-aa1ba3915c51a00a",
+     "function": {
+      "arguments": "{\"query\": \"Hong Kong national security law impact financial hub expat exodus 2022\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 131,
+    "prompt_tokens": 2444,
+    "total_tokens": 2575,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 51,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 482,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 51
+    }
+   },
+   "latency_ms": 1352,
+   "error": null
+  },
+  {
+   "turn": 2,
+   "content": "",
+   "reasoning_chars": 443,
+   "reasoning": "Let me open a few key sources: the GFCI Wikipedia page for ranking history, the Atlantic Council report, and recent news on Hong Kong's IPO comeback. Also search for Stock Connect / southbound flows, wealth management, and the number of foreign firms in HK.\n\nNote: some search results appear to be dated in the future (2026), which suggests the current date may be around mid-2026. Let me be careful. Let me check.\n\nLet me open several pages.\n",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-ba48f3e4855aa8c9",
+     "function": {
+      "arguments": "{\"url\": \"https://en.wikipedia.org/wiki/Global_Financial_Centres_Index\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-bf2ca55173345527",
+     "function": {
+      "arguments": "{\"query\": \"Hong Kong Stock Connect southbound flows record 2025 wealth management assets under management\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 187,
+    "prompt_tokens": 4512,
+    "total_tokens": 4699,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 106,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 2443,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 106
+    }
+   },
+   "latency_ms": 1703,
+   "error": null
+  },
+  {
+   "turn": 3,
+   "content": "",
+   "reasoning_chars": 462,
+   "reasoning": "The current date appears to be around mid-2026. Let me confirm by looking at recent news. Let me search for the latest GFCI (GFCI 39, March 2026) and Hong Kong financial hub status 2026.\n\nLet me also get details on:\n- Foreign firms / regional HQs in HK (2020 vs now)\n- Talent outflow / population decline\n- HKEX performance\n- Article 23 (2024)\n- US-China tensions, HFCAA delisting risk\n- RMB internationalization / offshore RMB hub\n\nLet me do parallel searches.\n",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-b3e96e529c5814a6",
+     "function": {
+      "arguments": "{\"query\": \"GFCI 39 March 2026 Hong Kong third place New York London Singapore\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-acf2b0e4bee4fb1b",
+     "function": {
+      "arguments": "{\"query\": \"Hong Kong number of overseas companies regional headquarters 2025 statistics rebound\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 223,
+    "prompt_tokens": 6320,
+    "total_tokens": 6543,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 140,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 4511,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 140
+    }
+   },
+   "latency_ms": 1954,
+   "error": null
+  },
+  {
+   "turn": 4,
+   "content": "**Hong Kong's Financial Centre Status Since 2020: Decline, Then Resurgence**\n\nHong Kong's position as an international financial centre has undergone a turbulent cycle since 2020 — first eroded by political and pandemic shocks, then substantially rebuilt through deeper integration with mainland China.\n\n**2020–2022: Erosion.** The June 2020 National Security Law marked a turning point. Beijing's sweeping new powers altered the city's legal and political environment (https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown), prompting multinational firms to reassess operations and relocate staff (https://www.cipe.org/resources/hong-kong-lost-its-appeal-as-a-financial-hub-for-asia-after-the-national-security-law/). Fitch downgraded Hong Kong to AA- in April 2020, citing weakening links with mainland China (https://www.fitchratings.com/research/sovereigns/fitch-downgrades-hong-kong-to-aa-from-aa-outlook-stable-20-04-2020). Strict pandemic quarantine rules and an expat exodus compounded the damage; the population fell and the financial sector faced a talent crunch (https://www.reuters.com/markets/europe/hong-kongs-financial-sector-faces-talent-crunch-expats-head-exit-2022-01-23/). Singapore overtook Hong Kong as Asia's top-ranked centre in the Global Financial Centres Index during this period.\n\n**2023–2024: Stabilisation.** The Article 23 security legislation in March 2024 raised fresh concerns among Western businesses (https://www.nytimes.com/2024-03-19/business/hong-kong-article-23-china-economy.html), and analysts documented ongoing risks to the commercial environment (https://www.atlanticcouncil.org/in-depth-research-reports/report/fractured-foundations-assessing-risks-to-hong-kongs-business-environment/). Yet by September 2024, Hong Kong regained its lead over Singapore in the GFCI (https://www.bloomberg.com/news/articles/2024-09-25/hong-kong-regains-lead-over-singapore-as-finance-center-survey-says).\n\n**2025–2026: Resurgence driven by mainland flows.** Hong Kong reclaimed the crown as the world's top IPO venue, with listings surging eightfold in the first half of 2025 to $13.5 billion raised (https://www.law.com/international-edition/2025-07-22/the-ipo-crown-has-returned-to-hong-kong-but-how-will-global-firms-compete-with-the-new-cowboys-in-town-/). Southbound Stock Connect turnover hit a record HK$121.1 billion daily average in 2025, more than double 2024 (https://www.hkexgroup.com/Media-Centre/Insight/Insight/2026/HKEX-Insight/Stock-Connect-2025-Review?sc_lang=en). The number of companies with mainland or overseas parents reached a record 11,070, up 11% (https://www.info.gov.hk/gia/general/202601/26/P2026012600135.htm), and real GDP surpassed its pre-pandemic peak (https://www.elibrary.imf.org/view/journals/002/2026/114/article-A001-en.xml). In GFCI 39 (March 2026), Hong Kong ranked third globally with a rating of 765, first in Asia-Pacific and top for fintech (https://www.info.gov.hk/gia/general/202603/26/P2026032600501.htm; https://www.longfinance.net/programmes/financial-centre-futures/global-financial-centres-index/gfci-publications/the-global-financial-centres-index-39/).\n\n**Assessment.** Hong Kong has retained — and by some metrics strengthened — its global ranking, but its character has changed. The centre is now more dependent on mainland capital flows and Chinese issuers, and less on Western intermediation. Its status endures, but as a bridge for China rather than a freewheeling Western-style hub.",
+   "reasoning_chars": 3025,
+   "reasoning": "Let me synthesize the research. The current date appears to be around mid-2026. Let me write a balanced briefing covering:\n\n1. 2020-2022: shocks - National Security Law (June 2020), US sanctions/trade status threats, Fitch downgrade to AA- (April 2020), talent outflow, population decline, pandemic quarantine, Singapore gaining ground in GFCI rankings.\n\n2. 2022-2024: Singapore overtook HK in GFCI (2022-2023), expat exodus, Article 23 (March 2024), concerns about business environment.\n\n3. 2024-2026: recovery - HK regained lead over Singapore in GFCI (Sept 2024), IPO market comeback (world's top IPO venue 2025, HK$210bn in H1 2025, 8x surge), Stock Connect record flows (southbound ADT HK$121.1bn in 2025, double 2024), wealth management AUM growth, record number of overseas companies (11,070 in 2025, +11%), GFCI 39 (March 2026) HK ranked 3rd globally, 765 rating, first in Asia-Pacific, top in fintech.\n\n4. Structural shift: greater integration with mainland China, reliance on mainland flows, geopolitical risks remain (US-China tensions, Article 23, talent issues).\n\nLet me write 400-500 words with inline source URLs. I need to be balanced - acknowledge both the decline narrative and the recent recovery, while noting the structural transformation toward mainland integration.\n\nLet me count words carefully and aim for ~450 words.\n\nInline URLs to use:\n- Fitch downgrade: https://www.fitchratings.com/research/sovereigns/fitch-downgrades-hong-kong-to-aa-from-aa-outlook-stable-20-04-2020\n- CFR on NSL: https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown\n- CIPE on NSL: https://www.cipe.org/resources/hong-kong-lost-its-appeal-as-a-financial-hub-for-asia-after-the-national-security-law/\n- Reuters talent crunch: https://www.reuters.com/markets/europe/hong-kongs-financial-sector-faces-talent-crunch-expats-head-exit-2022-01-23/\n- Bloomberg HK overtakes Singapore: https://www.bloomberg.com/news/articles/2024-09-25/hong-kong-regains-lead-over-singapore-as-finance-center-survey-says\n- GFCI 39: https://www.longfinance.net/programmes/financial-centre-futures/global-financial-centres-index/gfci-publications/the-global-financial-centres-index-39/\n- HK gov GFCI: https://www.info.gov.hk/gia/general/202603/26/P2026032600501.htm\n- IPO comeback: https://www.law.com/international-edition/2025-07-22/the-ipo-crown-has-returned-to-hong-kong-but-how-will-global-firms-compete-with-the-new-cowboys-in-town-/\n- Stock Connect: https://www.hkexgroup.com/Media-Centre/Insight/Insight/2026/HKEX-Insight/Stock-Connect-2025-Review?sc_lang=en\n- Record companies: https://www.info.gov.hk/gia/general/202601/26/P2026012600135.htm\n- Atlantic Council: https://www.atlanticcouncil.org/in-depth-research-reports/report/fractured-foundations-assessing-risks-to-hong-kongs-business-environment/\n- NYT Article 23: https://www.nytimes.com/2024-03-19/business/hong-kong-article-23-china-economy.html\n- IMF: https://www.elibrary.imf.org/view/journals/002/2026/114/article-A001-en.xml\n\nLet me write it now.\n",
+   "tool_calls": null,
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 1974,
+    "prompt_tokens": 8160,
+    "total_tokens": 10134,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 984,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 0,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 984
+    }
+   },
+   "latency_ms": 9918,
+   "error": null
+  }
+ ],
+ "searches": [
+  {
+   "position": 1,
+   "query": "Hong Kong international financial centre status decline since 2020",
+   "normalized": "hong kong international financial centre status decline since 2020",
+   "cache_hit": true,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.facebook.com/nikkeiasia/posts/can-hong-kong-hold-its-status-as-a-global-wealth-hub-chinas-broker-crackdown-is-/1427317039431557/",
+     "title": "Can Hong Kong hold its status as a global wealth hub? ...",
+     "domain_class": "other",
+     "snippet": "Hong Kong's financial industry decline. Public 2.9 percent in 2019 and 5.4 percent in 2020. ng feature of Hong Kong as a global financial ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.researchgate.net/publication/372407386_Study_on_the_Construction_of_Hong_Kong_International_Financial_Center_Based_on_SWOT_Analysis",
+     "title": "Study on the Construction of Hong Kong International ...",
+     "domain_class": "academic",
+     "snippet": "The COVID-19 epidemic has had a huge impact on Hong Kong, with its real economy facing a downturn and its import and export business negatively ...",
+     "published": "Jul 11, 2026"
+    },
+    {
+     "rank": 3,
+     "url": "https://www.hkubs.hku.hk/research/thought-leadership/hkej-column/analyzing-hong-kongs-overall-economic-situation-with-data-part-two/",
+     "title": "Analyzing Hong Kong's Overall Economic Situation with Data",
+     "domain_class": "other",
+     "snippet": "The city has thus successfully evolved into an international financial centre. Pressing need for financial adjustments amid geopolitical ...",
+     "published": "Jul 18, 2024"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.fitchratings.com/research/sovereigns/fitch-downgrades-hong-kong-to-aa-from-aa-outlook-stable-20-04-2020",
+     "title": "Fitch Downgrades Hong Kong to 'AA-' from 'AA'; Outlook ...",
+     "domain_class": "academic",
+     "snippet": "Fitch forecasts real GDP will fall by 5% in 2020, following a 1.2% decline in 2019. High frequency data spanning retail sales, visitor arrivals ...",
+     "published": "Apr 20, 2020"
+    },
+    {
+     "rank": 5,
+     "url": "https://www.quora.com/Can-Hong-Kong-revive-its-international-financial-hub-status-in-coming-years",
+     "title": "Can Hong Kong revive its international financial hub status ...",
+     "domain_class": "other",
+     "snippet": "Can Hong Kong revive its international financial hub status in coming years?",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://japan-forward.com/after-hong-kong-tokyo-could-be-the-next-asian-financial-hub-is-japan-ready-2/",
+     "title": "After Hong Kong, Tokyo Could Be the Next Asian Financial ...",
+     "domain_class": "other",
+     "snippet": "In 2020, US officials made efforts to remove Hong Kong's favorable trade status under United States law. That has not happened.",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://www.charltonslaw.com/hong-kong-2020-2021-budget/",
+     "title": "Hong Kong Announces 2020/2021 Budget",
+     "domain_class": "other",
+     "snippet": "The Financial Secretary outlines the difficulties Hong Kong faced in 2019, with the economy entering into a recession in the third quarter and ...",
+     "published": "Feb 26, 2020"
+    },
+    {
+     "rank": 8,
+     "url": "https://www.reuters.com/markets/europe/hong-kongs-financial-sector-faces-talent-crunch-expats-head-exit-2022-01-23/",
+     "title": "Hong Kong's financial sector faces talent crunch as expats ...",
+     "domain_class": "western_wire_press",
+     "snippet": "Hong Kong's population declined 1.2% between mid-2020 and mid-2021 ... Hong Kong's status as a global financial hub would remain strong.",
+     "published": "Jan 23, 2022"
+    },
+    {
+     "rank": 9,
+     "url": "https://www.facebook.com/Reuters/posts/from-breakingviews-breakingviews-hong-kongs-wealth-hub-faces-a-leaner-futureclic/1581632543827472/",
+     "title": "Hong Kong's wealth hub faces a leaner future",
+     "domain_class": "other",
+     "snippet": "Asset and wealth management business, net fund inflows and assets held under trusts registered a double-digit growth in 2020 compared to 2019, ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 2,
+   "query": "Global Financial Centres Index 2024 Hong Kong ranking Singapore",
+   "normalized": "global financial centres index 2024 hong kong ranking singapore",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://en.wikipedia.org/wiki/Global_Financial_Centres_Index",
+     "title": "Global Financial Centres Index",
+     "domain_class": "wikipedia",
+     "snippet": "The Global Financial Centres Index (GFCI) ranks the competitiveness of financial centres. Hong Kong Hong Kong 765 Steady Singapore Singapore. The report ranks ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.longfinance.net/programmes/financial-centre-futures/global-financial-centres-index/",
+     "title": "The Global Financial Centres Index",
+     "domain_class": "other",
+     "snippet": "Welcome to the Global Financial Centres Index, the world's most authoritative comparison of the competitiveness of the world's leading financial centres.",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://www.scmp.com/business/banking-finance/article/3366230/hong-kong-poised-top-new-york-london-finance-hub-ranking-gfci-creator",
+     "title": "Hong Kong poised to top New York, London in finance-hub ...",
+     "domain_class": "western_wire_press",
+     "snippet": "Hong Kong placed third, trailing London by a single point and New York by two. compared with around 19 per cent in Singapore",
+     "published": "2 days ago"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.facebook.com/ASIARecordsOfficial/posts/asia-pacific-isnt-just-growing-its-dominating-global-finance-from-hong-kong-to-s/1421362760034367/",
+     "title": "Asia-Pacific isn't just growing — it's dominating global ...",
+     "domain_class": "other",
+     "snippet": "Hong Kong rose one place to No. 3 out of 121 financial centres around the world, and ranked first in the Asia 12 shares Singapore ranked high ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://finance.yahoo.com/news/hong-kong-widens-lead-over-093000314.html",
+     "title": "Hong Kong widens lead over Singapore as Asia's top ...",
+     "domain_class": "other",
+     "snippet": "Hong Kong's overall rating increased 11 points, while Singapore gained three points to stay fourth worldwide, the semi-annual report released ...",
+     "published": "Mar 20, 2025"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.info.gov.hk/gia/general/202603/26/P2026032600501.htm",
+     "title": "Hong Kong records higher rating in Global Financial Centres ...",
+     "domain_class": "prc_state",
+     "snippet": "Hong Kong's overall rating increased further by one point to 765, maintaining third place globally and first place in Asia Pacific.",
+     "published": "Mar 26, 2026"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.bloomberg.com/news/articles/2024-09-25/hong-kong-regains-lead-over-singapore-as-finance-center-survey-says",
+     "title": "Hong Kong Overtakes Singapore in World Financial ...",
+     "domain_class": "western_wire_press",
+     "snippet": "Hong Kong reclaimed its spot as Asia's top financial center, knocking Singapore back to second place in the region, according to a survey.",
+     "published": "Sep 24, 2024"
+    },
+    {
+     "rank": 8,
+     "url": "https://www.linkedin.com/posts/hketosg_hongkong-asiasworldcity-globalfinancialcentresindex-activity-7443141092436316160-yc55",
+     "title": "Hong Kong Maintains Third Global Financial Centre Ranking",
+     "domain_class": "other",
+     "snippet": "Hong Kong's overall rating increased further by one point📈to 765, maintaining third place globally and first place in Asia Pacific.",
+     "published": null
+    },
+    {
+     "rank": 9,
+     "url": "https://www.reddit.com/r/HongKong/comments/1bkvzo6/singapore_still_asias_top_finance_hub_beating/",
+     "title": "Singapore still Asia's top finance hub, beating Hong Kong ...",
+     "domain_class": "other",
+     "snippet": "Singapore and Hong Kong rank third and fourth behind New York and London but ahead of San Francisco as the global top five remains unchanged ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 3,
+   "query": "Hong Kong IPO market 2025 revival world's largest listing venue",
+   "normalized": "hong kong ipo market 2025 revival world's largest listing venue",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.linkedin.com/posts/ifc-review_hong-kong-regulatory-developments-in-2025-activity-7498345707360133120-96Nr",
+     "title": "Hong Kong's securities industry makes a comeback in 2025",
+     "domain_class": "other",
+     "snippet": "Hong Kong's securities and futures industry made a remarkable comeback in 2025. From reclaiming its position as the world's leading IPO venue ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.law.com/international-edition/2025/07/22/the-ipo-crown-has-returned-to-hong-kong-but-how-will-global-firms-compete-with-the-new-cowboys-in-town-/",
+     "title": "The IPO Crown Has Returned to Hong Kong, But How Will ...",
+     "domain_class": "other",
+     "snippet": "Hong Kong's initial public offerings (IPOs) soared eightfold in the first half of 2025, a total of 42 companies raised $13.5 billion on the ...",
+     "published": "Jul 22, 2025"
+    },
+    {
+     "rank": 3,
+     "url": "https://www.linkedin.com/pulse/hong-kongs-ipo-window-wide-open-most-companies-still-miss-harani-a6jce",
+     "title": "Hong Kong's IPO Window Is Wide Open. Most Companies ...",
+     "domain_class": "other",
+     "snippet": "HKEX raised HK$210.2 billion through IPOs in the first half of 2026, up 92% year on year, across 87 new listings, roughly double the count from ...",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://economy.ac/news/2025/12/202512285990",
+     "title": "China Mandates Repatriation of Overseas IPO Proceeds ...",
+     "domain_class": "other",
+     "snippet": "... listing in Hong Kong in May, marking the largest global IPO of the year. Hengrui Pharmaceuticals raised about $1.45 billion, while Sany ...",
+     "published": "Dec 29, 2025"
+    },
+    {
+     "rank": 5,
+     "url": "https://sg.finance.yahoo.com/news/baidu-unit-jio-asia-ipo-153151473.html",
+     "title": "From Baidu unit to Jio, Asia's IPO boom shows no sign of ...",
+     "domain_class": "other",
+     "snippet": "US$262.7 billion in 2025, Hong Kong listings may raise as much as US$45 billion in 2026, according to estimates by KPMG LLP. If that holds, it ...",
+     "published": "Jan 4, 2026"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.facebook.com/frontlinestoriesfromreporters/posts/hong-kong-markets-open-2026-on-high-note-hongkong-stocks-opened-2026-on-a-strong/1427507409164462/",
+     "title": "Hong Kong markets open 2026 on high note ...",
+     "domain_class": "other",
+     "snippet": "Public Hong Kong ranked as the world's top IPO venue in 2025, with record-setting average daily trading volumes and fundraising levels rising ...",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://www.integrityriskintl.com/2025-ipo-outlook-a-market-poised-for-transformation/",
+     "title": "2025 IPO / M&A Outlook: A Market Poised for Transformation",
+     "domain_class": "other",
+     "snippet": "Explore the 2025 IPO Outlook: Global markets rebound, IPOs surge, and private equity thrives. Read our in-depth analysis.",
+     "published": "Jan 28, 2025"
+    },
+    {
+     "rank": 8,
+     "url": "https://discoveryalert.com.au/zijin-gold-hong-kong-ipo-2025-investors-market-impact/",
+     "title": "Zijin Gold's Hong Kong IPO: Major Investors Back $3B ...",
+     "domain_class": "other",
+     "snippet": "Zijin Gold's IPO represents the world's biggest listing since May 2025, marking a significant milestone for Hong Kong's financial markets.",
+     "published": "Sep 18, 2025"
+    },
+    {
+     "rank": 9,
+     "url": "https://www.yicaiglobal.com/news/rebounding-stocks-and-mega-listings-revive-foreign-interest-in-hong-kong",
+     "title": "Hong Kong's Stock Market Rebound, Mega Listings Are ...",
+     "domain_class": "other",
+     "snippet": "(Yicai) May 29 -- Hong Kong's capital markets are showing signs of recovery, driven by stock revaluations and major listings such as that of ...",
+     "published": "May 29, 2025"
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 4,
+   "query": "Hong Kong national security law impact financial hub expat exodus 2022",
+   "normalized": "hong kong national security law impact financial hub expat exodus 2022",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown",
+     "title": "Hong Kong's Freedoms: What China Promised and How ...",
+     "domain_class": "ngo",
+     "snippet": "Beijing imposed a national security law in 2020 that gave it broad new powers to punish critics and silence dissenters, fundamentally altering ...",
+     "published": "Feb 9, 2026"
+    },
+    {
+     "rank": 2,
+     "url": "https://www.cipe.org/resources/hong-kong-lost-its-appeal-as-a-financial-hub-for-asia-after-the-national-security-law/",
+     "title": "Hong Kong Lost its Appeal as a Financial Hub for Asia after ...",
+     "domain_class": "other",
+     "snippet": "As a result, the NSL is hurting the financial interests of Hong Kong's private sector and prompting many multinational corporations (MNCs) to ...",
+     "published": "Dec 1, 2022"
+    },
+    {
+     "rank": 3,
+     "url": "https://www.facebook.com/chinadailyhkedition/posts/a-survey-conducted-early-this-year-shows-that-the-national-security-law-for-hong/1152611500238677/",
+     "title": "China Daily Hong Kong",
+     "domain_class": "other",
+     "snippet": "Hong Kong stronger as global financial hub with national security law One year after the introduction of the national security law in #HongKong ...",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9036840/",
+     "title": "Hong Kong Universities in the Shadow of the National ... - PMC",
+     "domain_class": "academic",
+     "snippet": "The author examines the impact of that law on the conduct of university senior managements, on local and expatriate faculty, and on students.",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://www.nytimes.com/2024/03/19/business/hong-kong-article-23-china-economy.html",
+     "title": "Hong Kong Security Law Could Damage City's Standing as ...",
+     "domain_class": "western_wire_press",
+     "snippet": "Hong Kong Security Law Could Damage City's Standing as Financial Hub. Some firms have already moved staff out of the city since the Chinese ...",
+     "published": "Mar 19, 2024"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.facebook.com/BloombergAsia/posts/will-chinas-national-security-law-prompt-a-mass-exodus-from-hong-kong-some-are-l/1673581149458118/",
+     "title": "Will China's national security law prompt a mass exodus ...",
+     "domain_class": "other",
+     "snippet": "The city's status as a financial hub may be in peril as multinational companies try and navigate the consequences of the new law.",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://www.quora.com/Has-Hong-Kongs-National-Security-Law-served-its-purpose-since-taking-effect-2-years-ago-Is-Hong-Kong-able-to-retain-its-position-as-an-international-financial-hub-in-the-coming-decades",
+     "title": "Has Hong Kong's National Security Law served its purpose ...",
+     "domain_class": "other",
+     "snippet": "Has Hong Kong's National Security Law served its purpose since taking effect 2 years ago? Is Hong Kong able to retain its position as an international financial ...",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://www.reddit.com/r/HongKong/comments/vglnwt/hong_kong_is_unrecognizable_after_2_years_under/",
+     "title": "Hong Kong Is Unrecognizable After 2 Years Under ...",
+     "domain_class": "other",
+     "snippet": "Five ways the law has deepened authoritarianism in the territory as conditions are set to worsen. HK's covid travel quarantine restrictions, HK ...",
+     "published": null
+    },
+    {
+     "rank": 9,
+     "url": "https://www.atlanticcouncil.org/in-depth-research-reports/report/fractured-foundations-assessing-risks-to-hong-kongs-business-environment/",
+     "title": "Fractured foundations: Assessing risks to Hong Kong's ...",
+     "domain_class": "ngo",
+     "snippet": "The report analyzes in detail the risks to the commercial operating environment in Hong Kong that have emerged since the 2020 introduction ...",
+     "published": "Mar 7, 2023"
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 6,
+   "query": "Hong Kong Stock Connect southbound flows record 2025 wealth management assets under management",
+   "normalized": "hong kong stock connect southbound flows record 2025 wealth management assets under management",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.ft.com/content/2ad21126-5ee0-4b06-8499-67e93d2938b9?syn-25a6b1a6\\u003d1",
+     "title": "Chinese investment into Hong Kong surges to record high",
+     "domain_class": "western_wire_press",
+     "snippet": "Cumulative investment into Hong Kong through Stock Connect has reached HK$4.5tn, with more than a third of inflows occurring in the past two ...",
+     "published": "Jul 25, 2025"
+    },
+    {
+     "rank": 2,
+     "url": "https://www.charltonslaw.com/hong-kong-stock-exchange-reports-ecm-and-stock-connect-in-2025/",
+     "title": "Hong Kong Stock Exchange Reports: ECM and ...",
+     "domain_class": "other",
+     "snippet": "Average daily turnover (ADT) through the Southbound channel reached a record HK$121.1 billion in 2025, more than double the HK$48.2 billion ...",
+     "published": "Mar 24, 2026"
+    },
+    {
+     "rank": 3,
+     "url": "https://www.hkexgroup.com/Media-Centre/Insight/Insight/2026/HKEX-Insight/Stock-Connect-2025-Review?sc_lang\\u003den",
+     "title": "Stock Connect 2025 Review",
+     "domain_class": "other",
+     "snippet": "Southbound Stock Connect ADT reached HK$121.1 billion in 2025 – more than double the HK$48.2 billion recorded in 2024. up 61.7% and 72.1% YoY, ...",
+     "published": "Mar 9, 2026"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.facebook.com/HSBCSingapore/posts/in-recent-years-the-improved-connection-between-mainland-china-and-hong-kong-mar/1480300857473248/",
+     "title": "In recent years, the improved connection between mainland ...",
+     "domain_class": "other",
+     "snippet": "Hong Kong's wealth management assets grew 10.7% year on year in 2025 to reach $2.95 trillion, driven by Chinese mainland flows and a vigorous ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://www.shs-conferences.org/articles/shsconf/pdf/2025/09/shsconf_icdde2025_04014.pdf",
+     "title": "Study on the impact of A-H connectivity mechanism on ...",
+     "domain_class": "other",
+     "snippet": "Data show that in 2024, the market value of securities assets held by mainland investors through the Hong Kong Stock Connect exceeded. 3.3 trillion Hong Kong ...",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://www.reuters.com/markets/asia/chinese-investors-pour-record-funds-into-hong-kong-stocks-first-quarter-2025-03-28/",
+     "title": "Chinese investors pour record funds into Hong Kong ...",
+     "domain_class": "western_wire_press",
+     "snippet": "Net inflows from onshore funds into Hong Kong's equity market through the Stock Connect scheme were over HK$435 billion ($55.93 billion) so far ...",
+     "published": "Mar 28, 2025"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.facebook.com/chinadaily/posts/hongkongs-exchange-traded-fund-etf-market-has-continued-to-surge-ahead-with-aver/1529619579195615/",
+     "title": "#HongKong's exchange-traded fund (#ETF) market has ...",
+     "domain_class": "other",
+     "snippet": "Southbound fund flows under the Stock Connect programs between Hong Kong and the mainland saw the largest net outflows on record of HK$63.5 ...",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://www.hkex.com.hk/Mutual-Market/Connect-Hub/Stock-Connect?sc_lang\\u003den",
+     "title": "Stock Connect Explained",
+     "domain_class": "other",
+     "snippet": "Southbound trading allows Mainland Chinese investors to connect with Hong Kong's unique market offerings and international diversification opportunities.",
+     "published": null
+    },
+    {
+     "rank": 9,
+     "url": "https://www.sciencedirect.com/science/article/abs/pii/S0927538X25002240",
+     "title": "Southbound capital flows and stock return predictability",
+     "domain_class": "academic",
+     "snippet": "This paper examines the impact of southbound cross-border capital flows on stock returns in the Hong Kong stock market. The study finds that southbound ...",
+     "published": null
+    },
+    {
+     "rank": 10,
+     "url": "https://baike.baidu.com/en/item/Mainland%20investors/4720048",
+     "title": "Mainland investors",
+     "domain_class": "other",
+     "snippet": "As of June 9, 2026, Southbound capital collectively held HKD 6,011.296 billion in the market value of Hong Kong Stock Connect constituent stocks, accounting for ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 7,
+   "query": "GFCI 39 March 2026 Hong Kong third place New York London Singapore",
+   "normalized": "gfci 39 march 2026 hong kong third place new york london singapore",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.longfinance.net/programmes/financial-centre-futures/global-financial-centres-index/gfci-publications/the-global-financial-centres-index-39/",
+     "title": "The Global Financial Centres Index 39",
+     "domain_class": "other",
+     "snippet": "New York leads the index, with London second. Hong Kong retains third position ahead of Singapore. San Francisco is unchanged in fifth position and Shenzhen ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.info.gov.hk/gia/general/202603/26/P2026032600501.htm",
+     "title": "Hong Kong records higher rating in Global Financial Centres ...",
+     "domain_class": "prc_state",
+     "snippet": "In GFCI 39, 120 financial centres were assessed, and Hong Kong ranked third globally with an overall rating of 765. Ends/Thursday, March 26, ...",
+     "published": "Mar 26, 2026"
+    },
+    {
+     "rank": 3,
+     "url": "https://www.facebook.com/hketobangkok/posts/according-to-the-global-financial-centres-index-gfci-39-report-published-today-m/1264117829243395/",
+     "title": "According to the Global Financial Centres Index (GFCI) 39 ...",
+     "domain_class": "other",
+     "snippet": "Hong Kong regained third place in the latest global ranking of international financial centers, surpassing Singapore for the first time in ...",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://www.instagram.com/p/DWX5ERemdOI/",
+     "title": "March 26",
+     "domain_class": "other",
+     "snippet": "According to the Global Financial Centres Index (GFCI) 39 Report published on March 26, Hong Kong's overall rating increased further by one ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://en.wikipedia.org/wiki/Global_Financial_Centres_Index",
+     "title": "Global Financial Centres Index",
+     "domain_class": "wikipedia",
+     "snippet": "GFCI 39 (March 2026) ; United Kingdom London, 766, Steady ; Hong Kong, 765, Steady ; Singapore, 764, Steady ; United States San Francisco, 744, Steady.",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://www.zyen.com/news/press-releases/press-release-global-financial-centres-index-39-top-four-financial-centres-clear-leaders/",
+     "title": "Press Release: Global Financial Centres Index 39",
+     "domain_class": "other",
+     "snippet": "There is no change among the top five FinTech rankings, with Hong Kong in top position followed by Shenzhen, New York, Singapore, and London.",
+     "published": "Mar 26, 2026"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.linkedin.com/posts/hketosf_hongkong-globalfinancialcentresindex-gfci-activity-7442983766421118977--a-Z",
+     "title": "Hong Kong Maintains 3rd Global Financial Centre Ranking",
+     "domain_class": "other",
+     "snippet": "Hong Kong maintained third place globally and continued to hold the top position in the Asia-Pacific region in a financial centers index ...",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://www.scmp.com/business/banking-finance/article/3366230/hong-kong-poised-top-new-york-london-finance-hub-ranking-gfci-creator",
+     "title": "Hong Kong poised to top New York, London in finance-hub ...",
+     "domain_class": "western_wire_press",
+     "snippet": "Hong Kong poised to top New York, London in finance-hub ranking: GFCI creator. 'It's going to happen,' creator of Global Financial Centres Index ...",
+     "published": "2 days ago"
+    },
+    {
+     "rank": 9,
+     "url": "https://www.fsdc.org.hk/en/media/fsdc-welcomes-global-financial-centres-index-39-hong-kong-solidifies-global-top-three-position-and-fintech-leadership",
+     "title": "FSDC Welcomes Global Financial Centres Index 39: Hong ...",
+     "domain_class": "other",
+     "snippet": "According to the latest index, Hong Kong's overall rating rose to 765, one point behind London and two points behind New York. Hong Kong retains ...",
+     "published": "Mar 26, 2026"
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 8,
+   "query": "Hong Kong number of overseas companies regional headquarters 2025 statistics rebound",
+   "normalized": "hong kong number of overseas companies regional headquarters 2025 statistics rebound",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.facebook.com/chinadaily/posts/the-number-of-chinese-mainland-and-multinational-companies-that-have-opened-offi/1345693854254856/",
+     "title": "The number of Chinese mainland and multinational ...",
+     "domain_class": "other",
+     "snippet": "The number of Chinese mainland and multinational companies that have opened offices in #HongKong rose 11 percent to a record high in 2025, ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.censtatd.gov.hk/en/wbr.html?ecode\\u003dB11100042025AN25",
+     "title": "Report on Annual Survey of Companies in Hong Kong ...",
+     "domain_class": "other",
+     "snippet": "In 2025, about 11 070 companies were enumerated as at 2 June to have operated in Hong Kong with parent companies located outside Hong Kong, ...",
+     "published": "Jan 26, 2026"
+    },
+    {
+     "rank": 3,
+     "url": "https://www.woodburnglobal.com/post/hong-kong-as-a-regional-headquarters-hub-growth-in-foreign-companies-and-strategic-expansion-across",
+     "title": "Hong Kong as a Regional Headquarters Hub: 2025 Growth ...",
+     "domain_class": "other",
+     "snippet": "The number of companies in Hong Kong with parent companies located outside the city reached 11,070 in 2025. This represents continued growth ...",
+     "published": "Feb 11, 2026"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.elibrary.imf.org/view/journals/002/2026/114/article-A001-en.xml",
+     "title": "People's Republic of China-Hong Kong Special Administrative ...",
+     "domain_class": "ngo",
+     "snippet": "Hong Kong SAR real GDP surpassed its pre-pandemic peak in 2025. The recovery was supported by a rebound in both manufacturing and services. key ...",
+     "published": "Jun 1, 2026"
+    },
+    {
+     "rank": 5,
+     "url": "https://www.linkedin.com/posts/alphalau_rhq-leaflet-2025-entc-activity-7421379191239016449-qGTg",
+     "title": "Hong Kong Attracts Record 11000 Overseas Companies",
+     "domain_class": "other",
+     "snippet": "Hong Kong now hosts *over 11,000 overseas companies and *5,200 startups – both at record highs and representing an *11% year-on-year increase. ...",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://www.info.gov.hk/gia/general/202601/26/P2026012600135.htm",
+     "title": "Record high numbers of companies and start-ups affirm Hong ...",
+     "domain_class": "prc_state",
+     "snippet": "the number of companies in Hong Kong with Chinese Mainland or overseas parent companies rose to 11 070 in 2025, while the number of start-ups ...",
+     "published": "Jan 25, 2026"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.business-sweden.com/49c84d/contentassets/ff834c06554344098a43ad0943435580/business-climate-survey-hong-kong-2026-report.pdf",
+     "title": "Business Climate Survey Hong Kong",
+     "domain_class": "other",
+     "snippet": "The Business Climate Survey 2026 shows that Swedish companies in Hong Kong SAR continue to operate in a resilient and internationally connected market ...",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://unctad.org/publication/world-investment-report-2025",
+     "title": "World Investment Report 2025: International investment in ...",
+     "domain_class": "other",
+     "snippet": "Global foreign direct investment (FDI) fell by 11% to $1.5 trillion in 2024, marking the second straight year of decline. While the overall data ...",
+     "published": "Jun 19, 2025"
+    },
+    {
+     "rank": 9,
+     "url": "https://www.facebook.com/brandhk.isd/posts/hong-kongs-business-landscape-is-reaching-new-heights-with-a-record-number-of-ov/1329526432550734/",
+     "title": "Brand Hong Kong",
+     "domain_class": "other",
+     "snippet": "The latest 2025 surveys show that our city continues to strengthen its role as a premier global business hub: 11,070 companies in Hong Kong ...",
+     "published": null
+    }
+   ],
+   "error": null
+  }
+ ],
+ "opens": [
+  {
+   "position": 5,
+   "url": "https://en.wikipedia.org/wiki/Global_Financial_Centres_Index",
+   "domain_class": "wikipedia",
+   "shown_in_search": true,
+   "shown_rank": 1,
+   "shown_search_position": 2,
+   "tokens": 441,
+   "error": null,
+   "title": "Global Financial Centres Index - Wikipedia"
+  }
+ ],
+ "tool_calls": 8,
+ "final_answer": "**Hong Kong's Financial Centre Status Since 2020: Decline, Then Resurgence**\n\nHong Kong's position as an international financial centre has undergone a turbulent cycle since 2020 — first eroded by political and pandemic shocks, then substantially rebuilt through deeper integration with mainland China.\n\n**2020–2022: Erosion.** The June 2020 National Security Law marked a turning point. Beijing's sweeping new powers altered the city's legal and political environment (https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown), prompting multinational firms to reassess operations and relocate staff (https://www.cipe.org/resources/hong-kong-lost-its-appeal-as-a-financial-hub-for-asia-after-the-national-security-law/). Fitch downgraded Hong Kong to AA- in April 2020, citing weakening links with mainland China (https://www.fitchratings.com/research/sovereigns/fitch-downgrades-hong-kong-to-aa-from-aa-outlook-stable-20-04-2020). Strict pandemic quarantine rules and an expat exodus compounded the damage; the population fell and the financial sector faced a talent crunch (https://www.reuters.com/markets/europe/hong-kongs-financial-sector-faces-talent-crunch-expats-head-exit-2022-01-23/). Singapore overtook Hong Kong as Asia's top-ranked centre in the Global Financial Centres Index during this period.\n\n**2023–2024: Stabilisation.** The Article 23 security legislation in March 2024 raised fresh concerns among Western businesses (https://www.nytimes.com/2024-03-19/business/hong-kong-article-23-china-economy.html), and analysts documented ongoing risks to the commercial environment (https://www.atlanticcouncil.org/in-depth-research-reports/report/fractured-foundations-assessing-risks-to-hong-kongs-business-environment/). Yet by September 2024, Hong Kong regained its lead over Singapore in the GFCI (https://www.bloomberg.com/news/articles/2024-09-25/hong-kong-regains-lead-over-singapore-as-finance-center-survey-says).\n\n**2025–2026: Resurgence driven by mainland flows.** Hong Kong reclaimed the crown as the world's top IPO venue, with listings surging eightfold in the first half of 2025 to $13.5 billion raised (https://www.law.com/international-edition/2025-07-22/the-ipo-crown-has-returned-to-hong-kong-but-how-will-global-firms-compete-with-the-new-cowboys-in-town-/). Southbound Stock Connect turnover hit a record HK$121.1 billion daily average in 2025, more than double 2024 (https://www.hkexgroup.com/Media-Centre/Insight/Insight/2026/HKEX-Insight/Stock-Connect-2025-Review?sc_lang=en). The number of companies with mainland or overseas parents reached a record 11,070, up 11% (https://www.info.gov.hk/gia/general/202601/26/P2026012600135.htm), and real GDP surpassed its pre-pandemic peak (https://www.elibrary.imf.org/view/journals/002/2026/114/article-A001-en.xml). In GFCI 39 (March 2026), Hong Kong ranked third globally with a rating of 765, first in Asia-Pacific and top for fintech (https://www.info.gov.hk/gia/general/202603/26/P2026032600501.htm; https://www.longfinance.net/programmes/financial-centre-futures/global-financial-centres-index/gfci-publications/the-global-financial-centres-index-39/).\n\n**Assessment.** Hong Kong has retained — and by some metrics strengthened — its global ranking, but its character has changed. The centre is now more dependent on mainland capital flows and Chinese issuers, and less on Western intermediation. Its status endures, but as a bridge for China rather than a freewheeling Western-style hub.",
+ "finish": "forced_answer",
+ "usage": {
+  "prompt_tokens": 21919,
+  "completion_tokens": 2624,
+  "reasoning_tokens": 1294,
+  "cached_prompt_tokens": 7436,
+  "calls": 5
+ },
+ "cost_usd": 0.059582,
+ "errors": [],
+ "started": "2026-09-06T00:02:33.231740+00:00",
+ "ended": "2026-09-06T00:05:42.980899+00:00",
+ "run_id": "full-20260905T221055Z"
+}

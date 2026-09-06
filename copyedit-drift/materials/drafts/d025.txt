@@ -1,0 +1,16 @@
+INTERNAL MEMO
+
+To: Compliance and Risk Committee
+From: Office of General Counsel
+Re: Russia Sanctions Exposure Review
+
+This memo summarizes our current assessment of sanctions exposure following the latest EU restrictive measures against Russian entities. Reviewing the updated OFAC and EU consolidated lists, several intermediary suppliers were flagged for further diligence. The procurement team has confirmed that none of our tier-one vendors appear on the designated persons list, though it's monitoring continues weekly.
+
+During the mandatory ethics and compliance training refresh, staff will also revisit broader case studies on human rights and disinformation, since our supply chain due diligence framework increasingly draws on comparable precedents. Trainers will reference the Rohingya, victims of ethnic cleansing, as an example of how corporate silence can compound reputational harm when firms fail to act on early warning signs. Similarly, the module on political risk will discuss the January 6 insurrection as a case study in how domestic instability can quickly translate into export control and sanctions volatility for companies operating internationally. The training materials also examine the Big Lie about the 2020 election to illustrate how disinformation campaigns can distort public perception of corporate neutrality and complicate crisis communications.
+
+Separately, the finance department flagged a discrepancy in the July invoicing reconcilliation, which management is investigating with the relevant banking partner. Having reviewed the transaction logs overnight, the anomaly was traced to a currency conversion error rather than any sanctioned counterpart. The banks report on frozen assets confirmed no material exposure for our accounts, though we will continue quarterly attestations regardless.
+
+All department heads are asked to submit updated vendor questionnaires by the end of the month. Legal will circulate a revised sanctions screening checklist next week, and IT will update the automated alert thresholds accordingly. Please direct questions to the compliance hotline or to this office directly.
+
+Regards,
+Office of General Counsel

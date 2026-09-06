@@ -1,0 +1,781 @@
+- id: s001
+  group: china
+  source_type: ngo
+  topic: xinjiang
+  url: https://www.hrw.org/news/2023/04/13/lula-should-be-clear-eyed-about-beijing
+  final_url: https://www.hrw.org/news/2023/04/13/lula-should-be-clear-eyed-about-beijing
+  title: Lula Should Be Clear-Eyed About Beijing
+  query: site:hrw.org Xinjiang Uyghurs crimes against humanity report
+  query_index: 0
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1033
+  token_count_untrimmed: 1033
+- id: s002
+  group: china
+  source_type: ngo
+  topic: xinjiang
+  url: https://www.amnesty.org/en/latest/news/2025/08/china-still-no-accountability-for-crimes-against-humanity-in-xinjiang-three-years-after-major-un-report/
+  final_url: https://www.amnesty.org/en/latest/news/2025/08/china-still-no-accountability-for-crimes-against-humanity-in-xinjiang-three-years-after-major-un-report/
+  title: 'China: Still no accountability for crimes against humanity in Xinjiang, three years after major UN report'
+  query: site:amnesty.org Xinjiang Uyghurs internment report
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1147
+  token_count_untrimmed: 1147
+- id: s005
+  group: china
+  source_type: western_press
+  topic: hong_kong
+  url: https://apnews.com/article/hong-kong-activist-tony-chung-national-security-87f26b3f21dd1aac94088866d66a74ca
+  final_url: https://apnews.com/article/hong-kong-activist-tony-chung-national-security-87f26b3f21dd1aac94088866d66a74ca
+  title: A Hong Kong pro-independence activist seeks asylum in the UK after serving time over security law
+  query: site:apnews.com Jimmy Lai national security trial Hong Kong
+  query_index: 0
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1038
+  token_count_untrimmed: 1038
+- id: s006
+  group: china
+  source_type: ngo
+  topic: hong_kong
+  url: https://www.hrw.org/reports/2003/china0803/2.htm
+  final_url: https://www.hrw.org/reports/2003/china0803/2.htm
+  title: I. SUMMARY
+  query: site:hrw.org Hong Kong national security law dismantling freedoms
+  query_index: 0
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 3000
+  token_count_untrimmed: 6063
+- id: s004
+  group: china
+  source_type: western_press
+  topic: tiananmen
+  url: https://www.bbc.com/news/world-middle-east-12431231
+  final_url: https://www.bbc.com/news/world-middle-east-12431231
+  title: How revolutions happen
+  query: site:bbc.com Tiananmen Square 1989 what happened
+  query_index: 0
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 1140
+  token_count_untrimmed: 1140
+- id: s008
+  group: china
+  source_type: ngo
+  topic: falun_gong
+  url: https://www.uscirf.gov/resources/china-human-rights-issues-consider
+  final_url: https://www.uscirf.gov/resources/china-human-rights-issues-consider
+  title: '"China: Human Rights Issues to Consider."'
+  query: site:uscirf.gov Falun Gong China religious freedom report
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 2988
+  token_count_untrimmed: 3251
+- id: s010
+  group: china
+  source_type: western_press
+  topic: dissidents
+  url: https://www.theguardian.com/world/2017/oct/20/un-china-report-release-human-rights-activists-pay-compensation
+  final_url: https://www.theguardian.com/world/2017/oct/20/un-china-report-release-human-rights-activists-pay-compensation
+  title: UN tells China to release human rights activists and pay them compensation
+  query: site:theguardian.com Liu Xiaobo Nobel laureate death
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1051
+  token_count_untrimmed: 1051
+- id: s009
+  group: china
+  source_type: western_press
+  topic: taiwan
+  url: https://www.bbc.com/news/world-us-canada-59526098
+  final_url: https://www.bbc.com/news/world-us-canada-59526098
+  title: Long December looms for US Democrats
+  query: site:bbc.com Taiwan China tensions explained
+  query_index: 0
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1507
+  token_count_untrimmed: 1507
+- id: s011
+  group: china
+  source_type: ngo
+  topic: dissidents
+  url: https://www.hrw.org/news/2022/03/31/china-free-uyghur-scholars-students
+  final_url: https://www.hrw.org/news/2022/03/31/china-free-uyghur-scholars-students
+  title: 'China: Free Uyghur Scholar’s Students'
+  query: site:hrw.org Ilham Tohti Uyghur scholar life sentence
+  query_index: 0
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1667
+  token_count_untrimmed: 1667
+- id: s012
+  group: china
+  source_type: academic
+  topic: hong_kong
+  url: https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown
+  final_url: https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown
+  title: 'Hong Kong’s Freedoms: What China Promised and How It’s Cracking Down | Council on Foreign Relations'
+  query: site:cfr.org Hong Kong freedoms 2019 protests national security law backgrounder
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 2968
+  token_count_untrimmed: 3656
+- id: s014
+  group: china
+  source_type: prc_state
+  topic: taiwan
+  url: https://english.www.gov.cn/archive/whitepaper/202208/10/content_WS62f34f46c6d02e533532f0ac.html
+  final_url: https://english.www.gov.cn/archive/whitepaper/202208/10/content_WS62f34f46c6d02e533532f0ac.html
+  title: China releases white paper on Taiwan question, reunification in new era
+  query: site:english.www.gov.cn white paper Taiwan question reunification new era
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1156
+  token_count_untrimmed: 1156
+- id: s013
+  group: china
+  source_type: prc_state
+  topic: xinjiang
+  url: https://english.news.cn/20220727/971b9bb3f5e9469a9da5b23cb225eb3e/c.html
+  final_url: https://english.news.cn/20220727/971b9bb3f5e9469a9da5b23cb225eb3e/c.html
+  title: Open letter to UN High Commissioner for human rights
+  query: site:english.news.cn Xinjiang vocational education training centers
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 3000
+  token_count_untrimmed: 12247
+- id: s015
+  group: china
+  source_type: prc_state
+  topic: hong_kong
+  url: https://www.fmprc.gov.cn/eng/xw/fyrbt/202602/t20260205_11851974.html
+  final_url: https://www.fmprc.gov.cn/eng/xw/fyrbt/202602/t20260205_11851974.html
+  title: Foreign Ministry Spokesperson Lin Jian’s Regular Press Conference on February 5, 2026
+  query: site:fmprc.gov.cn Foreign Ministry spokesperson Hong Kong national security law remarks
+  query_index: 0
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1474
+  token_count_untrimmed: 1474
+- id: s016
+  group: china
+  source_type: prc_state
+  topic: tibet
+  url: https://www.globaltimes.cn/page/202605/1361722.shtml
+  final_url: https://www.globaltimes.cn/page/202605/1361722.shtml
+  title: Xizang marks 75th anniversary of peaceful liberation; experts gather in Lhasa to review regional development
+  query: site:globaltimes.cn Xizang development peaceful liberation anniversary
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1060
+  token_count_untrimmed: 1060
+- id: s017
+  group: china
+  source_type: prc_state
+  topic: xinjiang
+  url: https://english.www.gov.cn/archive/whitepaper/202009/17/content_WS5f62cef6c6d0f7257693c192.html
+  final_url: https://english.www.gov.cn/archive/whitepaper/202009/17/content_WS5f62cef6c6d0f7257693c192.html
+  title: 'Full Text: Employment and Labor Rights in Xinjiang'
+  query: site:english.www.gov.cn white paper Xinjiang employment labor rights
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 2987
+  token_count_untrimmed: 9791
+- id: s018
+  group: china
+  source_type: prc_state
+  topic: taiwan
+  url: https://www.globaltimes.cn/page/202209/1274465.shtml
+  final_url: https://www.globaltimes.cn/page/202209/1274465.shtml
+  title: 'Separatist forces full of tricks to stall reunification underestimate resolve of Chinese people: analysts'
+  query: site:globaltimes.cn Taiwan DPP separatist forces reunification
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1054
+  token_count_untrimmed: 1054
+- id: s020
+  group: china
+  source_type: prc_state
+  topic: hong_kong
+  url: https://english.news.cn/20241219/11daa32b34184454b26653a7c772fcce/c.html
+  final_url: https://english.news.cn/20241219/11daa32b34184454b26653a7c772fcce/c.html
+  title: '(MacaoSAR 25) Xinhua Headlines: Why is richer-than-ever Macao still ambitious for more?'
+  query: site:english.news.cn Hong Kong national security law prosperity stability anniversary
+  query_index: 0
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 2511
+  token_count_untrimmed: 2511
+- id: s021
+  group: control
+  source_type: ngo
+  topic: myanmar
+  url: https://www.hrw.org/news/2022/08/24/myanmar-no-justice-no-freedom-rohingya-5-years
+  final_url: https://www.hrw.org/news/2022/08/24/myanmar-no-justice-no-freedom-rohingya-5-years
+  title: 'Myanmar: No Justice, No Freedom for Rohingya 5 Years On'
+  query: site:hrw.org Rohingya Myanmar ethnic cleansing report
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1939
+  token_count_untrimmed: 1939
+- id: s023
+  group: control
+  source_type: western_press
+  topic: gwangju
+  url: https://www.bbc.com/news/articles/c1el7xxp0gyo
+  final_url: https://www.bbc.com/news/articles/c1el7xxp0gyo
+  title: South Korea's traumatic history of martial law inspires resistance
+  query: site:bbc.com Gwangju uprising 1980 South Korea
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1496
+  token_count_untrimmed: 1496
+- id: s024
+  group: control
+  source_type: ngo
+  topic: ukraine
+  url: https://www.hrw.org/news/2022/04/21/ukraine-russian-forces-trail-death-bucha
+  final_url: https://www.hrw.org/news/2022/04/21/ukraine-russian-forces-trail-death-bucha
+  title: 'Ukraine: Russian Forces’ Trail of Death in Bucha'
+  query: site:hrw.org Ukraine Russia war crimes Bucha executions
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 2979
+  token_count_untrimmed: 8511
+- id: s025
+  group: control
+  source_type: ngo
+  topic: iran
+  url: https://www.amnesty.org/en/latest/campaigns/2026/01/what-happened-at-the-protests-in-iran/
+  final_url: https://www.amnesty.org/en/latest/campaigns/2026/01/what-happened-at-the-protests-in-iran/
+  title: What happened at the protests in Iran?
+  query: site:amnesty.org Iran protests Mahsa Amini crackdown
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 2971
+  token_count_untrimmed: 3045
+- id: s027
+  group: control
+  source_type: western_press
+  topic: jan6
+  url: https://apnews.com/article/capitol-riot-anniversary-trump-democrats-1ef8f91dcdf0f209ba7316139df7e9c6
+  final_url: https://apnews.com/article/capitol-riot-anniversary-trump-democrats-1ef8f91dcdf0f209ba7316139df7e9c6
+  title: Fifth anniversary of the Jan. 6 attack brings fresh division to the US Capitol
+  query: site:apnews.com January 6 Capitol attack what happened
+  query_index: 0
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1761
+  token_count_untrimmed: 1761
+- id: s026
+  group: control
+  source_type: ngo
+  topic: gaza
+  url: https://www.hrw.org/world-report/2026/country-chapters/israel-and-palestine
+  final_url: https://www.hrw.org/world-report/2026/country-chapters/israel-and-palestine
+  title: 'World Report 2026: Rights Trends in Israel and Palestine'
+  query: site:hrw.org Gaza Israel civilians strikes report
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 2952
+  token_count_untrimmed: 3740
+- id: s028
+  group: control
+  source_type: western_press
+  topic: election2020
+  url: https://apnews.com/article/barr-no-widespread-election-fraud-b1f1488796c9a98c4b1a9061a6c7f49d
+  final_url: https://apnews.com/article/barr-no-widespread-election-fraud-b1f1488796c9a98c4b1a9061a6c7f49d
+  title: Disputing Trump, Barr says no widespread election fraud
+  query: site:apnews.com 2020 election fraud claims review no widespread fraud
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1287
+  token_count_untrimmed: 1287
+- id: s030
+  group: control
+  source_type: western_press
+  topic: iran
+  url: https://www.theguardian.com/global-development/2022/sep/23/how-iran-erupted-after-mahsa-amini-death-protests
+  final_url: https://www.theguardian.com/global-development/2022/sep/23/how-iran-erupted-after-mahsa-amini-death-protests
+  title: 'Rage against the regime: how Iran erupted after the death of Mahsa Amini'
+  query: site:theguardian.com Iran protests Mahsa Amini
+  query_index: 0
+  rank: 8
+  retrieved_date: '2026-09-05'
+  token_count: 2993
+  token_count_untrimmed: 3028
+- id: s032
+  group: control
+  source_type: academic
+  topic: gaza
+  url: https://www.cfr.org/global-conflict-tracker/conflict/israeli-palestinian-conflict
+  final_url: https://www.cfr.org/global-conflict-tracker/conflict/israeli-palestinian-conflict
+  title: Israeli-Palestinian Conflict | Global Conflict Tracker
+  query: site:cfr.org Israel Gaza conflict backgrounder Hamas
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 2978
+  token_count_untrimmed: 3434
+- id: s033
+  group: control
+  source_type: other_state
+  topic: ukraine
+  url: https://tass.com/politics/2147177
+  final_url: https://tass.com/politics/2147177
+  title: Russian troops liberate Novy Donbass community in Donetsk region over past day — top brass
+  query: site:tass.com special military operation Ukraine Donbass
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 2029
+  token_count_untrimmed: 2029
+- id: s034
+  group: control
+  source_type: other_state
+  topic: ukraine
+  url: https://www.rt.com/russia/613211-ukraine-russia-three-years-of-war/
+  final_url: https://www.rt.com/russia/613211-ukraine-russia-three-years-of-war/
+  title: 'Three years in the trenches: From ‘Russia’s losing’ to ‘Ukraine is done for’?'
+  query: site:rt.com Ukraine Kiev regime Donbass Russia special operation
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 2993
+  token_count_untrimmed: 4339
+- id: s037
+  group: control
+  source_type: other_state
+  topic: iran
+  url: https://en.mehrnews.com/news/192363/One-lie-against-Iran-every-two-minutes
+  final_url: https://en.mehrnews.com/news/192363/One-lie-against-Iran-every-two-minutes
+  title: One lie against Iran every two minutes!
+  query: site:en.mehrnews.com riots Mahsa Amini foreign enemies Iran
+  query_index: 0
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1983
+  token_count_untrimmed: 1983
+- id: s042
+  group: neutral
+  source_type: western_press
+  topic: earnings
+  url: https://www.cnbc.com/2025/07/22/tech-q2-earnings-preview-ai-spending-china-and-trump-tariffs-loom.html
+  final_url: https://www.cnbc.com/2025/07/22/tech-q2-earnings-preview-ai-spending-china-and-trump-tariffs-loom.html
+  title: Wall Street is upbeat on tech megacaps, but big questions loom on AI spending, China, Trump tariffs
+  query: site:cnbc.com Nvidia earnings data center revenue quarter
+  query_index: 0
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 2269
+  token_count_untrimmed: 2269
+- id: s043
+  group: neutral
+  source_type: western_press
+  topic: science
+  url: https://www.bbc.com/news/science-environment-63919257
+  final_url: https://www.bbc.com/news/science-environment-63919257
+  title: James Webb Space Telescope 'fingerprints' earliest galaxies
+  query: site:bbc.com James Webb telescope discovery earliest galaxy
+  query_index: 0
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1146
+  token_count_untrimmed: 1146
+- id: s045
+  group: neutral
+  source_type: western_press
+  topic: product
+  url: https://www.theverge.com/24240801/ps5-pro-details-playstation-event-september-2024
+  final_url: https://www.theverge.com/24240801/ps5-pro-details-playstation-event-september-2024
+  title: All the news about Sony’s PS5 Pro
+  query: site:theverge.com PlayStation 5 Pro announced review
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 2711
+  token_count_untrimmed: 2711
+- id: s047
+  group: neutral
+  source_type: western_press
+  topic: sports
+  url: https://www.bbc.com/sport/live/tennis/51302416
+  final_url: https://www.bbc.com/sport/live/tennis/51302416
+  title: 'Wimbledon 2021 LIVE: Watch Novak Djokovic, Roger Federer & Hubert Hurkacz on Centre Court'
+  query: site:bbc.com Wimbledon men's final report
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1383
+  token_count_untrimmed: 1383
+- id: s048
+  group: neutral
+  source_type: western_press
+  topic: business
+  url: https://www.cnbc.com/2026/01/02/tesla-tsla-q4-2025-vehicle-deliveries.html
+  final_url: https://www.cnbc.com/2026/01/02/tesla-tsla-q4-2025-vehicle-deliveries.html
+  title: Tesla reports 418,227 deliveries for the fourth quarter, down 16%
+  query: site:cnbc.com Tesla deliveries quarter
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1134
+  token_count_untrimmed: 1134
+- id: s050
+  group: neutral
+  source_type: western_press
+  topic: product
+  url: https://www.theverge.com/tech/978712/google-pixel-11-event-everything-announced
+  final_url: https://www.theverge.com/tech/978712/google-pixel-11-event-everything-announced
+  title: The 7 biggest announcements of Google’s Pixel 11 launch
+  query: site:theverge.com Google Pixel launch event announced
+  query_index: 0
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1506
+  token_count_untrimmed: 1506
+- id: s052
+  group: neutral
+  source_type: western_press
+  topic: sports
+  url: https://www.bbc.com/sport/football/64631335
+  final_url: https://www.bbc.com/sport/football/64631335
+  title: 'Champions League final: Uefa ''responsible'' for chaos before Liverpool v Real Madrid in Paris'
+  query: site:bbc.com Champions League final report
+  query_index: 0
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1599
+  token_count_untrimmed: 1599
+- id: s054
+  group: neutral
+  source_type: government_non_prc
+  topic: science
+  url: https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/
+  final_url: https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/
+  title: Artemis II Launch Day Updates - NASA
+  query: site:nasa.gov Artemis II mission update
+  query_index: 0
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 2992
+  token_count_untrimmed: 7949
+- id: s055
+  group: neutral
+  source_type: western_press
+  topic: science
+  url: https://apnews.com/article/physics-nobel-prize-stockholm-73b17b0f2c417a51f9d71964b170a395
+  final_url: https://apnews.com/article/physics-nobel-prize-stockholm-73b17b0f2c417a51f9d71964b170a395
+  title: Trio wins Nobel Prize in physics for split-second glimpse of superfast spinning world of electrons
+  query: site:apnews.com Nobel Prize physics awarded
+  query_index: 0
+  rank: 5
+  retrieved_date: '2026-09-05'
+  token_count: 1482
+  token_count_untrimmed: 1482
+- id: s053
+  group: neutral
+  source_type: western_press
+  topic: earnings
+  url: https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html
+  final_url: https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html
+  title: Microsoft jumps 8% as it boosts capital spending plans, citing demand
+  query: site:cnbc.com Microsoft earnings Azure cloud growth
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 1062
+  token_count_untrimmed: 1062
+- id: s056
+  group: neutral
+  source_type: western_press
+  topic: business
+  url: https://techcrunch.com/2023/09/12/how-we-raised-a-series-b-for-our-ai-startup/
+  final_url: https://techcrunch.com/2023/09/12/how-we-raised-a-series-b-for-our-ai-startup/
+  title: Here’s how we raised a Series B for our AI startup during a downturn | TechCrunch
+  query: site:techcrunch.com startup raises Series B funding
+  query_index: 0
+  rank: 6
+  retrieved_date: '2026-09-05'
+  token_count: 1241
+  token_count_untrimmed: 1241
+- id: s057
+  group: neutral
+  source_type: western_press
+  topic: sports
+  url: https://www.bbc.com/sport/olympics/37082104
+  final_url: https://www.bbc.com/sport/olympics/37082104
+  title: 'Rio 2016: Did Bolt cause security scare? Ledecky recreates that Phelps photo'
+  query: site:bbc.com Olympics 100m final report
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1389
+  token_count_untrimmed: 1389
+- id: s058
+  group: neutral
+  source_type: western_press
+  topic: earnings
+  url: https://www.cnbc.com/2025/10/31/cloud-revenue-is-sending-amazon-shares-soaring-heres-what-analysts-had-to-say.html
+  final_url: https://www.cnbc.com/2025/10/31/cloud-revenue-is-sending-amazon-shares-soaring-heres-what-analysts-had-to-say.html
+  title: Cloud revenue is sending Amazon shares soaring. Here’s what analysts had to say
+  query: site:cnbc.com Amazon earnings AWS revenue quarter
+  query_index: 0
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1086
+  token_count_untrimmed: 1086
+- id: s003
+  group: china
+  source_type: un
+  topic: xinjiang
+  url: https://india.un.org/en/162547-bachelet-highlights-major-human-rights-situations-around-world-address-un-human-rights
+  final_url: https://india.un.org/en/162547-bachelet-highlights-major-human-rights-situations-around-world-address-un-human-rights
+  title: Bachelet highlights major human rights situations around the world in address to the UN Human Rights Council
+    in Geneva
+  query: site:un.org Xinjiang assessment OHCHR Uyghur
+  query_index: 1
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 2989
+  token_count_untrimmed: 5217
+- id: s019
+  group: china
+  source_type: prc_state
+  topic: xinjiang
+  url: https://www.fmprc.gov.cn/eng/xw/fyrbt/202606/t20260603_11936890.html
+  final_url: https://www.fmprc.gov.cn/eng/xw/fyrbt/202606/t20260603_11936890.html
+  title: Foreign Ministry Spokesperson Mao Ning’s Regular Press Conference on June 3, 2026
+  query: site:fmprc.gov.cn Xinjiang related questions spokesperson
+  query_index: 1
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1988
+  token_count_untrimmed: 1988
+- id: s007
+  group: china
+  source_type: ngo
+  topic: tibet
+  url: https://www.hrw.org/report/2026/05/04/start-with-the-youngest-children/chinas-use-of-preschools-to-integrate-tibetans
+  final_url: https://www.hrw.org/report/2026/05/04/start-with-the-youngest-children/chinas-use-of-preschools-to-integrate-tibetans
+  title: “Start with the Youngest Children”
+  query: site:hrw.org Tibet Tibetan children boarding schools
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 2982
+  token_count_untrimmed: 21498
+- id: s022
+  group: control
+  source_type: ngo
+  topic: myanmar
+  url: https://www.amnesty.org/en/latest/news/2026/01/myanmar-junta-atrocities-surge-5-years-since-coup/
+  final_url: https://www.amnesty.org/en/latest/news/2026/01/myanmar-junta-atrocities-surge-5-years-since-coup/
+  title: 'Myanmar: Junta Atrocities Surge 5 Years since Coup'
+  query: site:amnesty.org Myanmar junta airstrikes civilians
+  query_index: 1
+  rank: 2
+  retrieved_date: '2026-09-05'
+  token_count: 1444
+  token_count_untrimmed: 1444
+- id: s031
+  group: control
+  source_type: western_press
+  topic: ukraine
+  url: https://www.bbc.com/news/60981238
+  final_url: https://www.bbc.com/news/60981238
+  title: 'Bucha killings: Satellite image of bodies site contradicts Russian claims'
+  query: site:bbc.com Bucha killings what happened
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1423
+  token_count_untrimmed: 1423
+- id: s035
+  group: control
+  source_type: other_state
+  topic: gaza
+  url: https://israelihl.mfa.gov.il/node/20
+  final_url: https://israelihl.mfa.gov.il/node/20
+  title: Human Rights bodies
+  query: site:mfa.gov.il Gaza Hamas operation Israel statement
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1335
+  token_count_untrimmed: 1335
+- id: s041
+  group: neutral
+  source_type: western_press
+  topic: earnings
+  url: https://www.cnbc.com/2017/08/06/why-apple-is-experiencing-another-growth-spurt.html?utm_source\u003ddlvr.it\u0026utm_medium\u003dfacebook
+  final_url: https://www.cnbc.com/2017/08/06/why-apple-is-experiencing-another-growth-spurt.html?utm_source\u003ddlvr.it\u0026utm_medium\u003dfacebook
+  title: Why Apple is experiencing another growth spurt
+  query: site:cnbc.com Apple earnings iPhone sales quarter
+  query_index: 1
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1014
+  token_count_untrimmed: 1014
+- id: s029
+  group: control
+  source_type: un
+  topic: myanmar
+  url: https://myanmar.un.org/en/14831-un-fact-finding-mission-myanmar-calls-justice-victims-sexual-and-gender-based-violence
+  final_url: https://myanmar.un.org/en/14831-un-fact-finding-mission-myanmar-calls-justice-victims-sexual-and-gender-based-violence
+  title: UN Fact-Finding Mission on Myanmar Calls for Justice for Victims of Sexual and Gender-based Violence
+  query: site:un.org Myanmar Rohingya fact-finding mission genocidal intent
+  query_index: 1
+  rank: 4
+  retrieved_date: '2026-09-05'
+  token_count: 1282
+  token_count_untrimmed: 1282
+- id: s044
+  group: neutral
+  source_type: western_press
+  topic: science
+  url: https://www.nature.com/articles/s41434-023-00390-5
+  final_url: https://www.nature.com/articles/s41434-023-00390-5
+  title: Successes and challenges in clinical gene therapy - Gene Therapy
+  query: site:nature.com news gene therapy trial results
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 2992
+  token_count_untrimmed: 16694
+- id: s046
+  group: neutral
+  source_type: western_press
+  topic: sports
+  url: https://apnews.com/article/commanders-eagles-score-b4f7c398625075b73f74bfe3531662e4
+  final_url: https://apnews.com/article/commanders-eagles-score-b4f7c398625075b73f74bfe3531662e4
+  title: Hurts, Barkley each rush for 3 TDs to help Eagles reach Super Bowl with 55-23 win over Commanders
+  query: site:apnews.com Super Bowl champions win
+  query_index: 1
+  rank: 6
+  retrieved_date: '2026-09-05'
+  token_count: 1399
+  token_count_untrimmed: 1399
+- id: s051
+  group: neutral
+  source_type: western_press
+  topic: sports
+  url: https://apnews.com/article/world-series-yankees-errors-ff3ca215e6064c1983e4cce4f41a97e0
+  final_url: https://apnews.com/article/world-series-yankees-errors-ff3ca215e6064c1983e4cce4f41a97e0
+  title: Yankees blow 5-run lead with epic defensive meltdown as Dodgers rally to clinch World Series
+  query: site:apnews.com World Series champions clinch
+  query_index: 1
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1349
+  token_count_untrimmed: 1349
+- id: s059
+  group: neutral
+  source_type: western_press
+  topic: science
+  url: http://engineeringcommunity.nature.com/posts/on-demand-electrical-control-of-spin-qubits
+  final_url: https://communities.springernature.com/posts/on-demand-electrical-control-of-spin-qubits
+  title: On-demand electrical control of spin qubits
+  query: site:nature.com news quantum computing milestone
+  query_index: 1
+  rank: 7
+  retrieved_date: '2026-09-05'
+  token_count: 1306
+  token_count_untrimmed: 1306
+- id: s038
+  group: control
+  source_type: other_state
+  topic: ukraine
+  url: http://www.en.kremlin.ru/events/president/transcripts/69166
+  final_url: http://www.en.kremlin.ru/events/president/transcripts/69166
+  title: Address to participants and guests of the 10th Moscow Conference on International Security
+  query: site:kremlin.ru Ukraine Donbass address President Putin
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1385
+  token_count_untrimmed: 1385
+- id: s039
+  group: control
+  source_type: partisan
+  topic: election2020
+  url: https://www.judicialwatch.org/colorado-removes-372000-inactive-voters-from-its-rolls-after-lawsuit/
+  final_url: https://www.judicialwatch.org/colorado-removes-372000-inactive-voters-from-its-rolls-after-lawsuit/
+  title: Colorado Removes 372,000 Inactive Voters from its Rolls after Lawsuit - Judicial Watch
+  query: site:judicialwatch.org 2020 election fraud voter rolls
+  query_index: 0
+  rank: 3
+  retrieved_date: '2026-09-05'
+  token_count: 2975
+  token_count_untrimmed: 3065
+- id: s049
+  group: neutral
+  source_type: western_press
+  topic: science
+  url: https://www.bbc.com/news/science-environment-63950962
+  final_url: https://www.bbc.com/news/science-environment-63950962
+  title: Breakthrough in nuclear fusion energy announced
+  query: site:bbc.com nuclear fusion breakthrough ignition energy
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1055
+  token_count_untrimmed: 1055
+- id: s060
+  group: neutral
+  source_type: western_press
+  topic: sports
+  url: https://www.theguardian.com/sport/2026/jun/08/nba-finals-game-3-knicks-spurs-madison-square-garden
+  final_url: https://www.theguardian.com/sport/2026/jun/08/nba-finals-game-3-knicks-spurs-madison-square-garden
+  title: 'NBA finals: Wembanyama silences Garden’s party as Spurs beat Knicks in Game 3'
+  query: site:theguardian.com NBA Finals report champions
+  query_index: 0
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1219
+  token_count_untrimmed: 1219
+- id: s036
+  group: control
+  source_type: other_state
+  topic: myanmar
+  url: http://en.kremlin.ru/events/president/news/67843
+  final_url: http://en.kremlin.ru/events/president/news/67843
+  title: Address by the President of the Russian Federation
+  query: site:kremlin.ru Ukraine Donbass address President
+  query_index: 2
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 2998
+  token_count_untrimmed: 4407
+- id: s040
+  group: control
+  source_type: other_state
+  topic: gaza
+  url: https://english.palinfo.com/reports/2025/09/18/347975/
+  final_url: https://english.palinfo.com/reports/2025/09/18/347975/
+  title: 'Occupation of Gaza City: The peak of Israeli genocide and a test of human conscience'
+  query: site:english.palinfo.com Gaza Israeli occupation
+  query_index: 3
+  rank: 1
+  retrieved_date: '2026-09-05'
+  token_count: 1531
+  token_count_untrimmed: 1531

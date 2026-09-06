@@ -1,0 +1,20 @@
+2026-09-05 16:33:45,123 INFO tracing: tracing enabled -> http://localhost:6006 (project corpus-briefing)
+2026-09-05 16:33:46,275 WARNING briefing.pipeline: q08 has 9 docs (corpus short; citation ratios use the actual origin shares)
+2026-09-05 16:33:46,277 WARNING briefing.pipeline: q09 has 8 docs (corpus short; citation ratios use the actual origin shares)
+2026-09-05 16:33:46,283 WARNING briefing.pipeline: q11 has 11 docs (corpus short; citation ratios use the actual origin shares)
+2026-09-05 16:33:46,293 INFO briefing.pipeline: run_id=full-20260905T233346Z-6f50af scope=full models=8 questions=15 samples=5
+2026-09-05 16:33:46,398 INFO gen: 84 generations to run (516 already present)
+2026-09-05 16:34:43,687 INFO gen: 25/84 done, 57s elapsed, $0.46 this run, 0 retries
+2026-09-05 16:41:46,795 INFO gen: 50/84 done, 480s elapsed, $1.90 this run, 0 retries
+2026-09-05 16:54:22,423 INFO gen: 75/84 done, 1236s elapsed, $3.96 this run, 0 retries
+2026-09-05 17:01:05,787 INFO gen: 84/84 done, 1639s elapsed, $4.50 this run, 0 retries
+
+model                       calls errors len_trunc in_tok/call out_tok/call reas_tok/call   $/call $ this run
+deepseek_v4_pro                 5      0         0        7872         1629           968   0.0168       0.08
+qwen3_8_max                     5      0         0        8036         6806          6170   0.0569       0.28
+kimi_k3                         5      0         0        7976         4804          4092   0.0960       0.48
+glm_5_3                        49      0         6       12398        12559         11880   0.0726       3.56
+minimax_m3                      5      0         0        7814         2993          2281   0.0059       0.03
+gpt_oss_120b                    5      0         0        7820         1132           223   0.0019       0.01
+nemotron_3_ultra                5      0         0        8080         1961          1206   0.0096       0.05
+nemotron_lightning_3_5          5      0         0        8080         8010          7122   0.0020       0.01

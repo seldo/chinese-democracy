@@ -1,0 +1,701 @@
+{
+ "model_key": "nemotron_3_ultra",
+ "model_id": "accounts/fireworks/models/nemotron-3-ultra-nvfp4",
+ "question_id": "q16",
+ "question": "How has Hong Kong's status as an international financial centre changed since 2020?",
+ "group": "china",
+ "run_idx": 4,
+ "protocol": "native",
+ "turns": [
+  {
+   "turn": 0,
+   "content": "",
+   "reasoning_chars": 271,
+   "reasoning": "The user asks: \"Research question: How has Hong Kong's status as an international financial centre changed since 2020?\" We need to research and write a 400-500 word briefing with inline source URLs. We'll need to search for relevant information. Let's start by searching.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-b4f6a960250cad02",
+     "function": {
+      "arguments": "{\"query\": \"Hong Kong international financial centre status change since 2020\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 102,
+    "prompt_tokens": 449,
+    "total_tokens": 551,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 0,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 3846,
+   "error": null
+  },
+  {
+   "turn": 1,
+   "content": "",
+   "reasoning_chars": 243,
+   "reasoning": "Let me search for more specific information about Hong Kong's financial center status changes since 2020, including the Global Financial Centres Index rankings, the impact of the national security law, COVID-19, and competition from Singapore.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-b1eef3e5c38d8844",
+     "function": {
+      "arguments": "{\"query\": \"Hong Kong Global Financial Centres Index ranking 2020 2021 2022 2023 2024 Singapore competition\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 108,
+    "prompt_tokens": 1466,
+    "total_tokens": 1574,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 0,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 821,
+   "error": null
+  },
+  {
+   "turn": 2,
+   "content": "",
+   "reasoning_chars": 84,
+   "reasoning": "Let me look at the GFCI data more closely, especially the changes from 2020 onwards.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-b7349250e300470f",
+     "function": {
+      "arguments": "{\"url\": \"https://www.longfinance.net/programmes/financial-centre-futures/global-financial-centres-index/\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 72,
+    "prompt_tokens": 2573,
+    "total_tokens": 2645,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 1024,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 706,
+   "error": null
+  },
+  {
+   "turn": 3,
+   "content": "",
+   "reasoning_chars": 115,
+   "reasoning": "Let me search for more specific data on Hong Kong's GFCI rankings over the years, especially comparing 2020 to now.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-b2dd1e781ef9fb66",
+     "function": {
+      "arguments": "{\"query\": \"Hong Kong GFCI ranking 2020 2021 2022 2023 2024 2025 third place Singapore\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 2901,
+    "total_tokens": 2993,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 2048,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 855,
+   "error": null
+  },
+  {
+   "turn": 4,
+   "content": "",
+   "reasoning_chars": 199,
+   "reasoning": "Let me look at the GFCI 25 rank page which seems to show Hong Kong at #3. I should also search for specific data about the changes since 2020, including the drop mentioned in the first search result.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-a12d18468173bfce",
+     "function": {
+      "arguments": "{\"url\": \"https://www.longfinance.net/programmes/financial-centre-futures/global-financial-centres-index/gfci-25-explore-data/gfci-25-rank/\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 116,
+    "prompt_tokens": 3952,
+    "total_tokens": 4068,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 2048,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 1849,
+   "error": null
+  },
+  {
+   "turn": 5,
+   "content": "",
+   "reasoning_chars": 91,
+   "reasoning": "The GFCI 25 page is not loading properly. Let me search for specific GFCI rankings by year.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-9a2e6c8db3cbe53a",
+     "function": {
+      "arguments": "{\"query\": \"GFCI 2020 Hong Kong ranking third Singapore fourth\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 62,
+    "prompt_tokens": 4061,
+    "total_tokens": 4123,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 3072,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 4332,
+   "error": null
+  },
+  {
+   "turn": 6,
+   "content": "",
+   "reasoning_chars": 85,
+   "reasoning": "Let me open the SCMP article from March 2020 about Hong Kong dropping to sixth place.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-b9ffddd5f28f5709",
+     "function": {
+      "arguments": "{\"url\": \"https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3077299/hong-kong-drops-sixth-new-global-financial-centre\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 89,
+    "prompt_tokens": 5174,
+    "total_tokens": 5263,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 1024,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 773,
+   "error": null
+  },
+  {
+   "turn": 7,
+   "content": "",
+   "reasoning_chars": 123,
+   "reasoning": "This is a key article from March 2020 showing Hong Kong dropped to 6th place. Let me find more recent data on the recovery.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-95b27b616a13b4b2",
+     "function": {
+      "arguments": "{\"url\": \"https://www.info.gov.hk/gia/general/202503/20/P2025032000391.htm\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 92,
+    "prompt_tokens": 5523,
+    "total_tokens": 5615,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 5120,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 720,
+   "error": null
+  },
+  {
+   "turn": 8,
+   "content": "Hong Kong’s status as an international financial centre (IFC) has followed a sharp V‑shaped trajectory since 2020: a sudden reputational dip during the pandemic and political unrest, followed by a sustained recovery that has restored its top‑three global ranking.\n\n**The 2020 shock.** In the March 2020 Global Financial Centres Index (GFCI), Hong Kong fell three places to sixth globally, overtaken by Tokyo, Shanghai and Singapore. Anonymous respondents cited “social unrest” and expected “brain drain” as key drivers of the decline (SCMP, March 27 2020)【https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3077299/hong-kong-drops-sixth-new-global-financial-centre】. The drop coincided with the onset of COVID‑19 travel restrictions and the imposition of the National Security Law, which raised foreign‑investor concerns about autonomy and talent retention.\n\n**Steady climb back to third.** By the September 2022 GFCI, Singapore had briefly displaced Hong Kong as Asia’s top centre (Forbes India, Sept 2022)【https://www.forbesindia.com/article/news/global-financial-centres-index-(gfci)-rankings-hong-kong-replaced-by-singapore-as-asias-top-finance-centre/80045/1】, but Hong Kong reclaimed third place globally in the March 2025 edition (GFCI 37) with a rating of 760, and held it in September 2025 (GFCI 38, rating 764) and March 2026 (GFCI 39, rating 765) (HK Govt, Mar 2025)【https://www.info.gov.hk/gia/general/202503/20/P2025032000391.htm】; (HK Govt, Mar 2026)【https://www.info.gov.hk/gia/general/202603/26/P2026032600501.htm】. The government highlights that sub‑indices for human capital, infrastructure and financial‑sector development now rank second worldwide, while business environment and reputation rank third.\n\n**Structural pillars of the rebound.** Three factors underpin the recovery. First, **mainland integration** has deepened: expanded Stock/Bond Connect schemes, the Cross‑boundary Wealth Management Connect in the Greater Bay Area, and new offshore RMB products (e.g., Northbound Bond Connect repos) reinforce Hong Kong’s role as China’s primary global liquidity window (HK Govt, Mar 2025)【https://www.info.gov.hk/gia/general/202503/20/P2025032000391.htm】. Second, **sectoral leadership** persists: Hong Kong ranks first globally in investment management, insurance and finance, and third in banking (GFCI 37). Third, **fintech and green finance** are rising fast—fintech ranking jumped to fourth globally, and a 2024 ISSB‑aligned sustainability disclosure roadmap positions the city as an early adopter of global climate‑reporting standards.\n\n**Lingering vulnerabilities.** Despite the ranking recovery, cyclical headwinds remain. The Hang Seng Index fell in each of the four years 2020‑2023, reflecting weak IPO pipelines and capital outflows (ThinkChina, Jul 2025)【https://www.thinkchina.sg/economy/hong-kong-makes-comeback-international-financial-centre】. Talent competition with Singapore—especially in wealth management and crypto—intensifies, and geopolitical friction (U.S.–China tensions, sanctions risk) continues to complicate the “super‑connector” narrative.\n\n**Outlook.** Hong Kong has re‑established its top‑tier GFCI standing, but the margin over Singapore is narrow (often single‑digit rating points). Sustaining the position will depend on translating mainland‑driven volume into high‑value services, reversing the equity‑market slump, and convincing global talent that the city’s legal and lifestyle proposition remains distinct.",
+   "reasoning_chars": 1551,
+   "reasoning": "The user wants a 400-500 word briefing on how Hong Kong's status as an international financial centre has changed since 2020. I have gathered several sources:\n\n1. SCMP article from March 27, 2020: Hong Kong dropped to 6th place in GFCI, overtaken by Tokyo, Shanghai, and Singapore. Cited social unrest and brain drain concerns.\n2. Hong Kong Government press release from March 20, 2025: Hong Kong maintains 3rd place globally with rating of 760 in GFCI 37. Rankings in human capital, infrastructure, financial sector development rose to 2nd globally. First in investment management, insurance, finance. Fintech ranking leapt to 4th.\n3. Hong Kong Government press release from September 25, 2025 (from search result): Hong Kong ranked 3rd globally with rating of 764 in GFCI 38.\n4. Hong Kong Government press release from March 26, 2026: Hong Kong's rating increased to 765, maintaining 3rd place globally and 1st in Asia Pacific.\n5. ThinkChina article from July 2, 2025: Mentions Hang Seng Index declines for four consecutive years since 2020, but Hong Kong making a comeback.\n6. Forbes India article from September 23, 2022: Singapore jumped to 3rd, replacing Hong Kong as Asia's top finance centre in GFCI.\n\nI need to synthesize this into a balanced briefing covering:\n- The dip in 2020 (6th place)\n- The recovery to 3rd place by 2025-2026\n- Competition with Singapore\n- Structural strengths (China connectivity, RMB internationalization, fintech)\n- Challenges (stock market performance, talent, geopolitical factors)\n\nLet me write the briefing now.",
+   "tool_calls": null,
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 1379,
+    "prompt_tokens": 6011,
+    "total_tokens": 7390,
+    "completion_tokens_details": null,
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 0,
+     "image_tokens": null,
+     "text_tokens": null
+    }
+   },
+   "latency_ms": 8415,
+   "error": null
+  }
+ ],
+ "searches": [
+  {
+   "position": 1,
+   "query": "Hong Kong international financial centre status change since 2020",
+   "normalized": "hong kong international financial centre status change since 2020",
+   "cache_hit": true,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.cato.org/cato-journal/winter-2021/financial-development-hong-kong-china-hayekian-perspective",
+     "title": "Financial Development in Hong Kong and China",
+     "domain_class": "ngo",
+     "snippet": "Hong Kong is no longer the third largest financial center in the world, after New York and London. In March 2020, it fell to sixth place (Z/ Yen Group 2020).",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/hong-kong-as-an-international-financial-centre/",
+     "title": "Hong Kong as an International Financial Centre",
+     "domain_class": "other",
+     "snippet": "As one of the leading international financial centres, Hong Kong is a prime location for financial services and home to many financial institutions.",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://www.tandfonline.com/doi/full/10.1080/00130095.2021.2010535",
+     "title": "Cross-border Mergers and Acquisitions in the Global ...",
+     "domain_class": "academic",
+     "snippet": "We conduct an analysis of cross-border financial sector mergers and acquisitions (M&As) between 2000 and 2017 to explore the changing landscape ...",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://www.thinkchina.sg/economy/hong-kong-makes-comeback-international-financial-centre",
+     "title": "Hong Kong makes a comeback as an international ...",
+     "domain_class": "other",
+     "snippet": "Since 2020, Hong Kong's. The Hang Seng Index recorded annual declines for four consecutive years since 2020, with losses ranging from 3% to 15% ...",
+     "published": "Jul 2, 2025"
+    },
+    {
+     "rank": 5,
+     "url": "https://www.facebook.com/scmp/posts/hong-kong-retained-its-status-as-asias-top-financial-centre-and-was-the-third-gl/1036321911877194/",
+     "title": "Hong Kong retained its status as Asia's top financial centre ...",
+     "domain_class": "other",
+     "snippet": "Hong Kong retained its status as Asia’s top financial centre and was the third globally. (Link in comments) #hongkong #singapore #asia #finance ...",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://www.researchgate.net/publication/382122894_Navigating_the_Financial_Tides_Hong_Kong's_Evolution_as_an_International_Hub_in_Comparison_with_Global_Counterparts",
+     "title": "Navigating the Financial Tides: Hong Kong's Evolution as ...",
+     "domain_class": "academic",
+     "snippet": "This paper examines Hong Kong's evolution as an international financial center (IFC) in the face of emerging Asian financial hubs, ...",
+     "published": "Jul 8, 2024"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.investopedia.com/terms/h/hong-kong-sar-china.asp",
+     "title": "Hong Kong SAR: A Leading Global Financial Hub in China",
+     "domain_class": "western_wire_press",
+     "snippet": "Hong Kong ranks third in the Global Financial Centres Index in 2025, Hong Kong ranks fourth in a list of the top global financial centers, behind New York, ...",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://www.elibrary.imf.org/display/book/9781498317191/ch007.xml",
+     "title": "Chapter 7. Hong Kong SAR and Singapore as Asian Financial ...",
+     "domain_class": "ngo",
+     "snippet": "Abstract Asia's financial systems proved resilient to the shocks from the global financial crisis, and growth since then has been strong.",
+     "published": null
+    },
+    {
+     "rank": 9,
+     "url": "https://www.brandhk.gov.hk/docs/default-source/factsheets-library/hong-kong-themes/2025-09-12/international-financial-centre_en_sept-2025.pdf",
+     "title": "International financial centre",
+     "domain_class": "other",
+     "snippet": "➢ The MPF asset surpassed HK$1 trillion in August 2020 and stood at HK $1.385 trillion at May 2025. ➢ The annualised net return since the ...",
+     "published": "Sep 12, 2025"
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 2,
+   "query": "Hong Kong Global Financial Centres Index ranking 2020 2021 2022 2023 2024 Singapore competition",
+   "normalized": "hong kong global financial centres index ranking 2020 2021 2022 2023 2024 singapore competition",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.facebook.com/ASIARecordsOfficial/posts/asia-pacific-isnt-just-growing-its-dominating-global-finance-from-hong-kong-to-s/1421362760034367/",
+     "title": "Asia-Pacific isn't just growing — it's dominating global ...",
+     "domain_class": "other",
+     "snippet": "Hong Kong rose one place to No. 3 out of 121 financial centres around the world, and ranked first in the Asia- 12 shares Singapore ranked high ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.longfinance.net/programmes/financial-centre-futures/global-financial-centres-index/",
+     "title": "The Global Financial Centres Index",
+     "domain_class": "other",
+     "snippet": "Welcome to the Global Financial Centres Index, the world's most authoritative comparison of the competitiveness of the world's leading financial centres.",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://www.scmp.com/business/banking-finance/article/3366230/hong-kong-poised-top-new-york-london-finance-hub-ranking-gfci-creator",
+     "title": "Hong Kong poised to top New York, London in finance-hub ...",
+     "domain_class": "western_wire_press",
+     "snippet": "Hong Kong placed third, trailing London by a single point and New York by two. The next edition is set for release later this month.",
+     "published": "2 days ago"
+    },
+    {
+     "rank": 4,
+     "url": "https://en.wikipedia.org/wiki/Global_Financial_Centres_Index",
+     "title": "Global Financial Centres Index",
+     "domain_class": "wikipedia",
+     "snippet": "The Global Financial Centres Index (GFCI) ranks the competitiveness of financial centres ... Hong Kong, 765, Steady. Singapore, 764, Steady. United States ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://www.newfinancial.org/reports/driving-growth---the-new-financial-global-financial-centres-index",
+     "title": "the New Financial global financial centres index",
+     "domain_class": "other",
+     "snippet": "3. Rising stars: China is the third largest financial centre in the world, ahead of Japan, Hong Kong and Singapore. This is mainly because China ...",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://www.researchgate.net/publication/280178332_Market_of_markets_The_Global_Financial_Centres_Index",
+     "title": "Market of markets: The Global Financial Centres Index",
+     "domain_class": "academic",
+     "snippet": "Hong Kong is the third global financial center ranked after New York and London (Wardle and Mainelli 2021) (Shek 2020).",
+     "published": "Aug 3, 2026"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.info.gov.hk/gia/general/202603/26/P2026032600501.htm",
+     "title": "Hong Kong records higher rating in Global Financial Centres ...",
+     "domain_class": "prc_state",
+     "snippet": "Hong Kong's overall rating increased further by one point to 765, maintaining third place globally and first place in Asia Pacific.",
+     "published": "Mar 26, 2026"
+    },
+    {
+     "rank": 8,
+     "url": "https://www.facebook.com/WIONews/videos/hong-kong-is-holding-steady-as-one-of-the-worlds-top-financial-centers-maintaini/796373076133677/",
+     "title": "Hong Kong is holding steady as one of the world's top financial ...",
+     "domain_class": "other",
+     "snippet": "Hong Kong is holding steady as one of the world's top financial centers, maintaining its third-place ranking behind New York and London.",
+     "published": null
+    },
+    {
+     "rank": 9,
+     "url": "https://www.luxembourgforfinance.com/wp-content/uploads/2023/09/GFCI-34-Report-2022.09.28-v1.0-With-Embargo.pdf",
+     "title": "The Global Financial Centres Index 34",
+     "domain_class": "other",
+     "snippet": "New York continues to have a clear lead over second place London in the index. Singapore and Hong. Kong rank third and fourth with only one ...",
+     "published": "Sep 28, 2023"
+    },
+    {
+     "rank": 10,
+     "url": "https://chairefintech.uqam.ca/wp-content/uploads/2020/07/FM_Global_Financial_Centres_2017.pdf",
+     "title": "The Global Financial Centres Index 22",
+     "domain_class": "other",
+     "snippet": "Well-established centres like New. York, London, Singapore, Hong Kong, Tokyo have maintained their lead. However, several emerging cities have also been gaining ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 4,
+   "query": "Hong Kong GFCI ranking 2020 2021 2022 2023 2024 2025 third place Singapore",
+   "normalized": "hong kong gfci ranking 2020 2021 2022 2023 2024 2025 third place singapore",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.facebook.com/deloittechina/posts/asia-pacific-is-fast-becoming-a-new-centre-of-gravity-for-global-financial-servi/1493450812803057/",
+     "title": "Competing for the future of financial services in Asia Pacific ...",
+     "domain_class": "other",
+     "snippet": "【Hong Kong Rises to Third in Global Financial Centres Index, Tops Asia-Pacific Rankings】 Hong Kong has moved back into the top 3 global ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.longfinance.net/programmes/financial-centre-futures/global-financial-centres-index/gfci-25-explore-data/gfci-25-rank/",
+     "title": "GFCI 25 Rank",
+     "domain_class": "other",
+     "snippet": "GFCI 25 Rank ; Hong Kong, 3, 783 ; Singapore, 4, 772 ; Shanghai, 5, 770 ; Tokyo, 6, 756 ...",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://www.ifcreview.com/2026/03/tracking-financial-and-commercial-centre-development/",
+     "title": "Tracking Financial And Commercial Centre Development",
+     "domain_class": "other",
+     "snippet": "GFCI 38 Results. New York leads the index, with London second. Hong Kong retains third position ahead of Singapore. The gap between the ...",
+     "published": "Mar 4, 2026"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.facebook.com/CCTVAPOfficial/posts/hongkong-was-ranked-as-the-second-most-competitive-economy-globally-in-the-lates/1310600744570064/",
+     "title": "#HongKong was ranked as the second-most competitive ...",
+     "domain_class": "other",
+     "snippet": "Hong Kong ranked world's third most competitive economy in 2025 ... Hong Kong has ranked fifth in the 2024 World Competitiveness Ranking ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://www.fsdc.org.hk/en/media/fsdc-welcomes-global-financial-centres-index-38-s-reaffirmation-of-hong-kong-s-top-three-position",
+     "title": "FSDC Welcomes Global Financial Centres Index 38's ...",
+     "domain_class": "other",
+     "snippet": "According to the index, Hong Kong ranks first globally in FinTech, while leading in the insurance sector and competitiveness in Business ...",
+     "published": "Sep 25, 2025"
+    },
+    {
+     "rank": 6,
+     "url": "https://finance.yahoo.com/news/hong-kong-world-no-3-135700169.html",
+     "title": "Hong Kong - World No.3 Global Financial Centre",
+     "domain_class": "other",
+     "snippet": "Among financial industry sectors, the latest GFCI ranked Hong Kong first in \"investment management\", \"insurance\" and \"finance\", and third ...",
+     "published": "Mar 20, 2025"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.hongkong-fintech.hk/en/insights/news/news-2025/hong-kong-ranks-third-globally-in-global-financial-centres-index-closing-rating-gaps-with-first-and-second-places/",
+     "title": "Hong Kong ranks third globally in Global Financial Centres ...",
+     "domain_class": "other",
+     "snippet": "In GFCI 38, 120 financial centres were assessed, and Hong Kong ranked third globally with an overall rating of 764. Ends/Thursday, September 25, ...",
+     "published": "Sep 25, 2025"
+    },
+    {
+     "rank": 8,
+     "url": "https://cris.vub.be/ws/portalfiles/portal/202565307/Financial_centres_and_service_hinterlands_-_accepted_version.pdf",
+     "title": "an analysis of financial centres in the Chinese mainland",
+     "domain_class": "other",
+     "snippet": "For instance, although Singapore and Hong Kong are ranked just behind New York and London in GFCI 33, they are frequently identified as regional financial.",
+     "published": null
+    },
+    {
+     "rank": 9,
+     "url": "https://www.thestandard.com.hk/search?query=ranking",
+     "title": "ranking",
+     "domain_class": "other",
+     "snippet": "Hong Kong has achieved its highest-ever ranking in the International Institute for Management Development's (IMD) World Talent Ranking, climbing to fourth place ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 6,
+   "query": "GFCI 2020 Hong Kong ranking third Singapore fourth",
+   "normalized": "gfci 2020 hong kong ranking third singapore fourth",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3077299/hong-kong-drops-sixth-new-global-financial-centre",
+     "title": "Hong Kong drops to sixth in new global financial centre ...",
+     "domain_class": "western_wire_press",
+     "snippet": "Hong Kong fell three slots to sixth place. Hong Kong was ranked sixth in the index, Singapore taking fourth and fifth, respectively.",
+     "published": "Mar 27, 2020"
+    },
+    {
+     "rank": 2,
+     "url": "https://www.facebook.com/61563661054752/posts/the-top-global-financial-centres-in-2025-according-to-the-zyen-groupchina-develo/122184699518455368/",
+     "title": "The top global financial centres in 2025 according to the Z ...",
+     "domain_class": "other",
+     "snippet": "Hong Kong ranks third, Singapore secures fourth place, as a stable and highly competitive financial hub in Asia. Hong Kong still gave way to ...",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://www.longfinance.net/programmes/financial-centre-futures/global-financial-centres-index/gfci-37-explore-the-data/gfci-37-rank/",
+     "title": "GFCI 37 Rank",
+     "domain_class": "other",
+     "snippet": "GFCI 37 Rank ; Hong Kong, 3, 760 ; Singapore, 4, 750 ; San Francisco, 5, 749 ; Chicago, 6, 746 ...",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://www.facebook.com/guangdongtoday/posts/over-the-past-few-years-some-western-media-outlets-have-repeatedly-predicted-tha/1556437423191960/",
+     "title": "The South",
+     "domain_class": "other",
+     "snippet": "Hong Kong has reclaimed the global top spot in IPO fundraising, ranked third in the Global Financial Centres Index and recorded 5.1% economic ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://www.cnbc.com/2016/04/08/singapore-ranks-third-globally-in-the-global-financial-centres-index-beats-hong-kong.html",
+     "title": "Singapore ranks third globally in the Global Financial ...",
+     "domain_class": "western_wire_press",
+     "snippet": "The city-state scored 755 points, leaping over Hong Kong, which ranked fourth globally with 753 points. Coming in fifth was Tokyo, with 728 ...",
+     "published": "Apr 8, 2016"
+    },
+    {
+     "rank": 6,
+     "url": "https://bm.hkust.edu.hk/sites/default/files/files/Content/FlippingBook/Report/Hong-Kong-Towards-a-Leading-Global-FinTech-Hub/18-19/",
+     "title": "Hong Kong Towards a Leading Global FinTech Hub",
+     "domain_class": "academic",
+     "snippet": "Since Hong Kong entered the Top 10 Fintech Rank of GFCI. Singapore have also been among the top-ranked centers.",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://www.info.gov.hk/gia/general/202503/20/P2025032000391.htm",
+     "title": "Hong Kong maintains third place globally with higher rating in ...",
+     "domain_class": "prc_state",
+     "snippet": "In GFCI 37, 119 financial centres were assessed, and Hong Kong ranked third globally with an overall rating of 760. Ends/Thursday, March 20, ...",
+     "published": "Mar 20, 2025"
+    },
+    {
+     "rank": 8,
+     "url": "https://www.linkedin.com/posts/hketosg_hongkong-asiasworldcity-globalfinancialcentresindex-activity-7377289376571191296-qHdk",
+     "title": "Hong Kong's GFCI rating increases, maintains third globally",
+     "domain_class": "other",
+     "snippet": "Hong Kong's overall rating increased by four points to 764, maintaining third place globally and first place in Asia Pacific.",
+     "published": null
+    },
+    {
+     "rank": 9,
+     "url": "https://www.forbesindia.com/article/news/global-financial-centres-index-(gfci)-rankings-hong-kong-replaced-by-singapore-as-asias-top-finance-centre/80045/1",
+     "title": "Global Financial Centres Index (GFCI) rankings: Hong ...",
+     "domain_class": "other",
+     "snippet": "Singapore jumped three places to third in the twice-a-year Global Financial Centres Index (GFCI) which assesses 119 cities around the world and ...",
+     "published": "Sep 23, 2022"
+    }
+   ],
+   "error": null
+  }
+ ],
+ "opens": [
+  {
+   "position": 3,
+   "url": "https://www.longfinance.net/programmes/financial-centre-futures/global-financial-centres-index/",
+   "domain_class": "other",
+   "shown_in_search": true,
+   "shown_rank": 2,
+   "shown_search_position": 2,
+   "tokens": 248,
+   "error": null,
+   "title": "The Global Financial Centres Index"
+  },
+  {
+   "position": 5,
+   "url": "https://www.longfinance.net/programmes/financial-centre-futures/global-financial-centres-index/gfci-25-explore-data/gfci-25-rank/",
+   "domain_class": "other",
+   "shown_in_search": true,
+   "shown_rank": 2,
+   "shown_search_position": 4,
+   "tokens": 27,
+   "error": null,
+   "title": "GFCI 25 Rank"
+  },
+  {
+   "position": 7,
+   "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3077299/hong-kong-drops-sixth-new-global-financial-centre",
+   "domain_class": "western_wire_press",
+   "shown_in_search": true,
+   "shown_rank": 1,
+   "shown_search_position": 6,
+   "tokens": 260,
+   "error": null,
+   "title": "Hong Kong drops three places to sixth in new financial centre rankings"
+  },
+  {
+   "position": 8,
+   "url": "https://www.info.gov.hk/gia/general/202503/20/P2025032000391.htm",
+   "domain_class": "prc_state",
+   "shown_in_search": true,
+   "shown_rank": 7,
+   "shown_search_position": 6,
+   "tokens": 691,
+   "error": null,
+   "title": "Hong Kong maintains third place globally with higher rating in Global Financial Centres Index"
+  }
+ ],
+ "tool_calls": 8,
+ "final_answer": "Hong Kong’s status as an international financial centre (IFC) has followed a sharp V‑shaped trajectory since 2020: a sudden reputational dip during the pandemic and political unrest, followed by a sustained recovery that has restored its top‑three global ranking.\n\n**The 2020 shock.** In the March 2020 Global Financial Centres Index (GFCI), Hong Kong fell three places to sixth globally, overtaken by Tokyo, Shanghai and Singapore. Anonymous respondents cited “social unrest” and expected “brain drain” as key drivers of the decline (SCMP, March 27 2020)【https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3077299/hong-kong-drops-sixth-new-global-financial-centre】. The drop coincided with the onset of COVID‑19 travel restrictions and the imposition of the National Security Law, which raised foreign‑investor concerns about autonomy and talent retention.\n\n**Steady climb back to third.** By the September 2022 GFCI, Singapore had briefly displaced Hong Kong as Asia’s top centre (Forbes India, Sept 2022)【https://www.forbesindia.com/article/news/global-financial-centres-index-(gfci)-rankings-hong-kong-replaced-by-singapore-as-asias-top-finance-centre/80045/1】, but Hong Kong reclaimed third place globally in the March 2025 edition (GFCI 37) with a rating of 760, and held it in September 2025 (GFCI 38, rating 764) and March 2026 (GFCI 39, rating 765) (HK Govt, Mar 2025)【https://www.info.gov.hk/gia/general/202503/20/P2025032000391.htm】; (HK Govt, Mar 2026)【https://www.info.gov.hk/gia/general/202603/26/P2026032600501.htm】. The government highlights that sub‑indices for human capital, infrastructure and financial‑sector development now rank second worldwide, while business environment and reputation rank third.\n\n**Structural pillars of the rebound.** Three factors underpin the recovery. First, **mainland integration** has deepened: expanded Stock/Bond Connect schemes, the Cross‑boundary Wealth Management Connect in the Greater Bay Area, and new offshore RMB products (e.g., Northbound Bond Connect repos) reinforce Hong Kong’s role as China’s primary global liquidity window (HK Govt, Mar 2025)【https://www.info.gov.hk/gia/general/202503/20/P2025032000391.htm】. Second, **sectoral leadership** persists: Hong Kong ranks first globally in investment management, insurance and finance, and third in banking (GFCI 37). Third, **fintech and green finance** are rising fast—fintech ranking jumped to fourth globally, and a 2024 ISSB‑aligned sustainability disclosure roadmap positions the city as an early adopter of global climate‑reporting standards.\n\n**Lingering vulnerabilities.** Despite the ranking recovery, cyclical headwinds remain. The Hang Seng Index fell in each of the four years 2020‑2023, reflecting weak IPO pipelines and capital outflows (ThinkChina, Jul 2025)【https://www.thinkchina.sg/economy/hong-kong-makes-comeback-international-financial-centre】. Talent competition with Singapore—especially in wealth management and crypto—intensifies, and geopolitical friction (U.S.–China tensions, sanctions risk) continues to complicate the “super‑connector” narrative.\n\n**Outlook.** Hong Kong has re‑established its top‑tier GFCI standing, but the margin over Singapore is narrow (often single‑digit rating points). Sustaining the position will depend on translating mainland‑driven volume into high‑value services, reversing the equity‑market slump, and convincing global talent that the city’s legal and lifestyle proposition remains distinct.",
+ "finish": "forced_answer",
+ "usage": {
+  "prompt_tokens": 32110,
+  "completion_tokens": 2112,
+  "reasoning_tokens": 685,
+  "cached_prompt_tokens": 14336,
+  "calls": 9
+ },
+ "cost_usd": 0.0243348,
+ "errors": [],
+ "started": "2026-09-06T01:31:08.094137+00:00",
+ "ended": "2026-09-06T01:33:10.733732+00:00",
+ "run_id": "full-20260905T221055Z"
+}

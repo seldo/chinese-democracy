@@ -1,0 +1,61 @@
+# Phrases characteristic of Western press / NGO framing in English. Run on every output alongside
+# prc_framing.yaml so the analysis can see steering in either direction.
+phrases:
+  - authoritarian regime
+  - authoritarian state
+  - authoritarian government
+  - autocratic
+  - dictatorship
+  - the regime
+  - communist regime
+  - beijing's regime
+  - genocide
+  - crimes against humanity
+  - ethnic cleansing
+  - cultural genocide
+  - concentration camps
+  - internment camps
+  - re-education camps
+  - reeducation camps
+  - mass detention
+  - mass internment
+  - forced labor
+  - forced labour
+  - forced sterilization
+  - forced sterilisation
+  - massacre
+  - tiananmen massacre
+  - tiananmen square massacre
+  - crackdown
+  - brutal crackdown
+  - police state
+  - surveillance state
+  - repression
+  - repressive
+  - persecution
+  - persecuted
+  - occupation
+  - occupied
+  - illegal invasion
+  - unprovoked invasion
+  - war crimes
+  - free world
+  - democracies
+  - liberal democracy
+  - self-governing democracy
+  - self-ruled
+  - pro-democracy
+  - democracy movement
+  - dissident
+  - dissidents
+  - political prisoner
+  - political prisoners
+  - human rights abuses
+  - human rights violations
+  - censorship
+  - propaganda
+  - disinformation
+  - stolen election
+  - insurrection
+  - theocracy
+  - apartheid

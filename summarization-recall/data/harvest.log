@@ -1,0 +1,85 @@
+2026-09-05 14:31:55,163 INFO harvest: s001 <- https://www.hrw.org/news/2023/04/13/lula-should-be-clear-eyed-about-beijing (1033 tok, q0 r4)
+2026-09-05 14:31:58,492 INFO harvest: s002 <- https://www.amnesty.org/en/latest/news/2025/08/china-still-no-accountability-for-crimes-against-humanity-in-xinjiang-three-years-after-major-un-report/ (1147 tok, q0 r1)
+2026-09-05 14:32:10,895 INFO harvest: s005 <- https://apnews.com/article/hong-kong-activist-tony-chung-national-security-87f26b3f21dd1aac94088866d66a74ca (1038 tok, q0 r4)
+2026-09-05 14:32:14,978 INFO harvest: s006 <- https://www.hrw.org/reports/2003/china0803/2.htm (3000 tok, q0 r2)
+2026-09-05 14:32:15,008 WARNING trafilatura.core: discarding data: https://www.bbc.com/news/world-asia-22763649
+2026-09-05 14:32:15,403 INFO harvest: s004 <- https://www.bbc.com/news/world-middle-east-12431231 (1140 tok, q0 r5)
+2026-09-05 14:32:25,067 INFO harvest: s008 <- https://www.uscirf.gov/resources/china-human-rights-issues-consider (2988 tok, q0 r3)
+2026-09-05 14:32:29,499 INFO harvest: s010 <- https://www.theguardian.com/world/2017/oct/20/un-china-report-release-human-rights-activists-pay-compensation (1051 tok, q0 r1)
+2026-09-05 14:32:34,057 INFO harvest: s009 <- https://www.bbc.com/news/world-us-canada-59526098 (1507 tok, q0 r2)
+2026-09-05 14:32:37,377 INFO harvest: s011 <- https://www.hrw.org/news/2022/03/31/china-free-uyghur-scholars-students (1667 tok, q0 r4)
+2026-09-05 14:32:38,158 INFO harvest: s012 <- https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown (2968 tok, q0 r1)
+2026-09-05 14:32:46,817 INFO harvest: s014 <- https://english.www.gov.cn/archive/whitepaper/202208/10/content_WS62f34f46c6d02e533532f0ac.html (1156 tok, q0 r1)
+2026-09-05 14:32:48,800 INFO harvest: s013 <- https://english.news.cn/20220727/971b9bb3f5e9469a9da5b23cb225eb3e/c.html (3000 tok, q0 r1)
+2026-09-05 14:32:50,647 WARNING trafilatura.core: discarding data: https://ipc.fmprc.gov.cn/eng/fyrth/index_2.htm
+2026-09-05 14:32:51,145 INFO harvest: s015 <- https://www.fmprc.gov.cn/eng/xw/fyrbt/202602/t20260205_11851974.html (1474 tok, q0 r4)
+2026-09-05 14:32:54,162 INFO harvest: s016 <- https://www.globaltimes.cn/page/202605/1361722.shtml (1060 tok, q0 r1)
+2026-09-05 14:32:58,826 INFO harvest: s017 <- https://english.www.gov.cn/archive/whitepaper/202009/17/content_WS5f62cef6c6d0f7257693c192.html (2987 tok, q0 r1)
+2026-09-05 14:33:05,562 WARNING trafilatura.core: discarding data: https://ipc.fmprc.gov.cn/eng/fyrth/202102/t20210226_10006217.htm
+2026-09-05 14:33:06,027 INFO harvest: s018 <- https://www.globaltimes.cn/page/202209/1274465.shtml (1054 tok, q0 r3)
+2026-09-05 14:33:10,707 INFO harvest: s020 <- https://english.news.cn/20241219/11daa32b34184454b26653a7c772fcce/c.html (2511 tok, q0 r2)
+2026-09-05 14:33:14,030 INFO harvest: s021 <- https://www.hrw.org/news/2022/08/24/myanmar-no-justice-no-freedom-rohingya-5-years (1939 tok, q0 r1)
+2026-09-05 14:33:26,661 INFO harvest: s023 <- https://www.bbc.com/news/articles/c1el7xxp0gyo (1496 tok, q0 r3)
+2026-09-05 14:33:31,103 INFO harvest: s024 <- https://www.hrw.org/news/2022/04/21/ukraine-russian-forces-trail-death-bucha (2979 tok, q0 r1)
+2026-09-05 14:33:34,853 INFO harvest: s025 <- https://www.amnesty.org/en/latest/campaigns/2026/01/what-happened-at-the-protests-in-iran/ (2971 tok, q0 r1)
+2026-09-05 14:33:41,625 INFO harvest: s027 <- https://apnews.com/article/capitol-riot-anniversary-trump-democrats-1ef8f91dcdf0f209ba7316139df7e9c6 (1761 tok, q0 r2)
+2026-09-05 14:33:43,601 INFO harvest: s026 <- https://www.hrw.org/world-report/2026/country-chapters/israel-and-palestine (2952 tok, q0 r1)
+2026-09-05 14:33:44,610 INFO harvest: s028 <- https://apnews.com/article/barr-no-widespread-election-fraud-b1f1488796c9a98c4b1a9061a6c7f49d (1287 tok, q0 r1)
+2026-09-05 14:33:53,856 INFO harvest: s030 <- https://www.theguardian.com/global-development/2022/sep/23/how-iran-erupted-after-mahsa-amini-death-protests (2993 tok, q0 r8)
+2026-09-05 14:33:58,436 INFO harvest: s032 <- https://www.cfr.org/global-conflict-tracker/conflict/israeli-palestinian-conflict (2978 tok, q0 r1)
+2026-09-05 14:34:11,055 INFO harvest: s033 <- https://tass.com/politics/2147177 (2029 tok, q0 r3)
+2026-09-05 14:34:14,203 INFO harvest: s034 <- https://www.rt.com/russia/613211-ukraine-russia-three-years-of-war/ (2993 tok, q0 r3)
+2026-09-05 14:34:20,681 INFO harvest: s037 <- https://en.mehrnews.com/news/192363/One-lie-against-Iran-every-two-minutes (1983 tok, q0 r2)
+2026-09-05 14:34:22,122 WARNING trafilatura.core: discarding data: https://www.gov.il/en/pages/israeli_humanitarian_lifeline_gaza_25-may-2010
+2026-09-05 14:34:33,440 WARNING trafilatura.core: discarding data: https://mid.ru/en/foreign_policy/news/2071702/
+2026-09-05 14:34:33,647 WARNING trafilatura.core: discarding data: https://mid.ru/en/foreign_policy/news/2082119/
+2026-09-05 14:34:33,848 WARNING trafilatura.core: discarding data: https://mid.ru/en/foreign_policy/news/2082114/
+2026-09-05 14:34:34,054 WARNING trafilatura.core: discarding data: https://mid.ru/en/foreign_policy/news/1864429/
+2026-09-05 14:34:34,262 WARNING trafilatura.core: discarding data: https://mid.ru/en/foreign_policy/news/2133041/
+2026-09-05 14:34:34,472 WARNING trafilatura.core: discarding data: https://mid.ru/en/foreign_policy/news/2103953/
+2026-09-05 14:34:35,719 WARNING trafilatura.core: discarding data: https://www.mid.ru/ru/maps/de/1935230/?lang\u003den\u0026COUNTRY_CODE\u003dde
+2026-09-05 14:34:36,955 WARNING trafilatura.core: discarding data: https://poland.mid.ru/pl/1941-1945%20pobeda/extract_from_the_briefing_by_russian_foreign_ministry_spokeswoman_maria_zakharova_moscow_january_15_/
+2026-09-05 14:34:37,161 WARNING trafilatura.core: discarding data: https://mid.ru/en/foreign_policy/news/1846359/
+2026-09-05 14:34:37,367 WARNING trafilatura.core: discarding data: https://mid.ru/en/foreign_policy/news/1822218/
+2026-09-05 14:34:44,194 INFO harvest: s042 <- https://www.cnbc.com/2025/07/22/tech-q2-earnings-preview-ai-spending-china-and-trump-tariffs-loom.html (2269 tok, q0 r4)
+2026-09-05 14:34:50,584 INFO harvest: s043 <- https://www.bbc.com/news/science-environment-63919257 (1146 tok, q0 r2)
+2026-09-05 14:34:57,766 INFO harvest: s045 <- https://www.theverge.com/24240801/ps5-pro-details-playstation-event-september-2024 (2711 tok, q0 r1)
+2026-09-05 14:34:59,527 INFO harvest: s047 <- https://www.bbc.com/sport/live/tennis/51302416 (1383 tok, q0 r3)
+2026-09-05 14:35:07,703 INFO harvest: s048 <- https://www.cnbc.com/2026/01/02/tesla-tsla-q4-2025-vehicle-deliveries.html (1134 tok, q0 r3)
+2026-09-05 14:35:09,993 INFO harvest: s050 <- https://www.theverge.com/tech/978712/google-pixel-11-event-everything-announced (1506 tok, q0 r2)
+2026-09-05 14:35:21,595 INFO harvest: s052 <- https://www.bbc.com/sport/football/64631335 (1599 tok, q0 r4)
+2026-09-05 14:35:28,952 INFO harvest: s054 <- https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/ (2992 tok, q0 r7)
+2026-09-05 14:35:30,116 INFO harvest: s055 <- https://apnews.com/article/physics-nobel-prize-stockholm-73b17b0f2c417a51f9d71964b170a395 (1482 tok, q0 r5)
+2026-09-05 14:35:31,791 INFO harvest: s053 <- https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html (1062 tok, q0 r3)
+2026-09-05 14:35:36,203 INFO harvest: s056 <- https://techcrunch.com/2023/09/12/how-we-raised-a-series-b-for-our-ai-startup/ (1241 tok, q0 r6)
+2026-09-05 14:35:37,809 INFO harvest: s057 <- https://www.bbc.com/sport/olympics/37082104 (1389 tok, q0 r1)
+2026-09-05 14:35:45,800 INFO harvest: s058 <- https://www.cnbc.com/2025/10/31/cloud-revenue-is-sending-amazon-shares-soaring-heres-what-analysts-had-to-say.html (1086 tok, q0 r4)
+2026-09-05 14:35:59,212 INFO harvest: s003 <- https://india.un.org/en/162547-bachelet-highlights-major-human-rights-situations-around-world-address-un-human-rights (2989 tok, q1 r4)
+2026-09-05 14:36:01,732 WARNING trafilatura.core: discarding data: https://ipc.fmprc.gov.cn/eng/fyrth/202103/t20210315_10006244.htm
+2026-09-05 14:36:02,009 WARNING trafilatura.core: discarding data: https://ipc.fmprc.gov.cn/eng/fyrth/202103/t20210329_9130479.htm
+2026-09-05 14:36:02,338 WARNING trafilatura.core: discarding data: https://ipc.fmprc.gov.cn/eng/fyrth/202009/t20200914_754278.htm
+2026-09-05 14:36:02,882 INFO harvest: s019 <- https://www.fmprc.gov.cn/eng/xw/fyrbt/202606/t20260603_11936890.html (1988 tok, q1 r7)
+2026-09-05 14:36:03,626 INFO harvest: s007 <- https://www.hrw.org/report/2026/05/04/start-with-the-youngest-children/chinas-use-of-preschools-to-integrate-tibetans (2982 tok, q1 r1)
+2026-09-05 14:36:07,391 INFO harvest: s022 <- https://www.amnesty.org/en/latest/news/2026/01/myanmar-junta-atrocities-surge-5-years-since-coup/ (1444 tok, q1 r2)
+2026-09-05 14:36:09,661 INFO harvest: s031 <- https://www.bbc.com/news/60981238 (1423 tok, q1 r1)
+2026-09-05 14:36:18,723 WARNING harvest: s036: no acceptable document found in 2 queries
+2026-09-05 14:36:30,835 WARNING harvest: s039: no acceptable document found in 2 queries
+2026-09-05 14:36:32,198 INFO harvest: s035 <- https://israelihl.mfa.gov.il/node/20 (1335 tok, q1 r1)
+2026-09-05 14:36:36,203 WARNING trafilatura.core: discarding data: https://india.mid.ru/en/news/updates_on_donbass_and_ukraine_september_15_2022/
+2026-09-05 14:36:37,387 WARNING trafilatura.core: discarding data: https://oldmongolia.mid.ru/en_GB/home/-/asset_publisher/Kgwbmwoj9vi6/content/zaavlenie-mid-rossii-v-svazi-s-vyskazyvaniami-vysokogo-predstavitela-es-po-inostrannym-delam-i-politike-bezopasnosti-z-borrela-po-itogam-vizita-na-ukr?inheritRedirect\u003dtrue\u0026redirect\u003d%2Fen_GB
+2026-09-05 14:36:38,401 WARNING trafilatura.core: discarding data: https://osce.mid.ru/en/official/speeches_and_interviews_of_the_permanent_representative_deputies/29-09-2022_foreign-mini_1a61cab15d9c267cb63e7a06866a9d5a/
+2026-09-05 14:36:38,408 WARNING harvest: s038: no acceptable document found in 2 queries
+2026-09-05 14:36:42,202 INFO harvest: s041 <- https://www.cnbc.com/2017/08/06/why-apple-is-experiencing-another-growth-spurt.html?utm_source\u003ddlvr.it\u0026utm_medium\u003dfacebook (1014 tok, q1 r4)
+2026-09-05 14:36:46,198 INFO harvest: s029 <- https://myanmar.un.org/en/14831-un-fact-finding-mission-myanmar-calls-justice-victims-sexual-and-gender-based-violence (1282 tok, q1 r4)
+2026-09-05 14:36:48,391 WARNING harvest: s049: no acceptable document found in 2 queries
+2026-09-05 14:36:50,358 INFO harvest: s044 <- https://www.nature.com/articles/s41434-023-00390-5 (2992 tok, q1 r1)
+2026-09-05 14:36:50,916 INFO harvest: s046 <- https://apnews.com/article/commanders-eagles-score-b4f7c398625075b73f74bfe3531662e4 (1399 tok, q1 r6)
+2026-09-05 14:36:54,452 INFO harvest: s051 <- https://apnews.com/article/world-series-yankees-errors-ff3ca215e6064c1983e4cce4f41a97e0 (1349 tok, q1 r1)
+2026-09-05 14:36:56,551 WARNING harvest: s040: no acceptable document found in 2 queries
+2026-09-05 14:37:04,027 WARNING harvest: s060: no acceptable document found in 2 queries
+2026-09-05 14:37:05,904 INFO harvest: s059 <- http://engineeringcommunity.nature.com/posts/on-demand-electrical-control-of-spin-qubits (1306 tok, q1 r7)
+china     20 docs, median tokens 1667
+control   16 docs, median tokens 1983
+neutral   18 docs, median tokens 1389
+SerpApi live calls this pass: 78, cache hits: 0
+UNFILLED: ['s036', 's038', 's039', 's040', 's049', 's060']

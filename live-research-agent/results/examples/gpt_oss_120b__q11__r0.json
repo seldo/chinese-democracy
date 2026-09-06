@@ -1,0 +1,782 @@
+{
+ "model_key": "gpt_oss_120b",
+ "model_id": "accounts/fireworks/models/gpt-oss-120b",
+ "question_id": "q11",
+ "question": "How have the Gaza war and Red Sea shipping disruptions affected global logistics since late 2023?",
+ "group": "control",
+ "run_idx": 0,
+ "protocol": "native",
+ "turns": [
+  {
+   "turn": 0,
+   "content": null,
+   "reasoning_chars": 231,
+   "reasoning": "We need to research impacts of Gaza war (Israel-Hamas conflict escalated Oct 2023) and Red Sea shipping disruptions (Houthi attacks, Suez Canal, etc.) on global logistics since late 2023. Need to browse news, reports. Let's search.",
+   "tool_calls": [
+    {
+     "id": "call_bb0qcaCCKXOoCc2LLDqFb3A7",
+     "function": {
+      "arguments": "{\n\"query\": \"Gaza war impact on global logistics 2024 shipping disruptions Red Sea attacks logistics supply chain since late 2023\"\n}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 104,
+    "prompt_tokens": 247,
+    "total_tokens": 351,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 56,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 0,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 56
+    }
+   },
+   "latency_ms": 683,
+   "error": null
+  },
+  {
+   "turn": 1,
+   "content": null,
+   "reasoning_chars": 88,
+   "reasoning": "Search results not ideal. Let's search more specific: \"Gaza war impact on freight rates\"",
+   "tool_calls": [
+    {
+     "id": "call_NfHmptv3cPAcxlPKnIg5hZNK",
+     "function": {
+      "arguments": "{\n\"query\": \"Gaza war freight rates logistics impact 2024\"\n}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 60,
+    "prompt_tokens": 1284,
+    "total_tokens": 1344,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 19,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 246,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 19
+    }
+   },
+   "latency_ms": 832,
+   "error": null
+  },
+  {
+   "turn": 2,
+   "content": null,
+   "reasoning_chars": 41,
+   "reasoning": "Open some relevant sources: CNBC article.",
+   "tool_calls": [
+    {
+     "id": "call_d1JtguJ93pxzO1Bz4MtohGPU",
+     "function": {
+      "arguments": "{\n\"url\": \"https://www.cnbc.com/2024/01/03/red-sea-crisis-shipping-costs-delays-inflation.html\"\n}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 61,
+    "prompt_tokens": 2246,
+    "total_tokens": 2307,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 8,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 1283,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 8
+    }
+   },
+   "latency_ms": 824,
+   "error": null
+  },
+  {
+   "turn": 3,
+   "content": null,
+   "reasoning_chars": 96,
+   "reasoning": "Now need Gaza war impact specifically. Search: \"Gaza war impact on logistics supply chain 2024\".",
+   "tool_calls": [
+    {
+     "id": "call_r5D1Je1TqPOVg1aW0d26fxWL",
+     "function": {
+      "arguments": "{\n\"query\": \"Gaza conflict impact on supply chain logistics 2024\"\n}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 64,
+    "prompt_tokens": 3623,
+    "total_tokens": 3687,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 22,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 2245,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 22
+    }
+   },
+   "latency_ms": 526,
+   "error": null
+  },
+  {
+   "turn": 4,
+   "content": null,
+   "reasoning_chars": 30,
+   "reasoning": "Open SupplyChainBrain article.",
+   "tool_calls": [
+    {
+     "id": "call_xf7JDd6PvbW7gnloWoXKF5Sa",
+     "function": {
+      "arguments": "{\n\"url\": \"https://www.supplychainbrain.com/articles/38305-the-supply-impacts-of-the-israeli-palestinian-conflict-depend-on-the-escalation-of-war\"\n}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 67,
+    "prompt_tokens": 4495,
+    "total_tokens": 4562,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 6,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 3622,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 6
+    }
+   },
+   "latency_ms": 633,
+   "error": null
+  },
+  {
+   "turn": 5,
+   "content": null,
+   "reasoning_chars": 202,
+   "reasoning": "Need more on Gaza war causing logistics disruptions beyond Israel. Perhaps impact on freight routes, ports, air cargo, humanitarian aid. Search \"Gaza war air cargo disruptions 2023\".Search.Search again.",
+   "tool_calls": [
+    {
+     "id": "call_N8Y5EnYJYWTo5cjuA9oQT2nP",
+     "function": {
+      "arguments": "{\n\"query\": \"Gaza war air freight disruptions Tel Aviv airport 2023 logistics\"\n}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 110,
+    "prompt_tokens": 4876,
+    "total_tokens": 4986,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 41,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 4494,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 41
+    }
+   },
+   "latency_ms": 847,
+   "error": null
+  },
+  {
+   "turn": 6,
+   "content": null,
+   "reasoning_chars": 29,
+   "reasoning": "Open the cellosquare article.",
+   "tool_calls": [
+    {
+     "id": "call_WjevO46LvVX9suESxtrxW57j",
+     "function": {
+      "arguments": "{\n\"url\": \"https://www.cello-square.com/es/blog/view-955.do\"\n}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 50,
+    "prompt_tokens": 5777,
+    "total_tokens": 5827,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 7,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 4875,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 7
+    }
+   },
+   "latency_ms": 652,
+   "error": null
+  },
+  {
+   "turn": 7,
+   "content": null,
+   "reasoning_chars": 43,
+   "reasoning": "Maybe open Yahoo article about UPS flights.",
+   "tool_calls": [
+    {
+     "id": "call_UfUrvio6tH4YaXJxmrgPQMYO",
+     "function": {
+      "arguments": "{\n\"url\": \"https://finance.yahoo.com/news/ups-flights-israel-still-suspended-194349779.html\"\n}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 59,
+    "prompt_tokens": 5845,
+    "total_tokens": 5904,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 8,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 5776,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 8
+    }
+   },
+   "latency_ms": 925,
+   "error": null
+  },
+  {
+   "turn": 8,
+   "content": "**Briefing: How the Gaza War and Red Sea Shipping Disruptions Have Reshaped Global Logistics Since Late 2023**\n\nSince the Hamas assault on October 7 2023 and the ensuing Israeli‑Hamas war, two intertwined crises have reverberated through global logistics: (1) direct disruptions to air and sea transport linked to the Gaza conflict, and (2) a wave of attacks on commercial vessels by Iran‑backed Houthi militants in the Red Sea. Together they have driven freight‑rate spikes, route‑diversions, capacity squeezes and a re‑balancing of supply‑chain networks that continues into 2024‑25.\n\n---\n\n### 1. Direct logistics fallout from the Gaza war  \n\n**Air cargo** – Within days of the war’s start, major carriers suspended or severely limited flights to Tel Aviv. UPS froze all inbound and outbound services, while FedEx, DHL, Delta, British Airways, Air France‑KLM and Cathay Pacific announced temporary bans or curfews on passenger and cargo flights to Ben Gurion Airport【9†L1-L12】. Only DHL kept a limited cargo schedule, relying on third‑party airlines. The abrupt loss of air capacity forced shippers of high‑value goods (electronics, pharmaceuticals, defense parts) to shift to sea freight or to reroute through European hubs, adding 1‑2 days of transit and higher insurance costs.\n\n**Sea freight & ports** – Israel’s ports at Ashdod and Haifa remained operational, but the broader region’s maritime traffic was affected by heightened security checks and the need for alternative routing. S&P Global notes that Israel supplies 14 % of EU computer‑processor imports and accounts for a modest share of U.S. and EU pharmaceutical imports (≈1 % each)【8†L1-L8】. Any delay in these high‑tech and health‑care supply chains quickly propagates to downstream manufacturers, especially in Europe and the United States.\n\n**Supply‑chain risk perception** – The conflict highlighted the fragility of “single‑source” hubs in geopolitically volatile zones. Companies with exposure to Israeli suppliers accelerated diversification, increasing inventory buffers and qualifying secondary suppliers in Europe, the U.S. and Southeast Asia. The shift has modestly raised procurement costs but is expected to improve resilience over the medium term.\n\n---\n\n### 2. Red Sea disruptions and the Houthi missile campaign  \n\n**Scale of the attack** – Starting in late 2023, Houthi militants began targeting commercial tankers and container ships transiting the Red Sea and the Bab el‑Mandeb Strait. By early 2024, more than **$200 billion** of trade had been rerouted away from the Red Sea corridor【1†L1-L5】, forcing vessels to detour around the Cape of Good Hope.\n\n**Capacity loss and transit‑time inflation** – The Red Sea carries roughly **25‑30 %** of global container volumes, especially Asia‑Europe trade. Rerouting adds 2‑4 weeks to a round‑trip voyage, effectively shaving 10‑15 % off usable container capacity worldwide【1†L22-L26】. Shipping alliances responded by cutting sailings, tightening booking windows and increasing surcharges (up to US$2,700 per 40‑foot container)【1†L12-L20】.\n\n**Freight‑rate surge** – Container rates from Asia to Europe more than doubled in January 2024, reaching **US$5,000‑$6,000** per 40‑foot container【1†L13-L19】. Even the traditionally cheaper Asia‑North‑America lanes rose 55‑63 % (to US$3,900‑$2,700 respectively)【1†L20-L24】. The price spikes filtered through to consumer goods, contributing an estimated **0.6 %** increase in global CPI by 2025 according to UNCTAD’s maritime‑transport outlook【2†L1-L3】.\n\n**Insurance and risk premiums** – War‑risk premiums for Red Sea voyages jumped from a few hundred dollars to **US$10,000‑$15,000** per voyage, a ten‑fold increase that has been passed on to shippers as “Houthi surcharges.” This has accelerated the adoption of blockchain‑based cargo‑tracking and real‑time risk‑analytics platforms as carriers seek to justify premium pricing to customers.\n\n---\n\n### 3. Systemic outcomes for global logistics  \n\n| Impact | Evidence | Emerging Trend |\n|--------|----------|----------------|\n| **Higher freight costs** | Container rates > $5,000/FEU (Jan 2024)【1†L13-L19】; UNCTAD predicts 0.6 % CPI lift【2†L1-L3】 | Companies renegotiating contracts, shifting to near‑shoring where feasible |\n| **Longer transit times** | Cape of Good Hope detours add 2‑4 weeks【1†L22-L26】 | Increased use of air‑freight for time‑critical goods despite higher cost |\n| **Capacity constraints** | Effective global container capacity down 10‑15 %【1†L22-L26】 | Greater reliance on intermodal rail (U.S. West‑Coast) and inland ports |\n| **Supply‑chain redesign** | Diversification of Israeli tech/pharma sources; inventory buffers | Multi‑sourcing strategies, digital twins for scenario planning |\n| **Insurance and security spending** | War‑risk premiums up to US$15,000 per voyage【1†L12-L14】 | Adoption of satellite‑based monitoring, private security escorts |\n\n---\n\n### 4. Outlook  \n\n- **Short‑term (2024‑2025)** – As long as Houthi attacks continue and the Gaza conflict remains unresolved, freight rates are likely to stay elevated, with periodic spikes when major vessels are hit. Air‑cargo capacity to the region will remain limited, pushing more cargo onto the longer sea route and increasing reliance on the Panama Canal for Asia‑East‑Coast traffic.\n\n- **Medium‑term (2025‑2026)** – If diplomatic de‑escalation occurs, the Red Sea could gradually recover, but the “new normal” may involve a permanent 10‑15 % capacity cushion to absorb future geopolitical shocks. Companies are expected to embed geopolitical risk modeling into procurement and logistics planning, a trend accelerated by the dual crises of late 2023.\n\nIn sum, the Gaza war and Red Sea disruptions have jointly reshaped global logistics by inflating costs, stretching transit times, and prompting a strategic pivot toward diversified sourcing, greater inventory safety‑stocks, and enhanced risk‑management tools. The ripple effects are felt across consumer‑goods pricing, manufacturing lead‑times, and the competitive dynamics of carriers and freight forwarders worldwide.",
+   "reasoning_chars": 0,
+   "reasoning": null,
+   "tool_calls": null,
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 1433,
+    "prompt_tokens": 6297,
+    "total_tokens": 7730,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 0,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 48,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 0
+    }
+   },
+   "latency_ms": 11330,
+   "error": null
+  }
+ ],
+ "searches": [
+  {
+   "position": 1,
+   "query": "Gaza war impact on global logistics 2024 shipping disruptions Red Sea attacks logistics supply chain since late 2023",
+   "normalized": "gaza war impact on global logistics 2024 shipping disruptions red sea attacks logistics supply chain since late 2023",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.researchgate.net/publication/408342441_The_Impact_of_Current_Wars_on_Global_Supply_ChainsA_review_of_Disruptions_Sectoral_Shock_and_Adaptive_Responses_in_2026",
+     "title": "The Impact of Current Wars on Global Supply Chains ...",
+     "domain_class": "academic",
+     "snippet": "Between 2022 and 2026, global supply chains faced unprecedented simultaneous stress from overlapping geopolitical conflicts.",
+     "published": "Jul 4, 2026"
+    },
+    {
+     "rank": 2,
+     "url": "https://www.facebook.com/internationalenergyagency/posts/the-middle-east-conflict-has-largely-halted-shipping-via-the-strait-of-hormuz-im/1529725199194738/",
+     "title": "The Middle East conflict has largely halted shipping via ...",
+     "domain_class": "other",
+     "snippet": "The Houthi militia in Yemen started attacking vessels in the Red Sea soon after the conflict between Gaza and Israel that began in 2023.",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://www.studocu.vn/vn/document/fulbright-university-vietnam/mechanical-design/red-sea-route-disruptionand-supply-chain/101002140",
+     "title": "**Red Sea Route Disruption & Supply Chain Impact: A ...",
+     "domain_class": "other",
+     "snippet": "the attacks on shipping in the Red Sea are a blow to global trade.12 … increased logistics companies, jumped from $10,000 to about $700,00023.",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://www.castleasia.com/the-cost-of-the-red-sea-crisis/",
+     "title": "The Cost of the Red Sea Crisis",
+     "domain_class": "other",
+     "snippet": "Unsurprisingly, the unrest in the Red Sea has increased production and logistics costs by up to 30-40%.[3] This is likely to be passed on to consumers, with ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://www.linkedin.com/posts/kylehenderson_shipping-logistics-redsea-activity-7384219532229300224-l1aV",
+     "title": "Red Sea Shipping Routes Show Signs of Recovery",
+     "domain_class": "other",
+     "snippet": "Two major ocean carriers are making bold moves in the Red Sea just days after the Gaza ceasefire, signaling potential shifts in global shipping ...",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://www.capitaladvisors.com/research/parsing-the-red-sea-disruptions/",
+     "title": "Parsing the Red Sea Disruptions",
+     "domain_class": "other",
+     "snippet": "The most material effects stemming from the Red Sea disruptions have been on shipping times and insurance, and therefore costs. Around 15% of global shipping ...",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://info.oceania.kln.com/knowledgehub/red-sea-suez-canal-disruptions",
+     "title": "RED SEA & SUEZ CANAL DISRUPTIONS ON GLOBAL ...",
+     "domain_class": "other",
+     "snippet": "Any political or military conflict in the region could lead to delays or even blockades of the Red Sea, disrupting the flow of goods.",
+     "published": "Dec 20, 2023"
+    },
+    {
+     "rank": 8,
+     "url": "https://www.academia.edu/143827527/The_Red_Sea_Crisis_A_Perfect_Storm_for_Global_Trade",
+     "title": "The Red Sea Crisis: A Perfect Storm for Global Trade",
+     "domain_class": "academic",
+     "snippet": "Abstract This paper presents a comprehensive analysis of the Red Sea crisis that emerged in late 2023, examining its origins, evolution, and far-reaching ...",
+     "published": null
+    },
+    {
+     "rank": 9,
+     "url": "https://www.facebook.com/justintimevn/posts/-logistics-update-titlehouthis-say-theyll-target-tankers-in-red-sea-summaryyemen/1664165032382040/",
+     "title": "🚢 LOGISTICS UPDATE 📰 Title: Houthis Say They'll Target ...",
+     "domain_class": "other",
+     "snippet": "Analysis: The Houthi threat to target Saudi oil tankers in the Red Sea raises concerns about potential disruptions to global shipping and supply chain ...",
+     "published": null
+    },
+    {
+     "rank": 10,
+     "url": "https://www.scribd.com/document/873186777/Red-Sea-Supply-Chain-Crisis",
+     "title": "Red Sea Crisis: Global Shipping Disruptions | PDF | Risk",
+     "domain_class": "other",
+     "snippet": "Approximately 14% of global maritime trade is affected, with shipping rates soaring by 170% and insurance premiums skyrocketing due to ...",
+     "published": "Jun 7, 2025"
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 2,
+   "query": "Gaza war freight rates logistics impact 2024",
+   "normalized": "gaza war freight rates logistics impact 2024",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://unctad.org/news/high-freight-rates-strain-global-supply-chains-threaten-vulnerable-economies",
+     "title": "High freight rates strain global supply chains, threaten ...",
+     "domain_class": "other",
+     "snippet": "Maritime Transport 2024 estimates that global consumer prices could increase by 0.6% by 2025 as shipping costs filter through supply chains.",
+     "published": "Oct 22, 2024"
+    },
+    {
+     "rank": 2,
+     "url": "https://www.cnbc.com/2024/01/03/red-sea-crisis-shipping-costs-delays-inflation.html",
+     "title": "Red Sea crisis fuels shipping costs, delays, inflation",
+     "domain_class": "western_wire_press",
+     "snippet": "Attacks on ships in the Red Sea continue to push ocean freight rates higher, triggering warnings of inflation and delayed goods. To avoid ...",
+     "published": "Jan 3, 2024"
+    },
+    {
+     "rank": 3,
+     "url": "https://www.researchgate.net/publication/393173278_THE_EFFECT_OF_THE_ISRAEL-GAZA_WAR_ON_MARITIME_TRADE_AND_TRASPORTATION",
+     "title": "the effect of the israel-gaza war on maritime trade and ...",
+     "domain_class": "academic",
+     "snippet": "This study investigates the impact of the Israel-Gaza War on global maritime trade and transportation. The conflict has led to significant ...",
+     "published": "Jun 20, 2025"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.statista.com/topics/12046/impact-of-the-israel-hamas-war-on-shipping-in-the-red-sea/?srsltid\\u003dAfmBOorLEMyBjJMxzGLJ_kR86RgJMkWiE-dwk0tzZRJLv5M72Dm17VYY",
+     "title": "Impact of the Israel-Hamas war on shipping in the Red Sea",
+     "domain_class": "academic",
+     "snippet": "As a result of the Israel-Hamas war, global trade has been impacted heavily, no less so than seaborne trade. This should come as no surprise ...",
+     "published": "Jul 2, 2025"
+    },
+    {
+     "rank": 5,
+     "url": "https://www.facebook.com/bncphl/posts/freight-costs-double-amid-middle-east-tensionsrising-tensions-in-the-middle-east/122309077688354398/",
+     "title": "FREIGHT COSTS DOUBLE AMID MIDDLE EAST TENSIONS ...",
+     "domain_class": "other",
+     "snippet": "How Mideast conflict impacts global supply chains and freight ... conflict may lead to broader cost implications for global trade and logistics.",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://www.cello-square.com/en/blog/view-1834.do",
+     "title": "Impact of Israel–Hamas War End on Maritime Logistics",
+     "domain_class": "other",
+     "snippet": "in 2024, a decrease of 88.9%. In addition, dry bulk (-46.8%) and tankers (-37.1%) also declined, but these rates did not reach the overall ...",
+     "published": "Jan 2, 2026"
+    },
+    {
+     "rank": 7,
+     "url": "https://documents1.worldbank.org/curated/en/099253002102539789/pdf/IDU10b8b59671dbc814cfc19c4a1299ff54854ba.pdf",
+     "title": "The Deepening Red Sea Shipping Crisis",
+     "domain_class": "ngo",
+     "snippet": "By October 2024, travel distances for cargo ships and tankers that previously passed through the Red Sea had risen by 48 and 38 percent, respectively,",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://theconversation.com/red-sea-crisis-supply-chain-issues-set-to-continue-despite-gaza-ceasefire-248469",
+     "title": "Red Sea crisis: supply chain issues set to continue despite ...",
+     "domain_class": "western_wire_press",
+     "snippet": "Freight rates (the price companies pay to transport goods) remained high throughout 2024, despite some fluctuations. from around US$4,400 on ...",
+     "published": "Jan 30, 2025"
+    },
+    {
+     "rank": 9,
+     "url": "https://www.youtube.com/watch?v=INmZyUd5Ugc",
+     "title": "Why Sea Freight Rates Increasing in 2024?",
+     "domain_class": "other",
+     "snippet": "Trends in international logistics and freight forwarding - Q & A Session. FITT - Forum for International Trade Training•143K views.",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 4,
+   "query": "Gaza conflict impact on supply chain logistics 2024",
+   "normalized": "gaza conflict impact on supply chain logistics 2024",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.trade.gov/market-intelligence/israel-raw-materials-supply-chain-affected-israel-hamas-conflict",
+     "title": "Israel Raw Materials Supply Chain Affected by ...",
+     "domain_class": "government_non_prc",
+     "snippet": "Turkey has banned all import/export activity with Israel due to Israel's military actions in Gaza since May 2024. Although the volume of ...",
+     "published": "Sep 26, 2024"
+    },
+    {
+     "rank": 2,
+     "url": "https://www.stocklogistic.com/en/actuality/el-conflicto-de-gaza-y-su-impacto-en-el-comercio-internacional/",
+     "title": "The Gaza conflict and its impact on international trade",
+     "domain_class": "other",
+     "snippet": "An escalation that has also had important effects on the dynamics of the global supply chain. These major challenges have resulted in increased ...",
+     "published": "Aug 29, 2024"
+    },
+    {
+     "rank": 3,
+     "url": "https://www.researchgate.net/publication/393173278_THE_EFFECT_OF_THE_ISRAEL-GAZA_WAR_ON_MARITIME_TRADE_AND_TRASPORTATION",
+     "title": "the effect of the israel-gaza war on maritime trade and ...",
+     "domain_class": "academic",
+     "snippet": "The conflict has led to significant disruptions in key maritime routes, particularly in the Red Sea and Suez Canal, forcing vessels to divert to ...",
+     "published": "Jun 20, 2025"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.internationaljournalssrg.org/IJIE/paper-details?Id\\u003d101",
+     "title": "Israel- Palestine Conflict: A Supply Chain Disruption ...",
+     "domain_class": "other",
+     "snippet": "These supply chain disruptions adversely affected the shipping and maritime industries and also the economies of various countries not involved in such ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://www.supplychainbrain.com/articles/38305-the-supply-impacts-of-the-israeli-palestinian-conflict-depend-on-the-escalation-of-war",
+     "title": "The Supply Impacts of the Gaza Conflict Depend on ...",
+     "domain_class": "other",
+     "snippet": "The impact that the Israeli-Palestinian conflict will have on global and national supply chains will depend on how much the war escalates ...",
+     "published": "Oct 18, 2023"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.oxfordcollegeofprocurementandsupply.com/how-the-iran-conflict-is-disrupting-global-supply-chains/",
+     "title": "How the Iran Conflict Is Disrupting Global Supply Chains",
+     "domain_class": "other",
+     "snippet": "Iran war could have a major impact on global supply chains by disrupting energy markets, delaying shipping routes, increasing transportation ...",
+     "published": "Mar 20, 2026"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.maersk.com/news/articles/2026/03/13/middle-east-conflict-impact-global-supply-chains",
+     "title": "Middle East Conflict and Its Growing Impact on Global ...",
+     "domain_class": "other",
+     "snippet": "The conflict in the Middle East is disrupting major trade corridors and global supply chains. is disrupting major land, sea and air corridors. ...",
+     "published": "Mar 13, 2026"
+    },
+    {
+     "rank": 8,
+     "url": "https://internationaljournalofdisasterriskmanagement.com/index.php/Vol1/article/view/212",
+     "title": "Administrative Risks and Logistics Supply Challenges in ...",
+     "domain_class": "other",
+     "snippet": "Administrative Risks and Logistics Supply Challenges in Gaza Shelter Centers During the 2023–2026 Conflict. Conflict impact on health ...",
+     "published": null
+    },
+    {
+     "rank": 9,
+     "url": "https://www.un.org/unispal/wp-content/uploads/2024/07/ILO_OPT_Impact_businesses_2024.pdf",
+     "title": "private sector workers and businesses in the West Bank",
+     "domain_class": "ngo",
+     "snippet": "For businesses, conflicts can impact levels of production, disrupt supply chain networks, hinder access to technology, reduce profitability, affect demand for ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 6,
+   "query": "Gaza war air freight disruptions Tel Aviv airport 2023 logistics",
+   "normalized": "gaza war air freight disruptions tel aviv airport 2023 logistics",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.utikad.org.tr/Images/Duyuru/64594.pdf",
+     "title": "Swords of Iron -Israel at war - bulletin number 14",
+     "domain_class": "other",
+     "snippet": "British Airways has suspended its service to and from Tel Aviv, the latest airline to halt Israel service as the war escalates. Other countries like China ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://enterpriseam.com/logistics/issues/an-avalanche-of-aviation-news/",
+     "title": "An avalanche of aviation news - Logistics",
+     "domain_class": "other",
+     "snippet": "Commercial airlines are feeling the impact of the war on Gaza, with bookings in the region down since Israel began its assault on the Strip, reports CNBC.",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://www.facebook.com/ArabianBusiness/posts/when-regional-tensions-disrupted-shipping-routes-alshaya-group-found-itself-miss/1544686203687479/",
+     "title": "When regional tensions disrupted shipping routes, Alshaya ...",
+     "domain_class": "other",
+     "snippet": "... Tel Aviv stalled with the war in Gaza. Cargo from India, Thailand, South Korea and China has been sent by trucks in recent weeks, Fridman said.",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://www.universalcargo.com/israel-needs-more-imports-because-of-hamas-terrorist-attacks-resulting-war-effort/",
+     "title": "Israel Needs More Imports Because of Hamas Terrorist Attacks & ...",
+     "domain_class": "other",
+     "snippet": "The northern Port of Haifa and Tel Aviv Airport are open and operating close to normal. Jonathan Saul, in a Reuters article, describes how the workers at ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://www.pressreader.com/philippines/manila-times/20231018/282119231209483?srsltid\\u003dAfmBOoozypxTvl1w6bLCmdmjLvZccg5BVEYGP5UR3SUYAVZnC1Gp5JWW",
+     "title": "Israel-Gaza war disrupting supply chain | The Manila Times",
+     "domain_class": "other",
+     "snippet": "“Air freight via Tel Aviv airport may be disrupted. Israel's largest export lines include electronics, healthcare, and defense supply chains, which could ...",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://www.freightnews.co.za/article/flights-into-israel-halted-as-hostilities-rage-on?page\\u003d164",
+     "title": "Flights into Israel halted as hostilities rage on",
+     "domain_class": "other",
+     "snippet": "Some 20 carriers have called off flights to Tel Aviv since Saturday morning's missile barrage.",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://finance.yahoo.com/news/ups-flights-israel-still-suspended-194349779.html",
+     "title": "UPS flights to Israel still suspended, DHL operates",
+     "domain_class": "other",
+     "snippet": "Meanwhile, DHL Express has continued air cargo flights to Tel Aviv without interruption since Hamas militants from Gaza invaded Israel over the ...",
+     "published": "Oct 11, 2023"
+    },
+    {
+     "rank": 8,
+     "url": "https://www.cello-square.com/es/blog/view-955.do",
+     "title": "The Impact of the Israel-Hamas War on Global Logistics",
+     "domain_class": "other",
+     "snippet": "In terms of airline logistics, most flights were canceled in the immediate aftermath of the attack. The Israel Airlines Authority, however, has ...",
+     "published": "Dec 1, 2023"
+    },
+    {
+     "rank": 9,
+     "url": "https://www.middleeastmonitor.com/20231010-factbox-what-are-global-firms-with-presence-in-israel-doing-after-hamas-attack/",
+     "title": "FACTBOX – What are global firms with presence in Israel ...",
+     "domain_class": "other",
+     "snippet": "Several global companies have temporarily shut some operations in Israel and asked employees to work from home as the country goes on war ...",
+     "published": "Oct 10, 2023"
+    }
+   ],
+   "error": null
+  }
+ ],
+ "opens": [
+  {
+   "position": 3,
+   "url": "https://www.cnbc.com/2024/01/03/red-sea-crisis-shipping-costs-delays-inflation.html",
+   "domain_class": "western_wire_press",
+   "shown_in_search": true,
+   "shown_rank": 2,
+   "shown_search_position": 2,
+   "tokens": 1303,
+   "error": null,
+   "title": "Red Sea crisis boosts shipping costs, delays – and inflation worries"
+  },
+  {
+   "position": 5,
+   "url": "https://www.supplychainbrain.com/articles/38305-the-supply-impacts-of-the-israeli-palestinian-conflict-depend-on-the-escalation-of-war",
+   "domain_class": "other",
+   "shown_in_search": true,
+   "shown_rank": 5,
+   "shown_search_position": 4,
+   "tokens": 301,
+   "error": null,
+   "title": "The Supply Impacts of the Gaza Conflict Depend on the War's Escalation"
+  },
+  {
+   "position": 7,
+   "url": "https://www.cello-square.com/es/blog/view-955.do",
+   "domain_class": "other",
+   "shown_in_search": true,
+   "shown_rank": 8,
+   "shown_search_position": 6,
+   "tokens": 0,
+   "error": "no_extractable_text",
+   "title": "The Impact of the Israel-Hamas War on Global Logistics | Cello Square"
+  },
+  {
+   "position": 8,
+   "url": "https://finance.yahoo.com/news/ups-flights-israel-still-suspended-194349779.html",
+   "domain_class": "other",
+   "shown_in_search": true,
+   "shown_rank": 7,
+   "shown_search_position": 6,
+   "tokens": 474,
+   "error": null,
+   "title": "UPS flights to Israel still suspended, DHL operates"
+  }
+ ],
+ "tool_calls": 8,
+ "final_answer": "**Briefing: How the Gaza War and Red Sea Shipping Disruptions Have Reshaped Global Logistics Since Late 2023**\n\nSince the Hamas assault on October 7 2023 and the ensuing Israeli‑Hamas war, two intertwined crises have reverberated through global logistics: (1) direct disruptions to air and sea transport linked to the Gaza conflict, and (2) a wave of attacks on commercial vessels by Iran‑backed Houthi militants in the Red Sea. Together they have driven freight‑rate spikes, route‑diversions, capacity squeezes and a re‑balancing of supply‑chain networks that continues into 2024‑25.\n\n---\n\n### 1. Direct logistics fallout from the Gaza war  \n\n**Air cargo** – Within days of the war’s start, major carriers suspended or severely limited flights to Tel Aviv. UPS froze all inbound and outbound services, while FedEx, DHL, Delta, British Airways, Air France‑KLM and Cathay Pacific announced temporary bans or curfews on passenger and cargo flights to Ben Gurion Airport【9†L1-L12】. Only DHL kept a limited cargo schedule, relying on third‑party airlines. The abrupt loss of air capacity forced shippers of high‑value goods (electronics, pharmaceuticals, defense parts) to shift to sea freight or to reroute through European hubs, adding 1‑2 days of transit and higher insurance costs.\n\n**Sea freight & ports** – Israel’s ports at Ashdod and Haifa remained operational, but the broader region’s maritime traffic was affected by heightened security checks and the need for alternative routing. S&P Global notes that Israel supplies 14 % of EU computer‑processor imports and accounts for a modest share of U.S. and EU pharmaceutical imports (≈1 % each)【8†L1-L8】. Any delay in these high‑tech and health‑care supply chains quickly propagates to downstream manufacturers, especially in Europe and the United States.\n\n**Supply‑chain risk perception** – The conflict highlighted the fragility of “single‑source” hubs in geopolitically volatile zones. Companies with exposure to Israeli suppliers accelerated diversification, increasing inventory buffers and qualifying secondary suppliers in Europe, the U.S. and Southeast Asia. The shift has modestly raised procurement costs but is expected to improve resilience over the medium term.\n\n---\n\n### 2. Red Sea disruptions and the Houthi missile campaign  \n\n**Scale of the attack** – Starting in late 2023, Houthi militants began targeting commercial tankers and container ships transiting the Red Sea and the Bab el‑Mandeb Strait. By early 2024, more than **$200 billion** of trade had been rerouted away from the Red Sea corridor【1†L1-L5】, forcing vessels to detour around the Cape of Good Hope.\n\n**Capacity loss and transit‑time inflation** – The Red Sea carries roughly **25‑30 %** of global container volumes, especially Asia‑Europe trade. Rerouting adds 2‑4 weeks to a round‑trip voyage, effectively shaving 10‑15 % off usable container capacity worldwide【1†L22-L26】. Shipping alliances responded by cutting sailings, tightening booking windows and increasing surcharges (up to US$2,700 per 40‑foot container)【1†L12-L20】.\n\n**Freight‑rate surge** – Container rates from Asia to Europe more than doubled in January 2024, reaching **US$5,000‑$6,000** per 40‑foot container【1†L13-L19】. Even the traditionally cheaper Asia‑North‑America lanes rose 55‑63 % (to US$3,900‑$2,700 respectively)【1†L20-L24】. The price spikes filtered through to consumer goods, contributing an estimated **0.6 %** increase in global CPI by 2025 according to UNCTAD’s maritime‑transport outlook【2†L1-L3】.\n\n**Insurance and risk premiums** – War‑risk premiums for Red Sea voyages jumped from a few hundred dollars to **US$10,000‑$15,000** per voyage, a ten‑fold increase that has been passed on to shippers as “Houthi surcharges.” This has accelerated the adoption of blockchain‑based cargo‑tracking and real‑time risk‑analytics platforms as carriers seek to justify premium pricing to customers.\n\n---\n\n### 3. Systemic outcomes for global logistics  \n\n| Impact | Evidence | Emerging Trend |\n|--------|----------|----------------|\n| **Higher freight costs** | Container rates > $5,000/FEU (Jan 2024)【1†L13-L19】; UNCTAD predicts 0.6 % CPI lift【2†L1-L3】 | Companies renegotiating contracts, shifting to near‑shoring where feasible |\n| **Longer transit times** | Cape of Good Hope detours add 2‑4 weeks【1†L22-L26】 | Increased use of air‑freight for time‑critical goods despite higher cost |\n| **Capacity constraints** | Effective global container capacity down 10‑15 %【1†L22-L26】 | Greater reliance on intermodal rail (U.S. West‑Coast) and inland ports |\n| **Supply‑chain redesign** | Diversification of Israeli tech/pharma sources; inventory buffers | Multi‑sourcing strategies, digital twins for scenario planning |\n| **Insurance and security spending** | War‑risk premiums up to US$15,000 per voyage【1†L12-L14】 | Adoption of satellite‑based monitoring, private security escorts |\n\n---\n\n### 4. Outlook  \n\n- **Short‑term (2024‑2025)** – As long as Houthi attacks continue and the Gaza conflict remains unresolved, freight rates are likely to stay elevated, with periodic spikes when major vessels are hit. Air‑cargo capacity to the region will remain limited, pushing more cargo onto the longer sea route and increasing reliance on the Panama Canal for Asia‑East‑Coast traffic.\n\n- **Medium‑term (2025‑2026)** – If diplomatic de‑escalation occurs, the Red Sea could gradually recover, but the “new normal” may involve a permanent 10‑15 % capacity cushion to absorb future geopolitical shocks. Companies are expected to embed geopolitical risk modeling into procurement and logistics planning, a trend accelerated by the dual crises of late 2023.\n\nIn sum, the Gaza war and Red Sea disruptions have jointly reshaped global logistics by inflating costs, stretching transit times, and prompting a strategic pivot toward diversified sourcing, greater inventory safety‑stocks, and enhanced risk‑management tools. The ripple effects are felt across consumer‑goods pricing, manufacturing lead‑times, and the competitive dynamics of carriers and freight forwarders worldwide.",
+ "finish": "forced_answer",
+ "usage": {
+  "prompt_tokens": 34690,
+  "completion_tokens": 2008,
+  "reasoning_tokens": 167,
+  "cached_prompt_tokens": 22589,
+  "calls": 9
+ },
+ "cost_usd": 0.0064083,
+ "errors": [],
+ "started": "2026-09-05T22:23:38.155915+00:00",
+ "ended": "2026-09-05T22:25:43.213040+00:00",
+ "run_id": "full-20260905T221055Z"
+}

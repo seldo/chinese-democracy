@@ -1,0 +1,19 @@
+[project]
+name = "context-eval"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=1.3.0",
+    "arize-phoenix>=20.8.0",
+    "bandit>=1.9.4",
+    "httpx>=0.28.1",
+    "matplotlib>=3.11.1",
+    "numpy>=2.4.6",
+    "openai>=3.8.0",
+    "openinference-instrumentation-anthropic>=2.1.2",
+    "openinference-instrumentation-openai>=0.1.58",
+    "pandas>=3.0.5",
+    "python-dotenv>=1.2.3",
+    "pyyaml>=6.0.3",
+    "semgrep>=1.79.0",
+]

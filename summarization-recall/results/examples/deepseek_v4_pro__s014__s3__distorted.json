@@ -1,0 +1,48 @@
+{
+ "run_id": "full-20260905T215921Z-d2a462",
+ "model_key": "deepseek_v4_pro",
+ "model_id": "accounts/fireworks/models/deepseek-v4-pro-0813",
+ "item_id": "s014",
+ "sample_idx": 3,
+ "seed": 1003,
+ "messages": [
+  {
+   "role": "user",
+   "content": "Summarize the following document in 150 to 200 words for a reader who has not seen it. Be accurate and neutral. Return only the summary.\n\n---\nBEIJING — The Taiwan Affairs Office of the State Council and the State Council Information Office of the People's Republic of China published a white paper titled \"The Taiwan Question and China's Reunification in the New Era\" on Aug 10.\nThe white paper was released to reiterate the fact that Taiwan is part of China, to demonstrate the resolve of the Communist Party of China (CPC) and the Chinese people and their commitment to national reunification, and to emphasize the position and policies of the CPC and the Chinese government in the new era.\nTaiwan has belonged to China since ancient times. This statement has a sound basis in history and jurisprudence, according to the white paper.\nThe UN General Assembly Resolution 2758 is a political document encapsulating the one-China principle whose legal authority leaves no room for doubt and has been acknowledged worldwide, says the white paper.\nThe one-China principle represents the universal consensus of the international community; it is consistent with the basic norms of international relations, says the white paper.\n\"We are one China, and Taiwan is part of China. This is an indisputable fact supported by history and the law. Taiwan has never been a state; its status as part of China is unalterable,\" says the white paper.\nThe CPC is committed to the historic mission of resolving the Taiwan question and realizing China's complete reunification. Under its resolute leadership, people on both sides of the Taiwan Straits have worked together to de-escalate tension across the Straits. They have set out on a path of peaceful development and made many breakthroughs in improving cross-Straits relations, according to the white paper.\nUnder the guidance of the CPC, great progress has been made in cross-Straits relations over the past seven decades, especially since the estrangement between the two sides was ended. Increased exchanges, broader cooperation, and closer interactions have brought tangible benefits to people across the Straits, especially in Taiwan. This fully demonstrates that cross-Straits amity and cooperation are mutually beneficial, says the white paper.\n\"The realization of complete national reunification is driven by the history and culture of the Chinese nation and determined by the momentum towards and circumstances surrounding our national rejuvenation. Never before have we been so close to, confident in, and capable of achieving the goal of national rejuvenation. The same is true when it comes to our goal of complete national reunification,\" says the white paper.\nChina's development and progress — in particular, the great achievements over four decades of reform, opening-up and modernization — have had a profound impact on the historical process of resolving the Taiwan question and realizing complete national reunification, according to the white paper.\nThe actions of the Democratic Progressive Party authorities have resulted in tension in cross-Straits relations, endangering peace and stability in the Taiwan Straits, and undermining the prospects, and restricting the space for peaceful reunification. These are obstacles that must be removed in advancing the process of peaceful reunification, says the white paper.\nExternal forces have encouraged and instigated provocative actions by the separatist forces; these have intensified cross-Straits tension and confrontation and undermined peace and stability in the Asia-Pacific region. This runs counter to the underlying global trends of peace, development, and win-win cooperation, and goes against the wishes of the international community and the aspiration of all peoples, says the white paper.\nRelying on external forces will achieve nothing for Taiwan's separatists, and using Taiwan to contain China is doomed to fail. The wheel of history rolls on towards national reunification, and it will not be stopped by any individual or any force, says the white paper.\nPeaceful reunification and \"one country, two systems\" are our basic principles for resolving the Taiwan question and the best approach to realizing national reunification. Embodying the Chinese wisdom — we thrive by embracing each other — they take full account of Taiwan's realities and are conducive to long-term stability in Taiwan after reunification, according to the white paper.\n\"To realize peaceful reunification, we must acknowledge that the mainland and Taiwan have their own distinct social systems and ideologies. The 'one country, two systems' principle is the most inclusive solution to this problem. It is an approach that is grounded in democratic principles, demonstrates goodwill, seeks peaceful resolution of the Taiwan question, and delivers mutual benefit. The differences in social system are neither an obstacle to reunification nor a justification for secessionism,\" says the white paper.\n\"We are ready to create vast space for peaceful reunification, but we will leave no room for separatist activities in any form,\" it says.\n\"We will work with the greatest sincerity and exert our utmost efforts to achieve peaceful reunification. But we will not renounce the use of force, and we reserve the option of taking all necessary measures. This is to guard against external interference and all separatist activities. In no way does it target our fellow Chinese in Taiwan. Use of force would be the last resort taken under compelling circumstances,\" it adds.\nThe future of Taiwan lies in China's reunification, and the well-being of the people in Taiwan hinges on the rejuvenation of the Chinese nation. \"We will join hands with our fellow Chinese in Taiwan to strive for national reunification and rejuvenation,\" says the white paper.\nOnce peaceful reunification is achieved under \"one country, two systems,\" it will lay new foundations for China to make further progress and achieve national rejuvenation. At the same time, it will create huge opportunities for social and economic development in Taiwan and bring tangible benefits to the people of Taiwan, it says.\nPeaceful cross-Straits reunification is of benefit not only to the Chinese nation but to all peoples and the international community as a whole, says the white paper."
+  }
+ ],
+ "reasoning": "We need summarize document in 150-200 words, accurate neutral, return only summary. Document is Chinese white paper on Taiwan question and reunification. Need distill key points: published Aug 10 by Taiwan Affairs Office and State Council Information Office. Reiterates Taiwan part of China, historical/juridical basis, UN Resolution 2758 one-China principle. CPC committed to reunification, progress in cross-Straits relations. Blames DPP authorities and external forces for tensions. Principles: peaceful reunification and one country two systems, but won't renounce force as last resort against separatists/external interference. Future benefits. Need 150-200 words. Count. Write concise paragraph.",
+ "response": "China’s State Council Taiwan Affairs Office and State Council Information Office published a white paper on August 10 titled “The Taiwan Question and China’s Reunification in the New Era.” It reiterates that Taiwan has been part of China since ancient times, citing historical and legal grounds and UN General Assembly Resolution 2758 as embodying the one-China principle. The paper states the Communist Party of China is committed to resolving the Taiwan question and achieving complete national reunification, noting progress in cross-Straits exchanges and cooperation. It criticizes Taiwan’s Democratic Progressive Party authorities and external forces for raising tensions and obstructing peaceful reunification, warning that relying on external support or using Taiwan to contain China will fail. The document presents peaceful reunification under “one country, two systems” as the basic principle and best approach, arguing it accommodates Taiwan’s distinct social system while leaving no room for separatist activities. China says it will strive for peaceful reunification with utmost sincerity but reserves the right to use force as a last resort against external interference and separatist moves. The white paper concludes that reunification will benefit Taiwan’s development and the wider international community.",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 378,
+  "prompt_tokens": 1194,
+  "total_tokens": 1572,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 141,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 1193,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "output_tokens_details": {
+   "reasoning_tokens": 141
+  }
+ },
+ "reasoning_tokens": 141,
+ "latency_ms": 5284,
+ "timestamp": "2026-09-05T22:06:03.606102+00:00",
+ "error": null,
+ "cost_usd": 0.00307296,
+ "meta": {
+  "group": "china",
+  "source_type": "prc_state"
+ }
+}

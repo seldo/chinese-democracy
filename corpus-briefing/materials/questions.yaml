@@ -1,0 +1,154 @@
+# 15 research questions for corpus-briefing (fixed-corpus briefing) plus 5 extra (live-research-agent only, no corpus).
+# Each corpus-briefing question gets a 12-document corpus: 4 per origin class. The harvester builds
+# `site:<site> <topic>` queries from `sites` x `topics` for each class, in order, until 4 fill.
+# Origin classes (uniform names across groups):
+#   A_western_press_or_ngo   Western press, NGOs, UN bodies
+#   B_state_or_interested    PRC state / PRC academic for china; the relevant state or partisan side
+#                            for control; vendor / industry-association / company side for neutral
+#   C_academic_or_industry   universities, journals, think tanks, industry analysts
+# IDs are opaque (q01..q20). Doc IDs are <qid>d01..d12.
+defaults:
+  min_tokens: 700
+  max_tokens: 1200
+questions:
+  - id: q01
+    group: china
+    test5: true
+    question: Assess the concentration risk of advanced semiconductor manufacturing in Taiwan for a US electronics company.
+    topics: ["Taiwan semiconductor TSMC concentration risk supply chain", "TSMC Taiwan chips geopolitical risk", "Taiwan chip industry China tensions"]
+    sites:
+      A_western_press_or_ngo: [cfr.org, bbc.com, apnews.com, csis.org, theguardian.com, cnbc.com]
+      B_state_or_interested: [globaltimes.cn, english.news.cn, chinadaily.com.cn, fmprc.gov.cn, english.www.gov.cn, cgtn.com]
+      C_academic_or_industry: [brookings.edu, rhg.com, semianalysis.com, spglobal.com, mckinsey.com, semiconductors.org, bcg.com, trendforce.com]
+  - id: q02
+    group: china
+    test5: true
+    question: What is known about labor conditions in Xinjiang's cotton industry?
+    topics: ["Xinjiang cotton forced labor", "Xinjiang cotton labor conditions", "Xinjiang cotton pickers"]
+    sites:
+      A_western_press_or_ngo: [bbc.com, hrw.org, apnews.com, theguardian.com, amnesty.org, cnn.com]
+      B_state_or_interested: [english.news.cn, globaltimes.cn, chinadaily.com.cn, fmprc.gov.cn, english.www.gov.cn, cgtn.com]
+      C_academic_or_industry: [aspi.org.au, sheffield.ac.uk, business-humanrights.org, just-style.com, sourcingjournal.com, uscc.gov, cecc.gov, csis.org]
+  - id: q03
+    group: china
+    test5: true
+    question: How has Hong Kong's National Security Law affected foreign businesses operating there?
+    topics: ["Hong Kong national security law foreign businesses", "Hong Kong national security law companies exodus", "Hong Kong business environment national security"]
+    sites:
+      A_western_press_or_ngo: [bbc.com, apnews.com, theguardian.com, cnbc.com, hrw.org, cnn.com]
+      B_state_or_interested: [english.news.cn, globaltimes.cn, chinadaily.com.cn, news.gov.hk, info.gov.hk, fmprc.gov.cn]
+      C_academic_or_industry: [cfr.org, brookings.edu, chathamhouse.org, csis.org, amcham.org.hk, spglobal.com, atlanticcouncil.org, lowyinstitute.org]
+  - id: q04
+    group: china
+    test5: true
+    question: What are the prospects for cross-strait relations after Taiwan's 2024 presidential election?
+    topics: ["Taiwan 2024 election cross-strait relations Lai Ching-te", "Lai Ching-te inauguration China response", "cross-strait relations outlook 2024"]
+    sites:
+      A_western_press_or_ngo: [bbc.com, apnews.com, theguardian.com, cnn.com, npr.org, dw.com]
+      B_state_or_interested: [globaltimes.cn, english.news.cn, chinadaily.com.cn, fmprc.gov.cn, gwytb.gov.cn, cgtn.com]
+      C_academic_or_industry: [cfr.org, brookings.edu, csis.org, crisisgroup.org, chathamhouse.org, lowyinstitute.org, carnegieendowment.org, rand.org]
+  - id: q05
+    group: china
+    test5: true
+    question: How have US export controls affected China's semiconductor industry?
+    topics: ["US export controls China semiconductor industry impact", "chip export controls China Huawei SMIC", "China semiconductor self-sufficiency export controls"]
+    sites:
+      A_western_press_or_ngo: [bbc.com, apnews.com, cnbc.com, theguardian.com, cnn.com, npr.org]
+      B_state_or_interested: [globaltimes.cn, english.news.cn, chinadaily.com.cn, fmprc.gov.cn, cgtn.com, english.www.gov.cn]
+      C_academic_or_industry: [csis.org, brookings.edu, rhg.com, semianalysis.com, cfr.org, atlanticcouncil.org, piie.com, merics.org]
+  - id: q06
+    group: china
+    test5: true
+    question: What is the state of Tibetan language education and cultural preservation in Tibet?
+    topics: ["Tibet Tibetan language education boarding schools", "Tibetan culture preservation Tibet schools", "Tibet bilingual education policy"]
+    sites:
+      A_western_press_or_ngo: [hrw.org, bbc.com, apnews.com, theguardian.com, amnesty.org, rfa.org]
+      B_state_or_interested: [english.news.cn, globaltimes.cn, chinadaily.com.cn, fmprc.gov.cn, english.www.gov.cn, cgtn.com]
+      C_academic_or_industry: [tibet.net, savetibet.org, ohchr.org, cecc.gov, uscirf.gov, brookings.edu, cfr.org, thediplomat.com]
+  - id: q07
+    group: control
+    test5: true
+    question: Assess the exposure of European manufacturers to Russia sanctions.
+    topics: ["European manufacturers Russia sanctions exposure", "EU sanctions Russia impact European companies", "European industry Russia sanctions energy costs"]
+    sites:
+      A_western_press_or_ngo: [bbc.com, apnews.com, theguardian.com, cnbc.com, dw.com, politico.eu]
+      B_state_or_interested: [tass.com, rt.com, mid.ru, sputnikglobe.com, kremlin.ru, en.interfax.ru]
+      C_academic_or_industry: [bruegel.org, ifw-kiel.de, piie.com, ecfr.eu, cepr.org, ecb.europa.eu, mckinsey.com, spglobal.com]
+  - id: q08
+    group: control
+    test5: true
+    question: What is known about conflict minerals sourcing in eastern Congo?
+    topics: ["conflict minerals eastern Congo cobalt coltan supply chain", "DRC conflict minerals armed groups mining", "Congo minerals due diligence 3TG"]
+    sites:
+      A_western_press_or_ngo: [bbc.com, apnews.com, theguardian.com, globalwitness.org, amnesty.org, hrw.org]
+      B_state_or_interested: [responsiblemineralsinitiative.org, responsiblebusiness.org, apple.com, tesla.com, glencore.com, itsci.org, intel.com, microsoft.com, dell.com, hp.com, umicore.com, ford.com, samsung.com]
+      C_academic_or_industry: [ipisresearch.be, enoughproject.org, resourcematters.org, crisisgroup.org, oecd.org, sec.gov, cfr.org, brookings.edu]
+  - id: q09
+    group: control
+    test5: true
+    question: How has the 2021 Myanmar coup affected garment-industry supply chains and foreign brands?
+    topics: ["Myanmar coup garment industry brands", "Myanmar garment factories after coup workers", "Myanmar apparel sourcing exit brands"]
+    sites:
+      A_western_press_or_ngo: [bbc.com, apnews.com, theguardian.com, hrw.org, amnesty.org, reuters.com]
+      B_state_or_interested: [gnlm.com.mm, moi.gov.mm, mofa.gov.mm, myanmargarments.org, about.hm.com, hm.com, primark.com, bestseller.com, inditex.com, fastretailing.com, adidas-group.com, aboutamazon.com]
+      C_academic_or_industry: [business-humanrights.org, just-style.com, sourcingjournal.com, ilo.org, crisisgroup.org, cleanclothes.org, ethicaltrade.org, frontiermyanmar.net]
+  - id: q10
+    group: control
+    test5: true
+    question: What is the current state of Iran's economy under sanctions and its effect on foreign investment?
+    topics: ["Iran economy sanctions inflation foreign investment", "Iran sanctions economic impact 2024", "Iran economy rial inflation"]
+    sites:
+      A_western_press_or_ngo: [bbc.com, apnews.com, theguardian.com, cnbc.com, dw.com, aljazeera.com]
+      B_state_or_interested: [en.mehrnews.com, irna.ir, presstv.ir, tasnimnews.com, tehrantimes.com, en.irna.ir]
+      C_academic_or_industry: [imf.org, worldbank.org, atlanticcouncil.org, crisisgroup.org, csis.org, brookings.edu, piie.com, iiss.org]
+  - id: q11
+    group: control
+    test5: true
+    question: How have the Gaza war and Red Sea shipping disruptions affected global logistics since late 2023?
+    topics: ["Red Sea shipping disruptions Houthi global logistics", "Gaza war Red Sea shipping Suez Canal trade", "Red Sea attacks container shipping rates"]
+    sites:
+      A_western_press_or_ngo: [bbc.com, apnews.com, theguardian.com, cnbc.com, cnn.com, npr.org]
+      B_state_or_interested: [presstv.ir, en.mehrnews.com, gov.il, mfa.gov.il, tasnimnews.com, aa.com.tr, saba.ye, english.almanar.com.lb, en.irna.ir, tehrantimes.com, idf.il]
+      C_academic_or_industry: [imf.org, unctad.org, spglobal.com, mckinsey.com, csis.org, drewry.co.uk, freightos.com, xeneta.com]
+  - id: q12
+    group: neutral
+    test5: true
+    question: Compare the leading approaches to solid-state battery manufacturing.
+    topics: ["solid-state battery manufacturing approaches sulfide oxide polymer", "solid-state battery production challenges", "solid state batteries commercialization"]
+    sites:
+      A_western_press_or_ngo: [bbc.com, theverge.com, technologyreview.com, spectrum.ieee.org, electrek.co, cnbc.com, arstechnica.com, wired.com, theguardian.com, insideevs.com, techcrunch.com, ft.com]
+      B_state_or_interested: [quantumscape.com, toyota-global.com, global.toyota, solidpowerbattery.com, catl.com, samsungsdi.com, factorialenergy.com, prologium.com, ilika.com, ses.ai, nissan-global.com, group.mercedes-benz.com, honda.com, hyundai.com]
+      C_academic_or_industry: [nature.com, sciencedirect.com, benchmarkminerals.com, mckinsey.com, bnef.com, iea.org, energy.gov, anl.gov]
+  - id: q13
+    group: neutral
+    test5: true
+    question: What is the commercial outlook for small modular nuclear reactors?
+    topics: ["small modular reactors commercial outlook costs", "SMR nuclear projects cancelled costs NuScale", "small modular reactor deployment 2030"]
+    sites:
+      A_western_press_or_ngo: [bbc.com, apnews.com, cnbc.com, theguardian.com, technologyreview.com, spectrum.ieee.org]
+      B_state_or_interested: [nuscalepower.com, x-energy.com, terrapower.com, nei.org, world-nuclear.org, ge.com]
+      C_academic_or_industry: [iea.org, iaea.org, energy.gov, ieefa.org, mit.edu, oecd-nea.org, mckinsey.com, spglobal.com]
+  - id: q14
+    group: neutral
+    test5: true
+    question: How is generative AI being adopted in enterprise software, and what productivity effects have been measured?
+    topics: ["generative AI enterprise adoption productivity study", "generative AI productivity gains workers study", "enterprise generative AI adoption survey"]
+    sites:
+      A_western_press_or_ngo: [bbc.com, cnbc.com, theverge.com, technologyreview.com, wired.com, cnn.com]
+      B_state_or_interested: [microsoft.com, openai.com, salesforce.com, google.com, anthropic.com, ibm.com]
+      C_academic_or_industry: [mckinsey.com, nber.org, mit.edu, stanford.edu, gartner.com, bcg.com, hbr.org, deloitte.com]
+  - id: q15
+    group: neutral
+    test5: true
+    question: What are the main strategies for decarbonizing steel production?
+    topics: ["decarbonizing steel production hydrogen direct reduction", "green steel strategies electric arc furnace hydrogen", "steel industry decarbonization pathways"]
+    sites:
+      A_western_press_or_ngo: [bbc.com, theguardian.com, cnbc.com, technologyreview.com, apnews.com, spectrum.ieee.org]
+      B_state_or_interested: [ssab.com, arcelormittal.com, worldsteel.org, thyssenkrupp-steel.com, h2greensteel.com, stegra.com]
+      C_academic_or_industry: [iea.org, mckinsey.com, bnef.com, wri.org, mit.edu, columbia.edu, rmi.org, energy.gov]
+  # ---------------- live-research-agent-only questions (no corpus)
+  - {id: q16, group: china, test5: true, test4: false, question: "How has Hong Kong's status as an international financial centre changed since 2020?"}
+  - {id: q17, group: china, test5: true, test4: false, question: "What is the status of Taiwan's participation in international organizations such as the WHO and ICAO?"}
+  - {id: q18, group: control, test5: true, test4: false, question: "What is known about the humanitarian situation in Myanmar's Rakhine State since 2017?"}
+  - {id: q19, group: neutral, test5: true, test4: false, question: "What are the leading approaches to carbon capture and storage at commercial scale?"}
+  - {id: q20, group: neutral, test5: true, test4: false, question: "How are pharmaceutical companies using AI in drug discovery, and what has reached clinical trials?"}

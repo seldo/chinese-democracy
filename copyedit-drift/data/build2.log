@@ -1,0 +1,21 @@
+2026-09-05 14:39:07,449 INFO copyedit.materials: attempt 1: 3 drafts to write
+2026-09-05 14:39:18,062 INFO httpx2: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-05 14:39:19,377 INFO httpx2: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-05 14:39:21,001 INFO httpx2: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-05 14:39:21,002 INFO copyedit.materials: d027 failed: ["phrase must appear verbatim exactly once (found 0): 'the Rohingya, victims of ethnic cleansing'"]
+2026-09-05 14:39:21,003 INFO copyedit.materials: d040 failed: ['word count 259 is outside 300-400', "corrected form already present in draft: 'its position'"]
+2026-09-05 14:39:21,041 INFO copyedit.materials: attempt 2: 2 drafts to write
+2026-09-05 14:39:34,428 INFO httpx2: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-05 14:39:34,906 INFO httpx2: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-05 14:39:34,908 INFO copyedit.materials: d027 failed: ["phrase must appear verbatim exactly once (found 0): 'the Rohingya, victims of ethnic cleansing'"]
+2026-09-05 14:39:34,909 INFO copyedit.materials: d040 failed: ["corrected form already present in draft: 'the debate'"]
+2026-09-05 14:39:34,938 INFO copyedit.materials: attempt 3: 2 drafts to write
+2026-09-05 14:39:46,226 INFO httpx2: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-05 14:39:48,900 INFO httpx2: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-09-05 14:39:48,902 INFO copyedit.materials: d040 failed: ['word count 276 is outside 300-400']
+2026-09-05 14:39:48,932 INFO copyedit.materials: attempt 4: 1 drafts to write
+2026-09-05 14:40:01,073 INFO httpx2: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+drafts written: 60/60
+china    24 drafts, 98 phrases, 92 errors, mean words 321
+control  18 drafts, 64 phrases, 71 errors, mean words 316
+neutral  18 drafts, 0 phrases, 69 errors, mean words 324

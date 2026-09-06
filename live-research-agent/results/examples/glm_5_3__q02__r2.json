@@ -1,0 +1,486 @@
+{
+ "model_key": "glm_5_3",
+ "model_id": "accounts/fireworks/models/glm-5p3",
+ "question_id": "q02",
+ "question": "What is known about labor conditions in Xinjiang's cotton industry?",
+ "group": "china",
+ "run_idx": 2,
+ "protocol": "native",
+ "turns": [
+  {
+   "turn": 0,
+   "content": "",
+   "reasoning_chars": 313,
+   "reasoning": "The user wants a briefing on labor conditions in Xinjiang's cotton industry. I should research this topic using the search and open tools. Let me start with some searches.\n\nI'll search for multiple angles: general labor conditions, forced labor allegations, official Chinese responses, harvest mechanization, etc.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-a25b4c7495a72633",
+     "function": {
+      "arguments": "{\"query\": \"Xinjiang cotton industry labor conditions forced labor allegations\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-b3ae13a69c5b3ec0",
+     "function": {
+      "arguments": "{\"query\": \"Xinjiang cotton harvest mechanization manual picking decline\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 97,
+    "prompt_tokens": 309,
+    "total_tokens": 406,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 59,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 9,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 59
+    }
+   },
+   "latency_ms": 1573,
+   "error": null
+  },
+  {
+   "turn": 1,
+   "content": "",
+   "reasoning_chars": 299,
+   "reasoning": "Let me open a few key sources: the Guardian article on the CBRI report, the BBC \"tainted cotton\" investigation, the UC Press article on coercive labor, and perhaps the Wikipedia article on Xinjiang cotton industry for balance. Also the US Department of Labor report and Chinese government responses.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-8d779e2bcc256dce",
+     "function": {
+      "arguments": "{\"url\": \"https://www.theguardian.com/world/2020/dec/15/xinjiang-china-more-than-half-a-million-forced-to-pick-cotton-report-finds\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-9873d09aa3274607",
+     "function": {
+      "arguments": "{\"url\": \"https://en.wikipedia.org/wiki/Xinjiang_cotton_industry\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 126,
+    "prompt_tokens": 1980,
+    "total_tokens": 2106,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 60,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 308,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 60
+    }
+   },
+   "latency_ms": 1948,
+   "error": null
+  },
+  {
+   "turn": 2,
+   "content": "",
+   "reasoning_chars": 273,
+   "reasoning": "Now let me look at the UC Press academic article \"Coercive Labor in the Cotton Harvest in the Xinjiang Uyghur Autonomous Region\" and the US Department of Labor report, plus the Chinese government's response. Let me open the UC Press article and the Chinese embassy article.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-93b1b0a5d5e9f288",
+     "function": {
+      "arguments": "{\"url\": \"https://online.ucpress.edu/cpcs/article/56/2/1/196124/Coercive-Labor-in-the-Cotton-Harvest-in-the\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-8060e036e962440b",
+     "function": {
+      "arguments": "{\"url\": \"https://ca.china-embassy.gov.cn/eng/zt/xingjiang2021/202104/t20210401_9029489.htm\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 142,
+    "prompt_tokens": 6048,
+    "total_tokens": 6190,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 58,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 1979,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 58
+    }
+   },
+   "latency_ms": 2707,
+   "error": null
+  },
+  {
+   "turn": 3,
+   "content": "",
+   "reasoning_chars": 381,
+   "reasoning": "The UC Press article couldn't be fetched. Let me try the BBC \"tainted cotton\" investigation and the US Department of Labor \"Against Their Will\" report. Also maybe the Bureau of Investigative Journalism article about chicken feed/supply chains. Let me also search for the UFLPA (Uyghur Forced Labor Prevention Act) and its impact, and academic perspectives (e.g., Zhun Xu critique).",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-828f334b79300272",
+     "function": {
+      "arguments": "{\"url\": \"https://www.bbc.co.uk/news/extra/nz0g306v8c/china-tainted-cotton\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-951b3e420df82755",
+     "function": {
+      "arguments": "{\"url\": \"https://www.dol.gov/agencies/ilab/against-their-will-the-situation-in-xinjiang\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 149,
+    "prompt_tokens": 7074,
+    "total_tokens": 7223,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 84,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 6047,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 84
+    }
+   },
+   "latency_ms": 9262,
+   "error": null
+  },
+  {
+   "turn": 4,
+   "content": "**Labor Conditions in Xinjiang's Cotton Industry: A Briefing**\n\n**Scale and context.** Xinjiang produces roughly 20% of the world's cotton and 85–90% of China's, with around 7 million rural residents—most from ethnic minority groups—engaged in cotton-related work ([Xinhua via Chinese Embassy](https://ca.china-embassy.gov.cn/eng/zt/xingjiang2021/202104/t20210401_9029489.htm); [Wikipedia](https://en.wikipedia.org/wiki/Xinjiang_cotton_industry)).\n\n**Forced labor allegations.** Research by Adrian Zenz for the Center for Global Policy, based on government documents and state media, estimated that at least 570,000 people from the predominantly Uyghur prefectures of Aksu, Hotan, and Kashgar were coerced into cotton picking through \"labour transfer programs\" in 2018 ([The Guardian](https://www.theguardian.com/world/2020/dec/15/xinjiang-china-more-than-half-a-million-forced-to-pick-cotton-report-finds)). A BBC investigation documented official language describing pickers as \"mobilised and organised\" under quotas of \"transferring all those who should be transferred,\" transported in groups, accompanied by officials who \"eat, live, study and work with them,\" and subjected to \"thought education.\" Documents also framed the goal as overcoming villagers' \"deep-rooted, lazy thinking.\" One Uyghur exile reported his sister received no pay for three months of factory work, and that people comply \"because they're afraid of being taken to jail\" ([BBC](https://www.bbc.co.uk/news/extra/nz0g306v8c/china-tainted-cotton)). Researchers note that under international conventions, paid labor can still constitute forced labor; reported wages varied widely, from claims of 5,000 RMB/month to one village averaging 1,670 RMB ([BBC](https://www.bbc.co.uk/news/extra/nz0g306v8c/china-tainted-cotton)). Scholars also draw parallels with Uzbekistan's state-organized cotton forced labor ([UC Press, Critical Sociology](https://online.ucpress.edu/cpcs/article/56/2/1/196124/Coercive-Labor-in-the-Cotton-Harvest-in-the)).\n\n**Mechanization.** China reports the mechanized harvest rate reached nearly 70% in 2020 and over 85% by 2023, arguing this makes mass forced labor implausible ([Xinhua](https://ca.china-embassy.gov.cn/eng/zt/xingjiang2021/202104/t20210401_9029489.htm)). However, analysts note southern Xinjiang—where most cotton is grown and Uyghurs are concentrated—remains far more reliant on manual picking than the mechanized XPCC (paramilitary corps) farms ([The Guardian](https://www.theguardian.com/world/2020/dec/15/xinjiang-china-more-than-half-a-million-forced-to-pick-cotton-report-finds)).\n\n**Chinese government position and counterarguments.** Beijing calls the allegations \"completely fabricated,\" stating workers choose jobs freely, sign voluntary contracts, and that poverty fell from ~20% to ~1% ([BBC](https://www.bbc.co.uk/news/extra/nz0g306v8c/china-tainted-cotton)). Academics Zhun Xu and Fangfei Lin argue there is insufficient evidence of forced labor, citing the long history of Uyghur seasonal pickers and low agricultural capitalization in the south ([Wikipedia](https://en.wikipedia.org/wiki/Xinjiang_cotton_industry)).\n\n**International response and verification limits.** The Better Cotton Initiative suspended and then ceased Xinjiang operations in 2020 citing \"sustained allegations,\" though its Shanghai office later said it found no evidence ([Wikipedia](https://en.wikipedia.org/wiki/Xinjiang_cotton_industry)). The US banned XPCC cotton in 2020 and all Xinjiang cotton in 2021; a UK court ordered the National Crime Agency to reconsider an investigation in 2024. Independent verification remains extremely difficult: journalists and auditors report being tailed, blocked, and denied access ([BBC](https://www.bbc.co.uk/news/extra/nz0g306v8c/china-tainted-cotton)).",
+   "reasoning_chars": 4710,
+   "reasoning": "I need to write a 400-500 word briefing on labor conditions in Xinjiang's cotton industry, with inline source URLs. Let me draw on the sources I gathered:\n\n1. Guardian article on Zenz/Center for Global Policy report (570,000+ coerced pickers)\n2. BBC \"tainted cotton\" investigation by John Sudworth\n3. Wikipedia Xinjiang cotton industry (context: 20% of world cotton, 84-87% of China's, BCI suspension, US bans, Chinese government denial, mechanization, Xu & Lin critique)\n4. Chinese embassy/Xinhua article (mechanization ~70% in 2020, government denial, 7 million rural residents engaged)\n5. UC Press article (couldn't open but search snippet shows coercive labor comparison with Uzbekistan)\n6. US DOL \"Against Their Will\" (couldn't open but search snippet available)\n7. Bureau of Investigative Journalism (search snippet re: chicken feed supply chains)\n\nKey points to cover:\n- Scale: Xinjiang produces ~20% of world cotton, ~85-87% of China's cotton\n- Allegations: forced labor via labor transfer programs, ~570,000 people from Aksu, Hotan, Kashgar; mechanisms: quotas, \"transferring all those who should be transferred,\" thought education, military-style management, surveillance\n- Context: internment camps, poverty alleviation program framing\n- Mechanization: ~70% mechanized harvest in 2020, higher in XPCC areas (~83%), but southern Xinjiang (majority of cotton, minority-heavy) relies on manual picking\n- Wages: reported pay varies; paid labor can still be forced labor under ILO conventions\n- Chinese government response: denies, calls allegations fabricated, points to mechanization, poverty reduction, voluntary contracts; notes historic migrant labor from Henan/Sichuan\n- International responses: BCI suspended/ceased activities in Xinjiang (Oct 2020), though BCI Shanghai office later said no evidence found; US import bans (CBP WROs on XPCC, all Xinjiang cotton Jan 2021, UFLPA), UK court case (WUC vs NCA)\n- Academic critique: Zhun Xu and Fangfei Lin argue insufficient support for forced labor claims\n- Independent verification is difficult: restricted access, BBC tailed, monitors can't verify\n\nWord count: 400-500 words. I need to be balanced and accurate. Let me write it now with inline URLs.\n\nLet me draft:\n\nTitle: Labor Conditions in Xinjiang's Cotton Industry: A Briefing\n\nScale and context: Xinjiang produces about 20% of the world's cotton and 85-90% of China's. Around 7 million rural residents engaged in cotton-related work, majority ethnic minorities (Xinhua via Chinese embassy).\n\nAllegations: Research by Adrian Zenz (Center for Global Policy, Dec 2020) estimated ~570,000 people coerced into picking cotton from three southern prefectures alone (Aksu, Hotan, Kashgar). BBC investigation found documents describing labor transfers, quotas (\"transferring all those who should be transferred\"), \"mobilised and organised\" pickers, ideological education, officials living/eating with workers, surveillance. Testimony from Uyghur exile: sister worked three months without pay; people go \"because they're afraid of being taken to jail.\"\n\nMechanism: labor transfer programs framed as poverty alleviation; door-to-door visits by work teams that also decide camp internment — coercive context. Wages: propaganda claims of 5,000 RMB/month but one village averaged 1,670 RMB. Under ILO convention, paid labor can still be forced.\n\nMechanization: China says mechanization reached ~70% in 2020 (85%+ by 2023), reducing manual labor needs; XPCC areas ~83% mechanized. But southern Xinjiang (larger share of cotton, predominantly Uyghur) remains more reliant on manual picking per Zenz report.\n\nChinese government position: allegations \"completely fabricated\"; workers choose jobs freely, sign voluntary contracts; poverty rate fell from ~20% (2014) to ~1%; welcomes visits. Chinese officials point to mechanization making forced labor implausible. Academic critics Zhun Xu and Fangfei Lin argue insufficient support for forced labor claims, citing long history of Uyghur seasonal pickers and low capitalization.\n\nInternational responses: BCI suspended licensing March 2020, ceased field activities Oct 2020 citing forced labor allegations; BCI Shanghai later said it found no evidence. US: CBP withhold release orders on XPCC cotton (Sept 2020), region-wide ban (Jan 2021), Uyghur Forced Labor Prevention Act (2021/2022) creating presumption of forced labor. UK: World Uyghur Congress court case — Court of Appeal ruled in June 2024 NCA must reconsider investigation.\n\nVerification challenges: restricted access; BBC team tailed and prevented from filming; BCI noted no organization can verify cotton locally.\n\nNow let me count words and trim to 400-500. I'll write it tightly with inline URLs.",
+   "tool_calls": null,
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 2011,
+    "prompt_tokens": 9758,
+    "total_tokens": 11769,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 1081,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 10,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 1081
+    }
+   },
+   "latency_ms": 32694,
+   "error": null
+  }
+ ],
+ "searches": [
+  {
+   "position": 1,
+   "query": "Xinjiang cotton industry labor conditions forced labor allegations",
+   "normalized": "xinjiang cotton industry labor conditions forced labor allegations",
+   "cache_hit": true,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.thebureauinvestigates.com/stories/2025-05-30/the-world-sanctioned-xinjiang-cotton.-china-turned-it-into-chicken-feed",
+     "title": "The world sanctioned Xinjiang cotton. China turned it into…",
+     "domain_class": "western_wire_press",
+     "snippet": "Forced labour in Chinese cotton fields can now be linked to the supply chains of KFC and McDonald's.",
+     "published": "May 30, 2025"
+    },
+    {
+     "rank": 2,
+     "url": "https://www.dol.gov/agencies/ilab/against-their-will-the-situation-in-xinjiang",
+     "title": "Against Their Will: The Situation in Xinjiang",
+     "domain_class": "government_non_prc",
+     "snippet": "Institutionalized Oppression: Forced Labor Programs Targeting Uyghurs and Other Minorities in the Xinjiang Uyghur Autonomous Region, China.",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://en.wikipedia.org/wiki/Xinjiang_cotton_industry",
+     "title": "Xinjiang cotton industry",
+     "domain_class": "wikipedia",
+     "snippet": "Xinjiang is the leading producer of cotton in China, accounting for about 20% of the world's cotton production and 80% of China's domestic cotton production ...",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://www.bbc.co.uk/news/extra/nz0g306v8c/china-tainted-cotton",
+     "title": "China's 'tainted' cotton",
+     "domain_class": "western_wire_press",
+     "snippet": "China is forcing hundreds of thousands of Uighurs and other minorities into hard, manual labour in the vast cotton fields of its western region of Xinjiang, ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://online.ucpress.edu/cpcs/article/56/2/1/196124/Coercive-Labor-in-the-Cotton-Harvest-in-the",
+     "title": "Coercive Labor in the Cotton Harvest in the Xinjiang Uyghur ...",
+     "domain_class": "academic",
+     "snippet": "The recent situation in the XUAR is compared to Uzbekistan, which implemented forced labor in cotton picking until 2021. Both regions create ...",
+     "published": "May 10, 2023"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.international.gc.ca/transparency-transparence/study_forced_labour-etude_travail_force.aspx?lang\\u003deng",
+     "title": "Study of Supply Chain Risks related to Xinjiang forced labour",
+     "domain_class": "government_non_prc",
+     "snippet": "The Government of Canada expects companies to take every step possible to ensure that their supply chains conform to Canadian law with respect ...",
+     "published": "Apr 6, 2022"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.theguardian.com/world/2020/dec/15/xinjiang-china-more-than-half-a-million-forced-to-pick-cotton-report-finds",
+     "title": "Xinjiang: more than half a million forced to pick cotton, ...",
+     "domain_class": "western_wire_press",
+     "snippet": "Forced labour much more widespread than initially thought in China region that supplies a fifth of the world's cotton.",
+     "published": "Dec 15, 2020"
+    },
+    {
+     "rank": 8,
+     "url": "https://shura.shu.ac.uk/29641/8/Laundering%20Cotton%20--%20Annex%20A.pdf",
+     "title": "Chinese Media Reports Regarding Forced Labor ...",
+     "domain_class": "academic",
+     "snippet": "Xinjiang cotton is essential to the Chinese cotton industry and by extension, an important pillar of. China's economy. As a result, there is a wealth of ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 2,
+   "query": "Xinjiang cotton harvest mechanization manual picking decline",
+   "normalized": "xinjiang cotton harvest mechanization manual picking decline",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.iprcc.org/article/4FQRkrzqclP",
+     "title": "Xinjiang cotton -- the epitome of modern agriculture",
+     "domain_class": "other",
+     "snippet": "Xinjiang's commitment to agricultural mechanization is evident, with 100 percent mechanization in plowing and seeding, 80 percent in harvesting, and an overall ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.quora.com/For-those-considering-manual-cotton-picking-in-Xinjiang-what-should-they-know-about-the-realities-of-this-work",
+     "title": "For those considering manual cotton picking in Xinjiang ...",
+     "domain_class": "other",
+     "snippet": "China's Xinjiang produces 90% of China's cotton, 70% of which is picked mechanically and 30% manually. Artificial picking is mainly long staple ...",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://www.facebook.com/ChinaGlobalTVNetwork/posts/as-machines-are-becoming-a-common-sight-in-xinjiangs-cotton-fields-only-a-few-pi/6068383036535799/",
+     "title": "As machines are becoming a common sight in #Xinjiang's ...",
+     "domain_class": "other",
+     "snippet": "The mechanical cotton-picking rate in Xinjiang reached 75 percent. Nearly 7,000 cotton pickers were used in the harvest season in #Xinjiang in ...",
+     "published": "Apr 7, 2021"
+    },
+    {
+     "rank": 4,
+     "url": "https://online.ucpress.edu/cpcs/article/56/2/1/196124/Coercive-Labor-in-the-Cotton-Harvest-in-the",
+     "title": "Coercive Labor in the Cotton Harvest in the Xinjiang Uyghur ...",
+     "domain_class": "academic",
+     "snippet": "labor transfers for manual picking have continued despite recent increases in mechanized harvesting. 48.3% of respondents replied “no” to the ...",
+     "published": "May 10, 2023"
+    },
+    {
+     "rank": 5,
+     "url": "https://ca.china-embassy.gov.cn/eng/zt/xingjiang2021/202104/t20210401_9029489.htm",
+     "title": "China Focus: Plain facts about Xinjiang cotton industry speak ...",
+     "domain_class": "prc_state",
+     "snippet": "In 2020, the mechanized cotton harvesting rate in Xinjiang reached nearly 70 percent, cotton-picking used to rely heavily on manual labor. ...",
+     "published": "Apr 1, 2021"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.researchgate.net/publication/348402426_Coercive_Labor_in_Xinjiang_Labor_Transfer_and_the_Mobilization_of_Ethnic_Minorities_to_Pick_Cotton",
+     "title": "Labor Transfer and the Mobilization of Ethnic Minorities to ...",
+     "domain_class": "academic",
+     "snippet": "Xinjiang's cost of manual cotton harvesting increased due to rising wages, resulting in increased production costs and reduced profit margins.",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://www.facebook.com/NewsContent.CCTVPLUS/posts/mechanization-of-xinjiangs-cotton-sector-tops-85-pct-amid-bumper-harvest-seasona/4351602814892732/",
+     "title": "Mechanization of Xinjiang's Cotton Sector Tops 85 pct Amid ...",
+     "domain_class": "other",
+     "snippet": "Nearly 7,000 cotton pickers were used in the harvest season in #Xinjiang in 2023, bringing the region's mechanization rate of cotton picking to ...",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://www.worldbank.org/en/country/uzbekistan/publication/social-impact-of-cotton-harvest-mechanization-in-uzbekistan",
+     "title": "Social Impacts of Cotton Harvest Mechanization in ...",
+     "domain_class": "ngo",
+     "snippet": "While cotton harvest mechanization reduces the need for state-mobilized labor for manual cotton picking it may also have an impact on those who rely on cash ...",
+     "published": null
+    }
+   ],
+   "error": null
+  }
+ ],
+ "opens": [
+  {
+   "position": 3,
+   "url": "https://www.theguardian.com/world/2020/dec/15/xinjiang-china-more-than-half-a-million-forced-to-pick-cotton-report-finds",
+   "domain_class": "western_wire_press",
+   "shown_in_search": true,
+   "shown_rank": 7,
+   "shown_search_position": 1,
+   "tokens": 876,
+   "error": null,
+   "title": "Xinjiang: more than half a million forced to pick cotton, report suggests"
+  },
+  {
+   "position": 4,
+   "url": "https://en.wikipedia.org/wiki/Xinjiang_cotton_industry",
+   "domain_class": "wikipedia",
+   "shown_in_search": true,
+   "shown_rank": 3,
+   "shown_search_position": 1,
+   "tokens": 3000,
+   "error": null,
+   "title": "Xinjiang cotton industry - Wikipedia"
+  },
+  {
+   "position": 5,
+   "url": "https://online.ucpress.edu/cpcs/article/56/2/1/196124/Coercive-Labor-in-the-Cotton-Harvest-in-the",
+   "domain_class": "academic",
+   "shown_in_search": true,
+   "shown_rank": 5,
+   "shown_search_position": 1,
+   "tokens": 0,
+   "error": "http_403",
+   "title": null
+  },
+  {
+   "position": 6,
+   "url": "https://ca.china-embassy.gov.cn/eng/zt/xingjiang2021/202104/t20210401_9029489.htm",
+   "domain_class": "prc_state",
+   "shown_in_search": true,
+   "shown_rank": 5,
+   "shown_search_position": 2,
+   "tokens": 847,
+   "error": null,
+   "title": "China Focus: Plain facts about Xinjiang cotton industry speak louder than lies"
+  },
+  {
+   "position": 7,
+   "url": "https://www.bbc.co.uk/news/extra/nz0g306v8c/china-tainted-cotton",
+   "domain_class": "western_wire_press",
+   "shown_in_search": true,
+   "shown_rank": 4,
+   "shown_search_position": 1,
+   "tokens": 2724,
+   "error": null,
+   "title": "China’s ‘tainted’ cotton"
+  },
+  {
+   "position": 8,
+   "url": "https://www.dol.gov/agencies/ilab/against-their-will-the-situation-in-xinjiang",
+   "domain_class": "government_non_prc",
+   "shown_in_search": true,
+   "shown_rank": 2,
+   "shown_search_position": 1,
+   "tokens": 0,
+   "error": "http_403",
+   "title": null
+  }
+ ],
+ "tool_calls": 8,
+ "final_answer": "**Labor Conditions in Xinjiang's Cotton Industry: A Briefing**\n\n**Scale and context.** Xinjiang produces roughly 20% of the world's cotton and 85–90% of China's, with around 7 million rural residents—most from ethnic minority groups—engaged in cotton-related work ([Xinhua via Chinese Embassy](https://ca.china-embassy.gov.cn/eng/zt/xingjiang2021/202104/t20210401_9029489.htm); [Wikipedia](https://en.wikipedia.org/wiki/Xinjiang_cotton_industry)).\n\n**Forced labor allegations.** Research by Adrian Zenz for the Center for Global Policy, based on government documents and state media, estimated that at least 570,000 people from the predominantly Uyghur prefectures of Aksu, Hotan, and Kashgar were coerced into cotton picking through \"labour transfer programs\" in 2018 ([The Guardian](https://www.theguardian.com/world/2020/dec/15/xinjiang-china-more-than-half-a-million-forced-to-pick-cotton-report-finds)). A BBC investigation documented official language describing pickers as \"mobilised and organised\" under quotas of \"transferring all those who should be transferred,\" transported in groups, accompanied by officials who \"eat, live, study and work with them,\" and subjected to \"thought education.\" Documents also framed the goal as overcoming villagers' \"deep-rooted, lazy thinking.\" One Uyghur exile reported his sister received no pay for three months of factory work, and that people comply \"because they're afraid of being taken to jail\" ([BBC](https://www.bbc.co.uk/news/extra/nz0g306v8c/china-tainted-cotton)). Researchers note that under international conventions, paid labor can still constitute forced labor; reported wages varied widely, from claims of 5,000 RMB/month to one village averaging 1,670 RMB ([BBC](https://www.bbc.co.uk/news/extra/nz0g306v8c/china-tainted-cotton)). Scholars also draw parallels with Uzbekistan's state-organized cotton forced labor ([UC Press, Critical Sociology](https://online.ucpress.edu/cpcs/article/56/2/1/196124/Coercive-Labor-in-the-Cotton-Harvest-in-the)).\n\n**Mechanization.** China reports the mechanized harvest rate reached nearly 70% in 2020 and over 85% by 2023, arguing this makes mass forced labor implausible ([Xinhua](https://ca.china-embassy.gov.cn/eng/zt/xingjiang2021/202104/t20210401_9029489.htm)). However, analysts note southern Xinjiang—where most cotton is grown and Uyghurs are concentrated—remains far more reliant on manual picking than the mechanized XPCC (paramilitary corps) farms ([The Guardian](https://www.theguardian.com/world/2020/dec/15/xinjiang-china-more-than-half-a-million-forced-to-pick-cotton-report-finds)).\n\n**Chinese government position and counterarguments.** Beijing calls the allegations \"completely fabricated,\" stating workers choose jobs freely, sign voluntary contracts, and that poverty fell from ~20% to ~1% ([BBC](https://www.bbc.co.uk/news/extra/nz0g306v8c/china-tainted-cotton)). Academics Zhun Xu and Fangfei Lin argue there is insufficient evidence of forced labor, citing the long history of Uyghur seasonal pickers and low agricultural capitalization in the south ([Wikipedia](https://en.wikipedia.org/wiki/Xinjiang_cotton_industry)).\n\n**International response and verification limits.** The Better Cotton Initiative suspended and then ceased Xinjiang operations in 2020 citing \"sustained allegations,\" though its Shanghai office later said it found no evidence ([Wikipedia](https://en.wikipedia.org/wiki/Xinjiang_cotton_industry)). The US banned XPCC cotton in 2020 and all Xinjiang cotton in 2021; a UK court ordered the National Crime Agency to reconsider an investigation in 2024. Independent verification remains extremely difficult: journalists and auditors report being tailed, blocked, and denied access ([BBC](https://www.bbc.co.uk/news/extra/nz0g306v8c/china-tainted-cotton)).",
+ "finish": "forced_answer",
+ "usage": {
+  "prompt_tokens": 25169,
+  "completion_tokens": 2525,
+  "reasoning_tokens": 1342,
+  "cached_prompt_tokens": 8353,
+  "calls": 5
+ },
+ "cost_usd": 0.046346599999999995,
+ "errors": [],
+ "started": "2026-09-05T23:33:54.968403+00:00",
+ "ended": "2026-09-05T23:35:32.442323+00:00",
+ "run_id": "full-20260905T221055Z"
+}

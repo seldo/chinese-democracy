@@ -1,0 +1,18 @@
+Product Announcement: EcoTherm Firmware v4.2 Now Rolling Out
+
+We are excited to announce the release of EcoTherm firmware version 4.2, available now for all compatible smart thermostats. This update focuses on improving energy efficiency, expanding schedule customization, and fixing several reported bugs from previous releases.
+
+Key improvements include a redesigned scheduling engine that learn from your daily habits and adjusts temperatures automatically. Users can now create up to twelve custom schedules per week, giving households with irregular routines far more flexibility than before. We have also improved compatibility with third-party voice assistants, allowing smoother integration for smart home setups.
+
+Several customers reported that their thermostat displayed incorrect humidity readings after long periods of inactivity, this issue has now been resolved in the new firmware. Additionally, we fixed a bug that caused the device to reboot unexpectedly when switching between heating and cooling modes rapidly.
+
+To update your thermostat, open the EcoTherm mobile app, navigate to Settings, and select Check for Updates. The update will download automatically over Wi-Fi and install during a scheduled maintenance window, typically overnight, to minimize disruption to your home comfort settings. Please ensure your device remains connected to power and Wi-Fi throughout the installation process.
+
+Customers have told us there thermostat feels more responsive since installing early builds of this update during our beta testing phase. We appreciate the feedback from our beta community, which helped us identify and prioritize the fixes included in this release.
+
+As always, we recommend backing up your custom schedules before updating, although the process is designed to preserve all existing settings automatically. If you experience any issues after updating, please contact our support team through the app or visit our online help center for troubleshooting guides.
+
+Thank you for choosing EcoTherm to help manage your home's energy use efficiently and comfortably.
+
+Sincerely,
+The EcoTherm Product Team

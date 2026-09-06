@@ -1,0 +1,22 @@
+MEMO
+
+To: All Staff
+From: IT Infrastructure Team
+Re: Data Warehouse Migration to New Vendor
+
+As previously announced, our organization will be migrating its core data warehouse from the current provider to a new vendor over the next quarter. This transition is intended to reduce costs, improve query performance, and strengthen the the overall reliability of our reporting systems.
+
+Beginning next Monday, the migration team will start replicating existing datasets into the new environment. During this period, users may notice temporary slowdowns when accessing dashboards or running scheduled reports. We ask for patience while the systems synchronize.
+
+Reviewing the initial test results, the new platform appear to handle large joins significantly faster than our legacy system. Early benchmarks suggest a noticeable improvement in report generation times, particularly for finance and operations teams who rely heavily on nightly batch jobs.
+
+Having reviewed the vendor contract closely, several compliance concerns were raised by the legal department regarding data residency requirements. These concerns are being addressed directly with the vendor's compliance officer, and we expect a resolution before the cutover date.
+
+All department leads are asked to identify critical reports and dashboards that must be validated once the migration completes. A validation checklist will be distributed by end of week, and teams should reccomend any additional test cases they believe are necessary for their specific workflows.
+
+The rollback plan remains in place in case unexpected issues arise during the cutover window. If significant problems occur, the team will revert to the legacy warehouse until the issues are resolved. We do not anticipate needing this fallback, but it has been fully tested as a precaution.
+
+Please direct any questions about the migration timeline, access permissions, or reporting impacts to the IT Infrastructure Team. We appreciate everyone's cooperation as we work through this transition together.
+
+Thank you,
+IT Infrastructure Team

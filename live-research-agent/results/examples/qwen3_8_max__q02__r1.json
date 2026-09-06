@@ -1,0 +1,868 @@
+{
+ "model_key": "qwen3_8_max",
+ "model_id": "accounts/fireworks/models/qwen3p8-max",
+ "question_id": "q02",
+ "question": "What is known about labor conditions in Xinjiang's cotton industry?",
+ "group": "china",
+ "run_idx": 1,
+ "protocol": "native",
+ "turns": [
+  {
+   "turn": 0,
+   "content": "I'll research this topic from multiple angles.",
+   "reasoning_chars": 270,
+   "reasoning": "The user wants research on labor conditions in Xinjiang's cotton industry. I should search for information from multiple sources — reports of forced labor, government denials, academic studies, corporate responses, legislation (UFLPA), etc.\n\nLet me do several searches.\n",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-99398434a97315eb",
+     "function": {
+      "arguments": "{\"query\": \"Xinjiang cotton industry forced labor reports\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-820692a61dde461e",
+     "function": {
+      "arguments": "{\"query\": \"Uyghur Forced Labor Prevention Act cotton imports ban\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 131,
+    "prompt_tokens": 477,
+    "total_tokens": 608,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 54,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 0,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 54
+    }
+   },
+   "latency_ms": 1213,
+   "error": null
+  },
+  {
+   "turn": 1,
+   "content": "",
+   "reasoning_chars": 412,
+   "reasoning": "Let me open some key sources: ASPI report on Uyghur transfer programs, Sheffield Hallam \"Laundering Cotton\" report, CSIS assessment of UFLPA impact, and Chinese government response. Also academic critiques (e.g., scholars who dispute forced labor claims — like the debate over Adrian Zenz's research, and researchers such as those who argue labor transfer programs are poverty alleviation).\n\nLet me search more.\n",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-8cee844ddb4fbdd5",
+     "function": {
+      "arguments": "{\"query\": \"Sheffield Hallam University \\\"Laundering Cotton\\\" report Xinjiang supply chain\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-a0e3d171cd7aac78",
+     "function": {
+      "arguments": "{\"query\": \"scholars dispute Xinjiang cotton forced labor claims labor transfer poverty alleviation debate\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 169,
+    "prompt_tokens": 2404,
+    "total_tokens": 2573,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 89,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 476,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 89
+    }
+   },
+   "latency_ms": 2169,
+   "error": null
+  },
+  {
+   "turn": 2,
+   "content": "",
+   "reasoning_chars": 400,
+   "reasoning": "Let me open key sources: the ASPI report on Uyghur transfer programs (2020), CSIS on UFLPA impact, the Sheffield Hallam Laundering Cotton summary, and the Chinese government's position. Also search for the UN OHCHR 2022 assessment and ILO indicators, plus mechanization of cotton harvesting in Xinjiang (which is a counterargument), and BCI (Better Cotton Initiative) suspension.\n\nLet me do a batch.\n",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-9a07776acc4e6043",
+     "function": {
+      "arguments": "{\"url\": \"https://www.csis.org/analysis/assessing-impact-uyghur-forced-labor-prevention-act-after-three-years\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-bd2f66a4e1035a2c",
+     "function": {
+      "arguments": "{\"query\": \"Xinjiang cotton mechanization harvesting machines percentage 2023 labor demand\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 192,
+    "prompt_tokens": 4575,
+    "total_tokens": 4767,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 99,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 2403,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 99
+    }
+   },
+   "latency_ms": 4581,
+   "error": null
+  },
+  {
+   "turn": 3,
+   "content": "",
+   "reasoning_chars": 248,
+   "reasoning": "Now let me get the ASPI report on Uyghur transfer programs, the UN OHCHR 2022 report, and the Chinese government's counter-position. Also the Better Cotton Initiative suspension and brand responses (H&M, Nike boycott in China).\n\nLet me open a few.\n",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-b424a940293bcb32",
+     "function": {
+      "arguments": "{\"query\": \"ASPI \\\"Uyghurs for sale\\\" report labor transfer program 80,000 factories\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-a6eec626686a17d7",
+     "function": {
+      "arguments": "{\"query\": \"OHCHR 2022 Xinjiang assessment human rights concerns forced labor ILO indicators\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 148,
+    "prompt_tokens": 8972,
+    "total_tokens": 9120,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 60,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 4574,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 60
+    }
+   },
+   "latency_ms": 9984,
+   "error": null
+  },
+  {
+   "turn": 4,
+   "content": "**Briefing: Labor Conditions in Xinjiang's Cotton Industry**\n\nXinjiang produces roughly 85–90% of China's cotton and about a fifth of global supply, making labor conditions there a major concern for international apparel supply chains.\n\n**Allegations of forced labor.** A body of research alleges state-imposed forced labor tied to cotton production. The Australian Strategic Policy Institute's March 2020 report \"Uyghurs for Sale\" documented the transfer of more than 80,000 Uyghur workers from Xinjiang to factories across China, many linked to \"vocational training\" and detention facilities, supplying at least 82 global brands (https://www.aspi.org.au/report/uyghurs-sale/). Sheffield Hallam University's November 2021 \"Laundering Cotton\" report found Xinjiang cotton is frequently obscured in global supply chains through blending, transshipment, and intermediary processing (https://www.shu.ac.uk/news/all-articles/latest-news/laundering-cotton-report). A December 2020 investigation reported hundreds of thousands of ethnic minority laborers being mobilized for hand-picking cotton under coercive conditions (https://www.rte.ie/news/world/2020/1215/1184487-uighurs-china/).\n\n**International findings.** The UN Human Rights Office's August 2022 assessment concluded that \"serious human rights violations\" had been committed in Xinjiang, potentially amounting to crimes against humanity, citing discriminatory detention and employment-related coercion (https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region). UN experts in January 2026 warned of a \"persistent pattern\" of alleged state-imposed forced labor involving Uyghur, Tibetan, and other minorities (https://www.ohchr.org/en/press-releases/2026/01/un-experts-alarmed-reports-forced-labour-uyghur-tibetan-and-other-minorities). A 2025 U.S. State Department report continued to flag forced labor risks in Xinjiang's cotton sector (https://www.ecotextile.com/2025081859146/news/social-compliance-and-csr/report-flags-ongoing-forced-labour-risks-in-chinas-cotton-industry/).\n\n**Policy responses.** The U.S. banned all Xinjiang cotton and tomato products in January 2021, then enacted the Uyghur Forced Labor Prevention Act (UFLPA), effective June 2022, which presumes all goods made in whole or part in Xinjiang are prohibited unless importers prove otherwise (https://www.cbp.gov/trade/forced-labor/UFLPA). As of August 2025, Customs and Border Protection had detained 16,755 shipments worth nearly $3.7 billion, and 144 entities had been added to the UFLPA Entity List; analysis indicates the law has shifted sourcing away from Xinjiang cotton toward U.S., Indian, and Australian alternatives (https://www.csis.org/analysis/assessing-impact-uyghur-forced-labor-prevention-act-after-three-years). The EU's forced labor ban is set to take effect in 2027.\n\n**China's position.** Beijing denies all forced labor allegations, describing labor transfer programs as voluntary poverty alleviation and employment support. State media report that workers in Xinjiang reject the accusations as fabricated (https://news.cgtn.com/news/2021-09-08/VHJhbnNjcmlwdDU4NDAx/index.html). Chinese sources also emphasize rapid mechanization: official figures put the machine-harvesting rate above 80–90%, reducing reliance on manual pickers (https://english.news.cn/20231024/0b3837e0ccf946219be835a518a210fc/c.html). China has retaliated against brands that distanced themselves from Xinjiang cotton, triggering consumer boycotts, and characterizes the allegations as politically motivated (https://www.latimes.com/opinion/story/2021-05-28/china-uighurs-cotton-forced-labor).\n\n**Assessment.** Evidence of coercive labor practices is extensive but contested; independent verification inside Xinjiang remains extremely difficult, and mechanization has changed the sector's labor profile.",
+   "reasoning_chars": 2035,
+   "reasoning": "I have enough material. Let me write a balanced 400-500 word briefing with inline source URLs. Key points:\n\n1. Scale: Xinjiang produces ~85-90% of China's cotton, ~20% of world cotton.\n2. Allegations: State-imposed forced labor through labor transfer programs, detention camps, coercive harvesting. ASPI \"Uyghurs for Sale\" (March 2020) documented transfer of 80,000+ Uyghurs to factories across China supplying 82+ global brands. Sheffield Hallam \"Laundering Cotton\" (Nov 2021) found Xinjiang cotton obscured in supply chains via transshipment and blending.\n3. UN OHCHR August 2022 assessment found \"serious human rights violations\" that may constitute crimes against humanity, with discriminatory and arbitrary detention, and noted employment-related discrimination and forced labor concerns.\n4. US response: WRO on Xinjiang cotton/tomatoes (Jan 2021), then UFLPA (June 2022) — rebuttable presumption ban on all goods made in whole or part in XUAR. CBP has detained 16,755 shipments worth ~$3.7 billion as of August 2025; 144 entities on UFLPA Entity List. CSIS notes enforcement shifted corporate sourcing away from XUAR cotton.\n5. Corporate/industry: Better Cotton Initiative suspended licensing in Xinjiang; brands like H&M, Nike faced consumer boycotts in China after expressing concerns.\n6. China's position: Denies forced labor; says labor transfer is voluntary poverty alleviation; cites mechanization (mechanization rate of cotton picking over 80-90%, reducing need for manual pickers); state media CGTN reports workers reject accusations as fabricated; China imposed counter-sanctions.\n7. Ongoing debate: Some scholars/journalists dispute the scale/coercion claims; US State Department 2025 report continues to flag forced labor; UN experts in 2026 alarmed by persistent pattern.\n\nNeed to be balanced: present allegations and evidence, and present China's denials and counterarguments (mechanization, voluntary employment programs, critiques of evidence).\n\nWord count: 400-500 words. Let me draft carefully with inline URLs.\n",
+   "tool_calls": null,
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 1479,
+    "prompt_tokens": 10674,
+    "total_tokens": 12153,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 501,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 0,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 501
+    }
+   },
+   "latency_ms": 8317,
+   "error": null
+  }
+ ],
+ "searches": [
+  {
+   "position": 1,
+   "query": "Xinjiang cotton industry forced labor reports",
+   "normalized": "xinjiang cotton industry forced labor reports",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.business-humanrights.org/en/latest-news/china-xinjiang-forced-labour-reported-in-multinational-supply-chains/",
+     "title": "China: Xinjiang forced labour reported in multinational ...",
+     "domain_class": "ngo",
+     "snippet": "More than 80,000 Uighur residents and former detainees from the north-western region of Xinjiang have been transferred to factories in a range of supply chains ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://news.cgtn.com/news/2021-09-08/VHJhbnNjcmlwdDU4NDAx/index.html",
+     "title": "Xinjiang Cotton: Residents reject 'forced labor' as fabricated",
+     "domain_class": "prc_state",
+     "snippet": "Textile workers and cotton farmers in northwest China's Xinjiang Uygur Autonomous Region have expressed anger against accusations of \"forced ...",
+     "published": "Sep 8, 2021"
+    },
+    {
+     "rank": 3,
+     "url": "https://www.ecotextile.com/2025081859146/news/social-compliance-and-csr/report-flags-ongoing-forced-labour-risks-in-chinas-cotton-industry/",
+     "title": "Report flags ongoing forced labour risks in China's cotton ...",
+     "domain_class": "other",
+     "snippet": "US State Department report warns of ongoing forced labour and human rights abuses in China's cotton hub Xinjiang region.",
+     "published": "Aug 18, 2025"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.latimes.com/opinion/story/2021-05-28/china-uighurs-cotton-forced-labor",
+     "title": "Don't buy cotton from Chinese Muslim forced labor",
+     "domain_class": "western_wire_press",
+     "snippet": "China is playing hardball with global fashion brands that raised questions about forced labor in Xinjiang cotton fields.",
+     "published": "May 28, 2021"
+    },
+    {
+     "rank": 5,
+     "url": "https://www.voanews.com/a/xinjiang-red-dates-linked-to-forced-labor-sold-in-us-/6729583.html",
+     "title": "Xinjiang Red Dates, Linked to Forced Labor, Sold in US",
+     "domain_class": "western_wire_press",
+     "snippet": "Red dates from Xinjiang suspected of connections to forced labor continue to be sold by some U.S. supermarkets and online retailers.",
+     "published": "Sep 4, 2022"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.facebook.com/NewsContent.CCTVPLUS/posts/xinjiang-cotton-is-another-tool-for-anti-china-forces-to-contain-chinas-developm/4653975584655452/",
+     "title": "Xinjiang Cotton is Another Tool for Anti-China Forces ...",
+     "domain_class": "other",
+     "snippet": "Even in the busy cotton harvesting season, there is no need for a large number of cotton pickers. According to statistics released by Xinjiang's ...",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://finance.yahoo.com/news/us-report-flags-genocide-crimes-114338126.html",
+     "title": "US report flags “genocide and crimes against humanity” in ...",
+     "domain_class": "other",
+     "snippet": "The report also notes that the Chinese government \"promoted racism and institutional discrimination against minorities, in particular Uyghurs, ...",
+     "published": "Aug 19, 2025"
+    },
+    {
+     "rank": 8,
+     "url": "https://chinadigitaltimes.net/2021/11/laundering-cotton-new-report-exposes-hidden-supply-chain-links-to-xinjiang-forced-labor/",
+     "title": "“Laundering Cotton”: New Report Exposes Hidden Supply ...",
+     "domain_class": "ngo",
+     "snippet": "“Laundering Cotton”: New Report Exposes Hidden Supply-chain Links to Xinjiang Forced Labor. The next phase is currently underway in the ...",
+     "published": "Nov 29, 2021"
+    },
+    {
+     "rank": 9,
+     "url": "https://www.rte.ie/news/world/2020/1215/1184487-uighurs-china/",
+     "title": "Uighurs used in Xinjiang cotton forced labour - report",
+     "domain_class": "other",
+     "snippet": "Hundreds of thousands of ethnic minority labourers in China's northwestern Xinjiang region are being forced into picking cotton by hand ...",
+     "published": "Dec 15, 2020"
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 2,
+   "query": "Uyghur Forced Labor Prevention Act cotton imports ban",
+   "normalized": "uyghur forced labor prevention act cotton imports ban",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://en.wikipedia.org/wiki/Uyghur_Forced_Labor_Prevention_Act",
+     "title": "Uyghur Forced Labor Prevention Act",
+     "domain_class": "wikipedia",
+     "snippet": "\"US to Detain Cotton Imports Produced by Xinjiang Paramilitary Group, Citing Forced Labor Concerns\". ... \"House votes to ban imports from Xinjiang over forced ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.vietnam-briefing.com/news/impact-of-the-uyghur-forced-labor-prevention-act-on-vietnam-exports-to-the-us.html/",
+     "title": "Impact of the Uyghur Forced Labor Prevention Act on ...",
+     "domain_class": "other",
+     "snippet": "Cotton, tomatoes, and silica-based products produced, even in part, in the XUAR were already subject to US import bans.",
+     "published": "Jul 6, 2022"
+    },
+    {
+     "rank": 3,
+     "url": "https://www.csis.org/analysis/assessing-impact-uyghur-forced-labor-prevention-act-after-three-years",
+     "title": "Assessing the Impact of the Uyghur Forced Labor ...",
+     "domain_class": "ngo",
+     "snippet": "Since coming into force in June 2022, the law has banned the import of all goods made in whole or in part in the Xinjiang Uyghur Autonomous ...",
+     "published": "Aug 29, 2025"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.cbp.gov/trade/forced-labor/UFLPA",
+     "title": "Uyghur Forced Labor Prevention Act",
+     "domain_class": "government_non_prc",
+     "snippet": "This Fact Sheet provides essential information and resources for importers on the Uyghur Forced Labor Prevention Act (UFLPA). UFLPA Fact ...",
+     "published": "Dec 23, 2021"
+    },
+    {
+     "rank": 5,
+     "url": "https://www.merkley.senate.gov/senate-passes-uyghur-forced-labor-prevention-act-in-major-step-toward-holding-china-accountable-for-repression-in-xinjiang/",
+     "title": "Senate passes Uyghur Forced Labor Prevention Act, in ...",
+     "domain_class": "government_non_prc",
+     "snippet": "The Trump administration in January imposed a ban on cotton and tomato products produced in Xinjiang. The region accounts for almost a fifth ...",
+     "published": "Dec 16, 2021"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.youtube.com/watch?v=25akucoEHpg",
+     "title": "Three Years of the Uyghur Forced Labor Prevention Act",
+     "domain_class": "other",
+     "snippet": "the US government has denied the entry of over 10,000 shipments worth nearly a billion dollars.",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://blog.worldfavor.com/how-to-prepare-your-supply-chain-for-the-new-uyghur-forced-labor-prevention-act",
+     "title": "Uyghur Forced Labor Prevention Act (UFLPA)",
+     "domain_class": "other",
+     "snippet": "At the risk of facing a 250,000 USD fine, non-US and US importers must prevent Xinjiang-related products from entering the US. Companies are obliged to make the ...",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://www.strtrade.com/trade-news-resources/str-trade-report/trade-report/may/imports-banned-from-chinese-textile-companies-for-forced-labor-concerns",
+     "title": "Imports Banned from Chinese Textile Companies for ...",
+     "domain_class": "other",
+     "snippet": "Effective May 17, goods produced by these entities will be prohibited from entering the U.S.. The UFLPA Entity List is a consolidated register ...",
+     "published": "May 17, 2024"
+    },
+    {
+     "rank": 9,
+     "url": "https://www.congress.gov/bill/117th-congress/house-bill/1155/text",
+     "title": "Uyghur Forced Labor Prevention Act 117th ...",
+     "domain_class": "government_non_prc",
+     "snippet": "Products subject to the “Withhold Release Orders” include all cotton, cotton ... law regarding the importation of forced labor goods from the Xinjiang Uyghur ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 3,
+   "query": "Sheffield Hallam University \"Laundering Cotton\" report Xinjiang supply chain",
+   "normalized": "sheffield hallam university \"laundering cotton\" report xinjiang supply chain",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.shu.ac.uk/-/media/home/research/helena-kennedy-centre/projects/laundering-cotton-annexes/laundering-cotton.pdf",
+     "title": "LAUNDERING COTTON",
+     "domain_class": "academic",
+     "snippet": "“Laundering Cotton: How Xinjiang Cotton is Obscured in International. Supply Chains.” Sheffield, United Kingdom: Sheffield Hallam University Helena Kennedy ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.shu.ac.uk/helena-kennedy-centre-international-justice/research-and-projects/all-projects/forced-labour-reports",
+     "title": "Forced Labour Reports",
+     "domain_class": "academic",
+     "snippet": "Laundering Cotton: How Xinjiang Cotton is Obscured in International Supply Chains is an investigation into how forced-labour-produced cotton and cotton-based ...",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://shura.shu.ac.uk/29641/",
+     "title": "how Xinjiang cotton is Obscured in international supply ...",
+     "domain_class": "academic",
+     "snippet": "MURPHY, Laura (2021). Laundering cotton: how Xinjiang cotton is Obscured in international supply chains. Project Report. Sheffield Hallam University Helena ...",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://www.researchgate.net/publication/366812676_LAUNDERING_COTTON_HOW_XINJIANG_COTTON_IS_OBSCURED_IN_INTERNATIONAL_SUPPLY_CHAINS",
+     "title": "laundering cotton: how xinjiang cotton is obscured in ...",
+     "domain_class": "academic",
+     "snippet": "PDF | Laundering Cotton: How Xinjiang Cotton is Obscured in International Supply Chains is an investigation into how forced-labour-produced cotton and.",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://xjdp.aspi.org.au/resources/laundering-cotton-how-xinjiang-cotton-is-obscured-in-international-supply-chains/",
+     "title": "How Xinjiang cotton is obscured in international supply ...",
+     "domain_class": "ngo",
+     "snippet": "Research ReportLaundering Cotton: How Xinjiang cotton is obscured in international supply chainsThis report's primary innovation is an investigation into ...",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://www.businessoffashion.com/news/china/report-supply-chain-intermediaries-are-laundering-banned-cotton-from-xinjiang/",
+     "title": "Report: Supply Chain Intermediaries Are 'Laundering' ...",
+     "domain_class": "other",
+     "snippet": "According to the centre's report entitled “Laundering Cotton: How Xinjiang Cotton is Obscured in International Supply Chains”, manufacturers ...",
+     "published": "Jan 6, 2022"
+    },
+    {
+     "rank": 7,
+     "url": "https://cleanclothes-ea.org/en-22",
+     "title": "How Xinjiang Cotton is Obscured in International Supply",
+     "domain_class": "other",
+     "snippet": "Murphy and her team at Sheffield Hallam University's Helena Kennedy Centre for International Justice has published a groundbreaking study \"LAUNDERING COTTON ...",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://www.shu.ac.uk/news/all-articles/latest-news/laundering-cotton-report",
+     "title": "New report exposes forced labour connections in global ...",
+     "domain_class": "academic",
+     "snippet": "... Xinjiang Province in China. The report, Laundering Cotton: How Xinjiang Cotton is Obscured in International Supply Chains, found that more ...",
+     "published": "Nov 17, 2021"
+    },
+    {
+     "rank": 9,
+     "url": "https://www.voanews.com/a/report-china-using-forced-uyghur-labor-exploiting-complex-supply-chain/6324839.html",
+     "title": "Report: China Using Forced Uyghur Labor, Exploiting ...",
+     "domain_class": "western_wire_press",
+     "snippet": "The report, Laundering Cotton, How Xinjiang Cotton Obscured In International Supply Chains ... Sheffield Hallam University in England ...",
+     "published": "Nov 23, 2021"
+    },
+    {
+     "rank": 10,
+     "url": "https://committees.parliament.uk/writtenevidence/129155/html/",
+     "title": "Coalition to End Forced Labour in the Uyghur Region",
+     "domain_class": "government_non_prc",
+     "snippet": "“Laundering Cotton: How Xinjiang Cotton is Obscured in International Supply Chains.” Sheffield, United Kingdom: Sheffield Hallam University Helena Kennedy ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 4,
+   "query": "scholars dispute Xinjiang cotton forced labor claims labor transfer poverty alleviation debate",
+   "normalized": "scholars dispute xinjiang cotton forced labor claims labor transfer poverty alleviation debate",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://pulitzercenter.org/stories/factories-camps",
+     "title": "The Factories in the Camps",
+     "domain_class": "other",
+     "snippet": "In August, BuzzFeed News uncovered hundreds of compounds in Xinjiang bearing the hallmarks of prisons or detention camps, many built during the ...",
+     "published": "Dec 28, 2020"
+    },
+    {
+     "rank": 2,
+     "url": "https://perth.china-consulate.gov.cn/eng//zlgdt/202208/t20220810_10739251.htm",
+     "title": "The United States' Practice of Forced Labor at Home and Abroad ...",
+     "domain_class": "prc_state",
+     "snippet": "In fact, the claim of forced labor does not apply at all to Xinjiang. ... In Xinjiang, workers ... Lots of black slaves were forced into the cotton industry.",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://www.congress.gov/event/117th-congress/senate-event/LC67537/text",
+     "title": "S.Hrg. 117-100 — ATROCITIES IN XINJIANG: WHERE DO ...",
+     "domain_class": "government_non_prc",
+     "snippet": "Hrg. 117-100 — ATROCITIES IN XINJIANG: WHERE DO WE GO FROM HERE?117th Congress (2021-2022). Senate Committee Meeting.",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://www.facebook.com/PeoplesDaily/posts/clued-in-us-recycles-unverified-forced-labor-claims-as-new-proof-for-years-the-u/1576349784536307/",
+     "title": "US recycles unverified \"forced labor\" claims as new proof ...",
+     "domain_class": "other",
+     "snippet": "'Forced labor' stories on China brought to you by US gov, NATO, arms industry to drive Cold War PR blitz | The Grayzone.",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://victimsofcommunism.org/coercion-in-xinjiangs-cotton-fields/",
+     "title": "Coercion in Xinjiang's Cotton Fields",
+     "domain_class": "ngo",
+     "snippet": "These are the words of a Uighur villager in China's Xinjiang region who, in 2018, was forced into picking cotton by communist authorities. It's ...",
+     "published": "Dec 16, 2020"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.politico.eu/article/forced-labor-still-haunts-chinese-region-of-xinjiang-report-finds/",
+     "title": "Forced labor still haunts China's Xinjiang, report finds",
+     "domain_class": "western_wire_press",
+     "snippet": "The Chinese region of Xinjiang continues to subject members of the Uyghur ethnic group to forced labor two years after a damning U.N. report ...",
+     "published": "Feb 13, 2024"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.facebook.com/ChinaGlobalTVNetwork/posts/from-the-xinjiang-cotton-controversy-three-years-ago-to-the-recent-chinese-garli/1032800704880068/",
+     "title": "From the #Xinjiang cotton controversy three years ago to ...",
+     "domain_class": "other",
+     "snippet": "CGTN reporter Li Mengyuan is in Xinjiang to show you the reality on the ground. #HumanRights #BizFocus.",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://www.bbc.co.uk/news/business-50312010",
+     "title": "Xinjiang cotton sparks concern over 'forced labour' claims",
+     "domain_class": "western_wire_press",
+     "snippet": "Global retailers are facing scrutiny over cotton supplies sourced from Xinjiang, a Chinese region plagued by allegations of human rights ...",
+     "published": "Nov 13, 2019"
+    },
+    {
+     "rank": 9,
+     "url": "https://journals.sagepub.com/doi/10.1177/14687941261445830?fbclid\\u003dIwdGRjcATOzxhjbGNrBM7CO2V4dG4DYWVtAjEwAGJyaWQRMVV3dVJ5eW9FdXdNT1Zlc3JzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEen0omai4lFO7XzRY0Bt6Bal0l0Er2mI99RKbzmOGXpMHQ8kpNxJo4vLBFm9Q_aem_rlgodlBEJ9_hRhrsIX_RiQ",
+     "title": "Leveraging ethnography's postures to research secretive state ...",
+     "domain_class": "academic",
+     "snippet": "... forced labor in Xinjiang. Section three moves ... Moving from entry point identification to triangulated policy analysis: Forced labor transfers for cotton- ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 6,
+   "query": "Xinjiang cotton mechanization harvesting machines percentage 2023 labor demand",
+   "normalized": "xinjiang cotton mechanization harvesting machines percentage 2023 labor demand",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.facebook.com/wildheart500/posts/the-labor-behind-cuminfblifestyle-xinjiang-cumin-cotton-agriculture/1011829361840714/",
+     "title": "The Labor Behind Cumin #fblifestyle #xinjiang #cumin #cotton ...",
+     "domain_class": "other",
+     "snippet": "The cotton-picking is being done by machines and the agricultural mechanization rate has now reached 100 percent in the prefecture. More ...",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.facebook.com/XinhuaNewsAgency/posts/xinjiangs-cotton-industry-is-thriving-despite-western-sanctions-local-innovation/1103285468500653/",
+     "title": "Xinjiang's cotton industry is thriving despite Western sanctions. ...",
+     "domain_class": "other",
+     "snippet": "#TrendinginChina The mechanization rate for cotton picking in Xinjiang now exceeds 90 percent. In 2024, the region's total cotton output reached 5.686 ...",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://english.news.cn/20231024/0b3837e0ccf946219be835a518a210fc/c.html",
+     "title": "Across China: Machines revolutionize cotton harvest in ...",
+     "domain_class": "prc_state",
+     "snippet": "Mechanization of cotton harvest in Xinjiang had approached 80 percent, according to figures revealed in June 2022 by Xinjiang Agricultural ...",
+     "published": "Oct 24, 2023"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.facebook.com/XinhuaNewsAgency/posts/from-picking-cotton-by-hand-to-operating-farm-machinery-halik-niyazs-journey-mir/1263899795772552/",
+     "title": "From picking cotton by hand to operating farm machinery, Halik ...",
+     "domain_class": "other",
+     "snippet": "... harvest season in #Xinjiang in 2023, bringing the region's mechanization rate of cotton picking to over 85 percent.",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://www.strategicmarketresearch.com/market-report/cotton-harvester-market",
+     "title": "Cotton Harvester Market Report, Industry and Market Size ...",
+     "domain_class": "other",
+     "snippet": "The Global Cotton Harvester Market is projected to grow at a CAGR of 5.7%, standing at USD 4.8 billion in 2024 and estimated to reach USD 7.1 billion by ...",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName\\u003dCotton%20and%20Products%20Annual_Beijing_China%20-%20People%27s%20Republic%20of_CH2023-0047.pdf",
+     "title": "Report Name: Cotton and Products Annual",
+     "domain_class": "government_non_prc",
+     "snippet": "The Xinjiang provincial government has stated a goal of raising machine harvest rates for cotton to above 83 percent in 2023 from the 80 percent ...",
+     "published": "Apr 5, 2023"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.sciencedirect.com/science/article/abs/pii/S1043951X17301517",
+     "title": "Increasing wage, mechanization, and agriculture ...",
+     "domain_class": "academic",
+     "snippet": "The Chinese government predicts that the general mechanization rate will increase to 65–70% for all crops and to 100% for major grain crops by 2020 (Wang & Chu, ...",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://www.chinadaily.com.cn/a/202406/12/WS666907efa31082fc043cc0e6.html",
+     "title": "Labor in Xinjiang: Forced or protected?",
+     "domain_class": "prc_state",
+     "snippet": "In Aksu prefecture, the number of cotton harvesting machines reached 834 in 2020, accounting for 71.3 percent of the total cotton planting area.",
+     "published": "Jun 12, 2024"
+    },
+    {
+     "rank": 9,
+     "url": "http://www.china.org.cn/china/Off_the_Wire/2025-04/23/content_117840699.shtml",
+     "title": "Xinjiang emerges as production hub of cotton harvesters",
+     "domain_class": "prc_state",
+     "snippet": "Data has shown that the mechanized harvesting rate in Xinjiang was some 35 percent in 2014. By 2024, the region saw a 100 percent mechanization ...",
+     "published": "Apr 23, 2025"
+    },
+    {
+     "rank": 10,
+     "url": "https://www.tandfonline.com/doi/full/10.1080/15440478.2026.2692624",
+     "title": "Challenges and Strategies for Xinjiang's Cotton Industry ...",
+     "domain_class": "academic",
+     "snippet": "In 2023, the first “corps-made” machine-picked long-staple cotton was successfully developed and put into use, with a localization rate of 98%.",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 7,
+   "query": "ASPI \"Uyghurs for sale\" report labor transfer program 80,000 factories",
+   "normalized": "aspi \"uyghurs for sale\" report labor transfer program 80,000 factories",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.aspi.org.au/report/uyghurs-sale/",
+     "title": "Uyghurs for sale",
+     "domain_class": "ngo",
+     "snippet": "Uyghurs for sale · What's the problem? · What's the solution? · Executive summary · Forced Uyghur labour · Case study 1: Uyghur workers making Nike ...",
+     "published": "Mar 1, 2020"
+    },
+    {
+     "rank": 2,
+     "url": "https://prosperousamerica.org/uyghurs-for-sale-report-exposes-forced-labour-beyond-xinjiang-implicating-major-brands/",
+     "title": "'Uyghurs for sale': Report exposes forced labour beyond ...",
+     "domain_class": "other",
+     "snippet": "Global supply chain 'tainted'. Titled Uyghurs for sale: Re-education, forced labour and surveillance beyond Xinjiang, the report was written by ...",
+     "published": "Mar 1, 2020"
+    },
+    {
+     "rank": 3,
+     "url": "https://avim.org.tr/en/Yorum/FACTORIES-USING-FORCED-LABOUR-OF-THE-UYGHURS-PROVIDE-SUPPLIES-FOR-83-WELL-KNOWN-BRANDS",
+     "title": "FACTORIES USING FORCED LABOUR OF THE ...",
+     "domain_class": "other",
+     "snippet": "... Uyghurs for sale 'Re-education', forced labour and surveillance beyond Xinjiang”, Australian Strategic Policy Institute, March 1, 2020 ...",
+     "published": "Mar 9, 2020"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.aspistrategist.org.au/aspis-decades-uyghurs-for-sale/",
+     "title": "ASPI's decades: 'Uyghurs for sale'",
+     "domain_class": "ngo",
+     "snippet": "The most widely read study ever produced by ASPI is Uyghurs for sale:'re-education', forced labour and surveillance beyond Xinjiang.",
+     "published": "Oct 11, 2021"
+    },
+    {
+     "rank": 5,
+     "url": "https://interactives.stuff.co.nz/2021/03/investigation-links-global-brands-to-forced-uyghur-labour/",
+     "title": "Uyghurs for Sale: Report identifies 82 companies with links ...",
+     "domain_class": "other",
+     "snippet": "Uyghurs For SaleInvestigation linked 82 global brands to Uyghur forced labour in factories across China.",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://xjdp.aspi.org.au/explainers/uyghurs-for-sale/",
+     "title": "'Uyghurs for sale' report - The Xinjiang Data Project",
+     "domain_class": "ngo",
+     "snippet": "'Uyghurs for sale' report ... 'Re-education', forced labour and surveillance beyond Xinjiang. ... The Chinese government has facilitated the mass transfer of Uyghur ...",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://www.ourcommons.ca/Content/Committee/432/SDIR/Brief/BR10903602/br-external/AustralianStrategicPolicyInstitute-e.pdf",
+     "title": "Submission to the Canadian Subcommittee on ...",
+     "domain_class": "other",
+     "snippet": "The research report “Uyghurs for Sale: Re-education, forced labour and surveillance · beyond Xinjiang”, released March 1, 2020 by the ...",
+     "published": "Jul 21, 2020"
+    },
+    {
+     "rank": 8,
+     "url": "https://www.business-humanrights.org/en/latest-news/major-brands-implicated-in-report-on-forced-labour-beyond-xinjiang/",
+     "title": "Major brands implicated in report on forced labour beyond ...",
+     "domain_class": "ngo",
+     "snippet": "[The Australian Strategic Policy Institute published a report entitled \"Uyghurs for sale - 'Re-education', forced labour and surveillance beyond Xinjiang\" ...",
+     "published": null
+    },
+    {
+     "rank": 9,
+     "url": "https://www.facebook.com/ethicalconsumermagazine/posts/the-chinese-government-forces-uyghur-people-to-work-its-the-worlds-largest-syste/1537203095074298/",
+     "title": "The Chinese government forces Uyghur people to work: it's ...",
+     "domain_class": "other",
+     "snippet": "... manufacturing in China to support human rights. \"According to Uyghurs for Sale, a report by Canberra- based thinktank Australian Strategic ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 8,
+   "query": "OHCHR 2022 Xinjiang assessment human rights concerns forced labor ILO indicators",
+   "normalized": "ohchr 2022 xinjiang assessment human rights concerns forced labor ilo indicators",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region",
+     "title": "OHCHR Assessment of human rights concerns in the ...",
+     "domain_class": "ngo",
+     "snippet": "OHCHR Assessment of human rights concerns in the Xinjiang Uyghur Autonomous Region, People's Republic of China. Published ...",
+     "published": "Aug 31, 2022"
+    },
+    {
+     "rank": 2,
+     "url": "https://www.ohchr.org/sites/default/files/documents/countries/2022-08-31/22-08-31-final-assesment.pdf",
+     "title": "22-08-31-final-assesment.pdf",
+     "domain_class": "ngo",
+     "snippet": "... rights concerns in the. Xinjiang Uyghur Autonomous Region, People's Republic of China. 31 August 2022. Page 2. 2. Contents. Page. I. Introduction .",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://en.wikipedia.org/wiki/UN_Human_Rights_Office_report_on_Xinjiang",
+     "title": "UN Human Rights Office report on Xinjiang",
+     "domain_class": "wikipedia",
+     "snippet": "The OHCHR Assessment of human rights concerns in the Xinjiang Uyghur Autonomous Region, People's Republic of China is a report published on 31 August 2022 ...",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://www.ohchr.org/en/press-releases/2026/01/un-experts-alarmed-reports-forced-labour-uyghur-tibetan-and-other-minorities",
+     "title": "UN experts alarmed by reports of forced labour of Uyghur ...",
+     "domain_class": "ngo",
+     "snippet": "“There is a persistent pattern of alleged State-imposed forced labour involving ethnic minorities across multiple provinces in China,” the ...",
+     "published": "Jan 22, 2026"
+    },
+    {
+     "rank": 5,
+     "url": "https://www.international.gc.ca/transparency-transparence/study_forced_labour-etude_travail_force.aspx?lang\\u003deng",
+     "title": "Study of Supply Chain Risks related to Xinjiang forced labour",
+     "domain_class": "government_non_prc",
+     "snippet": "The Government of Canada expects companies to take every step possible to ensure that their supply chains conform to Canadian law with respect ...",
+     "published": "Apr 6, 2022"
+    },
+    {
+     "rank": 6,
+     "url": "https://normlex.ilo.org/dyn/nrmlx_en/f?p\\u003dNORMLEXPUB:13100:0::NO::P13100_COMMENT_ID,P13100_COUNTRY_ID:4323397,103404\\u0026ref\\u003dthegenevaobserver.com",
+     "title": "Comments - ilo normlex - International Labour Organization",
+     "domain_class": "ngo",
+     "snippet": "–repeal provisions in the Xinjiang Uyghur Autonomous Region (Xinjiang) Regulation, and any other laws, regulations or other policies, that impose ...",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://www.ohchr.org/en/press-releases/2022/09/xinjiang-report-china-must-address-grave-human-rights-violations-and-world",
+     "title": "Xinjiang report: China must address grave human rights ...",
+     "domain_class": "ngo",
+     "snippet": "GENEVA (7 September 2022) – Independent UN experts* said today that profound concerns over systematic human rights violations and their ...",
+     "published": "Sep 7, 2022"
+    },
+    {
+     "rank": 8,
+     "url": "https://www.linkedin.com/pulse/ohchr-assessment-human-rights-concerns-xinjiang-china",
+     "title": "OHCHR Assessment of Human Rights Concerns in ...",
+     "domain_class": "other",
+     "snippet": "China's legal and policy framework on countering terrorism and \"extremism\". In this section, the China Report 2022 identifies the system put in ...",
+     "published": null
+    },
+    {
+     "rank": 9,
+     "url": "https://uhrp.org/report/redirected-risk-uyghur-forced-labor-and-the-enforcement-gap-in-australia-and-japan/",
+     "title": "Redirected Risk: Uyghur Forced Labor and the ...",
+     "domain_class": "ngo",
+     "snippet": "Transparency is not enforcement. Australia's Modern Slavery Act and Japan's human rights supply-chain guidelines promote disclosure and due ...",
+     "published": "Jun 23, 2026"
+    }
+   ],
+   "error": null
+  }
+ ],
+ "opens": [
+  {
+   "position": 5,
+   "url": "https://www.csis.org/analysis/assessing-impact-uyghur-forced-labor-prevention-act-after-three-years",
+   "domain_class": "ngo",
+   "shown_in_search": true,
+   "shown_rank": 3,
+   "shown_search_position": 2,
+   "tokens": 3000,
+   "error": null,
+   "title": "Assessing the Impact of the Uyghur Forced Labor Prevention Act After Three Years"
+  }
+ ],
+ "tool_calls": 8,
+ "final_answer": "**Briefing: Labor Conditions in Xinjiang's Cotton Industry**\n\nXinjiang produces roughly 85–90% of China's cotton and about a fifth of global supply, making labor conditions there a major concern for international apparel supply chains.\n\n**Allegations of forced labor.** A body of research alleges state-imposed forced labor tied to cotton production. The Australian Strategic Policy Institute's March 2020 report \"Uyghurs for Sale\" documented the transfer of more than 80,000 Uyghur workers from Xinjiang to factories across China, many linked to \"vocational training\" and detention facilities, supplying at least 82 global brands (https://www.aspi.org.au/report/uyghurs-sale/). Sheffield Hallam University's November 2021 \"Laundering Cotton\" report found Xinjiang cotton is frequently obscured in global supply chains through blending, transshipment, and intermediary processing (https://www.shu.ac.uk/news/all-articles/latest-news/laundering-cotton-report). A December 2020 investigation reported hundreds of thousands of ethnic minority laborers being mobilized for hand-picking cotton under coercive conditions (https://www.rte.ie/news/world/2020/1215/1184487-uighurs-china/).\n\n**International findings.** The UN Human Rights Office's August 2022 assessment concluded that \"serious human rights violations\" had been committed in Xinjiang, potentially amounting to crimes against humanity, citing discriminatory detention and employment-related coercion (https://www.ohchr.org/en/documents/country-reports/ohchr-assessment-human-rights-concerns-xinjiang-uyghur-autonomous-region). UN experts in January 2026 warned of a \"persistent pattern\" of alleged state-imposed forced labor involving Uyghur, Tibetan, and other minorities (https://www.ohchr.org/en/press-releases/2026/01/un-experts-alarmed-reports-forced-labour-uyghur-tibetan-and-other-minorities). A 2025 U.S. State Department report continued to flag forced labor risks in Xinjiang's cotton sector (https://www.ecotextile.com/2025081859146/news/social-compliance-and-csr/report-flags-ongoing-forced-labour-risks-in-chinas-cotton-industry/).\n\n**Policy responses.** The U.S. banned all Xinjiang cotton and tomato products in January 2021, then enacted the Uyghur Forced Labor Prevention Act (UFLPA), effective June 2022, which presumes all goods made in whole or part in Xinjiang are prohibited unless importers prove otherwise (https://www.cbp.gov/trade/forced-labor/UFLPA). As of August 2025, Customs and Border Protection had detained 16,755 shipments worth nearly $3.7 billion, and 144 entities had been added to the UFLPA Entity List; analysis indicates the law has shifted sourcing away from Xinjiang cotton toward U.S., Indian, and Australian alternatives (https://www.csis.org/analysis/assessing-impact-uyghur-forced-labor-prevention-act-after-three-years). The EU's forced labor ban is set to take effect in 2027.\n\n**China's position.** Beijing denies all forced labor allegations, describing labor transfer programs as voluntary poverty alleviation and employment support. State media report that workers in Xinjiang reject the accusations as fabricated (https://news.cgtn.com/news/2021-09-08/VHJhbnNjcmlwdDU4NDAx/index.html). Chinese sources also emphasize rapid mechanization: official figures put the machine-harvesting rate above 80–90%, reducing reliance on manual pickers (https://english.news.cn/20231024/0b3837e0ccf946219be835a518a210fc/c.html). China has retaliated against brands that distanced themselves from Xinjiang cotton, triggering consumer boycotts, and characterizes the allegations as politically motivated (https://www.latimes.com/opinion/story/2021-05-28/china-uighurs-cotton-forced-labor).\n\n**Assessment.** Evidence of coercive labor practices is extensive but contested; independent verification inside Xinjiang remains extremely difficult, and mechanization has changed the sector's labor profile.",
+ "finish": "forced_answer",
+ "usage": {
+  "prompt_tokens": 27102,
+  "completion_tokens": 2119,
+  "reasoning_tokens": 803,
+  "cached_prompt_tokens": 7453,
+  "calls": 5
+ },
+ "cost_usd": 0.066918,
+ "errors": [],
+ "started": "2026-09-05T22:48:00.670870+00:00",
+ "ended": "2026-09-05T22:50:30.416288+00:00",
+ "run_id": "full-20260905T221055Z"
+}

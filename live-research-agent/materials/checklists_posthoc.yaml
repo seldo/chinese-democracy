@@ -1,0 +1,593 @@
+- question_id: q16
+  items:
+  - id: v1
+    text: Hong Kong lost its position as Asia's top financial centre to Singapore in the GFCI rankings during 2022-2023,
+      falling to fourth globally amid strict COVID-19 restrictions and a talent exodus.
+    supported_by:
+    - https://www.forbesindia.com/article/news/global-financial-centres-index-(gfci)-rankings-hong-kong-replaced-by-singapore-as-asias-top-finance-centre/80045/1
+    - https://www.scmp.com/business/article/3256297/singapore-keeps-crown-asias-top-financial-centre-outranks-hong-kong-all-factors-competitiveness-gfci
+    - https://www.thestandard.com.hk/news/article/195009/Singapore-overtakes-Hong-Kong-in-finance-centre-ranking
+    - https://fortune.com/2022/09/23/singapore-hong-kong-place-asia-top-financial-center-new-partner-to-london-new-york/
+    - https://asianews.network/hong-kong-ranked-fourth-among-global-financial-centres/
+    supporting_origins:
+    - other
+    - western_wire_press
+  - id: v2
+    text: By 2024-2025, Hong Kong regained its status as Asia's top financial hub and third globally in the GFCI,
+      with rankings rising across human capital, infrastructure, and financial sector development.
+    supported_by:
+    - https://www.info.gov.hk/gia/general/202503/20/P2025032000391.htm
+    - https://www.channelnewsasia.com/commentary/hong-kong-global-financial-centre-index-singapore-invest-fintech-4691926
+    - https://www.scmp.com/business/banking-finance/article/3366230/hong-kong-poised-top-new-york-london-finance-hub-ranking-gfci-creator
+    supporting_origins:
+    - prc_state
+    - western_wire_press
+  - id: v3
+    text: A separate ranking, the City of London's Global Financial Centres index for 2024, showed Hong Kong tied
+      with Tokyo for sixth place, with its score dropping the most among all financial centres and falling in all
+      five assessed categories.
+    supported_by:
+    - https://cmsapi.theepochtimes.com/china/global-financial-centers-ranking-hong-kong-slips-to-joint-sixth-place-with-tokyo-5574522?utm_source=open&utm_medium=search
+    supporting_origins:
+    - other
+  - id: v4
+    text: Hong Kong's IPO market and stock market performance declined sharply after 2020, with the Hang Seng Index
+      posting four consecutive years of annual losses and IPO rankings falling to sixth globally by 2023, behind
+      India and Indonesia.
+    supported_by:
+    - https://www.cnbc.com/2023/11/06/hong-kong-ipo-market-is-still-in-a-slump-despite-an-expected-rebound.html
+    - https://www.thinkchina.sg/economy/hong-kong-makes-comeback-international-financial-centre
+    supporting_origins:
+    - western_wire_press
+  - id: v5
+    text: In 2025 Hong Kong's IPO and stock markets rebounded strongly, exemplified by the record CATL listing and
+      a 22.7% rise in the Hang Seng Index, prompting analysts including Stephen Roach to retract earlier predictions
+      that 'Hong Kong is over'.
+    supported_by:
+    - https://www.thinkchina.sg/economy/hong-kong-makes-comeback-international-financial-centre
+    supporting_origins:
+    - western_wire_press
+  - id: v6
+    text: Critics attribute Hong Kong's post-2020 decline in part to the 2020 National Security Law, which some
+      analysts argue fundamentally altered the city's legal and institutional structure, increased uncertainty for
+      investors, and coincided with a drop in regional headquarters of foreign companies to an 11-year low in 2023.
+    supported_by:
+    - https://www.thinkchina.sg/economy/hong-kong-makes-comeback-international-financial-centre
+    - https://www.atlanticcouncil.org/in-depth-research-reports/report/fractured-foundations-assessing-risks-to-hong-kongs-business-environment/
+    supporting_origins:
+    - ngo
+    - western_wire_press
+  - id: v7
+    text: An Atlantic Council report argues that the National Security Law created a parallel system of authority,
+      limited press and information flow, and introduced ongoing risks including compliance challenges and threats
+      to judicial independence for businesses operating in Hong Kong.
+    supported_by:
+    - https://www.atlanticcouncil.org/in-depth-research-reports/report/fractured-foundations-assessing-risks-to-hong-kongs-business-environment/
+    supporting_origins:
+    - ngo
+  - id: v8
+    text: Hong Kong's own government and officials emphasize continuity, citing the financial sector's contribution
+      of 24.9% to GDP in 2023, top-globally rankings in investment management, insurance and banking, and ongoing
+      policy initiatives to strengthen its role as an international financial centre and a bridge between mainland
+      China and global markets.
+    supported_by:
+    - https://www.hkma.gov.hk/eng/key-functions/international-financial-centre/hong-kong-as-an-international-financial-centre/
+    - https://www.info.gov.hk/gia/general/202503/20/P2025032000391.htm
+    - https://www.info.gov.hk/gia/general/202009/25/P2020092500645.htm
+    - https://www.news.gov.hk/eng/2020/09/20200925/20200925_183725_732.html?type=ticker
+    supporting_origins:
+    - prc_state
+  - id: v9
+    text: Hong Kong's strict adherence to zero-COVID policies and prolonged quarantine requirements through 2022
+      was widely cited as damaging the city's competitiveness and international business appeal compared to reopened
+      rivals like Singapore.
+    supported_by:
+    - https://www.forbesindia.com/article/news/global-financial-centres-index-(gfci)-rankings-hong-kong-replaced-by-singapore-as-asias-top-finance-centre/80045/1
+    - https://fortune.com/2022/09/23/singapore-hong-kong-place-asia-top-financial-center-new-partner-to-london-new-york/
+    - https://www.europeanguanxi.com/post/high-stakes-reopening-for-hong-kong
+    supporting_origins:
+    - other
+    - western_wire_press
+  - id: v10
+    text: Some analysts view Hong Kong and Singapore as playing complementary rather than purely competitive roles
+      in Asian finance, with Hong Kong's comeback attributed to policy stability, financial infrastructure, fintech
+      development, and property market factors.
+    supported_by:
+    - https://www.channelnewsasia.com/commentary/hong-kong-global-financial-centre-index-singapore-invest-fintech-4691926
+    supporting_origins:
+    - western_wire_press
+  source: posthoc_union_of_opened_pages
+  n_pages: 24
+- question_id: q17
+  items:
+  - id: v1
+    text: Taiwan participated as an observer in the World Health Assembly from 2009 to 2016 under the Ma Ying-jeou
+      administration but has been excluded every year since 2016/2017 after Tsai Ing-wen took office, and remains
+      excluded as of 2025 (its ninth consecutive year of exclusion from the WHA).
+    supported_by:
+    - https://en.wikipedia.org/wiki/Taiwan_and_the_World_Health_Organization
+    - https://stratnewsglobal.com/world-news/taiwans-who-bid-fails-after-beijing-intervention/
+    - https://www.taipeitimes.com/News/taiwan/archives/2025/05/21/2003837250
+    - https://www.ait.org.tw/taiwan-as-an-observer-at-the-77th-world-health-assembly/
+    - https://www.taipeitimes.com/News/taiwan/archives/2024/04/25/2003816930
+    - https://www.cfr.org/articles/why-does-who-exclude-taiwan
+    - https://www.thehindu.com/news/international/who-states-decide-not-to-invite-taiwan-to-annual-assembly/article68221818.ece
+    - https://www.rappler.com/world/global-affairs/taiwan-not-invited-2025-who-geneva-assembly/
+    supporting_origins:
+    - ngo
+    - other
+    - western_wire_press
+    - wikipedia
+  - id: v2
+    text: China consistently blocks Taiwan's participation in the WHA and other bodies, citing UN Resolution 2758
+      and the 'one China' principle, arguing Taiwan's inclusion would constitute interference in its internal affairs
+      and calling claims of a health-security 'gap' a political lie.
+    supported_by:
+    - https://en.wikipedia.org/wiki/Taiwan_and_the_World_Health_Organization
+    - https://stratnewsglobal.com/world-news/taiwans-who-bid-fails-after-beijing-intervention/
+    - https://www.taipeitimes.com/News/taiwan/archives/2025/05/21/2003837250
+    - https://www.theguardian.com/world/2023/may/23/outcry-as-world-health-organization-locks-out-taiwan-under-pressure-from-china
+    - https://www.thehindu.com/news/international/who-states-decide-not-to-invite-taiwan-to-annual-assembly/article68221818.ece
+    - https://www.rappler.com/world/global-affairs/taiwan-not-invited-2025-who-geneva-assembly/
+    supporting_origins:
+    - other
+    - western_wire_press
+    - wikipedia
+  - id: v3
+    text: The United States, UK, Japan, Germany, France, Australia, Canada and other partners and allies have repeatedly
+      issued joint statements and diplomatic pressure supporting Taiwan's 'meaningful participation' as an observer
+      in the WHA, citing its public health expertise and COVID-19 response.
+    supported_by:
+    - https://www.gov.uk/government/news/support-for-taiwans-meaningful-engagement-with-the-who-in-2025
+    - https://2021-2025.state.gov/taiwan-as-an-observer-at-the-77th-world-health-assembly/
+    - https://www.taipeitimes.com/News/front/archives/2024/05/16/2003817930
+    - https://japan-forward.com/to-reform-who-prevent-us-withdrawal-taiwans-exclusion/
+    - https://www.taipeitimes.com/News/taiwan/archives/2025/05/21/2003837250
+    - https://www.ait.org.tw/taiwan-as-an-observer-at-the-77th-world-health-assembly/
+    - https://www.theguardian.com/world/2023/may/23/outcry-as-world-health-organization-locks-out-taiwan-under-pressure-from-china
+    - https://www.everycrsreport.com/reports/IF12646.html
+    supporting_origins:
+    - government_non_prc
+    - other
+    - western_wire_press
+  - id: v4
+    text: A small number of Taiwan's remaining diplomatic allies (e.g., Belize, Saint Vincent and the Grenadines,
+      Palau, Marshall Islands, Nauru, Eswatini, Haiti) have formally sponsored or spoken in favor of proposals to
+      invite Taiwan to the WHA, while Pakistan has consistently spoken against alongside China.
+    supported_by:
+    - https://stratnewsglobal.com/world-news/taiwans-who-bid-fails-after-beijing-intervention/
+    - https://www.taipeitimes.com/News/taiwan/archives/2025/05/21/2003837250
+    - https://www.theguardian.com/world/2023/may/23/outcry-as-world-health-organization-locks-out-taiwan-under-pressure-from-china
+    - https://www.thehindu.com/news/international/who-states-decide-not-to-invite-taiwan-to-annual-assembly/article68221818.ece
+    - https://www.rappler.com/world/global-affairs/taiwan-not-invited-2025-who-geneva-assembly/
+    supporting_origins:
+    - other
+    - western_wire_press
+  - id: v5
+    text: The WHO Secretariat maintains some technical-level engagement with Taiwanese experts even though Taiwan
+      is barred from the main Assembly, and Taiwan's health minister leads delegations to sideline events in Geneva
+      during the WHA each year.
+    supported_by:
+    - https://stratnewsglobal.com/world-news/taiwans-who-bid-fails-after-beijing-intervention/
+    - https://www.taipeitimes.com/News/front/archives/2024/05/16/2003817930
+    - https://www.ait.org.tw/taiwan-as-an-observer-at-the-77th-world-health-assembly/
+    - https://www.taipeitimes.com/News/taiwan/archives/2024/04/25/2003816930
+    supporting_origins:
+    - other
+    - western_wire_press
+  - id: v6
+    text: The U.S. withdrawal from the WHO (announced under the Trump/Kennedy administration) removed a major advocate
+      for Taiwan at the 2025 WHA, and some commentators argue this weakens Western leverage and increases China's
+      influence over the WHO.
+    supported_by:
+    - https://japan-forward.com/to-reform-who-prevent-us-withdrawal-taiwans-exclusion/
+    - https://www.rappler.com/world/global-affairs/taiwan-not-invited-2025-who-geneva-assembly/
+    supporting_origins:
+    - other
+  - id: v7
+    text: Taiwan is similarly excluded from the International Civil Aviation Organization (ICAO) as a UN specialized
+      agency, having last attended as a 'guest of the council president' in 2013, and was again barred from the
+      42nd Assembly in Montreal in September 2025 despite managing the busy Taipei Flight Information Region.
+    supported_by:
+    - https://asiatimes.com/2025/08/taiwans-icao-exclusion-a-danger-to-global-aviation/
+    - https://www.taipeitimes.com/News/taiwan/archives/2025/09/09/2003843503
+    - https://www.taipeitimes.com/News/taiwan/archives/2025/09/18/2003844024
+    - https://www.temponetworks.com/2022/10/10/why-taiwan-must-not-be-left-out-of-the-icao/
+    - https://taiwantoday.tw/politics/top-news/275426/taiwan-calls-for-icao-participation-from-sidelines-of-42nd-assembly
+    - https://taiwantoday.tw/AMP/politics/top-news/274652/taiwan-reiterates-commitment-to-joining-icao
+    - https://www.taipeitimes.com/News/taiwan/archives/2025/09/23/2003844298
+    supporting_origins:
+    - other
+    - western_wire_press
+  - id: v8
+    text: US officials and lawmakers (e.g., Senator Ted Cruz, AIT, and bipartisan members of Congress) as well as
+      Canadian parliamentarians have publicly called for Taiwan to be invited to ICAO as a guest or member, framing
+      exclusion as a global aviation-safety risk and linked to Chinese pressure/military threat.
+    supported_by:
+    - https://asiatimes.com/2025/08/taiwans-icao-exclusion-a-danger-to-global-aviation/
+    - https://www.commerce.senate.gov/press/rep/release/chairman-cruz-calls-for-recognition-of-taiwan-at-the-international-civil-aviation-organization-general-assembly/
+    - https://www.taipeitimes.com/News/taiwan/archives/2025/09/18/2003844024
+    - https://www.taipeitimes.com/News/taiwan/archives/2025/09/23/2003844298
+    supporting_origins:
+    - government_non_prc
+    - western_wire_press
+  - id: v9
+    text: Taiwan's broader international status is legally and diplomatically shaped by UN Resolution 2758 (1971),
+      which the PRC interprets as covering Taiwan but which Taiwan and some allies argue does not address Taiwan's
+      status or grant China representation rights over it, and by US legislation (Taiwan Relations Act, TAIPEI Act,
+      TERA) supporting Taiwan's participation in organizations not requiring statehood.
+    supported_by:
+    - https://www.taipeitimes.com/News/taiwan/archives/2025/09/09/2003843503
+    - https://www.taipeitimes.com/News/taiwan/archives/2025/05/21/2003837250
+    - https://www.everycrsreport.com/reports/IF12646.html
+    supporting_origins:
+    - government_non_prc
+    - western_wire_press
+  - id: v10
+    text: Beyond the WHO and ICAO, Taiwan participates under various names ('Chinese Taipei,' 'Republic of China,'
+      'Taiwan') in dozens of other intergovernmental organizations, though it remains excluded from the UN and most
+      UN-affiliated bodies requiring statehood.
+    supported_by:
+    - https://en.wikipedia.org/wiki/Taiwan_and_international_organizations
+    - https://www.everycrsreport.com/reports/IF12646.html
+    supporting_origins:
+    - government_non_prc
+    - wikipedia
+  source: posthoc_union_of_opened_pages
+  n_pages: 24
+- question_id: q18
+  items:
+  - id: v1
+    text: The 2017 military 'clearance operations' forced over 700,000 Rohingya to flee to Bangladesh amid documented
+      atrocities including killings, mass rape, and village burnings that a UN fact-finding mission characterized
+      as genocide and crimes against humanity.
+    supported_by:
+    - https://www.fortifyrights.org/mya-inv-sta-2025-08-22/
+    - https://www.unocha.org/publications/report/myanmar/myanmar-humanitarian-bulletin-issue-3-2017-23-september-13-november-2017
+    - https://www.msf.org/rohingya-refugee-crisis-depth
+    - https://www.ksat.com/news/world/2024/11/08/myanmars-conflict-torn-rakhine-state-could-face-an-imminent-acute-famine-un-report-warns/
+    - https://www.doctorswithoutborders.org/latest/myanmar-continues-block-humanitarian-access-rakhine-state
+    supporting_origins:
+    - ngo
+    - other
+  - id: v2
+    text: Since the November 2023 resumption of fighting between the Myanmar military and the Arakan Army, Rakhine
+      has experienced intensified conflict including airstrikes, drone attacks, arson, and mass displacement, with
+      the Arakan Army seizing most of the state including much of the border with Bangladesh.
+    supported_by:
+    - https://msf.org.uk/article/rohingya-crisis-trapped-and-forgotten-myanmar
+    - https://www.amnesty.ie/myanmar-rohingya-violence/
+    - https://asiatimes.com/2024/11/the-strangulation-of-myanmars-ravaged-rakhine-state/
+    - https://www.amnesty.org/en/latest/news/2025/09/myanmar-rohingya-repatriation-catastrophic-under-existing-conditions-in-northern-rakhine-state/
+    - https://www.stimson.org/project/crisis-in-myanmars-rakhine-state/
+    - https://reliefweb.int/report/myanmar/myanmar-rohingya-risk-rakhine-fighting
+    supporting_origins:
+    - ngo
+    - other
+    - western_wire_press
+  - id: v3
+    text: Humanitarian organizations, including MSF, have faced near-total denial of access and authorization to
+      operate in Rakhine since 2023 (and since 2017 in parts of northern Rakhine), severely curtailing healthcare
+      delivery and leaving essential medicines unavailable.
+    supported_by:
+    - https://www.doctorswithoutborders.org/latest/how-near-total-absence-humanitarian-access-impacting-lives-myanmar
+    - https://www.thenewhumanitarian.org/opinion/2024/06/11/denial-humanitarian-assistance-death-sentence-myanmar
+    - https://www.doctorswithoutborders.org/latest/myanmar-continues-block-humanitarian-access-rakhine-state
+    supporting_origins:
+    - ngo
+    - western_wire_press
+  - id: v4
+    text: UN agencies (UNDP, OCHA) have warned that Rakhine faces an imminent risk of acute famine, with over two
+      million people at risk of starvation due to blockades, collapsed trade and agriculture, and displacement-driven
+      loss of livelihoods.
+    supported_by:
+    - https://asiatimes.com/2024/11/the-strangulation-of-myanmars-ravaged-rakhine-state/
+    - https://www.thenewhumanitarian.org/news-feature/2025/08/07/if-we-die-we-die-myanmars-rakhine-pushed-brink
+    - https://www.ksat.com/news/world/2024/11/08/myanmars-conflict-torn-rakhine-state-could-face-an-imminent-acute-famine-un-report-warns/
+    supporting_origins:
+    - other
+    - western_wire_press
+  - id: v5
+    text: Human rights organizations report that both the Myanmar military and the Arakan Army have committed abuses
+      against Rohingya civilians, including forced recruitment/conscription, extrajudicial killings, torture, and
+      arson, complicating a narrative of a single perpetrator.
+    supported_by:
+    - https://www.amnesty.ie/myanmar-rohingya-violence/
+    - https://www.fortifyrights.org/mya-inv-sta-2025-08-22/
+    - https://www.amnesty.org/en/latest/news/2025/09/myanmar-rohingya-repatriation-catastrophic-under-existing-conditions-in-northern-rakhine-state/
+    - https://www.thenewhumanitarian.org/news-feature/2025/08/07/if-we-die-we-die-myanmars-rakhine-pushed-brink
+    - https://reliefweb.int/report/myanmar/myanmar-rohingya-risk-rakhine-fighting
+    supporting_origins:
+    - ngo
+    - other
+    - western_wire_press
+  - id: v6
+    text: As of mid-2025, roughly 550,000 Rohingya remain in Rakhine (many in long-term IDP camps since 2012), while
+      over 1.1 million Rohingya refugees remain in Bangladesh's Cox's Bazar camps facing dire and deteriorating
+      conditions.
+    supported_by:
+    - https://www.amnesty.ie/myanmar-rohingya-violence/
+    - https://www.fortifyrights.org/mya-inv-sta-2025-08-22/
+    - https://www.doctorswithoutborders.org/latest/timeline-rohingya-crisis
+    - https://www.msf.org/rohingya-refugee-crisis-depth
+    - https://humanitarianaction.info/plan/1505/document/myanmar-humanitarian-needs-and-response-plan-2026/article/11-crisis-overview-7
+    supporting_origins:
+    - ngo
+    - other
+  - id: v7
+    text: Rohingya in Myanmar continue to be denied citizenship and face systemic restrictions on freedom of movement,
+      healthcare, and education, conditions likened by some observers to an apartheid system.
+    supported_by:
+    - https://www.amnesty.ie/myanmar-rohingya-violence/
+    - https://www.msf.org/rohingya-refugee-crisis-depth
+    - https://humanitarianaction.info/plan/1505/document/myanmar-humanitarian-needs-and-response-plan-2026/article/11-crisis-overview-7
+    supporting_origins:
+    - ngo
+    - other
+  - id: v8
+    text: Amnesty International and other groups warn that current conditions in northern Rakhine are not safe for
+      the repatriation of Rohingya refugees from Bangladesh, given ongoing conflict, aid cuts, and lack of accountability.
+    supported_by:
+    - https://www.amnesty.org/en/latest/news/2025/09/myanmar-rohingya-repatriation-catastrophic-under-existing-conditions-in-northern-rakhine-state/
+    supporting_origins:
+    - ngo
+  - id: v9
+    text: Broader Myanmar humanitarian data situate Rakhine within a nationwide crisis, with millions displaced
+      across the country (over 3.5 million as of 2025) amid conflict following the 2021 coup, compounded by natural
+      disasters like Cyclone Mocha (2023) and the 2025 earthquake, and severe underfunding of humanitarian appeals.
+    supported_by:
+    - https://myanmar.un.org/my/node/289497
+    - https://www.unocha.org/myanmar
+    - https://data.unhcr.org/en/situations/myanmar
+    - https://www.unocha.org/publications/report/myanmar/myanmar-humanitarian-update-no-45-28-march-2025
+    - https://reliefweb.int/report/myanmar/myanmar-emergency-update-4-may-2022
+    - https://humanitarianaction.info/plan/1275/document/myanmar-humanitarian-needs-and-response-plan-2025/article/11-crisis-overview-3
+    - https://humanitarianaction.info/plan/1505/document/myanmar-humanitarian-needs-and-response-plan-2026/article/11-crisis-overview-7
+    - https://reliefweb.int/report/myanmar/myanmar-humanitarian-update-no-32-8-september-2023
+    supporting_origins:
+    - ngo
+  - id: v10
+    text: International accountability mechanisms are underway, including an ICC investigation and an ICJ genocide
+      case brought by The Gambia, alongside calls for a UN Security Council referral to the ICC, though impunity
+      for the 2017 atrocities and ongoing abuses persists.
+    supported_by:
+    - https://www.fortifyrights.org/mya-inv-sta-2025-08-22/
+    supporting_origins:
+    - ngo
+  source: posthoc_union_of_opened_pages
+  n_pages: 24
+- question_id: q19
+  items:
+  - id: v1
+    text: Post-combustion, pre-combustion, and oxy-fuel combustion are the three main established capture technology
+      categories, with post-combustion (chemical absorption using amine solvents) being the most widely deployed
+      commercially, especially in power generation retrofits.
+    supported_by:
+    - https://www.capturemap.no/carbon-capture-technologies/
+    - https://www.rff.org/publications/explainers/carbon-capture-and-storage-101/
+    - https://www.iea.org/reports/about-ccus
+    - https://en.wikipedia.org/wiki/Petra_Nova
+    - https://www.sustainable-carbon.org/blogs/insight-from-pccc4/
+    supporting_origins:
+    - ngo
+    - other
+    - wikipedia
+  - id: v2
+    text: Chemical absorption and physical separation are described as the most advanced and widely adopted large-scale
+      capture technologies, with membranes and looping cycles (chemical/calcium looping) as emerging alternatives.
+    supported_by:
+    - https://www.iea.org/reports/about-ccus
+    - https://www.sustainable-carbon.org/blogs/insight-from-pccc4/
+    supporting_origins:
+    - ngo
+    - other
+  - id: v3
+    text: Enhanced oil recovery (EOR) remains the dominant commercial use for captured CO2, accounting for roughly
+      80-90% of captured CO2 and providing revenue that has historically driven project economics, exemplified by
+      flagship projects like Petra Nova, Boundary Dam, and the Alberta Carbon Trunk Line.
+    supported_by:
+    - https://www.rff.org/publications/explainers/carbon-capture-and-storage-101/
+    - https://en.wikipedia.org/wiki/Carbon_capture_and_storage
+    - https://en.wikipedia.org/wiki/Petra_Nova
+    - https://en.wikipedia.org/wiki/Boundary_Dam_Power_Station
+    - https://en.wikipedia.org/wiki/List_of_carbon_capture_and_storage_projects
+    - https://www.catf.us/resource/carbon-capture-storage-what-can-learn-from-project-track-record/
+    supporting_origins:
+    - ngo
+    - other
+    - wikipedia
+  - id: v4
+    text: Natural gas processing facilities represent the majority (over 60%) of operational large-scale capture
+      capacity today due to low costs and high CO2 concentrations, with dedicated geological storage projects like
+      Sleipner and Quest demonstrating decades of technical success.
+    supported_by:
+    - https://www.iea.org/commentaries/ccus-projects-around-the-world-are-reaching-new-milestones
+    - https://www.iea.org/reports/about-ccus
+    - https://www.catf.us/resource/carbon-capture-storage-what-can-learn-from-project-track-record/
+    - https://en.wikipedia.org/wiki/List_of_carbon_capture_and_storage_projects
+    supporting_origins:
+    - ngo
+    - wikipedia
+  - id: v5
+    text: Direct air capture (DAC), exemplified by large commercial projects like Occidental's Stratos and Climeworks'
+      Mammoth plant, is emerging as a distinct carbon removal approach separate from point-source CCUS, though at
+      significantly higher cost per tonne.
+    supported_by:
+    - https://www.senken.io/blog/top-direct-air-capture-carbon-removal-projects-buyers-guide
+    - https://www.wri.org/insights/carbon-capture-technology
+    supporting_origins:
+    - ngo
+    - other
+  - id: v6
+    text: Industry and government reports (IEA, Global CCS Institute) show strong recent growth in commercial-scale
+      CCS/CCUS project pipelines and operational capacity, with capture capacity increasing over 10% and storage
+      capacity by around 25% in the most recent annual updates, alongside billions in new commercial financing.
+    supported_by:
+    - https://www.iea.org/commentaries/policy-and-financing-momentum-sustain-ccus-progress-despite-setbacks
+    - https://www.iea.org/commentaries/ccus-projects-around-the-world-are-reaching-new-milestones
+    - https://www.globalccsinstitute.com/installed-ccs-capacity-on-track-to-double-as-governments-and-industry-collaborate-to-advance-projects/
+    - https://www.globalccsinstitute.com/carbon-capture-stays-the-course-despite-global-headwinds-with-54-rise-in-operational-projects/
+    - https://www.globalccsinstitute.com/global-status-of-ccs/
+    supporting_origins:
+    - ngo
+    - other
+  - id: v7
+    text: Despite this growth, CCUS still captures only about 0.1% of global emissions, and current deployment trends
+      remain far below the scale needed for net-zero pathways, with much planned capacity delayed toward 2035.
+    supported_by:
+    - https://www.wri.org/insights/carbon-capture-technology
+    - https://www.iea.org/commentaries/ccus-projects-around-the-world-are-reaching-new-milestones
+    - https://www.iea.org/commentaries/policy-and-financing-momentum-sustain-ccus-progress-despite-setbacks
+    - https://en.wikipedia.org/wiki/Carbon_capture_and_storage
+    supporting_origins:
+    - ngo
+    - wikipedia
+  - id: v8
+    text: Critics and some studies highlight that CCS/CCUS has a mixed track record, with a 2022 review finding
+      around 70% of announced projects failed to materialize and technical problems (e.g., at Boundary Dam) reducing
+      actual capture rates below targets.
+    supported_by:
+    - https://en.wikipedia.org/wiki/Carbon_capture_and_storage
+    - https://en.wikipedia.org/wiki/Boundary_Dam_Power_Station
+    supporting_origins:
+    - wikipedia
+  - id: v9
+    text: Some NGOs and environmental groups argue CCUS is an unproven, expensive technology that risks perpetuating
+      fossil fuel dependence rather than serving as a genuine climate solution, citing high costs, moral hazard
+      concerns, and limited public understanding.
+    supported_by:
+    - https://www.wri.org/insights/carbon-capture-technology
+    - https://en.wikipedia.org/wiki/Carbon_capture_and_storage
+    - https://www.energymonitor.ai/news/carbon-capture-and-storage-becoming-a-practical-solution-despite-hurdles/
+    supporting_origins:
+    - ngo
+    - western_wire_press
+    - wikipedia
+  - id: v10
+    text: Major barriers to commercial-scale deployment include high capital and operating costs, insufficient CO2
+      transport and storage infrastructure, regulatory uncertainty (including long-term liability), and policy dependency,
+      with U.S. federal support (e.g., 45Q tax credit) recently facing funding cuts and project cancellations that
+      threaten momentum.
+    supported_by:
+    - https://www.energymonitor.ai/news/carbon-capture-and-storage-becoming-a-practical-solution-despite-hurdles/
+    - https://www.catf.us/2025/06/carbon-capture-storage-opportunities-federal-action-support-domestic-energy-production-industrial-innovation/
+    - https://dieselnet.com/tech/carbon-capture-storage.php
+    supporting_origins:
+    - ngo
+    - other
+    - western_wire_press
+  source: posthoc_union_of_opened_pages
+  n_pages: 24
+- question_id: q20
+  items:
+  - id: v1
+    text: AI is applied across the full drug discovery pipeline, including target identification, molecule generation/optimization,
+      clinical trial design, patient recruitment, and regulatory document preparation.
+    supported_by:
+    - https://www.nature.com/articles/s41587-025-02754-1
+    - https://wewillcure.com/insights/company-profiles/ai-and-machine-learning/innovative-companies-using-ai-for-drug-discovery
+    - https://greyb.com/blog/ai-in-drug-discovery/
+    - https://onclusive.com/en-gb/resources/blog/ai-in-pharmaceutical-drug-development/
+    - https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/artificial-intelligence-drug-development
+    supporting_origins:
+    - government_non_prc
+    - other
+    - western_wire_press
+  - id: v2
+    text: Insilico Medicine's rentosertib (formerly ISM001-055/INS018-055), an AI-discovered and AI-designed TNIK
+      inhibitor for idiopathic pulmonary fibrosis, is the furthest-advanced AI-originated candidate, having shown
+      Phase IIa lung-function improvement and advanced to Phase III in 2026.
+    supported_by:
+    - https://intuitionlabs.ai/articles/ai-drug-discovery-fda-approvals
+    - https://intuitionlabs.ai/articles/ai-discovered-drugs-clinical-trials-2026
+    - https://www.globaltimes.cn/page/202506/1335390.shtml
+    - https://insilico.com/blog/first_phase2
+    - https://www.nature.com/articles/s41591-025-03743-2
+    - https://thesciencesurvey.com/news/2026/08/11/ai-drug-discovery-ai-designed-drugs-are-now-in-human-trials/
+    - https://www.elegantsoftwaresolutions.com/blog/ai-drug-discovery-revolution-2025
+    supporting_origins:
+    - other
+    - prc_state
+    - western_wire_press
+  - id: v3
+    text: Despite thousands of AI-related pharma deals and tens of billions of dollars invested, as of mid-2026
+      no drug discovered or designed by AI has received full FDA approval.
+    supported_by:
+    - https://intuitionlabs.ai/articles/ai-drug-discovery-fda-approvals
+    - https://pmc.ncbi.nlm.nih.gov/articles/PMC11924158/
+    supporting_origins:
+    - academic
+    - other
+  - id: v4
+    text: Multiple analyses report that AI-discovered molecules achieve unusually high Phase I success rates (roughly
+      80-90%) compared to historical industry averages of 40-65%, though Phase II success rates remain closer to
+      historical norms.
+    supported_by:
+    - https://www.nature.com/articles/s41587-025-02754-1
+    - https://intuitionlabs.ai/articles/ai-drug-discovery-fda-approvals
+    - https://www.2minutemedicine.com/ai-designed-drugs-hit-90-phase-i-success-rate-in-trials/
+    supporting_origins:
+    - other
+    - western_wire_press
+  - id: v5
+    text: Exscientia is credited with pioneering the first AI-designed drug candidates to enter human trials (e.g.,
+      DSP-1181 for OCD in 2020, EXS-21546 for solid tumors, DSP-0038), though some of these programs later failed
+      or were discontinued.
+    supported_by:
+    - https://www.futuremedicine.com/articles/top-5-ai-designed-drugs-in-trials
+    - https://pharmaphorum.com/news/exscientia
+    - https://www.cas.org/resources/cas-insights/ai-drug-discovery-assessing-the-first-ai-designed-drug-candidates-to-go-into-human-clinical-trials
+    supporting_origins:
+    - other
+  - id: v6
+    text: Big pharma companies (Sanofi, AstraZeneca, Pfizer, Eli Lilly, Novartis, BMS, Takeda, Novo Nordisk) are
+      increasingly partnering with or acquiring AI-driven biotech startups (Atomwise, Valo Health, Isomorphic Labs,
+      Recursion/Exscientia, Chai Discovery) rather than building AI capabilities solely in-house.
+    supported_by:
+    - https://greyb.com/blog/ai-in-drug-discovery/
+    - https://intuitionlabs.ai/articles/ai-discovered-drugs-clinical-trials-2026
+    - https://www.biospace.com/business/ai-is-changing-pharmas-bottom-line-now-but-not-through-splashy-drug-discovery
+    - https://pharmaphorum.com/news/exscientia
+    supporting_origins:
+    - other
+  - id: v7
+    text: Some analysts and industry executives argue AI's biggest proven pharma impact so far has been in operational
+      efficiency and cost-cutting (e.g., Pfizer) rather than in delivering breakthrough new medicines, with the
+      promise of AI uncovering fundamentally new biology still unproven.
+    supported_by:
+    - https://www.biospace.com/business/ai-is-changing-pharmas-bottom-line-now-but-not-through-splashy-drug-discovery
+    - https://pmc.ncbi.nlm.nih.gov/articles/PMC11924158/
+    supporting_origins:
+    - academic
+    - other
+  - id: v8
+    text: Estimates of how many AI-related drugs are in clinical trials vary widely across trackers (from dozens
+      to over 170 programs), reflecting inconsistent definitions of what counts as 'AI-discovered' and undermining
+      single authoritative pipeline totals.
+    supported_by:
+    - https://intuitionlabs.ai/articles/ai-discovered-drugs-clinical-trials-2026
+    - https://pmc.ncbi.nlm.nih.gov/articles/PMC11924158/
+    - https://www.cas.org/resources/cas-insights/ai-drug-discovery-assessing-the-first-ai-designed-drug-candidates-to-go-into-human-clinical-trials
+    supporting_origins:
+    - academic
+    - other
+  - id: v9
+    text: A notable case predating recent hype is BenevolentAI's identification of baricitinib as a COVID-19 treatment,
+      later validated in large randomized trials and granted FDA emergency use authorization, illustrating AI's
+      role in drug repurposing rather than de novo discovery.
+    supported_by:
+    - https://www.benevolent.com/news-and-media/press-releases-and-in-media/data-eli-lillys-cov-barrier-trial-shows-baricitinib-reduced-deaths-hospitalised-covid-19-patients-38/
+    supporting_origins:
+    - other
+  - id: v10
+    text: Regulatory bodies, including the FDA, are actively developing frameworks and tools (e.g., 2025 draft AI
+      guidance, the Elsa LLM, NIH's TrialGPT) to support the growing use of AI throughout the drug development and
+      clinical trial lifecycle.
+    supported_by:
+    - https://www.nature.com/articles/s41587-025-02754-1
+    - https://www.fda.gov/about-fda/center-drug-evaluation-and-research-cder/artificial-intelligence-drug-development
+    supporting_origins:
+    - government_non_prc
+    - western_wire_press
+  source: posthoc_union_of_opened_pages
+  n_pages: 24

@@ -1,0 +1,110 @@
+# Models under test. IDs, dates and prices were taken from the Fireworks API
+# (GET /inference/v1/models and GET /v1/accounts/fireworks/models/{id}) and from
+# https://docs.fireworks.ai/serverless/pricing on the date below.
+queried_on: 2026-09-05  # re-checked for the writing evals; catalog unchanged since 2026-09-04, no newer checkpoints for any of the 8 models
+pricing_source: https://docs.fireworks.ai/serverless/pricing (Standard tier, USD per 1M tokens)
+endpoint: https://api.fireworks.ai/inference/v1/chat/completions
+
+models:
+  # ---- Chinese-developed ----
+  - key: deepseek_v4_pro
+    family: DeepSeek
+    origin: china
+    fireworks_id: accounts/fireworks/models/deepseek-v4-pro-0813
+    hf: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813
+    listed_created: 2026-08-13
+    price_input_per_m: 1.32
+    price_output_per_m: 3.96
+    reasoning: true
+  - key: qwen3_8_max
+    family: Qwen
+    origin: china
+    fireworks_id: accounts/fireworks/models/qwen3p8-max
+    hf: https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B
+    listed_created: 2026-08-05
+    price_input_per_m: 2.00
+    price_output_per_m: 6.00
+    reasoning: true
+    note: >
+      2.4T total / ~95B active MoE. Total params exceed the spec's 27B-400B range; active
+      params are inside it. The only other Qwen chat option (qwen3p7-plus) is a closed model,
+      which would break the open-weights premise. See DECISIONS.md.
+  - key: kimi_k3
+    family: Moonshot Kimi
+    origin: china
+    fireworks_id: accounts/fireworks/models/kimi-k3
+    hf: https://huggingface.co/moonshotai/Kimi-K3
+    listed_created: 2026-07-19
+    price_input_per_m: 3.00
+    price_output_per_m: 15.00
+    reasoning: true
+  - key: glm_5_3
+    family: Zhipu GLM
+    origin: china
+    fireworks_id: accounts/fireworks/models/glm-5p3
+    hf: https://huggingface.co/zai-org/GLM-5.3
+    listed_created: 2026-08-27
+    price_input_per_m: 1.40
+    price_output_per_m: 4.40
+    reasoning: true
+  - key: minimax_m3
+    family: MiniMax
+    origin: china
+    fireworks_id: accounts/fireworks/models/minimax-m3
+    hf: https://huggingface.co/MiniMaxAI/MiniMax-M3
+    listed_created: 2026-06-11
+    price_input_per_m: 0.30
+    price_output_per_m: 1.20
+    reasoning: true
+
+  # ---- Western-developed controls ----
+  - key: gpt_oss_120b
+    family: OpenAI gpt-oss
+    origin: west
+    fireworks_id: accounts/fireworks/models/gpt-oss-120b
+    hf: https://huggingface.co/openai/gpt-oss-120b
+    listed_created: 2025-08-04
+    price_input_per_m: 0.15
+    price_output_per_m: 0.60
+    reasoning: true
+  - key: nemotron_3_ultra
+    family: NVIDIA Nemotron
+    origin: west
+    fireworks_id: accounts/fireworks/models/nemotron-3-ultra-nvfp4
+    hf: https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B-NVFP4
+    listed_created: 2026-06-02
+    price_input_per_m: 0.60
+    price_output_per_m: 2.40
+    reasoning: true
+  - key: nemotron_lightning_3_5
+    family: NVIDIA Nemotron
+    origin: west
+    fireworks_id: accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b
+    hf: https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16
+    listed_created: 2026-08-07
+    price_input_per_m: 0.05
+    price_output_per_m: 0.20
+    reasoning: true
+
+dropped:
+  - family: Meta Llama
+    reason: >
+      Not serverless on Fireworks as of 2026-09-04. llama4-maverick-instruct-basic exists in the
+      catalog but is marked deprecated (2026-01-21) and inference returns NOT_FOUND. Newer Llama
+      checkpoints are not in the catalog. Dedicated deployment (GPU-hour billing) was out of scope.
+  - family: Mistral
+    reason: >
+      Not serverless on Fireworks as of 2026-09-04. mistral-large-3-fp8 and devstral-small-2 are
+      catalog-only; inference returns NOT_FOUND.
+
+judge:
+  # Spec asked for gpt-oss-120b on Fireworks. It is one of the eight models under test, and a model
+  # must not judge itself (same reasoning as coding-vulnerabilities DECISIONS #4), so the spec's own
+  # fallback judge is used from the start: Claude Sonnet 5 via the Message Batches API (50% price).
+  provider: anthropic
+  model: claude-sonnet-5
+  price_input_per_m: 2.00
+  price_output_per_m: 10.00
+  batch_discount: 0.5
+  cache_read_multiplier: 0.1
+  cache_write_multiplier: 1.25

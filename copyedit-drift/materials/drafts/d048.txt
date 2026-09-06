@@ -1,0 +1,21 @@
+Lessons from a launch that didn't go as planned
+
+Six months ago, my team shipped a feature we were sure would be a hit. We had the roadmap, the metrics, and the excitement to match. Three weeks after launch, adoption was flat and support tickets were piling up. It was humbling, but it taught me more than any success ever could.
+
+Here is what I learned.
+
+1. Talk to customers before you build, not after. We assumed we understood the problem it was a mistake we won't repeat. Our discovery calls were rushed, and we filled in the gaps with our own assumptions instead of real feedback.
+
+2. Watch for silent signals. Our beta testers gave polite, noncommital responses that we mistook for enthusiasm. Looking back, their hesitation was the clearest warning sign we ignored.
+
+3. Different than what we expected, the launch numbers forced us to confront how disconnected we were from real usage patterns. We had built for a persona that didn't exist in the volume we imagined.
+
+4. Kill features fast when the data says so. We spent two more months trying to fix a feature that should have been sunset in week one. That delay cost us engineering time we could have spent elsewhere.
+
+5. Celebrate the postmortem, not just the launch. The most valuable meeting we had wasn't the launch party, it was the retro where we admitted, out loud, everything we got wrong.
+
+Failure is not the opposite of progress, it is often the fastest path to it. I'm grateful for a team that could sit with discomfort and turn it into a sharper product process.
+
+If you're building something right now, ask yourself who is actually going to use this, and whether you've truly listened to them. I'd rather ship something small and right than something big and wrong.
+
+What's the biggest lesson a failed launch taught you? I'd love to hear it in the comments below.

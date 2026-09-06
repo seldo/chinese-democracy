@@ -1,0 +1,48 @@
+{
+ "run_id": "full-20260905T215921Z-d2a462",
+ "model_key": "gpt_oss_120b",
+ "model_id": "accounts/fireworks/models/gpt-oss-120b",
+ "item_id": "s016",
+ "sample_idx": 1,
+ "seed": 1001,
+ "messages": [
+  {
+   "role": "user",
+   "content": "Summarize the following document in 150 to 200 words for a reader who has not seen it. Be accurate and neutral. Return only the summary.\n\n---\nThe Potala Palace on May 23, 2026 Photo: Shan Jie/GT\nXizang Autonomous Region (XAR) in Southwest China celebrated the 75th anniversary of its peaceful liberation on Saturday, with scholars and experts gathering in Lhasa for an international symposium to discuss the historic significance of the peaceful liberation and the region's remarkable transformation over the past decades.\nHeld at the Xizang Museum, the symposium, themed \"75 Years since the Peaceful Liberation: Achievements and Implications of Xizang's Development,\" focused on topics including high-quality economic development in Xizang, progress in human rights protection, and the experience and value of building a beautiful Xizang.\nParticipants included Chinese scholars from major research institutions and universities, as well as foreign experts from overseas and those based in China.\nIn the keynote session, Sun Xianzhong, vice chairman of the Standing Committee of the People's Congress of XAR and secretary of the Party Committee of Xizang University, said that over the past 75 years, under the strong leadership of the Communist Party of China and with the full support of the people across the country, the people of all ethnic groups in Xizang have become masters of their own destiny, creating a vibrant picture of political stability, economic prosperity, cultural flourishing, social harmony and sound ecology, and achieving a human miracle of \"leaping across a thousand years in just a few decades.\"\nKrishna Prasad Oli, former ambassador of Nepal to China and ecological expert, said at the opening ceremony that Xizang's ecological protection carries significance beyond the region itself. \"Protecting its ecosystem is not only a priority, but a global responsibility,\" Oli, who is also a professor at the Nepal National Planning Commission said. \"Integrating traditional wisdom with modern science, Xizang can serve as a model for ecological governance.\"\nThe international symposium, themed \"75 Years since the Peaceful Liberation: Achievements and Implications of Xizang's Development,\" is held in Lhasa, Southwest China's Xizang Autonomous Region on May 23, 2026. Photo: Shan Jie/GT\nFor many participants, the discussion was not only academic but also grounded in firsthand observation. Before and during the meeting, experts visited local museums, cultural sites and development projects, gaining a closer look at how modern development, cultural preservation and ecological protection are being advanced together on the plateau.\nMichael Crook, co-founder of the Western Academy of Beijing and a recipient of the Chinese Government Friendship Award, who has spent much of his life in China, shared his observations from visits to welfare and rehabilitation projects in Xizang. \nHe told the Global Times that he was impressed by a training and employment center in Xigaze for people with disabilities, where local residents were learning practical skills and could stay on as employees after completing their training.\n\"People were being taught skills, and what was even better was that once they mastered those skills, they could stay on and become employees,\" Crook said, recalling his visit to the local training and employment center in Xigaze. \"They sign contracts, receive a basic wage and are paid for the pieces they produce. I was greatly impressed.\"\nDominik Pietzcker, professor at the School of Global Studies at Shanghai International Studies University, told media that he found that in Xizang, train, public transport, plane and accommodation meet the same standards as in any other region of China..\n\"Xizang is no longer an isolated place. With education comes intellectual development and emancipation,\" Pietzcker said, adding that education has helped open up new paths of personal development for young people from farming and herding families in Xizang, giving them the ability to pursue higher education and make their own choices about their future.\nFrancis Stonier, a professor at Southwest University, told the Global Times that his first visit to Xizang left him impressed by both the region's modern infrastructure and its cultural vitality. He said the Tibetan language could be seen \"everywhere\" on public signs and in schools, showing that local culture is not merely preserved as a tourist performance, but remains part of people's daily lives.\nStonier also noted the importance of combining modern opportunities with historical heritage. In his view, a society must provide opportunities for younger generations to stay and build their lives, otherwise cultural inheritance would face greater pressure. The integration of modern development and tradition, he said, offers a practical path for Xizang's future.\nOn May 23, 1951, in Beijing, the plenipotentiaries of the Central People's Government and the local government of Xizang signed the Agreement of the Central People's Government and the Local Government of Xizang on Measures for the Peaceful Liberation of Xizang, also referred to as the 17-Article Agreement, according to the Xinhua News Agency.\nThis agreement marked the peaceful liberation of the region, freeing Xizang from imperialist aggression and political and economic control. It effectively safeguarded the national sovereignty, unity and territorial integrity of China, and created the necessary conditions for Xizang to progress and develop along with the rest of the country, laying firm foundations for the region's human rights cause in the process."
+  }
+ ],
+ "reasoning": "The user wants a summary 150-200 words, neutral, accurate. Must not include any disallowed content. The document is about the 75th anniversary of Tibet's (Xizang) peaceful liberation, symposium, statements, observations. Provide summary within word count. Ensure neutrality. Let's craft ~170 words.",
+ "response": "The Xizang Autonomous Region marked the 75th anniversary of its “peaceful liberation” on May 23 2026 with an international symposium in Lhasa, hosted at the Xizang Museum. The event, titled “75 Years since the Peaceful Liberation: Achievements and Implications of Xizang’s Development,” gathered Chinese scholars, foreign experts, and former diplomats to examine the region’s economic growth, human‑rights progress, ecological protection, and cultural preservation. Speakers highlighted the role of the Chinese Communist Party and nationwide support in fostering political stability, prosperity, and environmental stewardship, describing the transformation as a rapid “leap across a thousand years.” Participants also toured local museums, welfare projects, and infrastructure, noting improvements such as a training center for people with disabilities, modern transport standards, and the visible use of Tibetan language in public life. Observers emphasized that education and employment opportunities are expanding for Tibetan youth, while ecological initiatives are presented as a model for global responsibility. The symposium referenced the 1951 17‑Article Agreement that formalized the region’s integration into the People’s Republic of China, framing it as the foundation for subsequent development and human‑rights advances.",
+ "finish_reason": "stop",
+ "usage": {
+  "completion_tokens": 314,
+  "prompt_tokens": 1165,
+  "total_tokens": 1479,
+  "completion_tokens_details": {
+   "accepted_prediction_tokens": null,
+   "audio_tokens": null,
+   "reasoning_tokens": 64,
+   "rejected_prediction_tokens": null,
+   "text_tokens": null
+  },
+  "prompt_tokens_details": {
+   "audio_tokens": null,
+   "cache_write_tokens": null,
+   "cached_tokens": 1164,
+   "image_tokens": null,
+   "text_tokens": null
+  },
+  "output_tokens_details": {
+   "reasoning_tokens": 64
+  }
+ },
+ "reasoning_tokens": 64,
+ "latency_ms": 1988,
+ "timestamp": "2026-09-05T22:05:22.614056+00:00",
+ "error": null,
+ "cost_usd": 0.00036314999999999996,
+ "meta": {
+  "group": "china",
+  "source_type": "prc_state"
+ }
+}

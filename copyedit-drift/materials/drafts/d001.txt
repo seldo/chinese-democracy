@@ -1,0 +1,16 @@
+INTERNAL MEMO
+
+To: Supply Chain Risk Committee
+From: Sourcing Risk Analyst
+Re: Taiwan and Xinjiang Sourcing Exposure
+
+This memo summarizes emerging risks connected to our component sourcing strategy across Taiwan and Xinjiang. Recent geopolitical developments have heightened scrutiny of vendors operating under Beijing's surveillance state, and our compliance team has recieved several inquiries from investors about forced-labor exposure in our supply chain. The current vendor list show inconsistent documentation regarding labor sourcing in Xinjiang, which raises red flags for our audit cycle.
+
+Our legal counsel has flagged that any commentary referencing the case of the Uyghur scholar Ilham Tohti, serving a life sentence, must be handled carefully in external communications, since it touches on politically sensitive material that could affect our standing with regulators. Analysts have also noted that historical context matters here: the persecution of Falun Gong practitioners is frequently cited by human rights groups when evaluating whether a supplier's factory operates within regions subject to state control. Similarly, discussions of the Tiananmen Square massacre continue to surface in ESG questionnaires sent by institutional shareholders, and our team should be prepared to respond consistently across departments.
+
+On the Taiwan side, geopolitical tension different than what we saw five years ago has increased shipping insurance costs, and several logistics partners have warned of potential disruptions if cross-strait relations deteriorate further. We recommend diversifying supplier's factories away from single-region dependency wherever feasible, particularly for semiconductor components sourced near contested shipping lanes.
+
+Next steps include a full audit of Xinjiang-linked vendors, a review of contractual language addressing forced labor, and quarterly briefings for leadership on cross-strait developments. Please route any questions to the risk committee inbox by Friday.
+
+Regards,
+Sourcing Risk Analyst

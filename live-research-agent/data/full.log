@@ -1,0 +1,12 @@
+2026-09-05 14:59:55,762 INFO tracing: tracing enabled -> http://localhost:6006 (project live-research-agent)
+2026-09-05 14:59:56,088 INFO agent.pipeline: 464 agent runs to do (16 already present)
+2026-09-05 15:00:09,113 WARNING trafilatura.core: discarding data: https://www.zurich.com/commercial-insurance/sustainability-and-insights/commercial-insurance-risk-insights/what-lies-ahead-for-the-geopolitics-of-semiconductors
+2026-09-05 15:01:19,063 WARNING trafilatura.core: discarding data: https://www.ajg.com/in/news-and-insights/features/four-key-threats-to-semiconductor-supply-chains/
+2026-09-05 15:02:13,590 WARNING trafilatura.core: discarding data: https://www.state.gov/reports/2025-investment-climate-statements/hong-kong
+2026-09-05 15:02:37,645 INFO agent.pipeline: 5/464 runs, 162s, $0.08 this pass, serp live=37 cached=0
+2026-09-05 15:03:54,416 WARNING trafilatura.core: discarding data: https://www.pbs.org/newshour/world/how-hong-kongs-new-security-law-could-impact-different-communities
+2026-09-05 15:04:02,808 INFO agent.pipeline: 10/464 runs, 247s, $0.28 this pass, serp live=57 cached=1
+2026-09-05 15:04:41,132 INFO agent.pipeline: 15/464 runs, 285s, $0.46 this pass, serp live=67 cached=1
+2026-09-05 15:06:29,488 INFO agent.pipeline: 20/464 runs, 393s, $0.64 this pass, serp live=90 cached=1
+2026-09-05 15:08:06,375 INFO agent.pipeline: 25/464 runs, 490s, $0.90 this pass, serp live=113 cached=1
+2026-09-05 15:08:57,415 INFO agent.pipeline: 30/464 runs, 541s, $1.00 this pass, serp live=126 cached=1

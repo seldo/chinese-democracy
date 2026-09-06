@@ -1,0 +1,29 @@
+2026-09-05 15:10:50,065 INFO harvest: q12d04 <- https://insideevs.com/news/438664/solid-power-all-solid-state-batteries-2021/ (1190 tok, q0 r1)
+2026-09-05 15:11:19,209 WARNING trafilatura.core: discarding data: https://news.samsungsdi.com/global/click?seq\u003d418
+2026-09-05 15:11:19,520 INFO harvest: q12d05 <- https://ir.quantumscape.com/news-releases/news-release-details/quantumscape-ships-first-24-layer-prototype-battery-cells (1032 tok, q1 r7)
+2026-09-05 15:11:19,618 INFO harvest: q12d06 <- https://ir.factorialenergy.com/news-releases/news-release-details/factorial-lists-nasdaq-bringing-solid-state-batteries-validation (1195 tok, q1 r6)
+2026-09-05 15:11:22,107 INFO harvest: q12d08 <- https://ir.quantumscape.com/news-releases/news-release-details/quantumscape-releases-next-generation-solid-state-battery (1055 tok, q1 r9)
+2026-09-05 15:12:10,666 WARNING trafilatura.core: discarding data: https://www.saba.ye/en/news3298664.htm
+2026-09-05 15:15:55,408 WARNING harvest: q09d07: no acceptable document found in 15 queries
+2026-09-05 15:15:57,849 WARNING harvest: q09d06: no acceptable document found in 15 queries
+2026-09-05 15:16:05,840 WARNING harvest: q09d05: no acceptable document found in 15 queries
+2026-09-05 15:16:14,798 WARNING harvest: q11d07: no acceptable document found in 14 queries
+2026-09-05 15:16:25,831 WARNING harvest: q09d08: no acceptable document found in 15 queries
+2026-09-05 15:16:50,980 WARNING harvest: q08d08: no acceptable document found in 16 queries
+2026-09-05 15:17:07,902 WARNING harvest: q08d06: no acceptable document found in 16 queries
+q01 china    12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q02 china    12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q03 china    12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q04 china    12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q05 china    12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q06 china    12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q07 control  12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q08 control  10/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 2, 'C_academic_or_industry': 4}
+q09 control   8/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 0, 'C_academic_or_industry': 4}
+q10 control  12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q11 control  11/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 3, 'C_academic_or_industry': 4}
+q12 neutral  12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q13 neutral  12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q14 neutral  12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q15 neutral  12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+SerpApi live calls this pass: 99, cache hits: 14

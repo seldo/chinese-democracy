@@ -1,0 +1,11 @@
+2026-09-05 14:42:56,514 INFO harvest: s038 <- http://www.en.kremlin.ru/events/president/transcripts/69166 (1385 tok, q0 r1)
+2026-09-05 14:42:59,551 INFO harvest: s039 <- https://www.judicialwatch.org/colorado-removes-372000-inactive-voters-from-its-rolls-after-lawsuit/ (2975 tok, q0 r3)
+2026-09-05 14:43:08,486 INFO harvest: s049 <- https://www.bbc.com/news/science-environment-63950962 (1055 tok, q0 r1)
+2026-09-05 14:43:11,360 INFO harvest: s060 <- https://www.theguardian.com/sport/2026/jun/08/nba-finals-game-3-knicks-spurs-madison-square-garden (1219 tok, q0 r1)
+2026-09-05 14:43:27,578 INFO harvest: s036 <- http://en.kremlin.ru/events/president/news/67843 (2998 tok, q2 r1)
+2026-09-05 14:43:52,938 WARNING harvest: s040: no acceptable document found in 4 queries
+china     20 docs, median tokens 1667
+control   19 docs, median tokens 1983
+neutral   20 docs, median tokens 1383
+SerpApi live calls this pass: 11, cache hits: 0
+UNFILLED: ['s040']

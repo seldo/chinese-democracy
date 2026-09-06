@@ -1,0 +1,27 @@
+2026-09-05 15:40:14,485 INFO tracing: tracing enabled -> http://localhost:6006 (project corpus-briefing)
+2026-09-05 15:40:15,727 WARNING briefing.pipeline: q08 has 9 docs (corpus short; citation ratios use the actual origin shares)
+2026-09-05 15:40:15,728 WARNING briefing.pipeline: q09 has only 8 docs; skipping
+2026-09-05 15:40:15,730 WARNING briefing.pipeline: q11 has 11 docs (corpus short; citation ratios use the actual origin shares)
+2026-09-05 15:40:15,740 INFO briefing.pipeline: run_id=full-20260905T224015Z-e76f72 scope=full models=8 questions=15 samples=5
+2026-09-05 15:40:15,744 INFO gen: 544 generations to run (16 already present)
+2026-09-05 15:42:08,290 INFO gen: 25/544 done, 113s elapsed, $0.57 this run, 0 retries
+2026-09-05 15:43:18,455 INFO gen: 50/544 done, 183s elapsed, $1.17 this run, 0 retries
+2026-09-05 15:44:48,772 INFO gen: 75/544 done, 273s elapsed, $1.79 this run, 0 retries
+2026-09-05 15:46:22,469 INFO gen: 100/544 done, 367s elapsed, $2.40 this run, 0 retries
+2026-09-05 15:47:52,707 INFO gen: 125/544 done, 457s elapsed, $2.89 this run, 0 retries
+2026-09-05 15:49:27,479 INFO gen: 150/544 done, 552s elapsed, $3.60 this run, 0 retries
+2026-09-05 15:50:56,764 INFO gen: 175/544 done, 641s elapsed, $4.23 this run, 0 retries
+2026-09-05 15:52:13,052 INFO gen: 200/544 done, 717s elapsed, $4.71 this run, 0 retries
+2026-09-05 15:53:27,787 INFO gen: 225/544 done, 792s elapsed, $5.24 this run, 0 retries
+2026-09-05 15:54:49,558 INFO gen: 250/544 done, 874s elapsed, $5.82 this run, 0 retries
+2026-09-05 15:56:04,517 INFO gen: 275/544 done, 949s elapsed, $6.42 this run, 0 retries
+2026-09-05 15:57:26,251 INFO gen: 300/544 done, 1031s elapsed, $6.91 this run, 0 retries
+2026-09-05 15:58:58,883 INFO gen: 325/544 done, 1123s elapsed, $7.58 this run, 0 retries
+2026-09-05 16:00:37,513 INFO gen: 350/544 done, 1222s elapsed, $8.13 this run, 0 retries
+2026-09-05 16:02:13,856 INFO gen: 375/544 done, 1318s elapsed, $8.87 this run, 0 retries
+2026-09-05 16:03:44,611 INFO gen: 400/544 done, 1409s elapsed, $9.42 this run, 0 retries
+2026-09-05 16:05:38,802 INFO gen: 425/544 done, 1523s elapsed, $10.37 this run, 0 retries
+2026-09-05 16:10:21,768 WARNING fireworks: retry 2026-09-05T16:10:21 model=accounts/fireworks/models/glm-5p3 attempt=1 delay=1.7s reason=APITimeoutError: Request timed out.
+2026-09-05 16:11:16,770 INFO gen: 450/544 done, 1861s elapsed, $12.52 this run, 1 retries
+2026-09-05 16:17:42,798 INFO gen: 475/544 done, 2247s elapsed, $14.71 this run, 1 retries
+2026-09-05 16:32:41,743 INFO gen: 500/544 done, 3146s elapsed, $16.99 this run, 1 retries

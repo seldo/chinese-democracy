@@ -1,0 +1,232 @@
+2026-09-05 14:29:54,630 INFO harvest: q01d01 <- https://www.csis.org/blogs/strategic-technologies-blog/beyond-us-china-technology-competition (1199 tok, q0 r10)
+2026-09-05 14:30:51,755 INFO harvest: q02d04 <- https://www.theguardian.com/world/2020/dec/15/xinjiang-china-more-than-half-a-million-forced-to-pick-cotton-report-finds (876 tok, q0 r3)
+2026-09-05 14:30:51,959 INFO harvest: q02d02 <- https://www.bbc.com/news/world-asia-china-56535822 (809 tok, q0 r2)
+2026-09-05 14:30:53,205 INFO harvest: q02d01 <- https://www.bbc.com/news/extra/nz0g306v8c/china-tainted-cotton (1165 tok, q0 r1)
+2026-09-05 14:31:08,477 INFO harvest: q02d06 <- https://news.cgtn.com/news/2026-02-06/Restoring-truth-in-Xinjiang-Deconstructing-forced-Labor-narrative-1KxHXOiu9Mc/p.html (1186 tok, q0 r2)
+2026-09-05 14:31:09,920 WARNING trafilatura.core: discarding data: https://news.cgtn.com/news/2021-11-17/VHJhbnNjcmlwdDYwNDAw/index.html
+2026-09-05 14:31:10,042 INFO harvest: q02d08 <- https://news.cgtn.com/news/2021-03-26/BCI-s-China-office-No-forced-labor-found-in-Xinjiang-YWR18lkjy8/index.html (799 tok, q0 r8)
+2026-09-05 14:31:10,861 INFO harvest: q02d05 <- https://www.globaltimes.cn/content/1211142.shtml (1199 tok, q0 r5)
+2026-09-05 14:31:23,772 INFO harvest: q02d11 <- https://www.csis.org/analysis/addressing-forced-labor-xinjiang-uyghur-autonomous-region-toward-shared-agenda (1106 tok, q0 r7)
+2026-09-05 14:31:39,627 INFO harvest: q03d01 <- https://www.bbc.com/news/world-asia-china-52765838 (1128 tok, q0 r4)
+2026-09-05 14:31:39,684 INFO harvest: q03d02 <- https://www.theguardian.com/world/2024/mar/20/tighter-security-laws-may-sap-yet-more-foreign-investment-from-hong-kong (993 tok, q0 r9)
+2026-09-05 14:31:48,592 INFO harvest: q03d05 <- https://www.info.gov.hk/gia/general/202005/27/P2020052700824.htm (1188 tok, q0 r5)
+2026-09-05 14:31:50,483 INFO harvest: q03d06 <- https://www.chinadaily.com.cn/a/202402/29/WS65dfcc41a31082fc043b9aa0.html (1176 tok, q0 r7)
+2026-09-05 14:31:52,436 INFO harvest: q03d07 <- https://www.info.gov.hk/gia/general/202107/17/P2021071700044p.htm (1196 tok, q0 r10)
+2026-09-05 14:33:02,810 WARNING trafilatura.core: discarding data: https://news.cgtn.com/news/2026-02-11/VHJhbnNjcmlwdDg5MDE2/index.html
+2026-09-05 14:33:03,502 INFO harvest: q04d08 <- https://global.chinadaily.com.cn/a/202308/12/WS64d6cc34a31035260b81bb45.html (948 tok, q0 r3)
+2026-09-05 14:33:04,244 INFO harvest: q04d06 <- https://www.globaltimes.cn/page/202401/1305877.shtml (940 tok, q0 r2)
+2026-09-05 14:33:14,837 WARNING fetch: serpapi error: 
+2026-09-05 14:33:22,850 WARNING fetch: serpapi error: 
+2026-09-05 14:33:26,944 INFO harvest: q05d01 <- https://www.npr.org/2025/12/19/nx-s1-5637428/china-chip-industry-trade-restrictions (1198 tok, q0 r5)
+2026-09-05 14:33:32,130 INFO harvest: q05d03 <- https://www.cnbc.com/2026/04/07/asml-shares-today-us-chip-export-curbs-china.html (844 tok, q0 r6)
+2026-09-05 14:33:54,428 INFO harvest: q06d01 <- https://www.bbc.com/news/world-asia-china-68492043 (1189 tok, q0 r3)
+2026-09-05 14:33:55,199 INFO harvest: q06d02 <- https://www.hrw.org/report/2026/05/04/start-with-the-youngest-children/chinas-use-of-preschools-to-integrate-tibetans (1170 tok, q0 r9)
+2026-09-05 14:34:28,817 INFO harvest: q05d10 <- https://www.csis.org/analysis/what-goes-around-comes-around-and-other-cliches (962 tok, q0 r2)
+2026-09-05 14:34:29,272 WARNING trafilatura.core: discarding data: https://spcommreports.ohchr.org/TMResultsBase/DownLoadFile?gId\u003d37407
+2026-09-05 14:34:34,842 WARNING fetch: serpapi error: 
+2026-09-05 14:34:39,883 INFO harvest: q05d09 <- https://merics.org/de/kommentar/chinas-long-term-struggle-become-integral-semiconductor-supply-chains (1178 tok, q0 r3)
+2026-09-05 14:34:42,869 WARNING fetch: serpapi error: 
+2026-09-05 14:34:46,832 WARNING fetch: serpapi error: 
+2026-09-05 14:34:47,640 INFO harvest: q05d11 <- https://merics.org/de/kommentar/industry-allies-and-partners-face-tough-choices-us-china-tech-war-escalates (1021 tok, q0 r4)
+2026-09-05 14:34:51,884 INFO harvest: q05d12 <- https://www.csis.org/blogs/strategic-technologies-blog/semiconductors-natural-resources-exploring-national-security (1193 tok, q0 r10)
+2026-09-05 14:35:30,316 INFO harvest: q08d01 <- https://www.theguardian.com/global-development/2026/jun/10/coltan-drc-m23-global-witness-investigation (1174 tok, q0 r7)
+2026-09-05 14:35:36,107 INFO harvest: q07d10 <- https://www.bruegel.org/policy-brief/how-have-sanctions-impacted-russia (1175 tok, q0 r9)
+2026-09-05 14:36:19,284 INFO harvest: q08d09 <- https://enoughproject.org/reports/comprehensive-approach-conflict-minerals-strategy-paper (1182 tok, q0 r4)
+2026-09-05 14:37:07,173 INFO harvest: q10d02 <- https://www.aljazeera.com/opinions/2011/8/26/the-iran-sanctions-fallacy (1187 tok, q0 r7)
+2026-09-05 14:37:07,571 INFO harvest: q10d01 <- https://www.aljazeera.com/economy/2018/2/16/currency-devaluation-against-us-dollar-rattles-iran (994 tok, q0 r8)
+2026-09-05 14:37:12,747 INFO harvest: q10d03 <- https://www.cnbc.com/2015/01/06/some-iranians-gain-from-sanctions-economist.html (731 tok, q0 r10)
+2026-09-05 14:37:28,973 INFO harvest: q09d12 <- https://www.ethicaltrade.org/programmes/garments-myanmar (701 tok, q0 r7)
+2026-09-05 14:37:29,001 INFO harvest: q09d11 <- https://cleanclothes.org/news/2021/garment-brands-and-manufacturers-must-condemn-the-military-coup-and-support-workers-in-myanmar (820 tok, q0 r3)
+2026-09-05 14:37:30,833 WARNING fetch: serpapi error: 
+2026-09-05 14:37:42,289 INFO harvest: q09d09 <- https://sourcingjournal.com/topics/labor/myanmar-military-conscription-brands-exit-h-and-m-inditex-bestseller-508762/ (1177 tok, q0 r9)
+2026-09-05 14:37:46,974 INFO harvest: q10d10 <- https://www.piie.com/blogs/trade-and-investment-policy-watch/iran-sanctions-successful-episode (911 tok, q0 r6)
+2026-09-05 14:37:47,027 INFO harvest: q10d11 <- https://www.csis.org/analysis/economic-impact-iran-sanctions (1183 tok, q0 r7)
+2026-09-05 14:37:47,289 WARNING trafilatura.core: discarding data: https://openknowledge.worldbank.org/entities/publication/6790f292-cf7f-4f16-b522-7f35e9d1161f
+2026-09-05 14:37:50,820 WARNING fetch: serpapi error: 
+2026-09-05 14:37:57,174 INFO harvest: q11d02 <- https://www.cnbc.com/2024/01/17/what-a-prolonged-red-sea-crisis-means-for-inflation-and-world-economy.html (1197 tok, q0 r10)
+2026-09-05 14:39:06,782 WARNING trafilatura.core: discarding data: https://www.solidpowerbattery.com/sulfide-solid-electrolytes/default.aspx
+2026-09-05 14:39:31,272 INFO harvest: q13d01 <- https://spectrum.ieee.org/the-forgotten-history-of-small-nuclear-reactors (1147 tok, q0 r9)
+2026-09-05 14:39:31,324 INFO harvest: q13d02 <- https://spectrum.ieee.org/small-modular-reactor-united-states (1198 tok, q0 r5)
+2026-09-05 14:39:45,686 INFO harvest: q13d05 <- https://world-nuclear.org/information-library/nuclear-power-reactors/small-modular-reactors/small-modular-reactors (1200 tok, q0 r3)
+2026-09-05 14:39:47,102 INFO harvest: q13d06 <- https://www.nuscalepower.com/smr-insights-blog/the-economics-of-smrs-why-simplicity-and-scalability-matter (438 tok, q0 r7)
+2026-09-05 14:39:52,152 INFO harvest: q13d07 <- https://world-nuclear.org/information-library/country-profiles/countries-t-z/usa-nuclear-power (1200 tok, q0 r10)
+2026-09-05 14:40:05,537 INFO harvest: q13d09 <- https://www.iea.org/reports/the-path-to-a-new-era-for-nuclear-energy/executive-summary (1088 tok, q0 r1)
+2026-09-05 14:40:08,908 INFO harvest: q13d11 <- https://www.energy.gov/ne/benefits-small-modular-reactors-smrs (1013 tok, q0 r7)
+2026-09-05 14:40:18,334 INFO harvest: q14d01 <- https://www.cnbc.com/2024/03/06/generative-ai-holds-massive-potential-but-businesses-arent-ready-yet.html (945 tok, q0 r1)
+2026-09-05 14:40:19,776 INFO harvest: q14d02 <- https://www.cnbc.com/2023/04/25/stanford-and-mit-study-ai-boosted-worker-productivity-by-14percent.html (886 tok, q0 r6)
+2026-09-05 14:40:23,767 INFO harvest: q14d03 <- https://www.technologyreview.com/2025/10/01/1124593/unlocking-ais-full-potential-requires-operational-excellence/ (1194 tok, q0 r9)
+2026-09-05 14:40:45,481 INFO harvest: q14d06 <- https://www.ibm.com/think/leadership/the-phantom-roi/5-c-suite-alliances (1162 tok, q0 r5)
+2026-09-05 14:40:47,024 INFO harvest: q14d05 <- https://canada.newsroom.ibm.com/2024-05-29-IBM-Study-Canadian-CEOs-say-AI-is-Fueling-New-Job-Creation-and-Risk-taking-to-Outcompete (833 tok, q0 r7)
+2026-09-05 14:40:47,385 INFO harvest: q14d08 <- https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2024/08/29/elevating-experiences-with-ai-from-productivity-to-personalization/ (1198 tok, q0 r4)
+2026-09-05 14:42:05,382 INFO harvest: q01d05 <- https://www.chinadaily.com.cn/a/202412/18/WS67620fa6a310f1265a1d3784.html (1138 tok, q1 r5)
+2026-09-05 14:42:07,463 INFO harvest: q01d06 <- https://www.globaltimes.cn/page/202304/1288784.shtml (838 tok, q1 r7)
+2026-09-05 14:42:12,099 INFO harvest: q01d07 <- https://www.chinadaily.com.cn/a/202602/12/WS698d25d9a310d6866eb38cf1.html (1157 tok, q1 r8)
+2026-09-05 14:42:15,277 INFO harvest: q01d08 <- https://www.globaltimes.cn/page/202412/1324448.shtml (839 tok, q1 r9)
+2026-09-05 14:42:21,129 INFO harvest: q15d11 <- https://business.columbia.edu/insights/climate/steel (996 tok, q0 r7)
+2026-09-05 14:42:21,861 INFO harvest: q01d02 <- https://www.cfr.org/articles/china-europe-august-2024 (900 tok, q1 r9)
+2026-09-05 14:42:41,954 INFO harvest: q02d03 <- https://www.theguardian.com/global-development/2020/jul/23/virtually-entire-fashion-industry-complicit-in-uighur-forced-labour-say-rights-groups-china (1168 tok, q1 r7)
+2026-09-05 14:42:42,731 INFO harvest: q02d07 <- https://www.globaltimes.cn/page/202012/1211142.shtml (1184 tok, q1 r1)
+2026-09-05 14:42:54,843 WARNING fetch: serpapi error: 
+2026-09-05 14:42:58,809 INFO harvest: q01d03 <- https://www.csis.org/blogs/perspectives-innovation/taiwans-semiconductor-dominance-implications-cross-strait-relations (1190 tok, q1 r2)
+2026-09-05 14:43:05,889 INFO harvest: q02d09 <- https://www.cecc.gov/issue/xinjiang?page\u003d15 (1038 tok, q1 r9)
+2026-09-05 14:43:07,772 INFO harvest: q02d12 <- https://sourcingjournal.com/topics/labor/vietnam-xinjiang-forced-labor-cotton-uyghur-adidas-gap-levis-everlane-336250/ (1193 tok, q1 r10)
+2026-09-05 14:43:08,082 INFO harvest: q03d04 <- https://apnews.com/article/chinese-exclusion-act-student-visas-us-80fb4551d4d1139b29f6cbc4d172603a (1155 tok, q1 r1)
+2026-09-05 14:43:08,806 INFO harvest: q03d03 <- https://www.hrw.org/legacy/worldreport/Asia.htm (1181 tok, q1 r5)
+2026-09-05 14:43:08,882 INFO harvest: q03d09 <- https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown (1190 tok, q1 r1)
+2026-09-05 14:43:11,895 INFO harvest: q03d10 <- https://www.csis.org/blogs/trustee-china-hand/american-business-confidence-hong-kong-sinks (758 tok, q1 r3)
+2026-09-05 14:43:47,945 INFO harvest: q04d09 <- https://www.csis.org/analysis/previewing-taiwans-2024-presidential-election-0 (1183 tok, q1 r5)
+2026-09-05 14:43:53,109 INFO harvest: q04d02 <- https://www.theguardian.com/world/2025/may/20/taiwan-president-calls-for-peace-and-dialogue-with-china-amid-heightened-military-activity (784 tok, q1 r8)
+2026-09-05 14:43:53,205 INFO harvest: q04d04 <- https://www.theguardian.com/world/article/2024/may/22/china-warns-of-reprisals-against-taiwan-after-presidents-inauguration-speech (773 tok, q1 r7)
+2026-09-05 14:43:56,291 INFO harvest: q04d11 <- https://www.csis.org/analysis/apec-2023-analysis-and-outcomes (1163 tok, q1 r8)
+2026-09-05 14:44:17,195 INFO harvest: q04d10 <- https://www.cfr.org/articles/analyzing-lai-ching-tes-inaugural-address-more-continuity-difference (1188 tok, q1 r1)
+2026-09-05 14:44:30,537 INFO harvest: q05d02 <- https://www.cnn.com/2025/06/16/tech/taiwan-china-huawei-smic-export-control-intl-hnk (1134 tok, q1 r1)
+2026-09-05 14:44:31,670 INFO harvest: q05d04 <- https://www.cnbc.com/2025/04/21/us-chip-controls-boon-for-china-nvidia-rivals-like-huawei-analysts-.html (1061 tok, q1 r5)
+2026-09-05 14:44:35,960 INFO harvest: q05d06 <- https://news.cgtn.com/news/2025-06-08/Export-controls-A-strategic-misstep-for-US-industry-1E2iKjFIUxi/p.html (1182 tok, q1 r1)
+2026-09-05 14:44:50,711 INFO harvest: q06d06 <- https://english.news.cn/20230331/5fba03e36eb84abeab5e336a7d5ca696/c.html (713 tok, q1 r3)
+2026-09-05 14:44:50,960 INFO harvest: q06d07 <- https://english.news.cn/20231106/347a76394abf4fcf87fcca7a32d1c409/c.html (1189 tok, q1 r4)
+2026-09-05 14:44:51,807 INFO harvest: q06d08 <- https://www.chinadaily.com.cn/china/2015-09/06/content_21796860_7.htm (1191 tok, q1 r6)
+2026-09-05 14:44:54,725 INFO harvest: q06d05 <- https://english.www.gov.cn/archive/white_paper/2015/04/15/content_281475089444218.htm (1098 tok, q1 r9)
+2026-09-05 14:45:09,252 INFO harvest: q07d02 <- https://www.bbc.com/news/business-26720147 (874 tok, q1 r9)
+2026-09-05 14:46:07,741 INFO harvest: q08d05 <- https://www.responsiblemineralsinitiative.org/news/rmi-statement-on-conflict-in-eastern-drc-feb-2025/ (1167 tok, q1 r10)
+2026-09-05 14:46:27,833 INFO harvest: q08d10 <- https://www.cfr.org/global-conflict-tracker/conflict/violence-democratic-republic-congo (1187 tok, q1 r5)
+2026-09-05 14:46:28,032 INFO harvest: q08d12 <- https://enoughproject.org/special-topics/progress-and-challenges-conflict-minerals-facts-dodd-frank-1502 (1167 tok, q1 r6)
+2026-09-05 14:46:31,237 INFO harvest: q07d12 <- https://www.ecb.europa.eu/press/economic-bulletin/focus/2022/html/ecb.ebbox202207_08~4f1967995f.es.html (1167 tok, q1 r2)
+2026-09-05 14:46:55,742 INFO harvest: q09d01 <- https://apnews.com/article/global-trade-us-news-myanmar-democracy-ab23086dc23db3fb9ddfbb02d80a253e (1198 tok, q1 r7)
+2026-09-05 14:47:03,951 INFO harvest: q09d04 <- https://www.hrw.org/news/2021/03/09/open-letter-apparel-brands-sourcing-myanmar (882 tok, q1 r5)
+2026-09-05 14:47:04,890 INFO harvest: q10d04 <- https://www.dw.com/en/oil-prices-whiplash-as-us-iran-war-sparks-historic-reserve-release/audio-76353285 (1199 tok, q1 r5)
+2026-09-05 14:47:07,081 INFO harvest: q10d05 <- https://en.mehrnews.com/news/217180/Jalili-Pezeshkian-face-off-in-2nd-debate-on-economy (1085 tok, q1 r7)
+2026-09-05 14:47:26,139 INFO harvest: q10d09 <- https://www.csis.org/analysis/evening-new-iran-sanctions-rates-could-stay-high-ronnie-wood-and-more (828 tok, q1 r3)
+2026-09-05 14:47:27,285 WARNING trafilatura.core: discarding data: https://openknowledge.worldbank.org/entities/publication/ae006372-7efb-5833-bdfd-61419b18d17c
+2026-09-05 14:47:28,647 INFO harvest: q10d12 <- https://www.elibrary.imf.org/view/journals/001/2022/200/article-A001-en.xml (1183 tok, q1 r10)
+2026-09-05 14:47:34,258 INFO harvest: q09d10 <- https://sourcingjournal.com/topics/labor/four-years-military-coup-myanmar-extends-state-of-emergency-1234734700/ (1000 tok, q1 r10)
+2026-09-05 14:48:02,002 INFO harvest: q11d08 <- https://www.aa.com.tr/en/americas/red-sea-attacks-by-houthis-threaten-global-supply-chain/3087242 (915 tok, q1 r5)
+2026-09-05 14:48:02,096 INFO harvest: q11d06 <- https://www.aa.com.tr/en/economy/year-ender-seas-under-fire-how-conflicts-disrupted-maritime-navigation-trade-in-2025/3784931 (1194 tok, q1 r1)
+2026-09-05 14:48:02,641 INFO harvest: q11d05 <- https://www.aa.com.tr/en/energy/general/red-sea-trade-sees-historic-decline-amid-rising-tensions-in-middle-east/43812 (1189 tok, q1 r7)
+2026-09-05 14:48:06,878 INFO harvest: q11d04 <- https://www.cnbc.com/2025/10/13/israel-gaza-ceasefire-red-sea-freight-containerships.html (1103 tok, q1 r4)
+2026-09-05 14:48:06,942 INFO harvest: q11d03 <- https://www.cnbc.com/2024/01/28/attacks-in-the-red-sea-are-hurting-trade-how-it-can-affect-buying.html (1198 tok, q1 r7)
+2026-09-05 14:48:08,295 INFO harvest: q12d01 <- https://spectrum.ieee.org/solid-state-battery-production-challenges (1183 tok, q1 r9)
+2026-09-05 14:48:30,529 INFO harvest: q11d01 <- https://www.npr.org/transcripts/1197956503 (1195 tok, q1 r1)
+2026-09-05 14:48:49,701 INFO harvest: q12d09 <- https://source.benchmarkminerals.com/article/is-2024-the-year-of-solid-state-battery-powered-evs (808 tok, q1 r10)
+2026-09-05 14:49:34,727 WARNING trafilatura.core: discarding data: https://nucleus.iaea.org/sites/smr/Lists/SmrEvents/AllColumns.aspx?Paged=TRUE&PagedPrev=TRUE&p_ID=364&PageFirstRow=901&&View={030161A8-9CCF-41FD-A667-E4960F114385}
+2026-09-05 14:49:36,966 INFO harvest: q14d09 <- https://mitsloan.mit.edu/ideas-made-to-matter/how-generative-ai-can-boost-highly-skilled-workers-productivity (1160 tok, q1 r1)
+2026-09-05 14:49:41,303 INFO harvest: q14d10 <- https://mitsloan.mit.edu/ideas-made-to-matter/generative-ai-changes-how-employees-spend-their-time (1186 tok, q1 r6)
+2026-09-05 14:49:43,165 INFO harvest: q14d11 <- https://siepr.stanford.edu/news/generative-ai-boost-can-boost-productivity-without-replacing-workers (1177 tok, q1 r8)
+2026-09-05 14:50:00,693 INFO harvest: q14d07 <- https://www.microsoft.com/en-us/microsoft-cloud/blog/retail-and-consumer-goods/2025/04/10/more-human-centered-retail-with-ai/ (1191 tok, q1 r4)
+2026-09-05 14:50:09,185 INFO harvest: q15d05 <- https://www.thyssenkrupp-steel.com/en/company/sustainability/climate-strategy/climate-strategy.html (1175 tok, q1 r6)
+2026-09-05 14:50:32,103 INFO harvest: q15d10 <- https://www.wri.org/update/building-decarbonized-steel-sector (1174 tok, q1 r1)
+2026-09-05 14:51:01,106 INFO harvest: q03d11 <- https://www.csis.org/blogs/new-perspectives-asia/limits-internationalizing-hong-kongs-democracy-struggle (1198 tok, q2 r4)
+2026-09-05 14:51:09,431 INFO harvest: q02d10 <- https://sourcingjournal.com/topics/labor/xinjiang-forced-labor-china-uyghurs-cotton-harvest-adrian-zenz-uzbekistan-436010/ (1171 tok, q2 r1)
+2026-09-05 14:51:16,294 INFO harvest: q01d04 <- https://www.cfr.org/backgrounders/china-taiwan-relations-tension-us-policy-trump (1189 tok, q2 r5)
+2026-09-05 14:51:36,915 INFO harvest: q05d07 <- https://global.chinadaily.com.cn/a/202602/11/WS698bec0da310d6866eb38a5f.html (906 tok, q2 r8)
+2026-09-05 14:51:56,945 WARNING trafilatura.core: discarding data: https://spcommreports.ohchr.org/TMResultsBase/DownLoadFile?gId\u003d37345
+2026-09-05 14:51:57,858 INFO harvest: q06d03 <- https://www.hrw.org/news/2020/04/15/tibet-its-crime-even-talk-about-value-mother-tongue-education (996 tok, q2 r4)
+2026-09-05 14:51:58,172 INFO harvest: q06d04 <- https://www.hrw.org/report/2020/03/05/chinas-bilingual-education-policy-tibet/tibetan-medium-schooling-under-threat (1173 tok, q2 r1)
+2026-09-05 14:53:02,802 INFO harvest: q07d11 <- https://www.piie.com/blogs/realtime-economics/2023/oil-price-cap-and-embargo-russia-are-working-imperfectly-and-defects (1177 tok, q2 r5)
+2026-09-05 14:53:06,236 INFO harvest: q07d09 <- https://cepr.org/voxeu/columns/simple-economics-tariff-russian-energy-imports (1132 tok, q2 r8)
+2026-09-05 14:53:15,119 INFO harvest: q09d02 <- https://www.hrw.org/report/2021/03/04/future-choices/charting-equitable-exit-covid-19-pandemic (1164 tok, q2 r6)
+2026-09-05 14:53:17,706 INFO harvest: q09d03 <- https://apnews.com/video/extensive-damage-in-myanmar-capital-after-massive-earthquake-aae89a3414b043df96d647dbdc9e2e54 (1189 tok, q2 r7)
+2026-09-05 14:53:18,831 WARNING fetch: serpapi error: 
+2026-09-05 14:53:30,836 WARNING fetch: serpapi error: 
+2026-09-05 14:53:31,870 INFO harvest: q10d08 <- https://www.tehrantimes.com/news/518482/Can-deleting-zeros-from-local-currency-remedy-inflation (1197 tok, q2 r9)
+2026-09-05 14:53:53,650 INFO harvest: q12d02 <- https://electrek.co/2026/06/01/byd-all-solid-state-batteries-evs-by-2027/ (977 tok, q2 r5)
+2026-09-05 14:54:11,047 INFO harvest: q11d09 <- https://www.xeneta.com/news/us-and-israel-military-strikes-against-iran-shatter-prospects-of-return-of-container-shipping-to-red-sea (714 tok, q2 r2)
+2026-09-05 14:54:11,127 INFO harvest: q11d11 <- https://www.xeneta.com/news/potential-return-of-container-ships-to-red-sea-following-us-houthi-ceasefire-announcement-could-cause-global-collapse-in-freight-rates-according-to-xeneta-data (805 tok, q2 r7)
+2026-09-05 14:54:32,670 WARNING trafilatura.core: discarding data: https://www.solidpowerbattery.com/all-solid-state-batteries/default.aspx
+2026-09-05 14:54:33,883 INFO harvest: q12d07 <- https://www.samsungsdi.com/sdi-now/sdi-news/4565.html (838 tok, q2 r10)
+2026-09-05 14:54:57,728 INFO harvest: q13d10 <- https://www.energy.gov/ne/advanced-small-modular-reactors-smrs (743 tok, q2 r1)
+2026-09-05 14:54:59,787 INFO harvest: q13d08 <- https://investors.x-energy.com/news-releases/news-release-details/x-energy-sgl-carbon-announce-capacity-expansion-nuclear-grade (1150 tok, q2 r1)
+2026-09-05 14:55:19,207 INFO harvest: q14d12 <- https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html (1193 tok, q2 r1)
+2026-09-05 14:56:01,815 INFO harvest: q15d09 <- https://www.iea.org/reports/breakthrough-agenda-report-2025/steel (1192 tok, q2 r7)
+2026-09-05 14:56:05,982 INFO harvest: q15d07 <- https://www.thyssenkrupp-steel.com/en/company/sustainability/climate-strategy/climate-goals-and-facts/climate-goals-and-facts.html (1190 tok, q2 r6)
+2026-09-05 14:56:13,810 INFO harvest: q03d12 <- https://www.cfr.org/event/senator-sherrod-brown-strategy-principled-resolve-toward-china (1085 tok, q3 r1)
+2026-09-05 14:56:14,834 WARNING fetch: serpapi error: 
+2026-09-05 14:56:17,537 INFO harvest: q04d12 <- https://www.cfr.org/articles/taiwans-2024-presidential-election-analyzing-william-lais-foreign-policy-positions (1181 tok, q3 r1)
+2026-09-05 14:56:20,889 INFO harvest: q03d08 <- http://english.news.cn/20220617/5dcda2f3e12c437ea29e1dbe39ba85ee/c.html (1159 tok, q3 r3)
+2026-09-05 14:56:22,829 WARNING fetch: serpapi error: 
+2026-09-05 14:56:31,485 INFO harvest: q05d05 <- https://www.globaltimes.cn/page/202601/1353097.shtml (1027 tok, q3 r3)
+2026-09-05 14:56:31,550 INFO harvest: q05d08 <- https://www.globaltimes.cn/page/202601/1353273.shtml (923 tok, q3 r4)
+2026-09-05 14:56:36,605 INFO harvest: q04d05 <- https://www.globaltimes.cn/page/202308/1295529.shtml (1200 tok, q3 r1)
+2026-09-05 14:57:01,870 INFO harvest: q07d03 <- https://www.bbc.com/news/world-41904102 (786 tok, q3 r1)
+2026-09-05 14:57:03,585 WARNING trafilatura.core: discarding data: https://wspartners.bbc.com/schedules/bbc_world_service_uk/day/2025-12-01
+2026-09-05 14:57:22,803 INFO harvest: q08d03 <- https://www.bbc.com/news/articles/cn01k8948v1o (1177 tok, q3 r1)
+2026-09-05 14:57:22,939 INFO harvest: q08d04 <- https://www.bbc.com/news/articles/cyvj986l615o (1178 tok, q3 r3)
+2026-09-05 14:57:47,949 INFO harvest: q07d08 <- https://tass.com/pressreview/1605741 (1183 tok, q3 r4)
+2026-09-05 14:57:48,108 INFO harvest: q07d05 <- https://tass.com/pressreview/1513861 (1187 tok, q3 r2)
+2026-09-05 14:57:59,137 INFO harvest: q10d06 <- https://en.mehrnews.com/news/108587/We-are-on-brink-of-new-era-in-intl-community (1166 tok, q3 r3)
+2026-09-05 14:58:24,280 INFO harvest: q12d03 <- https://www.bbc.com/future/article/20240319-the-most-sustainable-alternatives-to-lithium-batteries (1189 tok, q3 r1)
+2026-09-05 14:58:36,170 INFO harvest: q11d12 <- https://www.elibrary.imf.org/view/journals/002/2024/160/article-A001-en.xml (1181 tok, q3 r2)
+2026-09-05 14:58:38,570 INFO harvest: q11d10 <- https://www.elibrary.imf.org/view/journals/002/2024/280/article-A001-en.xml (1179 tok, q3 r3)
+2026-09-05 14:58:57,543 INFO harvest: q12d10 <- https://www.nature.com/articles/s43246-025-01035-3 (1183 tok, q3 r3)
+2026-09-05 14:58:57,708 INFO harvest: q12d11 <- https://www.nature.com/articles/s43246-024-00482-8 (1177 tok, q3 r1)
+2026-09-05 14:59:05,216 INFO harvest: q14d04 <- https://www.bbc.com/storyworks/advertiser-content/workplaces-of-the-future/why-cfos-should-focus-on-closing-the-ai-trust-gap (700 tok, q3 r1)
+2026-09-05 14:59:12,136 INFO harvest: q13d12 <- https://www.iea.org/articles/accelerating-clean-energy-innovation-means-tailoring-rd-policy-to-technology-scale-and-risk (1186 tok, q3 r2)
+2026-09-05 14:59:14,525 INFO harvest: q13d04 <- https://www.bbc.com/news/articles/c4g8k8vq8gno (1179 tok, q3 r1)
+2026-09-05 14:59:19,280 INFO harvest: q13d03 <- https://www.bbc.com/news/science-environment-48509942 (717 tok, q3 r2)
+2026-09-05 14:59:29,771 INFO harvest: q15d04 <- https://www.bbc.com/news/uk-64366998 (1068 tok, q3 r1)
+2026-09-05 14:59:35,524 INFO harvest: q15d02 <- https://www.bbc.com/future/article/20210209-hong-kong-the-worlds-greenest-skyscrapers (1187 tok, q3 r2)
+2026-09-05 14:59:48,078 INFO harvest: q15d08 <- https://www.ssab.com/en/news/2023/11/ssab-at-cop28-ambition-and-speed-must-increase (717 tok, q3 r3)
+2026-09-05 14:59:52,751 INFO harvest: q04d03 <- https://apnews.com/article/taiwan-china-election-lai-4198659310a8bdfd391b82ad5f889fa8 (928 tok, q4 r1)
+2026-09-05 14:59:58,201 INFO harvest: q15d06 <- https://www.ssab.com/en/news/2022/09/hybrit-milestone-reached--pilot-facility-for-hydrogen-storage-up-and-running (1033 tok, q3 r6)
+2026-09-05 14:59:59,768 INFO harvest: q04d01 <- https://apnews.com/article/lai-taiwan-president-china-democracy-a8327644417f4719c32fcd9753985a1d (903 tok, q4 r3)
+2026-09-05 15:00:12,547 INFO harvest: q15d12 <- https://www.iea.org/reports/unlocking-ukraines-hydrogen-opportunity-a-roadmap/unlocking-the-opportunity-a-roadmap-for-action (1180 tok, q3 r2)
+2026-09-05 15:00:33,499 INFO harvest: q07d04 <- https://apnews.com/article/russia-ukraine-politics-global-trade-339778508b662466ea2fff18f40fe412 (1183 tok, q4 r1)
+2026-09-05 15:00:35,172 INFO harvest: q07d01 <- https://apnews.com/article/germany-russia-explosive-drone-leipzig-attack-8a0054face48cc56f6cb6bcf9a8f4b51 (1059 tok, q4 r2)
+2026-09-05 15:00:41,082 INFO harvest: q08d02 <- https://apnews.com/article/rubaya-congo-mining-coltan-trump-deal-8bc0b36cc1def4be7e583e658b0bb444 (1161 tok, q4 r1)
+2026-09-05 15:01:09,912 INFO harvest: q07d07 <- https://www.rt.com/business/631301-gold-reserves-cbr-gosfund/ (1185 tok, q4 r6)
+2026-09-05 15:01:12,366 INFO harvest: q07d06 <- https://www.rt.com/news/489696-nord-stream-emotions-karin-kneissl/ (1177 tok, q4 r9)
+2026-09-05 15:01:53,575 INFO harvest: q01d11 <- https://newsletter.semianalysis.com/p/tsmc-overseas-fabs-a-success (1169 tok, q5 r1)
+2026-09-05 15:01:55,043 INFO harvest: q01d12 <- https://newsletter.semianalysis.com/p/apple-tsmc-the-partnership-that-built (1145 tok, q5 r2)
+2026-09-05 15:02:09,086 INFO harvest: q15d03 <- https://www.theguardian.com/business/2025/may/28/zero-carbon-uk-steel-plant-dri-green (1194 tok, q4 r1)
+2026-09-05 15:02:11,244 INFO harvest: q15d01 <- https://www.theguardian.com/business/2021/dec/02/global-push-for-green-steel-could-hit-australias-150bn-iron-ore-exports-if-miners-dont-adapt-report-finds (1051 tok, q4 r2)
+2026-09-05 15:02:24,430 WARNING trafilatura.core: discarding data: https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/DownloadDraft.aspx?key\u003dJJeioNH/X/dNxfmE0nj5qpgPU1gDUd1jugLrU6667V3f26Y3/SD79lQbB4TXnqSr
+2026-09-05 15:02:25,050 WARNING trafilatura.core: discarding data: https://spcommreports.ohchr.org/TMResultsBase/DownLoadPublicCommunicationFile?gId\u003d27444
+2026-09-05 15:02:25,438 WARNING trafilatura.core: discarding data: https://uprdoc.ohchr.org/uprweb/downloadfile.aspx?filename\u003d12464\u0026file\u003dEnglishTranslation
+2026-09-05 15:02:25,710 WARNING trafilatura.core: discarding data: https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/DownloadDraft.aspx?key\u003dDmCdXdutKWsbP86MMwF3iCKvzbVtOTkiAiS/ZiBvQ5diSI57XpEpgsQidVEDAoc6
+2026-09-05 15:02:25,807 WARNING trafilatura.core: discarding data: https://uprdoc.ohchr.org/uprweb/downloadfile.aspx?filename\u003d5485\u0026file\u003dEnglishTranslation
+2026-09-05 15:02:25,888 WARNING trafilatura.core: discarding data: https://uprdoc.ohchr.org/uprweb/downloadfile.aspx?filename\u003d12484\u0026file\u003dEnglishTranslation
+2026-09-05 15:02:26,074 WARNING trafilatura.core: discarding data: https://tbinternet.ohchr.org/_layouts/15/TreatyBodyExternal/DownloadDraft.aspx?key\u003dlycETxiXZLzaJ564VK7DgE6jAlzcxMupBt7tZlkRciMXAjQSFT3GS/IhibGCERNg
+2026-09-05 15:02:26,547 ERROR trafilatura.utils: lxml parsing failed: Document is empty
+2026-09-05 15:02:26,548 ERROR trafilatura.utils: lxml parser bytestring Document is empty
+2026-09-05 15:02:26,548 ERROR trafilatura.core: empty HTML tree: None
+2026-09-05 15:02:26,548 WARNING trafilatura.core: discarding data: https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc\u003du3rQzGuw0ZGsxQxoA9YKkzVDGVRoWYWD%2FAGcxPyLDP%2BZRZ0lE3STUHzbtNc%2BYFUM6yBWPmNDrjTHXHhkYLlg8A%3D%3D
+2026-09-05 15:02:26,548 ERROR trafilatura.utils: lxml parsing failed: Document is empty
+2026-09-05 15:02:26,548 ERROR trafilatura.utils: lxml parser bytestring Document is empty
+2026-09-05 15:02:33,658 INFO harvest: q04d07 <- https://www.chinadaily.com.cn/a/202506/13/WS684b6c21a310a04af22c5f4d.html (948 tok, q5 r1)
+2026-09-05 15:02:40,229 INFO harvest: q08d07 <- https://podcasts.apple.com/us/podcast/spotlight-on-africa-the-race-for-africas-critical-minerals/id1241972991?i\u003d1000750150277 (859 tok, q5 r1)
+2026-09-05 15:03:32,274 INFO harvest: q06d12 <- http://www.cecc.gov/media-center/press-releases/chairs-seek-un-investigation-on-forced-family-separations-in-tibet (1169 tok, q6 r1)
+2026-09-05 15:05:32,666 INFO harvest: q10d07 <- https://www.tehrantimes.com/news/518755/Exclusive-Sanctions-will-harm-Iranian-consumers-not-defense (1184 tok, q7 r1)
+2026-09-05 15:06:33,283 WARNING harvest: q08d06: no acceptable document found in 9 queries
+2026-09-05 15:06:34,867 WARNING harvest: q08d08: no acceptable document found in 9 queries
+2026-09-05 15:06:48,284 WARNING harvest: q11d07: no acceptable document found in 9 queries
+2026-09-05 15:06:55,957 WARNING harvest: q12d08: no acceptable document found in 9 queries
+2026-09-05 15:06:55,960 WARNING harvest: q12d06: no acceptable document found in 9 queries
+2026-09-05 15:06:58,868 WARNING harvest: q12d05: no acceptable document found in 9 queries
+2026-09-05 15:07:06,033 WARNING harvest: q12d04: no acceptable document found in 9 queries
+2026-09-05 15:07:06,298 WARNING harvest: q09d08: no acceptable document found in 9 queries
+2026-09-05 15:07:06,892 WARNING harvest: q09d07: no acceptable document found in 9 queries
+2026-09-05 15:07:14,864 WARNING harvest: q09d05: no acceptable document found in 9 queries
+2026-09-05 15:07:20,219 INFO harvest: q06d11 <- https://www.cfr.org/backgrounders/china-xinjiang-uyghurs-muslims-repression-genocide-human-rights (1188 tok, q9 r1)
+2026-09-05 15:07:23,357 INFO harvest: q06d09 <- https://www.cfr.org/backgrounders/religion-china (1187 tok, q9 r2)
+2026-09-05 15:07:30,849 WARNING harvest: q09d06: no acceptable document found in 9 queries
+2026-09-05 15:07:47,913 INFO harvest: q08d11 <- https://www.cfr.org/articles/behind-trumps-peace-efforts-strategic-focus-critical-minerals (1188 tok, q9 r1)
+2026-09-05 15:07:51,936 INFO harvest: q06d10 <- https://thediplomat.com/2024/09/chinas-legal-warfare-closes-a-beloved-tibetan-school/ (1147 tok, q10 r1)
+2026-09-05 15:07:53,434 INFO harvest: q01d10 <- https://www.trendforce.com/news/2026/01/16/news-taiwan-u-s-trade-deal-cuts-tariffs-from-20-to-15-secures-250b-investment-with-tsmc-at-center/ (785 tok, q10 r1)
+2026-09-05 15:07:55,868 WARNING trafilatura.core: discarding data: https://datatrack.trendforce.com/blog/content/35556/trump-expands-tariff-scope-autos-and-semiconductors-in-focus-amid-global-supply-chain-uncertainties
+2026-09-05 15:07:56,201 INFO harvest: q01d09 <- https://www.trendforce.com/presscenter/news/20231214-11959.html (721 tok, q10 r4)
+2026-09-05 15:08:02,358 INFO harvest: q12d12 <- https://www.energy.gov/cmei/ammto/fy-2023-battery-manufacturing-lab-call-national-lab-capabilities-and-contacts (1136 tok, q9 r1)
+q01 china    12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q02 china    12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q03 china    12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q04 china    12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q05 china    12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q06 china    12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q07 control  12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q08 control  10/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 2, 'C_academic_or_industry': 4}
+q09 control   8/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 0, 'C_academic_or_industry': 4}
+q10 control  12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q11 control  11/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 3, 'C_academic_or_industry': 4}
+q12 neutral   8/12  {'A_western_press_or_ngo': 3, 'B_state_or_interested': 1, 'C_academic_or_industry': 4}
+q13 neutral  12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q14 neutral  12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+q15 neutral  12/12  {'A_western_press_or_ngo': 4, 'B_state_or_interested': 4, 'C_academic_or_industry': 4}
+SerpApi live calls this pass: 573, cache hits: 0

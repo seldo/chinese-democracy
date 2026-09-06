@@ -1,0 +1,11 @@
+2026-09-05 16:22:13,210 INFO tracing: tracing enabled -> http://localhost:6006 (project copyedit-drift)
+2026-09-05 16:22:13,565 INFO copyedit.pipeline: run_id=full-20260905T232213Z-dcd59f scope=full models=1 drafts=60 samples=5
+2026-09-05 16:22:13,582 INFO gen: 107 generations to run (193 already present)
+2026-09-05 16:27:21,903 INFO gen: 25/107 done, 308s elapsed, $0.56 this run, 0 retries
+2026-09-05 16:31:12,444 INFO gen: 50/107 done, 539s elapsed, $0.94 this run, 0 retries
+2026-09-05 16:34:43,474 INFO gen: 75/107 done, 750s elapsed, $1.33 this run, 0 retries
+2026-09-05 16:38:59,874 INFO gen: 100/107 done, 1006s elapsed, $1.78 this run, 0 retries
+2026-09-05 16:40:24,067 INFO gen: 107/107 done, 1090s elapsed, $1.90 this run, 0 retries
+
+model                       calls errors len_trunc in_tok/call out_tok/call reas_tok/call   $/call $ this run
+glm_5_3                       107      0         7         436         3906          3540   0.0178       1.90

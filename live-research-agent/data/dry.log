@@ -1,0 +1,122 @@
+2026-09-05 14:50:04,409 INFO phoenix.config: 📋 Ensuring phoenix working directory: /Users/seldo/.phoenix
+2026-09-05 14:50:04,890 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.schemas
+2026-09-05 14:50:04,890 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.tables
+2026-09-05 14:50:04,890 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.types
+2026-09-05 14:50:04,890 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.constraints
+2026-09-05 14:50:04,890 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.defaults
+2026-09-05 14:50:04,890 INFO alembic.runtime.plugins: setup plugin alembic.autogenerate.comments
+2026-09-05 14:50:04,890 INFO alembic.runtime.plugins: setup plugin alembic.ext.checkconstraint_byname
+2026-09-05 14:50:08,237 INFO tracing: tracing enabled -> http://localhost:6006 (project live-research-agent)
+2026-09-05 14:50:08,489 INFO agent.pipeline: 16 agent runs to do (0 already present)
+2026-09-05 14:50:10,877 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:50:10,930 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:50:11,364 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:50:17,025 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:50:33,042 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:50:37,256 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:50:40,666 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:50:47,390 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:50:55,768 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:51:05,065 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:51:12,487 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:51:14,104 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:51:20,118 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:51:23,054 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:51:38,680 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:51:44,904 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:51:47,198 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:11,639 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:12,067 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:15,064 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:15,915 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:18,009 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:18,742 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:22,622 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:23,428 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:24,555 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:33,159 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:33,898 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:34,698 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:37,457 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:38,657 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:39,363 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:40,122 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:43,794 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:44,028 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:44,413 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:44,970 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:46,177 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:46,181 INFO agent.pipeline: 5/16 runs, 158s, $0.19 this pass, serp live=31 cached=0
+2026-09-05 14:52:48,527 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:54,996 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:55,037 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:55,415 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:56,229 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:56,937 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:57,126 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:52:58,451 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:53:07,197 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:53:14,118 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:53:14,847 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:53:19,379 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:53:20,869 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:53:27,955 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:53:40,641 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:53:41,765 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:53:50,550 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:54:06,248 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:54:09,544 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:54:11,004 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:54:18,826 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:54:24,555 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:54:27,406 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:54:28,155 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:54:50,472 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:09,698 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:09,702 INFO agent.pipeline: 10/16 runs, 301s, $0.31 this pass, serp live=58 cached=0
+2026-09-05 14:55:10,145 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:15,156 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:21,257 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:22,101 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:27,262 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:31,162 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:31,863 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:31,869 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:33,177 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:33,839 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:34,391 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:35,136 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:35,556 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:36,060 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:36,304 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:36,456 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:36,812 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:37,471 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:38,240 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:39,742 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:45,981 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:46,426 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:47,628 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:49,462 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:56,509 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:56,848 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:56,853 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:55:56,855 INFO agent.pipeline: 15/16 runs, 348s, $0.51 this pass, serp live=68 cached=0
+2026-09-05 14:56:13,175 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:56:16,870 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:56:17,195 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:56:24,111 INFO httpx2: HTTP Request: POST https://api.fireworks.ai/inference/v1/chat/completions "HTTP/1.1 200 OK"
+2026-09-05 14:56:24,125 INFO agent.pipeline: 16/16 runs, 376s, $0.51 this pass, serp live=69 cached=0
+SerpApi live searches this pass: 69; cache hits: 0
+
+model                       runs  err  proto calls/run search/run open/run in_tok/run out_tok/run   $/run  $ full no_search no_answer
+deepseek_v4_pro                2    0 native       4.0        2.5      4.0      13532        1916   0.025    2.55      0.00      0.00
+qwen3_8_max                    2    0 native       4.5        6.5      1.5      19550        2997   0.057    5.71      0.00      0.00
+kimi_k3                        2    0 native       3.5        6.5      1.5      18428        1862   0.083    8.32      0.00      0.00
+glm_5_3                        2    0 native       5.0        6.0      2.0      23730        3220   0.047    4.74      0.00      0.00
+minimax_m3                     2    0 native       4.5        4.5      3.5      21546        1671   0.008    0.85      0.00      0.00
+gpt_oss_120b                   2    0 native       9.0        2.5      5.5      48570        2062   0.009    0.85      0.00      0.00
+nemotron_3_ultra               2    0 native       9.0        3.5      4.5      32944        1849   0.024    2.42      0.00      0.00
+nemotron_lightning_3_5         2    0 native       8.0        2.5      4.5      36925        3122   0.002    0.25      0.00      0.00
+
+Searches so far: 69 (69 live SerpApi calls). Projected Fireworks cost for a full run of 5 runs x 20 questions x 8 models: $25.68 (threshold $50). Mean searches/run 4.3 -> projected searches 3450 before caching.

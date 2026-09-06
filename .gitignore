@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
+# The blog post is published separately in edited form.
+blog-post.md
+
+# Source documents are copyrighted and stay local. URLs, origins and retrieval
+# metadata for every document are in materials/docs/docs.yaml in each test folder.
+summarization-recall/materials/docs/*.txt
+corpus-briefing/materials/docs/*.txt
+*/data/cache/pages/

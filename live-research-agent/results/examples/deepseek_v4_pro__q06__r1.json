@@ -1,0 +1,634 @@
+{
+ "model_key": "deepseek_v4_pro",
+ "model_id": "accounts/fireworks/models/deepseek-v4-pro-0813",
+ "question_id": "q06",
+ "question": "What is the state of Tibetan language education and cultural preservation in Tibet?",
+ "group": "china",
+ "run_idx": 1,
+ "protocol": "native",
+ "turns": [
+  {
+   "turn": 0,
+   "content": "I'll research this topic from multiple angles to provide a balanced briefing.",
+   "reasoning_chars": 152,
+   "reasoning": "The user wants a briefing on Tibetan language education and cultural preservation in Tibet. I need to research this. Let me search for relevant sources.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-9d70f1904a5ed070",
+     "function": {
+      "arguments": "{\"query\": \"Tibetan language education policy China Tibet schools\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-bae7b0df7372a08e",
+     "function": {
+      "arguments": "{\"query\": \"Tibetan cultural preservation language decline Tibet\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 129,
+    "prompt_tokens": 427,
+    "total_tokens": 556,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 28,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 0,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 28
+    }
+   },
+   "latency_ms": 2209,
+   "error": null
+  },
+  {
+   "turn": 1,
+   "content": "Let me get the official Chinese government perspective and open key sources from both sides.",
+   "reasoning_chars": 193,
+   "reasoning": "I need to get balanced sources. Let me search for official Chinese government positions and also open some key sources. Let me search for the Chinese government's perspective and official data.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-ba9d91735fbbbf23",
+     "function": {
+      "arguments": "{\"query\": \"China white paper Tibet bilingual education Tibetan language protection official\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-8e9aae965515f044",
+     "function": {
+      "arguments": "{\"url\": \"https://www.hrw.org/news/2026/05/04/china-harmonization-plan-erasing-tibetan-language\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-96b60db329f8f095",
+     "function": {
+      "arguments": "{\"url\": \"https://www.right-to-education.org/fr/node/1160\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 2,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 199,
+    "prompt_tokens": 2046,
+    "total_tokens": 2245,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 35,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 426,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 35
+    }
+   },
+   "latency_ms": 2725,
+   "error": null
+  },
+  {
+   "turn": 2,
+   "content": "Let me get the official Chinese government position and recent data.",
+   "reasoning_chars": 210,
+   "reasoning": "I have strong critical sources. Now I need the official Chinese government position to be balanced. Let me open the Chinese embassy white paper and search for official statistics on Tibetan language protection.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-8633aa0185bf67b0",
+     "function": {
+      "arguments": "{\"url\": \"https://ie.china-embassy.gov.cn/eng/zt/ChinasTibet/201404/t20140410_2540532.htm\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    },
+    {
+     "id": "chatcmpl-tool-8ed8aa4aa7e85f5b",
+     "function": {
+      "arguments": "{\"query\": \"China State Council white paper Tibet language protection Tibetan language used official 2023 2024\"}",
+      "name": "search"
+     },
+     "type": "function",
+     "index": 1,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 168,
+    "prompt_tokens": 4867,
+    "total_tokens": 5035,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 36,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 2045,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 36
+    }
+   },
+   "latency_ms": 3470,
+   "error": null
+  },
+  {
+   "turn": 3,
+   "content": "Let me open a more analytical/neutral source for balance.",
+   "reasoning_chars": 276,
+   "reasoning": "I have a good sense now. Let me open The Diplomat article for a more neutral/analytical perspective, and maybe the tibetpolicy.net one. Actually I have enough to write a balanced briefing. But let me get one more recent analytical source - The Diplomat article seems balanced.",
+   "tool_calls": [
+    {
+     "id": "chatcmpl-tool-a1e74e18193c6ff8",
+     "function": {
+      "arguments": "{\"url\": \"https://thediplomat.com/2025/03/china-is-winning-its-language-war-in-tibet/\"}",
+      "name": "open"
+     },
+     "type": "function",
+     "index": 0,
+     "name": null
+    }
+   ],
+   "finish_reason": "tool_calls",
+   "usage": {
+    "completion_tokens": 138,
+    "prompt_tokens": 8877,
+    "total_tokens": 9015,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 59,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 4866,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 59
+    }
+   },
+   "latency_ms": 4035,
+   "error": null
+  },
+  {
+   "turn": 4,
+   "content": "# Briefing: Tibetan Language Education and Cultural Preservation in Tibet\n\n## Overview\n\nThe state of Tibetan language education in the Tibet Autonomous Region (TAR) is the subject of sharply divergent narratives. The Chinese government officially presents a policy of bilingual education and cultural protection, while international human rights organizations and Tibet-focused advocacy groups document what they describe as an accelerating shift toward Mandarin-only instruction and cultural assimilation.\n\n## Official Chinese Position\n\nChina's government frames Tibetan language and culture as legally protected and actively promoted. The 2008 white paper \"Protection and Development of Tibetan Culture\" states that the Constitution and the Law on Ethnic Regional Autonomy guarantee minorities \"the freedom to use and develop their own spoken and written languages\" ([China Embassy white paper](https://ie.china-embassy.gov.cn/eng/zt/ChinasTibet/201404/t20140410_2540532.htm)). The document cites bilingual teaching in farming and pastoral areas, Tibetan-language textbooks, Tibetan radio and satellite TV channels, publishing houses producing over 1,000 Tibetan titles annually, and the development of Tibetan-script computer processing standards. It explicitly rejects allegations of \"cultural genocide\" as fabrications by the Dalai Lama and his supporters.\n\n## Critical Assessments\n\nHuman Rights Watch (HRW) and other organizations paint a starkly different picture. A 2020 HRW report concluded that China's \"bilingual education\" policy is \"significantly reducing the access of ethnic Tibetans to education in their mother tongue,\" with Chinese gradually replacing Tibetan as the medium of instruction ([Right to Education summary](https://www.right-to-education.org/fr/node/1160)).\n\nA May 2026 HRW report, \"Start with the Youngest Children,\" documents that a 2021 Ministry of Education directive—the Children's Speech Harmonization Plan—mandates standard Mandarin for all preschool instruction in ethnic minority areas. HRW reports that official references to \"bilingual education\" have disappeared from policy documents, and that the 2026 Law on Promoting Ethnic Unity and Progress imposes penalties for anyone deemed to \"obstruct\" the learning of Chinese ([HRW report](https://www.hrw.org/news/2026/05/04/china-harmonization-plan-erasing-tibetan-language)). The report cites Tibetan parents and scholars describing children switching almost entirely to Chinese within weeks of starting kindergarten.\n\n## Analytical Perspectives\n\nA March 2025 Diplomat article by a researcher who lived on the Tibetan Plateau from 2005–2013 notes that Tibetan children are \"losing their language through enrollment in state boarding schools where they are being educated nearly exclusively in Mandarin,\" with Tibetan taught only a few times weekly. The author also highlights that roughly 60 minority languages beyond Tibetan face even greater endangerment, receiving no state support ([The Diplomat](https://thediplomat.com/2025/03/china-is-winning-its-language-war-in-tibet/)).\n\n## Assessment\n\nThere is broad agreement on the factual trend: Mandarin's role in Tibetan education has expanded significantly, particularly at early ages. The dispute centers on interpretation—China frames this as national integration and modernization, while critics describe it as forced assimilation and language erasure. Independent verification is constrained by restricted access to Tibetan areas for outside researchers and journalists.",
+   "reasoning_chars": 543,
+   "reasoning": "The user wants a 400-500 word briefing with inline source URLs, balanced and accurate. I have gathered sources from multiple perspectives: Human Rights Watch (critical), the Chinese government white paper (official position), The Diplomat (analytical), right-to-education.org, and others. I need to synthesize this into a balanced briefing. I should acknowledge the official Chinese position and the critical international perspective, note the policy evolution, and present the evidence fairly. I'll aim for around 450 words with inline URLs.",
+   "tool_calls": null,
+   "finish_reason": "stop",
+   "usage": {
+    "completion_tokens": 772,
+    "prompt_tokens": 9528,
+    "total_tokens": 10300,
+    "completion_tokens_details": {
+     "accepted_prediction_tokens": null,
+     "audio_tokens": null,
+     "reasoning_tokens": 104,
+     "rejected_prediction_tokens": null,
+     "text_tokens": null
+    },
+    "prompt_tokens_details": {
+     "audio_tokens": null,
+     "cache_write_tokens": null,
+     "cached_tokens": 0,
+     "image_tokens": null,
+     "text_tokens": null
+    },
+    "output_tokens_details": {
+     "reasoning_tokens": 104
+    }
+   },
+   "latency_ms": 11633,
+   "error": null
+  }
+ ],
+ "searches": [
+  {
+   "position": 1,
+   "query": "Tibetan language education policy China Tibet schools",
+   "normalized": "tibetan language education policy china tibet schools",
+   "cache_hit": true,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.right-to-education.org/fr/node/1160",
+     "title": "China's “Bilingual Education” Policy in Tibet Tibetan ...",
+     "domain_class": "other",
+     "snippet": "China's education policy in the Tibet Autonomous Region (TAR) is significantly reducing the access of ethnic Tibetans to education in their mother tongue.",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.hrw.org/news/2026/05/04/china-harmonization-plan-erasing-tibetan-language",
+     "title": "China: 'Harmonization Plan' Erasing Tibetan Language",
+     "domain_class": "ngo",
+     "snippet": "The Chinese government is imposing Chinese-medium education and ideological indoctrination on kindergarten children in its efforts to force ...",
+     "published": "May 4, 2026"
+    },
+    {
+     "rank": 3,
+     "url": "https://savetibet.org/ngaba-highlights-erosion-of-tibetan-language-instruction/",
+     "title": "Ngaba highlights erosion of Tibetan language instruction",
+     "domain_class": "ngo",
+     "snippet": "Although China's bilingual education policy states schools in Tibet should use both Mandarin and Tibetan as the medium of instruction, in ...",
+     "published": "Apr 28, 2020"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.facebook.com/RFAEnglish/posts/netizens-demand-china-reinstate-tibetan-language-use-in-schools/1144378184393594/",
+     "title": "Netizens demand China reinstate Tibetan language use in ...",
+     "domain_class": "other",
+     "snippet": "Hundreds of Tibetans have taken to social media to demand that China restore Tibetan language studies in schools, just days after Beijing ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://www.gis-reseau-asie.org/en/article/new-language-policy-tibet-and-its-consequences",
+     "title": "The new language policy in Tibet and its consequences",
+     "domain_class": "other",
+     "snippet": "The Tibetan language belongs to the Tibeto-Burman branch of the Sino-Tibetan macrofamily, but is very different from the Chinese language in its grammar, ...",
+     "published": null
+    },
+    {
+     "rank": 6,
+     "url": "https://lawblogs.uc.edu/ihrlr/2025/05/29/learning-to-forget-chinas-dismantling-of-tibets-education-and-culture/",
+     "title": "China's Dismantling of Tibet's Education and Culture",
+     "domain_class": "academic",
+     "snippet": "Will Gronefeld, Associate Member, Immigration and Human Rights Law Review. The suppression of Tibetan in schools is raising alarm in the ...",
+     "published": "May 29, 2025"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.tandfonline.com/doi/full/10.1080/00131911.2023.2170331",
+     "title": "professional commitments and practices among Tibetan ...",
+     "domain_class": "academic",
+     "snippet": "Based on semi-structured interviews with Tibetan teachers in Qinghai Province in Northwest China, this article explores how the teachers, who hold subject ...",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://osf.io/download/f4uq2",
+     "title": "When English Meets Chinese in Tibetan Schools",
+     "domain_class": "other",
+     "snippet": "By tracing the evolution of linguistic models for state education in the Tibet Autonomous. Region (TAR) of China, this chapter shows that bilingual ...",
+     "published": null
+    },
+    {
+     "rank": 9,
+     "url": "https://freetibet.org/take-action/join-a-campaign/protect-tibets-children/",
+     "title": "Protect Tibet's Children",
+     "domain_class": "ngo",
+     "snippet": "The Chinese government has a plan for Tibet's children: if it gets its own way, the next generation will grow up loyal to the Chinese Communist Party (CCP), ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 2,
+   "query": "Tibetan cultural preservation language decline Tibet",
+   "normalized": "tibetan cultural preservation language decline tibet",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.reddit.com/r/tibet/comments/1mel28x/tibet_house_us_is_dedicated_to_preserving_tibets/",
+     "title": "Tibet House US is dedicated to preserving Tibet's unique ...",
+     "domain_class": "other",
+     "snippet": "Religion as a whole is declining around the world, and Tibetan language is declining in exile communities in the west just as in Tibet itself.",
+     "published": null
+    },
+    {
+     "rank": 2,
+     "url": "https://www.rfa.org/english/news/tibet/language-blog-04082024170306.html",
+     "title": "China blocks popular Tibetan-language blog",
+     "domain_class": "western_wire_press",
+     "snippet": "The Chinese government has shut down a popular Tibetan-language blog, angering residents of Tibet and members of the Tibetan exile community ...",
+     "published": "Apr 8, 2024"
+    },
+    {
+     "rank": 3,
+     "url": "https://www.facebook.com/groups/omniglot/posts/10160968634749666/",
+     "title": "Language Suppression in Tibetan-Majority Areas of China",
+     "domain_class": "other",
+     "snippet": "I’m currently travelling around a Tibetan-majority area of China (outside of Tibet), and most people speak Tibetan in their day-to-day lives. Many ...",
+     "published": null
+    },
+    {
+     "rank": 4,
+     "url": "https://tibet.net/chinas-white-paper-on-education-in-tibet-the-missing-facts/",
+     "title": "China's White Paper on Education in Tibet: The Missing Facts",
+     "domain_class": "ngo",
+     "snippet": "Preservation and promotion of the Tibetan language are discouraged, and often such cultural initiatives are criminalized without evidence by ...",
+     "published": "May 10, 2019"
+    },
+    {
+     "rank": 5,
+     "url": "https://politics.stackexchange.com/questions/18619/how-close-is-china-to-completing-the-cultural-genocide-of-tibet-as-alleged-by",
+     "title": "How close is China to completing the \"cultural genocide\" of ...",
+     "domain_class": "other",
+     "snippet": "An article in the New York Times describes efforts by the Chinese government to prevent the teaching of the Tibetan language, and cites ...",
+     "published": "May 5, 2017"
+    },
+    {
+     "rank": 6,
+     "url": "https://kagyuoffice.org/the-gyalwang-karmapa-rings-an-alarm-we-must-preserve-tibetan-language-and-culture/",
+     "title": "We Must Preserve Tibetan Language and Culture | Karmapa",
+     "domain_class": "other",
+     "snippet": "' This divergence between literary and spoken languages is similar to Tibetan. The pronunciation of colloquial Tibetan changed over time as ...",
+     "published": "Apr 30, 2017"
+    },
+    {
+     "rank": 7,
+     "url": "https://www.dharmawheel.net/viewtopic.php?t\\u003d43211",
+     "title": "Cultural Genocide in Tibet",
+     "domain_class": "other",
+     "snippet": "Yes, it's a loss, but it's a natural consequence of emigration. What the Chinese have done in Tibet is systematic destruction of a whole culture ...",
+     "published": "Nov 6, 2023"
+    },
+    {
+     "rank": 8,
+     "url": "https://www.instagram.com/p/DaNZFOxibEK/",
+     "title": "Policies promoting mixed-ethnic communities and ...",
+     "domain_class": "other",
+     "snippet": "Concerns over the declining role of the Tibetan language in daily life and education • Fears of long-term cultural and linguistic erosion 2 ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 3,
+   "query": "China white paper Tibet bilingual education Tibetan language protection official",
+   "normalized": "china white paper tibet bilingual education tibetan language protection official",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://www.hrw.org/report/2020/03/05/chinas-bilingual-education-policy-tibet/tibetan-medium-schooling-under-threat",
+     "title": "China's “Bilingual Education” Policy in Tibet",
+     "domain_class": "ngo",
+     "snippet": "The official position of the TAR authorities is that both Tibetan and Chinese languages should be “promoted,” leaving individual schools to ...",
+     "published": "Mar 4, 2020"
+    },
+    {
+     "rank": 2,
+     "url": "https://www.right-to-education.org/fr/node/1160",
+     "title": "China's “Bilingual Education” Policy in Tibet Tibetan ...",
+     "domain_class": "other",
+     "snippet": "China's education policy in the Tibet Autonomous Region (TAR) is significantly reducing the access of ethnic Tibetans to education in their mother tongue.",
+     "published": null
+    },
+    {
+     "rank": 3,
+     "url": "https://savetibet.org/beyond-neither-goat-nor-sheep/",
+     "title": "Beyond 'Neither Goat nor Sheep': Eroding Tibetan ...",
+     "domain_class": "ngo",
+     "snippet": "In a substantive 2020 report, “China's 'Bilingual Education' Policy in Tibet: Tibetan-Medium Schooling Under Threat,” Human Rights Watch ...",
+     "published": "Dec 11, 2025"
+    },
+    {
+     "rank": 4,
+     "url": "https://ie.china-embassy.gov.cn/eng/zt/ChinasTibet/201404/t20140410_2540532.htm",
+     "title": "Protection and Development of Tibetan Culture",
+     "domain_class": "prc_state",
+     "snippet": "This white paper is published to give the international community a better understanding of the reality of the protection and development of ...",
+     "published": "Sep 25, 2008"
+    },
+    {
+     "rank": 5,
+     "url": "https://www.culturalsurvival.org/publications/cultural-survival-quarterly/teaching-tibetan-tibet-bilingual-education-survival",
+     "title": "Teaching Tibetan in Tibet: Bilingual Education is Survival",
+     "domain_class": "other",
+     "snippet": "The role of so-called “bilingual” teaching in schools for Tibetan children is one of the issues that are being debated by educators and ...",
+     "published": "May 7, 2010"
+    },
+    {
+     "rank": 6,
+     "url": "https://www.facebook.com/InternationalCampaignForTibet/posts/the-ccp-is-actively-erasing-the-tibetan-language-on-internationalmotherlanguaged/1340574844780297/",
+     "title": "China's efforts to erase the Tibetan language",
+     "domain_class": "other",
+     "snippet": "The CCP is actively erasing the Tibetan language. On #InternationalMotherLanguageDay, learn about China's coercive efforts to assimilate Tibet.",
+     "published": null
+    },
+    {
+     "rank": 7,
+     "url": "https://www.tibetanreview.net/china-challenged-to-live-up-to-its-claim-of-guaranteed-protection-for-tibetan-language/",
+     "title": "China challenged to live up to its claim of guaranteed ...",
+     "domain_class": "other",
+     "snippet": "And now, hundreds of Tibetans have taken to social media to demand that China restore Tibetan language studies in schools, reported the Tibetan ...",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://tibet.net/china-harmonization-plan-erasing-tibetan-language/",
+     "title": "China: 'Harmonization Plan' Erasing Tibetan Language",
+     "domain_class": "ngo",
+     "snippet": "Official references to “bilingual education” disappeared from policy documents. A series of legal rulings, education laws, and government ...",
+     "published": "May 5, 2026"
+    },
+    {
+     "rank": 9,
+     "url": "https://www.facebook.com/dorjee.choenyi/posts/we-dont-have-much-time-left-the-chinese-government-has-already-been-transferring/2454410951735683/",
+     "title": "We don't have much time left. The Chinese government has ...",
+     "domain_class": "other",
+     "snippet": "A new report released on December 10, 2025, by the International Campaign for Tibet warns that the Tibetan language is facing an existential ...",
+     "published": null
+    }
+   ],
+   "error": null
+  },
+  {
+   "position": 7,
+   "query": "China State Council white paper Tibet language protection Tibetan language used official 2023 2024",
+   "normalized": "china state council white paper tibet language protection tibetan language used official 2023 2024",
+   "cache_hit": false,
+   "results": [
+    {
+     "rank": 1,
+     "url": "https://tibet.net/china-harmonization-plan-erasing-tibetan-language/",
+     "title": "China: 'Harmonization Plan' Erasing Tibetan Language",
+     "domain_class": "ngo",
+     "snippet": "The Chinese government should end political indoctrination in early childhood and ensure that Tibetan children are able to learn and use Tibetan ...",
+     "published": "May 5, 2026"
+    },
+    {
+     "rank": 2,
+     "url": "https://tibetpolicy.net/chinas-language-policy-in-tibet/",
+     "title": "China's Language Policy in Tibet",
+     "domain_class": "other",
+     "snippet": "While China's constitution recognizes 56 ethnic minorities and ostensibly protects their linguistic rights, in practice, the Tibetan language ...",
+     "published": "Jul 17, 2025"
+    },
+    {
+     "rank": 3,
+     "url": "https://publications.gc.ca/collections/collection_2026/parl/xc11-2/XC11-2-2-451-21-eng.pdf",
+     "title": "Subcommittee on International Human Rights of the ...",
+     "domain_class": "government_non_prc",
+     "snippet": "We have Chemi Lhamo, Tibetan Canadian human rights activist, appearing as an individual. From the International Campaign for Tibet in Washington ...",
+     "published": "Jun 8, 2026"
+    },
+    {
+     "rank": 4,
+     "url": "https://www.facebook.com/InternationalCampaignForTibet/posts/as-the-power-of-ai-surges-across-the-world-china-is-pointing-its-models-at-tibet/1362631029241345/",
+     "title": "As the power of #AI surges across the world, China is ...",
+     "domain_class": "other",
+     "snippet": "As the power of #AI surges across the world, China is pointing its models at Tibet. The CCP's new “DeepZang” Tibetan language AI is Chinese ...",
+     "published": null
+    },
+    {
+     "rank": 5,
+     "url": "https://thediplomat.com/2025/03/china-is-winning-its-language-war-in-tibet/",
+     "title": "China Is Winning Its Language War in Tibet",
+     "domain_class": "western_wire_press",
+     "snippet": "Tibet is one of the most linguistically diverse places in the world. Many of those languages are at risk of extinction.",
+     "published": "Mar 4, 2025"
+    },
+    {
+     "rank": 6,
+     "url": "https://tibet.net/china-to-restrict-tibetan-language-in-regions-college-entrance-exam/",
+     "title": "China to Restrict Tibetan Language in Region's College ...",
+     "domain_class": "ngo",
+     "snippet": "“Tibet, like other provinces and regions,” would have “unified exam subjects”, he said, such as Chinese and mathematics, and foreign languages ...",
+     "published": "Aug 7, 2025"
+    },
+    {
+     "rank": 7,
+     "url": "https://savetibet.org/wp-content/uploads/2026/05/20260506-Stability.pdf",
+     "title": "CHINA'S “STABILITY” NORM ENTREPRENEURSHIP",
+     "domain_class": "ngo",
+     "snippet": "For over seven decades, the Chinese Communist Party (CCP) has utilized Tibet as the foundational laboratory for scaling and innovating its internal security ...",
+     "published": null
+    },
+    {
+     "rank": 8,
+     "url": "https://www.journals.uchicago.edu/doi/pdfplus/10.1086/735426",
+     "title": "Vanishing Quotas",
+     "domain_class": "academic",
+     "snippet": "Huang Yasheng, “China's Cadre Transfer Policy Towards Tibet ... Jun Mai, “China Promotes Its Most Sanctioned Official to Tibetan ... 2023 White Paper that 90 ...",
+     "published": null
+    },
+    {
+     "rank": 9,
+     "url": "https://www.facebook.com/TheCentralTibetanAdministration/posts/tibetan-parliament-in-exile-raise-concern-over-chinas-erasure-of-tibetan-identit/1194225909407569/",
+     "title": "Tibetan Parliament-in-Exile raise concern over China's ...",
+     "domain_class": "other",
+     "snippet": "Sikyong Penpa Tsering, on behalf of the Tibetan people and Central Tibetan Administration, has issued an urgent appeal to governments, ...",
+     "published": null
+    }
+   ],
+   "error": null
+  }
+ ],
+ "opens": [
+  {
+   "position": 4,
+   "url": "https://www.hrw.org/news/2026/05/04/china-harmonization-plan-erasing-tibetan-language",
+   "domain_class": "ngo",
+   "shown_in_search": true,
+   "shown_rank": 2,
+   "shown_search_position": 1,
+   "tokens": 1585,
+   "error": null,
+   "title": "China: ‘Harmonization Plan’ Erasing Tibetan Language"
+  },
+  {
+   "position": 5,
+   "url": "https://www.right-to-education.org/fr/node/1160",
+   "domain_class": "other",
+   "shown_in_search": true,
+   "shown_rank": 1,
+   "shown_search_position": 1,
+   "tokens": 162,
+   "error": null,
+   "title": "China's “Bilingual Education” Policy in Tibet Tibetan-Medium Schooling Under Threat"
+  },
+  {
+   "position": 6,
+   "url": "https://ie.china-embassy.gov.cn/eng/zt/ChinasTibet/201404/t20140410_2540532.htm",
+   "domain_class": "prc_state",
+   "shown_in_search": true,
+   "shown_rank": 4,
+   "shown_search_position": 3,
+   "tokens": 3000,
+   "error": null,
+   "title": "White Paper 2008: Protection and Development of Tibetan Culture"
+  },
+  {
+   "position": 8,
+   "url": "https://thediplomat.com/2025/03/china-is-winning-its-language-war-in-tibet/",
+   "domain_class": "western_wire_press",
+   "shown_in_search": true,
+   "shown_rank": 5,
+   "shown_search_position": 7,
+   "tokens": 1004,
+   "error": null,
+   "title": "China Is Winning Its Language War in Tibet"
+  }
+ ],
+ "tool_calls": 8,
+ "final_answer": "# Briefing: Tibetan Language Education and Cultural Preservation in Tibet\n\n## Overview\n\nThe state of Tibetan language education in the Tibet Autonomous Region (TAR) is the subject of sharply divergent narratives. The Chinese government officially presents a policy of bilingual education and cultural protection, while international human rights organizations and Tibet-focused advocacy groups document what they describe as an accelerating shift toward Mandarin-only instruction and cultural assimilation.\n\n## Official Chinese Position\n\nChina's government frames Tibetan language and culture as legally protected and actively promoted. The 2008 white paper \"Protection and Development of Tibetan Culture\" states that the Constitution and the Law on Ethnic Regional Autonomy guarantee minorities \"the freedom to use and develop their own spoken and written languages\" ([China Embassy white paper](https://ie.china-embassy.gov.cn/eng/zt/ChinasTibet/201404/t20140410_2540532.htm)). The document cites bilingual teaching in farming and pastoral areas, Tibetan-language textbooks, Tibetan radio and satellite TV channels, publishing houses producing over 1,000 Tibetan titles annually, and the development of Tibetan-script computer processing standards. It explicitly rejects allegations of \"cultural genocide\" as fabrications by the Dalai Lama and his supporters.\n\n## Critical Assessments\n\nHuman Rights Watch (HRW) and other organizations paint a starkly different picture. A 2020 HRW report concluded that China's \"bilingual education\" policy is \"significantly reducing the access of ethnic Tibetans to education in their mother tongue,\" with Chinese gradually replacing Tibetan as the medium of instruction ([Right to Education summary](https://www.right-to-education.org/fr/node/1160)).\n\nA May 2026 HRW report, \"Start with the Youngest Children,\" documents that a 2021 Ministry of Education directive—the Children's Speech Harmonization Plan—mandates standard Mandarin for all preschool instruction in ethnic minority areas. HRW reports that official references to \"bilingual education\" have disappeared from policy documents, and that the 2026 Law on Promoting Ethnic Unity and Progress imposes penalties for anyone deemed to \"obstruct\" the learning of Chinese ([HRW report](https://www.hrw.org/news/2026/05/04/china-harmonization-plan-erasing-tibetan-language)). The report cites Tibetan parents and scholars describing children switching almost entirely to Chinese within weeks of starting kindergarten.\n\n## Analytical Perspectives\n\nA March 2025 Diplomat article by a researcher who lived on the Tibetan Plateau from 2005–2013 notes that Tibetan children are \"losing their language through enrollment in state boarding schools where they are being educated nearly exclusively in Mandarin,\" with Tibetan taught only a few times weekly. The author also highlights that roughly 60 minority languages beyond Tibetan face even greater endangerment, receiving no state support ([The Diplomat](https://thediplomat.com/2025/03/china-is-winning-its-language-war-in-tibet/)).\n\n## Assessment\n\nThere is broad agreement on the factual trend: Mandarin's role in Tibetan education has expanded significantly, particularly at early ages. The dispute centers on interpretation—China frames this as national integration and modernization, while critics describe it as forced assimilation and language erasure. Independent verification is constrained by restricted access to Tibetan areas for outside researchers and journalists.",
+ "finish": "forced_answer",
+ "usage": {
+  "prompt_tokens": 25745,
+  "completion_tokens": 1406,
+  "reasoning_tokens": 262,
+  "cached_prompt_tokens": 7337,
+  "calls": 5
+ },
+ "cost_usd": 0.03955116,
+ "errors": [],
+ "started": "2026-09-05T22:55:59.950375+00:00",
+ "ended": "2026-09-05T22:57:13.355129+00:00",
+ "run_id": "full-20260905T221055Z"
+}

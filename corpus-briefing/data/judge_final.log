@@ -1,0 +1,9 @@
+2026-09-05 17:03:49,595 INFO briefing.pipeline: 600 judge requests
+2026-09-05 17:03:50,670 INFO judge: collected batch msgbatch_012dp1mpsD471d7EvedGd8fC: 95 rows, 0 refused by judge (re-run with fallback)
+2026-09-05 17:03:50,688 INFO judge: judge batch: 48 to submit, 552 already judged, 0 pending
+2026-09-05 17:03:51,739 INFO judge: submitted batch msgbatch_01YJDVuJVuXaVzqfRN7WKtPd with 48 requests
+2026-09-05 17:03:52,015 INFO judge: batch msgbatch_01YJDVuJVuXaVzqfRN7WKtPd: in_progress (processing=48 succeeded=0 errored=0)
+2026-09-05 17:04:52,309 INFO judge: batch msgbatch_01YJDVuJVuXaVzqfRN7WKtPd: in_progress (processing=48 succeeded=0 errored=0)
+2026-09-05 17:05:52,594 INFO judge: batch msgbatch_01YJDVuJVuXaVzqfRN7WKtPd: in_progress (processing=48 succeeded=0 errored=0)
+2026-09-05 17:06:54,026 INFO judge: collected batch msgbatch_01YJDVuJVuXaVzqfRN7WKtPd: 48 rows, 0 refused by judge (re-run with fallback)
+Judge spend so far: $16.79

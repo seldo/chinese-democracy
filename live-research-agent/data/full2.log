@@ -1,0 +1,208 @@
+2026-09-05 15:10:55,540 INFO tracing: tracing enabled -> http://localhost:6006 (project live-research-agent)
+2026-09-05 15:10:55,850 INFO agent.pipeline: 753 agent runs to do (47 already present)
+2026-09-05 15:11:47,126 WARNING trafilatura.core: discarding data: https://www.state.gov/reports/2024-country-reports-on-human-rights-practices/china/tibet
+2026-09-05 15:13:23,175 INFO agent.pipeline: 5/753 runs, 147s, $0.09 this pass, serp live=32 cached=2
+2026-09-05 15:14:12,685 WARNING trafilatura.core: discarding data: https://www.gonet.ch/en/private-clients/investments/publications/cio-letter-issue-9/european-companies-limited-exposure-but-uncertain-outcomes
+2026-09-05 15:14:17,546 WARNING trafilatura.core: discarding data: https://som.yale.edu/story/2022/over-1000-companies-have-curtailed-operations-russia-some-remain
+2026-09-05 15:14:50,704 INFO agent.pipeline: 10/753 runs, 235s, $0.38 this pass, serp live=53 cached=4
+2026-09-05 15:16:19,477 INFO agent.pipeline: 15/753 runs, 324s, $0.56 this pass, serp live=75 cached=4
+2026-09-05 15:17:51,485 INFO agent.pipeline: 20/753 runs, 416s, $0.65 this pass, serp live=96 cached=5
+2026-09-05 15:19:20,738 INFO agent.pipeline: 25/753 runs, 505s, $0.86 this pass, serp live=116 cached=6
+2026-09-05 15:20:31,573 WARNING fetch: serpapi error: 
+2026-09-05 15:21:09,408 INFO agent.pipeline: 30/753 runs, 614s, $0.99 this pass, serp live=142 cached=6
+2026-09-05 15:22:46,087 INFO agent.pipeline: 35/753 runs, 710s, $1.17 this pass, serp live=165 cached=6
+2026-09-05 15:23:46,419 INFO agent.pipeline: 40/753 runs, 771s, $1.34 this pass, serp live=178 cached=6
+2026-09-05 15:25:08,145 INFO agent.pipeline: 45/753 runs, 852s, $1.54 this pass, serp live=198 cached=6
+2026-09-05 15:25:29,992 WARNING trafilatura.core: discarding data: https://www.cello-square.com/es/blog/view-955.do
+2026-09-05 15:25:31,876 WARNING trafilatura.metadata: error in JSON metadata extraction: 'NoneType' object is not iterable
+2026-09-05 15:25:50,360 WARNING trafilatura.core: discarding data: https://www.solidpowerbattery.com/sulfide-solid-electrolytes/default.aspx
+2026-09-05 15:27:15,208 INFO agent.pipeline: 50/753 runs, 979s, $1.66 this pass, serp live=226 cached=6
+2026-09-05 15:28:41,656 INFO agent.pipeline: 55/753 runs, 1066s, $1.76 this pass, serp live=248 cached=6
+2026-09-05 15:30:58,289 INFO agent.pipeline: 60/753 runs, 1202s, $1.98 this pass, serp live=280 cached=7
+2026-09-05 15:32:05,467 INFO agent.pipeline: 65/753 runs, 1270s, $2.15 this pass, serp live=295 cached=7
+2026-09-05 15:33:06,932 INFO agent.pipeline: 70/753 runs, 1331s, $2.21 this pass, serp live=309 cached=8
+2026-09-05 15:34:23,588 WARNING trafilatura.core: discarding data: https://www.state.gov/reports/2024-investment-climate-statements/hong-kong
+2026-09-05 15:34:24,486 WARNING trafilatura.core: discarding data: https://www.cato.org/cato-journal/winter-2021/financial-development-hong-kong-china-hayekian-perspective
+2026-09-05 15:34:54,316 INFO agent.pipeline: 75/753 runs, 1438s, $2.44 this pass, serp live=334 cached=9
+2026-09-05 15:36:31,781 INFO agent.pipeline: 80/753 runs, 1536s, $2.58 this pass, serp live=357 cached=10
+2026-09-05 15:38:25,781 INFO agent.pipeline: 85/753 runs, 1650s, $2.80 this pass, serp live=385 cached=10
+2026-09-05 15:39:13,329 INFO agent.pipeline: 90/753 runs, 1697s, $3.08 this pass, serp live=395 cached=10
+2026-09-05 15:40:19,030 WARNING trafilatura.metadata: error in JSON metadata extraction: 'list' object has no attribute 'get'
+2026-09-05 15:40:52,671 INFO agent.pipeline: 95/753 runs, 1797s, $3.13 this pass, serp live=418 cached=11
+2026-09-05 15:42:37,255 INFO agent.pipeline: 100/753 runs, 1901s, $3.45 this pass, serp live=443 cached=11
+2026-09-05 15:44:33,823 INFO agent.pipeline: 105/753 runs, 2018s, $3.59 this pass, serp live=469 cached=12
+2026-09-05 15:46:00,656 INFO agent.pipeline: 110/753 runs, 2105s, $3.76 this pass, serp live=489 cached=12
+2026-09-05 15:48:00,670 INFO agent.pipeline: 115/753 runs, 2225s, $3.93 this pass, serp live=517 cached=13
+2026-09-05 15:49:50,793 INFO agent.pipeline: 120/753 runs, 2335s, $4.17 this pass, serp live=543 cached=15
+2026-09-05 15:50:30,416 INFO agent.pipeline: 125/753 runs, 2375s, $4.33 this pass, serp live=553 cached=19
+2026-09-05 15:52:18,066 INFO agent.pipeline: 130/753 runs, 2482s, $4.53 this pass, serp live=578 cached=23
+2026-09-05 15:53:08,467 INFO agent.pipeline: 135/753 runs, 2533s, $4.59 this pass, serp live=586 cached=25
+2026-09-05 15:54:41,460 INFO agent.pipeline: 140/753 runs, 2626s, $4.82 this pass, serp live=609 cached=28
+2026-09-05 15:55:34,743 INFO agent.pipeline: 145/753 runs, 2679s, $5.00 this pass, serp live=623 cached=31
+2026-09-05 15:56:47,065 INFO agent.pipeline: 150/753 runs, 2751s, $5.14 this pass, serp live=641 cached=34
+2026-09-05 15:58:51,034 INFO agent.pipeline: 155/753 runs, 2875s, $5.38 this pass, serp live=668 cached=36
+2026-09-05 15:59:27,045 WARNING trafilatura.core: discarding data: https://www.fitchratings.com/research/corporate-finance/russiaukraine-crisis-disrupts-european-aerospace-supply-chains-03-05-2022
+2026-09-05 15:59:59,895 WARNING trafilatura.core: discarding data: https://www.scoperatings.com/ratings-and-research/research/EN/170444
+2026-09-05 16:00:08,987 INFO agent.pipeline: 160/753 runs, 2953s, $5.58 this pass, serp live=687 cached=38
+2026-09-05 16:01:42,030 INFO agent.pipeline: 165/753 runs, 3046s, $5.75 this pass, serp live=708 cached=40
+2026-09-05 16:02:47,268 INFO agent.pipeline: 170/753 runs, 3111s, $5.92 this pass, serp live=724 cached=41
+2026-09-05 16:04:08,829 INFO agent.pipeline: 175/753 runs, 3193s, $6.14 this pass, serp live=742 cached=43
+2026-09-05 16:05:07,413 INFO agent.pipeline: 180/753 runs, 3252s, $6.21 this pass, serp live=758 cached=45
+2026-09-05 16:06:27,623 WARNING trafilatura.core: discarding data: https://openknowledge.worldbank.org/entities/publication/6790f292-cf7f-4f16-b542-7f35e9d1161f
+2026-09-05 16:06:39,245 INFO agent.pipeline: 185/753 runs, 3343s, $6.45 this pass, serp live=778 cached=48
+2026-09-05 16:06:49,370 WARNING trafilatura.core: discarding data: https://www.eiu.com/n/chart-of-the-week-will-iran-rejoin-global-finance/
+2026-09-05 16:07:54,364 INFO agent.pipeline: 190/753 runs, 3419s, $6.69 this pass, serp live=795 cached=50
+2026-09-05 16:09:50,088 INFO agent.pipeline: 195/753 runs, 3534s, $6.86 this pass, serp live=822 cached=51
+2026-09-05 16:10:05,138 INFO agent.pipeline: 200/753 runs, 3549s, $7.00 this pass, serp live=827 cached=52
+2026-09-05 16:12:35,878 INFO agent.pipeline: 205/753 runs, 3700s, $7.13 this pass, serp live=860 cached=52
+2026-09-05 16:13:58,525 INFO agent.pipeline: 210/753 runs, 3783s, $7.30 this pass, serp live=881 cached=52
+2026-09-05 16:15:25,031 INFO agent.pipeline: 215/753 runs, 3869s, $7.50 this pass, serp live=902 cached=53
+2026-09-05 16:16:52,381 WARNING trafilatura.core: discarding data: https://www.saner.ai/blogs/ai-at-work-statistics
+2026-09-05 16:17:01,953 INFO agent.pipeline: 220/753 runs, 3966s, $7.66 this pass, serp live=924 cached=56
+2026-09-05 16:18:09,731 INFO agent.pipeline: 225/753 runs, 4034s, $7.92 this pass, serp live=939 cached=59
+2026-09-05 16:18:44,187 INFO agent.pipeline: 230/753 runs, 4068s, $8.13 this pass, serp live=948 cached=62
+2026-09-05 16:21:21,847 INFO agent.pipeline: 235/753 runs, 4226s, $8.31 this pass, serp live=984 cached=66
+2026-09-05 16:21:51,177 INFO agent.pipeline: 240/753 runs, 4255s, $8.51 this pass, serp live=989 cached=66
+2026-09-05 16:22:23,378 WARNING fetch: serpapi error: 
+2026-09-05 16:24:17,215 INFO agent.pipeline: 245/753 runs, 4401s, $8.60 this pass, serp live=1023 cached=68
+2026-09-05 16:25:38,431 INFO agent.pipeline: 250/753 runs, 4483s, $8.83 this pass, serp live=1043 cached=68
+2026-09-05 16:27:03,618 INFO agent.pipeline: 255/753 runs, 4568s, $9.05 this pass, serp live=1055 cached=70
+2026-09-05 16:28:31,267 INFO agent.pipeline: 260/753 runs, 4655s, $9.23 this pass, serp live=1076 cached=77
+2026-09-05 16:30:01,300 INFO agent.pipeline: 265/753 runs, 4745s, $9.43 this pass, serp live=1098 cached=80
+2026-09-05 16:31:54,443 INFO agent.pipeline: 270/753 runs, 4859s, $9.55 this pass, serp live=1123 cached=80
+2026-09-05 16:32:10,731 WARNING trafilatura.core: discarding data: https://www.zurich.com/fr-fr/commercial-insurance/sustainability-and-insights/commercial-insurance-risk-insights/what-lies-ahead-for-the-geopolitics-of-semiconductors
+2026-09-05 16:33:29,797 INFO agent.pipeline: 275/753 runs, 4954s, $9.73 this pass, serp live=1145 cached=83
+2026-09-05 16:34:58,258 INFO agent.pipeline: 280/753 runs, 5042s, $9.81 this pass, serp live=1167 cached=85
+2026-09-05 16:35:07,706 WARNING trafilatura.core: discarding data: https://www.state.gov/forced-labor-in-chinas-xinjiang-region
+2026-09-05 16:35:44,518 INFO agent.pipeline: 285/753 runs, 5089s, $10.08 this pass, serp live=1178 cached=90
+2026-09-05 16:36:17,603 INFO agent.pipeline: 290/753 runs, 5122s, $10.17 this pass, serp live=1184 cached=95
+2026-09-05 16:37:00,715 INFO agent.pipeline: 295/753 runs, 5165s, $10.32 this pass, serp live=1195 cached=99
+2026-09-05 16:37:51,853 WARNING trafilatura.metadata: error in JSON metadata extraction: 'list' object has no attribute 'get'
+2026-09-05 16:38:52,819 INFO agent.pipeline: 300/753 runs, 5277s, $10.52 this pass, serp live=1221 cached=102
+2026-09-05 16:39:51,371 INFO agent.pipeline: 305/753 runs, 5336s, $10.67 this pass, serp live=1236 cached=107
+2026-09-05 16:41:02,094 INFO agent.pipeline: 310/753 runs, 5406s, $11.00 this pass, serp live=1252 cached=112
+2026-09-05 16:41:16,011 WARNING trafilatura.core: discarding data: https://www.iwgia.org/en/articles/iw-2024-china?lang=en
+2026-09-05 16:41:17,605 WARNING trafilatura.core: discarding data: http://www.china.org.cn/e-white/tibet/9-9.htm
+2026-09-05 16:42:09,555 INFO agent.pipeline: 315/753 runs, 5474s, $11.14 this pass, serp live=1267 cached=112
+2026-09-05 16:43:21,743 WARNING trafilatura.metadata: error in JSON metadata extraction: 'NoneType' object is not iterable
+2026-09-05 16:43:30,246 INFO agent.pipeline: 320/753 runs, 5554s, $11.38 this pass, serp live=1285 cached=116
+2026-09-05 16:45:46,175 INFO agent.pipeline: 325/753 runs, 5690s, $11.62 this pass, serp live=1318 cached=119
+2026-09-05 16:46:22,718 INFO agent.pipeline: 330/753 runs, 5727s, $11.73 this pass, serp live=1327 cached=121
+2026-09-05 16:47:49,959 INFO agent.pipeline: 335/753 runs, 5814s, $11.79 this pass, serp live=1344 cached=124
+2026-09-05 16:48:06,307 WARNING fetch: serpapi error: 
+2026-09-05 16:48:33,317 INFO agent.pipeline: 340/753 runs, 5857s, $11.96 this pass, serp live=1356 cached=127
+2026-09-05 16:50:23,594 INFO agent.pipeline: 345/753 runs, 5968s, $12.12 this pass, serp live=1383 cached=131
+2026-09-05 16:51:59,905 INFO agent.pipeline: 350/753 runs, 6064s, $12.34 this pass, serp live=1406 cached=131
+2026-09-05 16:52:58,770 INFO agent.pipeline: 355/753 runs, 6123s, $12.55 this pass, serp live=1419 cached=134
+2026-09-05 16:53:52,232 INFO agent.pipeline: 360/753 runs, 6176s, $12.71 this pass, serp live=1430 cached=135
+2026-09-05 16:54:29,556 WARNING trafilatura.core: discarding data: https://solidpowerbattery.com/sulfide-solid-electrolytes/default.aspx
+2026-09-05 16:56:09,573 INFO agent.pipeline: 365/753 runs, 6314s, $12.85 this pass, serp live=1463 cached=142
+2026-09-05 16:58:01,867 INFO agent.pipeline: 370/753 runs, 6426s, $13.08 this pass, serp live=1487 cached=146
+2026-09-05 16:59:09,599 INFO agent.pipeline: 375/753 runs, 6494s, $13.30 this pass, serp live=1503 cached=148
+2026-09-05 17:00:16,038 INFO agent.pipeline: 380/753 runs, 6560s, $13.45 this pass, serp live=1519 cached=153
+2026-09-05 17:01:54,721 INFO agent.pipeline: 385/753 runs, 6659s, $13.57 this pass, serp live=1542 cached=156
+2026-09-05 17:02:40,246 INFO agent.pipeline: 390/753 runs, 6704s, $13.86 this pass, serp live=1552 cached=158
+2026-09-05 17:04:11,404 INFO agent.pipeline: 395/753 runs, 6796s, $13.96 this pass, serp live=1573 cached=163
+2026-09-05 17:05:01,443 WARNING trafilatura.core: discarding data: https://www.roc-taiwan.org/kn_en/post/7929.html
+2026-09-05 17:05:25,347 WARNING fetch: serpapi error: 
+2026-09-05 17:05:42,981 INFO agent.pipeline: 400/753 runs, 6887s, $14.08 this pass, serp live=1596 cached=166
+2026-09-05 17:07:07,542 INFO agent.pipeline: 405/753 runs, 6972s, $14.25 this pass, serp live=1615 cached=170
+2026-09-05 17:08:32,769 INFO agent.pipeline: 410/753 runs, 7057s, $14.45 this pass, serp live=1636 cached=173
+2026-09-05 17:09:35,178 INFO agent.pipeline: 415/753 runs, 7119s, $14.67 this pass, serp live=1651 cached=175
+2026-09-05 17:11:26,025 INFO agent.pipeline: 420/753 runs, 7230s, $14.83 this pass, serp live=1674 cached=178
+2026-09-05 17:12:25,822 INFO agent.pipeline: 425/753 runs, 7290s, $15.00 this pass, serp live=1689 cached=180
+2026-09-05 17:12:39,598 WARNING trafilatura.core: discarding data: https://pmc.ncbi.nlm.nih.gov/articles/PMC7194950/pdf/nihms1179379.pdf
+2026-09-05 17:14:22,484 INFO agent.pipeline: 430/753 runs, 7407s, $15.08 this pass, serp live=1716 cached=182
+2026-09-05 17:16:25,145 INFO agent.pipeline: 435/753 runs, 7529s, $15.22 this pass, serp live=1746 cached=183
+2026-09-05 17:17:14,980 WARNING trafilatura.core: discarding data: https://www.ajg.com/je/news-and-insights/features/four-key-threats-to-semiconductor-supply-chains/
+2026-09-05 17:17:46,900 INFO agent.pipeline: 440/753 runs, 7611s, $15.40 this pass, serp live=1761 cached=185
+2026-09-05 17:17:54,404 WARNING trafilatura.core: discarding data: https://www.state.gov/bureau-of-economic-and-business-affairs/xinjiang-supply-chain-business-advisory
+2026-09-05 17:18:11,520 INFO agent.pipeline: 445/753 runs, 7636s, $15.66 this pass, serp live=1767 cached=190
+2026-09-05 17:20:07,722 INFO agent.pipeline: 450/753 runs, 7752s, $15.76 this pass, serp live=1793 cached=197
+2026-09-05 17:20:42,262 WARNING fetch: serpapi error: 
+2026-09-05 17:20:57,924 INFO agent.pipeline: 455/753 runs, 7802s, $16.02 this pass, serp live=1806 cached=199
+2026-09-05 17:21:41,348 INFO agent.pipeline: 460/753 runs, 7845s, $16.17 this pass, serp live=1816 cached=207
+2026-09-05 17:23:14,340 INFO agent.pipeline: 465/753 runs, 7938s, $16.39 this pass, serp live=1837 cached=211
+2026-09-05 17:24:14,647 INFO agent.pipeline: 470/753 runs, 7999s, $16.60 this pass, serp live=1850 cached=214
+2026-09-05 17:25:14,274 INFO agent.pipeline: 475/753 runs, 8058s, $16.83 this pass, serp live=1867 cached=217
+2026-09-05 17:27:10,974 INFO agent.pipeline: 480/753 runs, 8175s, $17.03 this pass, serp live=1892 cached=220
+2026-09-05 17:28:37,544 INFO agent.pipeline: 485/753 runs, 8262s, $17.22 this pass, serp live=1912 cached=222
+2026-09-05 17:28:59,799 WARNING fetch: serpapi error: 
+2026-09-05 17:29:25,856 INFO agent.pipeline: 490/753 runs, 8310s, $17.34 this pass, serp live=1922 cached=223
+2026-09-05 17:29:35,958 WARNING trafilatura.core: discarding data: https://main.un.org/securitycouncil/en/sanctions/1533/panel-of-experts/expert-reports
+2026-09-05 17:30:49,938 INFO agent.pipeline: 495/753 runs, 8394s, $17.53 this pass, serp live=1944 cached=225
+2026-09-05 17:31:55,055 INFO agent.pipeline: 500/753 runs, 8459s, $17.63 this pass, serp live=1959 cached=230
+2026-09-05 17:33:28,134 INFO agent.pipeline: 505/753 runs, 8552s, $17.89 this pass, serp live=1981 cached=235
+2026-09-05 17:33:50,257 WARNING trafilatura.core: discarding data: https://www.iif.com/publications/publications-filter/t/Iran
+2026-09-05 17:34:18,677 WARNING trafilatura.core: discarding data: https://openknowledge.worldbank.org/items/6790f292-cf7f-4f16-b522-7f35e9d1161f
+2026-09-05 17:34:20,441 WARNING trafilatura.core: discarding data: https://openknowledge.worldbank.org/bitstream/handle/10986/41696/9781464819209.pdf
+2026-09-05 17:34:39,385 INFO agent.pipeline: 510/753 runs, 8624s, $17.99 this pass, serp live=1998 cached=237
+2026-09-05 17:35:37,514 INFO agent.pipeline: 515/753 runs, 8682s, $18.15 this pass, serp live=2011 cached=238
+2026-09-05 17:37:07,458 INFO agent.pipeline: 520/753 runs, 8772s, $18.26 this pass, serp live=2032 cached=242
+2026-09-05 17:38:26,431 INFO agent.pipeline: 525/753 runs, 8851s, $18.49 this pass, serp live=2050 cached=243
+2026-09-05 17:39:55,224 INFO agent.pipeline: 530/753 runs, 8939s, $18.68 this pass, serp live=2072 cached=248
+2026-09-05 17:41:05,530 INFO agent.pipeline: 535/753 runs, 9010s, $18.81 this pass, serp live=2087 cached=250
+2026-09-05 17:43:02,680 INFO agent.pipeline: 540/753 runs, 9127s, $18.95 this pass, serp live=2116 cached=256
+2026-09-05 17:43:49,582 INFO agent.pipeline: 545/753 runs, 9174s, $19.16 this pass, serp live=2126 cached=259
+2026-09-05 17:44:51,299 INFO agent.pipeline: 550/753 runs, 9235s, $19.27 this pass, serp live=2141 cached=262
+2026-09-05 17:47:21,249 WARNING fetch: serpapi error: 
+2026-09-05 17:47:29,723 INFO agent.pipeline: 555/753 runs, 9394s, $19.49 this pass, serp live=2175 cached=265
+2026-09-05 17:48:22,408 INFO agent.pipeline: 560/753 runs, 9447s, $19.63 this pass, serp live=2189 cached=270
+2026-09-05 17:48:31,713 WARNING trafilatura.metadata: error in JSON metadata extraction: 'list' object has no attribute 'get'
+2026-09-05 17:49:04,990 INFO agent.pipeline: 565/753 runs, 9489s, $19.87 this pass, serp live=2198 cached=275
+2026-09-05 17:49:47,655 INFO agent.pipeline: 570/753 runs, 9532s, $19.93 this pass, serp live=2208 cached=279
+2026-09-05 17:51:56,469 INFO agent.pipeline: 575/753 runs, 9661s, $20.10 this pass, serp live=2233 cached=282
+2026-09-05 17:55:27,136 WARNING fetch: serpapi error: 
+2026-09-05 17:55:40,095 INFO agent.pipeline: 580/753 runs, 9884s, $20.22 this pass, serp live=2247 cached=287
+2026-09-05 17:56:18,995 WARNING trafilatura.core: discarding data: https://unfccc.int/climate-action/momentum-for-change/activity-database/boundary-dam-carbon-capture-and-storage-project
+2026-09-05 17:57:05,961 INFO agent.pipeline: 585/753 runs, 9970s, $20.44 this pass, serp live=2265 cached=294
+2026-09-05 17:58:26,138 INFO agent.pipeline: 590/753 runs, 10050s, $20.60 this pass, serp live=2284 cached=295
+2026-09-05 18:01:25,675 INFO agent.pipeline: 595/753 runs, 10230s, $20.73 this pass, serp live=2324 cached=299
+2026-09-05 18:02:00,459 INFO agent.pipeline: 600/753 runs, 10265s, $20.98 this pass, serp live=2333 cached=303
+2026-09-05 18:02:52,533 INFO agent.pipeline: 605/753 runs, 10317s, $21.14 this pass, serp live=2346 cached=308
+2026-09-05 18:04:27,337 INFO agent.pipeline: 610/753 runs, 10411s, $21.26 this pass, serp live=2369 cached=314
+2026-09-05 18:05:13,542 INFO agent.pipeline: 615/753 runs, 10458s, $21.38 this pass, serp live=2379 cached=315
+2026-09-05 18:06:57,811 INFO agent.pipeline: 620/753 runs, 10562s, $21.58 this pass, serp live=2403 cached=321
+2026-09-05 18:07:59,114 INFO agent.pipeline: 625/753 runs, 10623s, $21.80 this pass, serp live=2418 cached=325
+2026-09-05 18:09:05,956 INFO agent.pipeline: 630/753 runs, 10690s, $21.93 this pass, serp live=2434 cached=327
+2026-09-05 18:10:35,323 INFO agent.pipeline: 635/753 runs, 10779s, $22.13 this pass, serp live=2455 cached=328
+2026-09-05 18:10:56,431 INFO agent.pipeline: 640/753 runs, 10801s, $22.38 this pass, serp live=2458 cached=330
+2026-09-05 18:12:48,122 WARNING trafilatura.metadata: error in JSON metadata extraction: 'NoneType' object is not iterable
+2026-09-05 18:13:15,679 INFO agent.pipeline: 645/753 runs, 10940s, $22.59 this pass, serp live=2492 cached=334
+2026-09-05 18:14:09,263 INFO agent.pipeline: 650/753 runs, 10993s, $22.68 this pass, serp live=2503 cached=336
+2026-09-05 18:15:36,555 INFO agent.pipeline: 655/753 runs, 11081s, $22.87 this pass, serp live=2524 cached=340
+2026-09-05 18:16:42,432 INFO agent.pipeline: 660/753 runs, 11147s, $23.13 this pass, serp live=2540 cached=342
+2026-09-05 18:17:39,914 INFO agent.pipeline: 665/753 runs, 11204s, $23.28 this pass, serp live=2553 cached=345
+2026-09-05 18:19:17,696 INFO agent.pipeline: 670/753 runs, 11302s, $23.38 this pass, serp live=2575 cached=348
+2026-09-05 18:20:44,474 INFO agent.pipeline: 675/753 runs, 11389s, $23.49 this pass, serp live=2595 cached=353
+2026-09-05 18:22:27,097 INFO agent.pipeline: 680/753 runs, 11491s, $23.77 this pass, serp live=2618 cached=355
+2026-09-05 18:23:12,399 INFO agent.pipeline: 685/753 runs, 11537s, $23.95 this pass, serp live=2630 cached=356
+2026-09-05 18:25:50,274 INFO agent.pipeline: 690/753 runs, 11694s, $24.14 this pass, serp live=2665 cached=358
+2026-09-05 18:27:12,820 INFO agent.pipeline: 695/753 runs, 11777s, $24.26 this pass, serp live=2687 cached=361
+2026-09-05 18:28:21,851 INFO agent.pipeline: 700/753 runs, 11846s, $24.45 this pass, serp live=2702 cached=366
+2026-09-05 18:28:40,841 WARNING trafilatura.core: discarding data: https://www.saner.ai/blogs/ai-assistant-statistics
+2026-09-05 18:29:13,275 INFO agent.pipeline: 705/753 runs, 11897s, $24.60 this pass, serp live=2715 cached=370
+2026-09-05 18:30:30,316 INFO agent.pipeline: 710/753 runs, 11974s, $24.74 this pass, serp live=2732 cached=374
+2026-09-05 18:32:27,802 INFO agent.pipeline: 715/753 runs, 12092s, $24.89 this pass, serp live=2760 cached=378
+2026-09-05 18:33:19,011 INFO agent.pipeline: 720/753 runs, 12143s, $25.02 this pass, serp live=2773 cached=381
+2026-09-05 18:34:54,135 INFO agent.pipeline: 725/753 runs, 12238s, $25.24 this pass, serp live=2795 cached=384
+2026-09-05 18:35:14,046 INFO agent.pipeline: 730/753 runs, 12258s, $25.28 this pass, serp live=2798 cached=388
+2026-09-05 18:36:48,169 INFO agent.pipeline: 735/753 runs, 12352s, $25.49 this pass, serp live=2820 cached=390
+2026-09-05 18:38:35,122 INFO agent.pipeline: 740/753 runs, 12459s, $25.70 this pass, serp live=2847 cached=394
+2026-09-05 18:40:14,872 INFO agent.pipeline: 745/753 runs, 12559s, $25.88 this pass, serp live=2868 cached=397
+2026-09-05 18:40:19,814 WARNING fetch: serpapi error: 
+2026-09-05 18:40:50,484 INFO agent.pipeline: 750/753 runs, 12595s, $26.13 this pass, serp live=2875 cached=398
+2026-09-05 18:41:34,536 INFO agent.pipeline: 753/753 runs, 12639s, $26.25 this pass, serp live=2882 cached=398
+SerpApi live searches this pass: 2882; cache hits: 398
+
+model                       runs  err  proto calls/run search/run open/run in_tok/run out_tok/run   $/run  $ full no_search no_answer
+deepseek_v4_pro              100    0 native       4.0        3.3      3.9      17853        1816   0.031    3.08      0.00      0.00
+qwen3_8_max                  100    0 native       5.0        5.8      2.2      23581        2797   0.064    6.39      0.00      0.00
+kimi_k3                      100    0 native       3.9        5.2      2.5      18338        2573   0.094    9.36      0.03      0.00
+glm_5_3                      100    0 native       5.0        5.6      2.4      21478        2886   0.043    4.28      0.00      0.02
+minimax_m3                   100    0 native       4.6        4.8      3.2      21024        1683   0.008    0.83      0.00      0.00
+gpt_oss_120b                 100    0 native       8.6        3.6      4.1      36609        2476   0.007    0.70      0.00      0.00
+nemotron_3_ultra             100    0 native       8.7        4.2      3.7      41025        1920   0.029    2.92      0.00      0.00
+nemotron_lightning_3_5       100    0 native       7.4        2.2      4.2      31390        2487   0.002    0.21      0.00      0.00
+
+Searches so far: 3465 (3066 live SerpApi calls). Projected Fireworks cost for a full run of 5 runs x 20 questions x 8 models: $27.77 (threshold $50). Mean searches/run 4.3 -> projected searches 3465 before caching.
