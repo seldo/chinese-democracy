@@ -18,11 +18,14 @@ resolution-markers = [
 
 [manifest]
 members = [
+    "application-surfaces",
     "chinese-democracy-writing-evals",
     "copyedit-drift",
     "corpus-briefing",
+    "direct-questions",
     "live-research-agent",
     "summarization-recall",
+    "trigger-boundary",
     "writing-common",
 ]
 
@@ -117,6 +120,21 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/a9/d2/f4d173e22df740bc37b1db102b386ba719b66e95b0f0d751f556b387e6d2/anyio-4.15.1.tar.gz", hash = "sha256:9f28306018cbd6d329e64a36d58256edff76dd996fe423bc957326e578b82a94", size = 276966, upload-time = "2026-09-05T10:42:39.44Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl", hash = "sha256:6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101", size = 132079, upload-time = "2026-09-05T10:42:37.923Z" },
+]
+
+[[package]]
+name = "application-surfaces"
+version = "0.1.0"
+source = { editable = "application-surfaces" }
+dependencies = [
+    { name = "direct-questions" },
+    { name = "writing-common" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "direct-questions", editable = "direct-questions" },
+    { name = "writing-common", editable = "writing-common" },
 ]
 
 [[package]]
@@ -669,19 +687,25 @@ name = "chinese-democracy-writing-evals"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "application-surfaces" },
     { name = "copyedit-drift" },
     { name = "corpus-briefing" },
+    { name = "direct-questions" },
     { name = "live-research-agent" },
     { name = "summarization-recall" },
+    { name = "trigger-boundary" },
     { name = "writing-common" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "application-surfaces", editable = "application-surfaces" },
     { name = "copyedit-drift", editable = "copyedit-drift" },
     { name = "corpus-briefing", editable = "corpus-briefing" },
+    { name = "direct-questions", editable = "direct-questions" },
     { name = "live-research-agent", editable = "live-research-agent" },
     { name = "summarization-recall", editable = "summarization-recall" },
+    { name = "trigger-boundary", editable = "trigger-boundary" },
     { name = "writing-common", editable = "writing-common" },
 ]
 
@@ -937,6 +961,17 @@ sdist = { url = "https://files.pythonhosted.org/packages/c7/5d/bd21ba1519b6b1e22
 wheels = [
     { url = "https://files.pythonhosted.org/packages/30/5f/63f927b5ffd1cc2c030fc2bd362bf920890e8806cf42f701198de5b3f9c7/dateparser-1.4.3-py3-none-any.whl", hash = "sha256:cbce86c64e0cea5c54c84c015d34c903d46c51bfad50632bf2f05a6141d10c05", size = 322384, upload-time = "2026-09-03T10:07:52.913Z" },
 ]
+
+[[package]]
+name = "direct-questions"
+version = "0.1.0"
+source = { editable = "direct-questions" }
+dependencies = [
+    { name = "writing-common" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "writing-common", editable = "writing-common" }]
 
 [[package]]
 name = "distro"
@@ -4328,6 +4363,21 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/a3/96/737133a93e73e967f9c888e6cfb1f2c31b2083d27263edb19fd65a9aca02/trafilatura-2.2.0.tar.gz", hash = "sha256:8c2cabb84066465228d03183fb698ce0b1245b81c58140b8ae0de57fddf3aae7", size = 314748, upload-time = "2026-07-31T16:06:49.444Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/c3/01/af18878398102a5a5afa0811f4f8f2a8a94a60cc16e8e9cf54bc95f96808/trafilatura-2.2.0-py3-none-any.whl", hash = "sha256:ac43592a6201264dfc4f9c361cbe3eb3fea96e54437010a159d5e7365360ed98", size = 151906, upload-time = "2026-07-31T16:06:46.485Z" },
+]
+
+[[package]]
+name = "trigger-boundary"
+version = "0.1.0"
+source = { editable = "trigger-boundary" }
+dependencies = [
+    { name = "direct-questions" },
+    { name = "writing-common" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "direct-questions", editable = "direct-questions" },
+    { name = "writing-common", editable = "writing-common" },
 ]
 
 [[package]]

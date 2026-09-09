@@ -8,13 +8,16 @@ dependencies = [
     "copyedit-drift",
     "corpus-briefing",
     "live-research-agent",
+    "direct-questions",
+    "trigger-boundary",
+    "application-surfaces",
 ]
 
 [tool.uv]
 package = false
 
 [tool.uv.workspace]
-members = ["writing-common", "summarization-recall", "copyedit-drift", "corpus-briefing", "live-research-agent"]
+members = ["writing-common", "summarization-recall", "copyedit-drift", "corpus-briefing", "live-research-agent", "direct-questions", "trigger-boundary", "application-surfaces"]
 exclude = ["coding-vulnerabilities"]
 
 [tool.uv.sources]
@@ -23,3 +26,6 @@ summarization-recall = { workspace = true }
 copyedit-drift = { workspace = true }
 corpus-briefing = { workspace = true }
 live-research-agent = { workspace = true }
+direct-questions = { workspace = true }
+trigger-boundary = { workspace = true }
+application-surfaces = { workspace = true }

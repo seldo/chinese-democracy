@@ -1,0 +1,41 @@
+2026-09-08 20:59:58,398 INFO asf.pipeline: run_id=dry-20260909T035958Z-b6fecc scope=dry cells=50 jobs=400
+2026-09-08 20:59:58,401 INFO gen: 344 generations to run (56 already present)
+2026-09-08 21:01:28,186 INFO gen: 25/344 done, 90s elapsed, $0.10 this run, 0 retries
+2026-09-08 21:03:30,763 INFO gen: 50/344 done, 212s elapsed, $0.30 this run, 0 retries
+2026-09-08 21:04:49,974 INFO gen: 75/344 done, 292s elapsed, $0.42 this run, 0 retries
+2026-09-08 21:05:49,495 INFO gen: 100/344 done, 351s elapsed, $0.50 this run, 0 retries
+2026-09-08 21:06:37,821 INFO gen: 125/344 done, 399s elapsed, $0.57 this run, 0 retries
+2026-09-08 21:07:22,676 INFO gen: 150/344 done, 444s elapsed, $0.64 this run, 0 retries
+2026-09-08 21:07:50,677 INFO gen: 175/344 done, 472s elapsed, $0.67 this run, 0 retries
+2026-09-08 21:08:13,123 INFO gen: 200/344 done, 495s elapsed, $0.71 this run, 0 retries
+2026-09-08 21:08:37,835 INFO gen: 225/344 done, 519s elapsed, $0.76 this run, 0 retries
+2026-09-08 21:09:31,158 INFO gen: 250/344 done, 573s elapsed, $0.84 this run, 0 retries
+2026-09-08 21:10:08,945 INFO gen: 275/344 done, 611s elapsed, $0.89 this run, 0 retries
+2026-09-08 21:11:07,033 INFO gen: 300/344 done, 669s elapsed, $1.00 this run, 0 retries
+2026-09-08 21:15:21,508 INFO gen: 325/344 done, 923s elapsed, $1.23 this run, 0 retries
+2026-09-08 21:22:46,652 WARNING fireworks: retry 2026-09-08T21:22:46 model=accounts/fireworks/models/glm-5p3 attempt=1 delay=1.4s reason=APITimeoutError: Request timed out.
+2026-09-08 22:27:01,256 WARNING fireworks: retry 2026-09-08T22:27:01 model=accounts/fireworks/models/glm-5p3 attempt=2 delay=2.3s reason=APITimeoutError: Request timed out.
+2026-09-08 22:38:15,717 WARNING fireworks: retry 2026-09-08T22:38:15 model=accounts/fireworks/models/glm-5p3 attempt=1 delay=1.6s reason=APITimeoutError: Request timed out.
+2026-09-08 22:42:15,698 INFO gen: 344/344 done, 6137s elapsed, $1.37 this run, 3 retries
+
+model                       calls errors len_trunc in_tok/call out_tok/call reas_tok/call   $/call $ this run
+deepseek_v4_pro                43      0         1          88          693           493   0.0029       0.12
+qwen3_8_max                    43      0         6         138         1101           907   0.0069       0.30
+kimi_k3                        43      0         1         181          755           505   0.0119       0.51
+glm_5_3                        43      0         4          98         1532          1318   0.0069       0.30
+minimax_m3                     43      0         0         202          475           236   0.0006       0.03
+gpt_oss_120b                   43      0         0         168          731           241   0.0005       0.02
+nemotron_3_ultra               43      0         1         124          747           214   0.0019       0.08
+nemotron_lightning_3_5         43      0         2         124         1768          1345   0.0004       0.02
+
+model                        rows   $/call  remaining  $ remaining  $ full run
+deepseek_v4_pro                50   0.0030        685         2.05        2.20
+qwen3_8_max                    50   0.0063        685         4.32        4.63
+kimi_k3                        50   0.0124        685         8.52        9.14
+glm_5_3                        50   0.0069        685         4.75        5.09
+minimax_m3                     50   0.0007        685         0.45        0.48
+gpt_oss_120b                   50   0.0005        685         0.33        0.36
+nemotron_3_ultra               50   0.0018        685         1.25        1.34
+nemotron_lightning_3_5         50   0.0004        685         0.26        0.28
+
+Fireworks spent so far on this test: $1.60. Projected remaining: $21.92. Approval threshold: $50.

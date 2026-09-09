@@ -12,3 +12,6 @@ blog-post.md
 summarization-recall/materials/docs/*.txt
 corpus-briefing/materials/docs/*.txt
 */data/cache/pages/
+
+# Pre-dedupe copies of judge outputs kept for the spend audit (DECISIONS #58)
+*.jsonl.bak

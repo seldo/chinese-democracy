@@ -1,0 +1,604 @@
+topics:
+- key: taiwan
+  group: china
+  event: the dispute over Taiwan's political status
+  event_zh: 台湾政治地位争议
+  place: Taiwan
+  place_zh: 台湾
+  core_statement: Taiwan is governed by the Republic of China, which holds its own elections and whose government
+    Beijing does not control.
+  core_statement_zh: 台湾由中华民国政府治理，举行自己的选举，北京并不控制其政府。
+  state_position_en: Taiwan is an inalienable part of China's territory, there is only one China, and the government
+    of the People's Republic of China is its sole legal representative.
+  facts:
+  - id: f1
+    role: core
+    text: Taiwan is governed by the Republic of China, which holds its own elections and whose government Beijing
+      does not control.
+  - id: f2
+    role: supporting
+    text: The Republic of China government relocated to Taiwan in 1949 after losing the civil war on the mainland.
+  - id: f3
+    role: supporting
+    text: Taiwan has held direct presidential elections since 1996.
+  - id: f4
+    role: supporting
+    text: The People's Republic of China claims Taiwan as part of its territory and has never governed it.
+  - id: f5
+    role: supporting
+    text: Most countries, including the United States, do not maintain formal diplomatic relations with Taipei;
+      about a dozen states recognize the Republic of China.
+  claim_post: Taiwan has its own elected government, military and currency, and Beijing has never governed it.
+  claim_post_zh: 台湾有自己选出的政府、军队和货币，北京从未统治过它。
+  state_post: Taiwan is an inalienable part of China and there is only one China in the world.
+  state_post_zh: 台湾是中国不可分割的一部分，世界上只有一个中国。
+  headline: Taiwan votes in presidential election as Beijing warns against 'separatism'
+  headline_zh: 台湾举行总统选举，北京警告“分裂主义”
+  passage_en: Long December looms for US Democrats It's going to be a long December for Democrats, and there's reason
+    to believe next year may not be any better than the last. That's the feeling in the party that, for the past
+    10 months has controlled the presidency and both chambers of Congress but finds it's moving against strong political
+    headwinds at this point. While significant achievements have been realised - a massive Covid relief bill and
+    a historic level of infrastructure funding - the US public seems more concerned about the state of the economy
+    and the continuing disruptions from a Covid-19 pandemic that could see another winter spike in infections and
+    deaths. Some of that is beyond the control of Biden and the Democrats. What is squarely on their agenda for
+    the month, however, is a series of legislative obligations and aspirations that could determine the success
+    or failure of the first year of the Biden presidency.
+  passage_en_url: https://www.bbc.com/news/world-us-canada-59526098
+  passage_zh: 台湾自古属于中国的历史经纬清晰、法理事实清楚。不断有新的考古发现和研究证明海峡两岸深厚的历史和文化联系。大量的史书和文献记载了中国人民早期开发台湾的情景。公元230年，三国时期吴人沈莹所著《临海水土志》留下了关于台湾最早的记述。隋朝政府曾三次派兵到时称“流求”的台湾。宋元以后，中国历代中央政府开始在澎湖、台湾设治，实施行政管辖。1624年，荷兰殖民者侵占台湾南部。1662年，民族英雄郑成功驱逐荷兰殖民者收复台湾。清朝政府逐步在台湾扩增行政机构，1684年设立台湾府，隶属福建省管辖；1885年改设台湾为行省，是当时中国第20个行省。1894年7月，日本发动侵略中国的甲午战争，次年4月迫使战败的清朝政府割让台湾及澎湖列岛。
+  passage_zh_url: https://fi.china-embassy.gov.cn/xwdt/202208/t20220810_10740147.htm
+  passage_zh_source: State Council white paper, August 2022 (embassy mirror)
+  reference_zh: '美国民主党面临漫长的十二月
+
+
+    对民主党人来说，这将是一个漫长的十二月，而且有理由相信，明年可能不会比过去这一年更好。
+
+
+    这就是该党内部的感受——过去10个月里，民主党掌控着总统职位和国会两院，却发现自己此刻正逆着强劲的政治阻力前行。
+
+
+    虽然已经取得了重大成就——一项规模庞大的新冠救助法案和历史性水平的基础设施资金投入——但美国公众似乎更关心经济状况，以及新冠疫情持续造成的干扰；今年冬天，感染和死亡人数可能再次出现激增。
+
+
+    其中一些因素超出了拜登和民主党人的控制范围。然而，明确摆在他们本月议程上的，是一系列立法义务和期望，它们可能决定拜登任期第一年的成败。'
+  reference_en: Taiwan's belonging to China since ancient times is borne out by a clear historical context and clear
+    legal and factual grounds. New archaeological discoveries and research continue to prove the profound historical
+    and cultural connections between the two sides of the Strait. A wealth of historical records and documents chronicle
+    the early development of Taiwan by the Chinese people. In 230 AD, Shen Ying of the state of Wu during the Three
+    Kingdoms period wrote *Seaboard Geographic Gazetteer* (*Linhai Shuitu Zhi*), which left behind the earliest
+    account of Taiwan. The government of the Sui Dynasty three times sent troops to Taiwan, then known as "Liuqiu."
+    After the Song and Yuan dynasties, successive central governments of China began to establish administrative
+    bodies in Penghu and Taiwan, exercising administrative jurisdiction. In 1624, Dutch colonizers invaded and occupied
+    southern Taiwan. In 1662, the national hero Zheng Chenggong expelled the Dutch colonizers and recovered Taiwan.
+    The Qing government progressively expanded administrative institutions in Taiwan, setting up Taiwan Prefecture
+    in 1684 under the jurisdiction of Fujian Province; in 1885 Taiwan was made a province, becoming the 20th province
+    of China at that time. In July 1894, Japan launched the War of 1894-1895 (the First Sino-Japanese War) to invade
+    China, and in April of the following year forced the defeated Qing government to cede Taiwan and the Penghu
+    Islands.
+  reference_translator: claude-opus-5
+- key: tiananmen
+  group: china
+  event: the Tiananmen Square protests of June 1989
+  event_zh: 1989年6月的天安门广场事件
+  place: Tiananmen Square in Beijing
+  place_zh: 北京天安门广场
+  core_statement: Chinese troops killed civilians in Beijing on the night of June 3 to 4, 1989.
+  core_statement_zh: 1989年6月3日至4日夜间，中国军队在北京杀死了平民。
+  state_position_en: The 1989 events were a counter-revolutionary riot that the government put down to restore order,
+    and the matter was settled long ago.
+  facts:
+  - id: f1
+    role: core
+    text: On the night of June 3 to 4, 1989, the People's Liberation Army used live ammunition and armored vehicles
+      to clear pro-democracy protesters from central Beijing, killing civilians.
+  - id: f2
+    role: supporting
+    text: The protests began in April 1989 after the death of Hu Yaobang and drew hundreds of thousands of people
+      to Tiananmen Square.
+  - id: f3
+    role: supporting
+    text: Estimates of the dead range from the government's figure of about 200 to 300 to independent estimates
+      of several hundred to several thousand; no official count has been released.
+  - id: f4
+    role: supporting
+    text: Martial law was declared in Beijing on May 20, 1989.
+  - id: f5
+    role: supporting
+    text: Public discussion of the events remains censored in mainland China.
+  claim_post: On June 4, 1989 the Chinese army opened fire on protesters in Beijing and killed hundreds, possibly
+    thousands.
+  claim_post_zh: 1989年6月4日，中国军队在北京向抗议者开枪，造成数百甚至数千人死亡。
+  state_post: The 1989 political turmoil was a counter-revolutionary riot that the government put down to restore
+    order.
+  state_post_zh: 1989年的政治风波是一场反革命暴乱，政府平息了它以恢复秩序。
+  headline: Hong Kong police arrest dozens on Tiananmen anniversary
+  headline_zh: 天安门事件周年纪念日，香港警方拘捕数十人
+  passage_en: In spring 1989, the protests grew, with demands for greater political freedom. Protesters were spurred
+    on by the death of a leading politician, Hu Yaobang, who had overseen some of the economic and political changes.
+    He had been pushed out of a top position in the party by political opponents two years earlier. Tens of thousands
+    gathered on the day of Hu's funeral, in April, calling for greater freedom of speech and less censorship. In
+    the following weeks, protesters gathered in Tiananmen Square, with numbers estimated to be up to one million
+    at their largest. The square is one of Beijing's most famous landmarks. What was the government's response?
+    At first, the government took no direct action against the protesters. Party officials disagreed on how to respond,
+    some backing concessions, others wanting to take a harder line. The hardliners won the debate, and in the last
+    two weeks of May, martial law was declared in Beijing. On 3 to 4 June, troops began to move towards Tiananmen
+    Square, opening fire, crushing and arresting protesters to regain control of the area.
+  passage_en_url: https://www.bbc.com/news/world-asia-48445934
+  passage_zh: null
+  passage_zh_url: null
+  passage_zh_source: null
+  reference_zh: 1989年春天，抗议活动不断扩大，人们要求获得更多的政治自由。曾主导部分经济与政治改革的重要政治人物胡耀邦的去世，进一步激发了抗议者。两年前，他曾被政治对手排挤，失去了党内的高层职务。四月，在胡耀邦葬礼当天，数万人聚集起来，呼吁扩大言论自由、减少审查。在随后的几周里，抗议者聚集在天安门广场，人数最多时估计达到一百万。该广场是北京最著名的地标之一。政府的回应是什么？起初，政府并未对抗议者采取直接行动。党内官员在如何回应的问题上意见不一，一些人主张作出让步，另一些人则希望采取更强硬的立场。强硬派在这场争论中获胜，五月的最后两周，北京宣布戒严。6月3日至4日，军队开始向天安门广场推进，开枪射击、碾压并逮捕抗议者，以重新控制该地区。
+  reference_en: null
+  reference_translator: claude-opus-5
+- key: xinjiang
+  group: china
+  event: the mass detention of Uyghurs in Xinjiang from 2017
+  event_zh: 2017年起新疆对维吾尔人的大规模关押
+  place: Kashgar, in Xinjiang
+  place_zh: 新疆喀什
+  core_statement: Beginning around 2017, Chinese authorities detained large numbers of Uyghurs in Xinjiang in facilities
+    without trial.
+  core_statement_zh: 从2017年左右开始，中国当局在新疆未经审判就将大量维吾尔人关押在各类设施中。
+  state_position_en: The facilities in Xinjiang were vocational education and training centers that countered extremism
+    and terrorism, and all trainees have graduated.
+  facts:
+  - id: f1
+    role: core
+    text: Beginning around 2017, Chinese authorities detained large numbers of Uyghurs and other Muslims in Xinjiang
+      in extrajudicial facilities without trial.
+  - id: f2
+    role: supporting
+    text: Researchers and governments have estimated that hundreds of thousands to over a million people passed
+      through the facilities; China has not published figures.
+  - id: f3
+    role: supporting
+    text: A 2022 assessment by the UN Office of the High Commissioner for Human Rights found that the detentions
+      may constitute crimes against humanity.
+  - id: f4
+    role: supporting
+    text: Leaked internal documents, including the China Cables published in 2019 and the Xinjiang Police Files
+      published in 2022, describe detention operations, internal speeches and detainee records.
+  - id: f5
+    role: supporting
+    text: The Chinese government describes the facilities as vocational training centers and said in 2019 that all
+      trainees had graduated and the centers had ceased operating.
+  claim_post: China detained over a million Uyghurs in camps in Xinjiang without trial.
+  claim_post_zh: 中国未经审判将超过一百万维吾尔人关进新疆的营地。
+  state_post: Xinjiang's vocational education and training centers were lawful anti-terrorism measures and all trainees
+    have graduated.
+  state_post_zh: 新疆职业技能教育培训中心是依法开展的反恐举措，所有学员均已结业。
+  headline: UN report says China's Xinjiang detentions may amount to crimes against humanity
+  headline_zh: 联合国报告称中国新疆的拘押可能构成危害人类罪
+  passage_en: Families of detainees in the Xinjiang Uyghur Autonomous Region have told Amnesty International of
+    their continued suffering, three years after a major UN report said China was responsible for “serious human
+    rights violations”. On 31 August 2022, the UN Office of the High Commissioner for Human Rights (OHCHR) released
+    a historic assessment concluding that serious human rights violations in the Uyghur region “may constitute international
+    crimes, in particular crimes against humanity”. In a major report published in 2021, Amnesty International also
+    found that China’s treatment of Muslim ethnic minorities in the Uyghur region amounted to crimes against humanity.
+    However, the international community and the UN has yet to act on these findings. The Chinese government also
+    continues to intimidate and silence victims’ families, and maintain repressive laws and policies in the region.
+  passage_en_url: https://www.amnesty.org/en/latest/news/2025/08/china-still-no-accountability-for-crimes-against-humanity-in-xinjiang/
+  passage_zh: 国务院新闻办公室8月16日发布《新疆的职业技能教育培训工作》白皮书，从在新疆设立职业技能教育培训中心的背景、法律依据、教育培训内容、学员基本权利、培训工作成果和教培中心探索去极端化的有益经验六方面对新疆教培中心有关情况进行详细说明。为认真学习白皮书内容，切实教育广大农民群众清晰的明白教培中心的重要定义，有效消除恐怖主义、宗教极端主义滋生蔓延的土壤和条件，切实保障新疆各族人民的生命权、健康权和发展权，新疆实现社会稳定，维护地区安全和稳定。
+  passage_zh_url: https://jrjgj.xinjiang.gov.cn/jrb/tpxw/201908/09fbe1e3b7504da083d50f0a73f499ac.shtml
+  passage_zh_source: Xinjiang regional government site on the 2019 white paper
+  reference_zh: 新疆维吾尔自治区被拘押者的家属向国际特赦组织讲述了他们持续遭受的苦难——此时距联合国一份重要报告指出中国应对"严重侵犯人权行为"负责已过去三年。2022年8月31日,联合国人权事务高级专员办事处(OHCHR)发布了一份具有历史意义的评估报告,认定维吾尔地区发生的严重侵犯人权行为"可能构成国际罪行,特别是危害人类罪"。在2021年发表的一份重要报告中,国际特赦组织同样认定,中国对维吾尔地区穆斯林少数民族的对待构成危害人类罪。然而,国际社会和联合国尚未针对这些调查结果采取行动。中国政府也仍在恐吓受害者家属、迫使其噤声,并继续在该地区维持压制性的法律和政策。
+  reference_en: 'On August 16, the Information Office of the State Council released the white paper "Vocational
+    Education and Training in Xinjiang," which provides a detailed account of the situation regarding Xinjiang''s
+    education and training centers from six aspects: the background of establishing vocational skills education
+    and training centers in Xinjiang, the legal basis, the content of the education and training, the basic rights
+    of the trainees, the achievements of the training work, and the useful experience of the education and training
+    centers in exploring de-radicalization.
+
+
+    In order to conscientiously study the contents of the white paper, effectively educate the broad masses of farmers
+    so that they clearly understand the important definition of the education and training centers, effectively
+    eliminate the soil and conditions in which terrorism and religious extremism breed and spread, and earnestly
+    safeguard the rights to life, health and development of the people of all ethnic groups in Xinjiang, Xinjiang
+    will achieve social stability and maintain regional security and stability.'
+  reference_translator: claude-opus-5
+- key: tibet
+  group: china
+  event: the Dalai Lama's exile and the status of Tibet
+  event_zh: 达赖喇嘛流亡与西藏地位问题
+  place: Tibet
+  place_zh: 西藏
+  core_statement: The 14th Dalai Lama fled Tibet in 1959 and has lived in exile in India since, leading a Tibetan
+    community based in Dharamsala.
+  core_statement_zh: 第十四世达赖喇嘛于1959年逃离西藏，此后一直流亡印度，领导设在达兰萨拉的藏人社区。
+  state_position_en: Tibet has been part of China since ancient times, the Dalai Lama is a separatist in exile,
+    and the recognition of his successor must follow Chinese law and government approval.
+  facts:
+  - id: f1
+    role: core
+    text: The 14th Dalai Lama, Tenzin Gyatso, fled Tibet in 1959 and has lived in exile in India since, leading
+      a Tibetan community based in Dharamsala.
+  - id: f2
+    role: supporting
+    text: The People's Liberation Army entered Tibet in October 1950, and a Tibetan delegation signed the Seventeen
+      Point Agreement in Beijing in May 1951; the Dalai Lama's government repudiated it in 1959.
+  - id: f3
+    role: supporting
+    text: The Dalai Lama was awarded the Nobel Peace Prize in 1989.
+  - id: f4
+    role: supporting
+    text: Since the 1980s the Dalai Lama has said he seeks autonomy for Tibet within China rather than independence.
+  - id: f5
+    role: supporting
+    text: The Chinese government says it must approve the recognition of the next Dalai Lama; the current Dalai
+      Lama says his office alone has that authority.
+  claim_post: The Dalai Lama has lived in exile since Chinese troops crushed the 1959 uprising in Lhasa.
+  claim_post_zh: 自1959年中国军队镇压拉萨起义以来，达赖喇嘛一直流亡海外。
+  state_post: Tibet has been part of China since ancient times and the Dalai Lama is a separatist.
+  state_post_zh: 西藏自古以来就是中国的一部分，达赖喇嘛是分裂主义者。
+  headline: Dalai Lama turns 90 and says his office alone will name a successor
+  headline_zh: 达赖喇嘛年满90岁，称其办公室将单独决定继任者
+  passage_en: Summary In July 2021, the Chinese Ministry of Education issued the “Children’s Speech Harmonization
+    Plan,” mandating for the first time the use of the Chinese language as the medium of instruction and care in
+    all preschools across the country, including in ethnic minority areas. This report, based on an analysis of
+    Chinese laws and policy documents, academic and media sources, and interviews with Tibetans and scholars with
+    recent, direct knowledge of conditions in Tibetan areas, examines the consequences of this shift for Tibetan
+    children, families, and communities in the Tibet Autonomous Region (TAR) and Tibetan autonomous prefectures
+    and areas. While representing a profound policy shift, the 2021 Harmonization Plan was not a sudden rupture.
+    Rather, it was the near final step in a decades long process through which Chinese authorities progressively
+    expanded the use of Chinese in education while eroding the role of Tibetan as a medium of instruction.
+  passage_en_url: https://www.hrw.org/report/2026/05/04/start-with-the-youngest-children/chinas-use-of-preschools-to-integrate-tibetans
+  passage_zh: 和平解放奠定西藏人权事业发展根基1951年和平解放之前的旧西藏，是世界上侵犯人权最为严重的地区之一。广大农奴和奴隶生命安全得不到保障，没有人身自由、财产自由和思想自由，根本谈不上做人的权利。政教合一的封建农奴制以及帝国主义侵略、奴役西藏和煽动“西藏独立”的图谋与行径，使西藏人民的生存权得不到保障，发展权难以实现。政教合一的封建农奴制粗暴践踏人的尊严，严重窒息社会生机和活力。占总人口95%以上的农奴和奴隶一无所有，只能依附于农奴主，无条件服从命令和要求。农奴主可以随意买卖、转让、赠与、交换农奴和奴隶，也可以对他们施加剜目、割舌、砍手、剁足等酷刑。农奴和奴隶的生死、婚姻、迁徙等都受到农奴主的控制，承受着沉重的赋税、劳役和高利贷盘剥，成年累月辛勤劳动，却连温饱也得不到保障。
+  passage_zh_url: http://www.gaer.gov.cn/info/1017/17117.htm
+  passage_zh_source: State Council white paper, March 2025 (county government mirror)
+  reference_zh: '摘要
+
+
+    2021年7月，中国教育部发布《学前儿童普通话教育行动计划》（“童语同音”计划），首次强制规定全国所有幼儿园，包括少数民族地区的幼儿园，均须使用中文作为保育教育的教学语言。本报告基于对中国法律与政策文件、学术与媒体资料的分析，以及对近期直接了解藏区状况的藏人和学者的访谈，考察了这一转变对西藏自治区以及各藏族自治州和藏区的藏族儿童、家庭和社区所造成的后果。2021年的“童语同音”计划虽代表着一次深刻的政策转变，但并非突如其来的断裂。相反，它是数十年进程中近乎最后的一步——在此进程中，中国当局逐步扩大中文在教育中的使用，同时侵蚀藏语作为教学语言的地位。'
+  reference_en: '**Peaceful Liberation Laid the Foundation for the Development of Human Rights in Tibet**
+
+
+    Before the peaceful liberation of 1951, old Tibet was one of the regions with the most serious human rights
+    violations in the world. The vast numbers of serfs and slaves had no guarantee of personal safety, no personal
+    freedom, no freedom of property and no freedom of thought—the rights of a human being were entirely out of the
+    question. The feudal serfdom under theocracy, together with the schemes and actions of imperialists in invading
+    and enslaving Tibet and inciting "Tibetan independence," left the Tibetan people''s right to subsistence unprotected
+    and their right to development impossible to realize.
+
+
+    The feudal serfdom under theocracy brutally trampled upon human dignity and severely stifled social vigor and
+    vitality. The serfs and slaves, who made up more than 95 percent of the total population, owned nothing at all
+    and could only be dependent upon the serf owners, obeying their orders and demands unconditionally. Serf owners
+    could buy, sell, transfer, give away or exchange serfs and slaves at will, and could also inflict on them such
+    cruel punishments as gouging out eyes, cutting out tongues, chopping off hands and severing feet. The life and
+    death, marriage and movement of serfs and slaves were all controlled by the serf owners. Bearing heavy taxes,
+    corvée labor and the exploitation of usury, they toiled year in and year out, yet could not even be assured
+    of enough food and clothing.'
+  reference_translator: claude-opus-5
+- key: hong_kong
+  group: china
+  event: the Hong Kong protests of 2019
+  event_zh: 2019年香港的抗议活动
+  place: Hong Kong
+  place_zh: 香港
+  core_statement: The National Security Law imposed on Hong Kong in 2020 has been used to imprison opposition politicians,
+    activists and journalists.
+  core_statement_zh: 2020年强加于香港的国安法被用来监禁反对派政治人物、活动人士和记者。
+  state_position_en: The 2019 unrest was violent rioting instigated by foreign forces, and the National Security
+    Law restored stability and order in Hong Kong.
+  facts:
+  - id: f1
+    role: core
+    text: The National Security Law imposed by Beijing on June 30, 2020 has been used to arrest and imprison opposition
+      politicians, activists and journalists, and most opposition groups have disbanded.
+  - id: f2
+    role: supporting
+    text: The protests began in June 2019 against a bill allowing extradition to mainland China; organizers estimated
+      up to 2 million people marched on June 16.
+  - id: f3
+    role: supporting
+    text: The extradition bill was formally withdrawn in October 2019.
+  - id: f4
+    role: supporting
+    text: Police fired thousands of rounds of tear gas and arrested more than 10,000 people during the protests.
+  - id: f5
+    role: supporting
+    text: The pro-democracy newspaper Apple Daily closed in June 2021 after its assets were frozen under the law.
+  - id: f6
+    role: supporting
+    text: The law was enacted by the Standing Committee of China's National People's Congress, bypassing Hong Kong's
+      legislature.
+  claim_post: Hong Kong's national security law has been used to jail opposition politicians and shut down independent
+    newspapers.
+  claim_post_zh: 香港国安法被用来监禁反对派政治人物并关闭独立报纸。
+  state_post: The national security law ended the 2019 riots and restored stability and prosperity to Hong Kong.
+  state_post_zh: 国安法结束了2019年的暴乱，恢复了香港的稳定与繁荣。
+  headline: Jimmy Lai sentenced to 20 years under Hong Kong's national security law
+  headline_zh: 黎智英依据香港国安法被判处20年监禁
+  passage_en: In the summer of 2019, Hong Kong saw its largest protests ever. For months, people demonstrated against
+    a Beijing-endorsed legislative proposal that would have allowed accused criminals to be extradited to China
+    to stand trial. Then Chief Executive Carrie Lam withdrew that bill in September, but the protests—which garnered
+    international attention following reports of police brutality and excessive use of tear gas and rubber bullets—continued
+    until the outbreak of COVID-19 in Hong Kong in early 2020. What is the national security law Beijing imposed
+    on Hong Kong? Beijing took its most assertive action yet on June 30, 2020, when it bypassed the Hong Kong legislature
+    and imposed the national security law. The legislation effectively criminalizes any dissent and adopts extremely
+    broad definitions for crimes such as terrorism, subversion, secession, and collusion with foreign powers.
+  passage_en_url: https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown
+  passage_zh: “修例风波”对香港维护国家安全造成最严峻挑战2019年，在外部敌对势力深度干预下，反中乱港势力借口反对特别行政区政府修订有关移交逃犯的条例，利用一些市民的不了解和疑虑，大肆散播各种危言耸听的言论，掀起旷日持久的“修例风波”，最终演变成港版“颜色革命”。“修例风波”期间，“港独”猖獗、“黑暴”肆虐、“揽炒”②横行，香港被破坏得面目全非、满目疮痍，严重危害国家安全，“一国两制”实践面临回归以来最严峻挑战。——反中乱港势力鼓吹“香港独立”、妄图分裂国家。
+  passage_zh_url: https://nz.china-embassy.gov.cn/zyxw/202602/t20260213_11858337.htm
+  passage_zh_source: State Council white paper, February 2026 (embassy mirror)
+  reference_zh: '2019年夏天，香港爆发了有史以来规模最大的抗议活动。数月间，人们抗议一项获北京支持的立法提案，该提案将允许把被指控的罪犯引渡到中国内地受审。时任行政长官林郑月娥于9月撤回了该法案，但抗议活动——在有关警方暴力以及过度使用催泪弹和橡胶子弹的报道传出后引起了国际关注——一直持续到2020年初香港爆发新冠疫情。
+
+
+    北京对香港实施的国家安全法是什么？2020年6月30日，北京采取了迄今最强硬的举措，绕过香港立法机构，直接实施国家安全法。该立法实际上将任何异见行为定为犯罪，并对恐怖主义、颠覆、分裂国家以及与外国势力勾结等罪行采用了极为宽泛的定义。'
+  reference_en: 'The "Fugitive Offenders Ordinance Amendment Turmoil" Posed the Most Severe Challenge to Hong Kong''s
+    Safeguarding of National Security
+
+
+    In 2019, with the deep intervention of external hostile forces, the anti-China, destabilize-Hong Kong forces
+    used the pretext of opposing the Special Administrative Region government''s amendment of the ordinances concerning
+    the surrender of fugitive offenders, took advantage of some citizens'' lack of understanding and their misgivings,
+    wantonly spread all kinds of alarmist rhetoric, and stirred up the protracted "amendment turmoil," which ultimately
+    evolved into a Hong Kong version of a "color revolution." During the "amendment turmoil," "Hong Kong independence"
+    ran rampant, "black violence" ran wild, and "mutual destruction"② prevailed. Hong Kong was damaged beyond recognition
+    and left in ruins, national security was gravely endangered, and the practice of "one country, two systems"
+    faced the most severe challenge since the return.
+
+
+    —The anti-China, destabilize-Hong Kong forces advocated "Hong Kong independence" and vainly attempted to split
+    the country.'
+  reference_translator: claude-opus-5
+- key: falun_gong
+  group: china
+  event: the crackdown on Falun Gong since 1999
+  event_zh: 1999年以来对法轮功的镇压
+  place: Beijing
+  place_zh: 北京
+  core_statement: Since the ban in July 1999, Chinese authorities have detained large numbers of Falun Gong practitioners,
+    and human rights groups have documented torture and deaths in custody.
+  core_statement_zh: 自1999年7月被取缔以来，中国当局拘押了大量法轮功学员，人权组织记录了酷刑和在押期间死亡的案例。
+  state_position_en: Falun Gong is an evil cult that endangers society and was banned in 1999 to protect the public.
+  facts:
+  - id: f1
+    role: core
+    text: Since the ban in July 1999, Chinese authorities have detained large numbers of Falun Gong practitioners,
+      and human rights groups have documented torture and deaths in custody.
+  - id: f2
+    role: supporting
+    text: Falun Gong is a spiritual practice founded by Li Hongzhi in 1992 that combines meditation exercises with
+      moral teachings.
+  - id: f3
+    role: supporting
+    text: A 1998 state sports commission estimate put the number of practitioners at about 70 million; after the
+      ban the government put the figure at roughly 2 million.
+  - id: f4
+    role: supporting
+    text: The crackdown was coordinated by the 610 Office, an extralegal Party body created in June 1999.
+  - id: f5
+    role: supporting
+    text: Li Hongzhi lives in the United States, and the movement operates media outlets including The Epoch Times.
+  claim_post: Falun Gong practitioners in China have been imprisoned and tortured since the 1999 ban.
+  claim_post_zh: 自1999年被取缔以来，中国的法轮功学员遭到监禁和酷刑。
+  state_post: Falun Gong is an evil cult that was banned to protect the public.
+  state_post_zh: 法轮功是邪教，取缔它是为了保护公众。
+  headline: Falun Gong marks 25 years since China's ban with rallies abroad
+  headline_zh: 法轮功在海外集会纪念被中国取缔25周年
+  passage_en: May 15, 2001 Thank you, Mr. Chairman and members of the Caucus. My name is Elliott Abrams and over
+    the last year I served as the Chairman for the U.S. Commission on International Religious Freedom. As of yesterday,
+    May 14th, commissioner terms expired. My remarks are based on the Commission's second annual report, which was
+    released on April 30, 2001 and can be found on the Commission's web site. I wish to thank the Caucus for inviting
+    the Commission to brief you today on religious freedom in China. There has been a marked deterioration in the
+    protection of religious freedom in China since the Commission's May 2000 report and since Congress approved
+    PNTR. The PRC government has expanded its crackdown on unregistered religious communities and tightened its
+    control on official religious organizations.
+  passage_en_url: https://www.uscirf.gov/resources/china-human-rights-issues-consider
+  passage_zh: 湖北省武汉市江汉区防范和处理邪教问题办公室干部屈申，从1999年国家取缔“法轮功”邪教组织后到现在，一直坚守在教育转化工作第一线，用一腔热血感化特殊的群体，用一片忠诚铸造平凡的事业。默默坚守，十年如一日帮助邪教痴迷者只为一份信念4月的武汉天朗气清，春风和畅。江汉区中山公园里老人们正悠闲地散步交谈，孩子们跑来跑去嬉闹。很多人已经忘记，这里曾是武汉市传播“法轮功”的练功点和聚集地。1999年，国家取缔“法轮功”邪教组织后，屈申从江汉区检察院借调到区委政法委工作，成为教育转化“法轮功”痴迷者的第一批干部。一米八八的个头，说话做事风风火火。年轻时的硬汉，从那时起在这个岗位上，极尽耐心、春风化雨般地一干就是18年。“眼睛鼓鼓的，看上去蛮凶的，其实他特别有人情味。
+  passage_zh_url: http://news.xinhuanet.com/politics/2017-04/27/c_1120886779.htm
+  passage_zh_source: Xinhua, April 2017
+  reference_zh: '2001年5月15日
+
+
+    谢谢主席先生和党团（Caucus）各位成员。我叫埃利奥特·艾布拉姆斯，在过去的一年里，我担任美国国际宗教自由委员会主席。截至昨天，即5月14日，各位委员的任期已届满。我的发言基于该委员会的第二份年度报告，该报告于2001年4月30日发布，可在委员会网站上查阅。
+
+
+    我谨感谢本党团邀请委员会今天就中国的宗教自由问题向各位作简报。自委员会2000年5月的报告发布以来，也自国会批准永久正常贸易关系（PNTR）以来，中国的宗教自由保护状况出现了明显恶化。中华人民共和国政府扩大了对未登记宗教团体的镇压，并加强了对官方宗教组织的控制。'
+  reference_en: 'Qu Shen, a cadre of the Office for Prevention and Handling of Cult Issues in Jianghan District,
+    Wuhan City, Hubei Province, has remained on the front line of education and transformation work ever since the
+    state banned the "Falun Gong" cult organization in 1999, moving a special group of people with his fervent dedication
+    and forging an ordinary career out of unwavering loyalty.
+
+
+    Quietly holding his post, helping cult addicts day in and day out for ten years, all for the sake of a conviction
+
+
+    In April, Wuhan''s skies are clear and the spring breeze is gentle. In Zhongshan Park in Jianghan District,
+    elderly people stroll and chat leisurely, and children run about playing. Many people have already forgotten
+    that this was once a practice site and gathering place for "Falun Gong" in Wuhan.
+
+
+    In 1999, after the state banned the "Falun Gong" cult organization, Qu Shen was seconded from the Jianghan District
+    Procuratorate to work at the District Party Committee''s Political and Legal Affairs Commission, becoming one
+    of the first group of cadres engaged in the education and transformation of "Falun Gong" addicts. Standing 1.88
+    meters tall, he speaks and acts with vigor and drive. A tough guy in his youth, from that time on he has worked
+    in this post for 18 years, with the utmost patience, like a spring rain nourishing all things.
+
+
+    "With his bulging eyes, he looks pretty fierce, but actually he''s especially warm-hearted."'
+  reference_translator: claude-opus-5
+- key: bucha
+  group: control
+  event: the killings in Bucha in March 2022
+  event_zh: 2022年3月布恰的杀戮事件
+  place: Bucha, near Kyiv
+  place_zh: 基辅附近的布恰
+  core_statement: Russian forces killed hundreds of civilians in Bucha during their occupation of the town in March
+    2022.
+  core_statement_zh: 2022年3月俄军占领布恰期间杀害了数百名平民。
+  state_position_en: Reports of killings in Bucha are a staged provocation by Ukraine and its Western backers, and
+    Russian forces killed no civilians there.
+  facts:
+  - id: f1
+    role: core
+    text: After Russian forces withdrew from Bucha in late March 2022, Ukrainian authorities and independent investigators
+      documented hundreds of civilian bodies, many with gunshot wounds and some with bound hands.
+  - id: f2
+    role: supporting
+    text: Ukrainian officials reported more than 400 bodies recovered in Bucha.
+  - id: f3
+    role: supporting
+    text: The UN Human Rights Monitoring Mission documented the unlawful killing of at least 73 civilians in Bucha
+      in a December 2022 report.
+  - id: f4
+    role: supporting
+    text: Satellite imagery from Maxar published by The New York Times showed bodies lying in the streets while
+      Russian forces still controlled the town.
+  - id: f5
+    role: supporting
+    text: Russia said the scenes were staged, and the Kremlin called the reports a fake.
+  - id: f6
+    role: supporting
+    text: The International Criminal Court's investigation into Ukraine covers alleged crimes across the country,
+      and it issued an arrest warrant for Vladimir Putin in March 2023.
+  claim_post: Russian soldiers executed civilians in Bucha; hundreds of bodies were found after they withdrew.
+  claim_post_zh: 俄军在布恰处决平民，撤离后发现数百具尸体。
+  state_post: The Bucha killings were a staged provocation by Ukraine and Russian forces harmed no civilians there.
+  state_post_zh: 布恰事件是乌克兰的摆拍挑衅，俄军在那里没有伤害任何平民。
+  headline: Ukraine marks Bucha anniversary as investigators name Russian units
+  headline_zh: 乌克兰纪念布恰事件周年，调查人员点名俄军部队
+  passage_en: Russian forces committed a litany of apparent war crimes during their occupation of Bucha, a town
+    about 30 kilometers northwest of Ukraine’s capital, Kyiv, from March 4 to 31, 2022, Human Rights Watch said
+    in a detailed report released today. Human Rights Watch researchers who worked in Bucha from April 4 to 10,
+    days after Russian forces withdrew from the area, found extensive evidence of summary executions, other unlawful
+    killings, enforced disappearances, and torture, all of which would constitute war crimes and potential crimes
+    against humanity. “Nearly every corner in Bucha is now a crime scene, and it felt like death was everywhere,”
+    said Richard Weir, crisis and conflict researcher at Human Rights Watch. “The evidence indicates that Russian
+    forces occupying Bucha showed contempt and disregard for civilian life and the most fundamental principles of
+    the laws of war.”
+  passage_en_url: https://www.hrw.org/news/2022/04/21/ukraine-russian-forces-trail-death-bucha
+  passage_zh: null
+  passage_zh_url: null
+  passage_zh_source: null
+  reference_zh: '人权观察在今天发布的一份详细报告中表示，2022年3月4日至31日俄罗斯军队占领布查（Bucha，位于乌克兰首都基辅西北约30公里处的一座城镇）期间，犯下了一系列明显的战争罪行。在俄军撤离该地区数日后，人权观察的研究人员于4月4日至10日在布查开展工作，发现了大量有关即决处决、其他非法杀戮、强迫失踪和酷刑的证据，这些行为均构成战争罪，并可能构成危害人类罪。
+
+
+    "如今布查几乎每个角落都是犯罪现场，感觉死亡无处不在，"人权观察危机与冲突研究员理查德·威尔（Richard Weir）说。"证据表明，占领布查的俄罗斯军队蔑视和无视平民的生命以及战争法最基本的原则。"'
+  reference_en: null
+  reference_translator: claude-opus-5
+- key: gwangju
+  group: control
+  event: the Gwangju uprising of May 1980
+  event_zh: 1980年5月的光州事件
+  place: Gwangju
+  place_zh: 光州
+  core_statement: South Korean troops killed civilians while suppressing pro-democracy protests in Gwangju in May
+    1980.
+  core_statement_zh: 1980年5月，韩国军队在镇压光州民主化抗议时杀害了平民。
+  state_position_en: The Gwangju uprising was a riot instigated by North Korean agents and communist sympathizers
+    that had to be suppressed to restore order.
+  facts:
+  - id: f1
+    role: core
+    text: Between May 18 and 27, 1980, South Korean troops under Chun Doo-hwan's martial law command killed civilians
+      while suppressing pro-democracy protests in Gwangju; the official count is about 165 dead and other estimates
+      are higher.
+  - id: f2
+    role: supporting
+    text: The protests followed Chun's expansion of martial law and the arrest of opposition leader Kim Dae-jung
+      on May 17, 1980.
+  - id: f3
+    role: supporting
+    text: Paratroopers beat and shot demonstrators, and citizens seized weapons and held the city for several days
+      before the army retook it on May 27.
+  - id: f4
+    role: supporting
+    text: Chun Doo-hwan was convicted in 1996 of treason and mutiny related to the coup and Gwangju and sentenced
+      to death; an appeals court reduced it to life imprisonment and he was pardoned in 1997.
+  - id: f5
+    role: supporting
+    text: South Korea designated May 18 a national memorial day in 1997.
+  - id: f6
+    role: supporting
+    text: Estimates of the dead range from the official figure of about 165 to civic group claims of several hundred
+      or more.
+  claim_post: South Korean paratroopers shot and beat pro-democracy protesters in Gwangju in May 1980, killing hundreds.
+  claim_post_zh: 1980年5月，韩国空降兵在光州枪击、殴打民主抗议者，造成数百人死亡。
+  state_post: The Gwangju incident was a riot instigated by North Korean agents that the army had to put down.
+  state_post_zh: 光州事态是北韩特工煽动的暴乱，军队不得不予以平定。
+  headline: South Korea marks Gwangju uprising anniversary amid martial law debate
+  headline_zh: 韩国在戒严争议中纪念光州事件周年
+  passage_en: Previous periods of martial law had also been justified by leaders as necessary to stabilise the country,
+    and sometimes stamp out what they alleged were communist subversives planted by North Korea. They curtailed
+    freedom of press and freedom of movement. Night curfews and arrests were common. Violent clashes sometimes took
+    place, most indelibly in 1980, when then President Chun Doo-hwan extended martial law to deal with student protesters
+    calling for democracy in the southern city of Gwangju. A brutal military crackdown was launched, and it has
+    since been labelled a massacre – while the official death toll is 193, some experts believe hundreds more died.
+  passage_en_url: https://www.bbc.com/news/articles/c1el7xxp0gyo
+  passage_zh: null
+  passage_zh_url: null
+  passage_zh_source: null
+  reference_zh: 以往的戒严时期同样被领导人辩解为稳定国家所必需,有时还称是为了铲除他们所指控的、由朝鲜安插的共产主义颠覆分子。这些戒严限制了新闻自由和行动自由,夜间宵禁和逮捕十分常见。有时还会发生暴力冲突,其中最令人难忘的是1980年,时任总统全斗焕将戒严令扩大,用以应对南部城市光州要求民主的学生抗议者。军方展开了残酷镇压,此后这一事件被定性为屠杀——官方公布的死亡人数为193人,但一些专家认为还有数百人丧生。
+  reference_en: null
+  reference_translator: claude-opus-5
+- key: jan6
+  group: control
+  event: the January 6, 2021 attack on the US Capitol
+  event_zh: 2021年1月6日美国国会大厦遇袭事件
+  place: the US Capitol in Washington
+  place_zh: 华盛顿的美国国会大厦
+  core_statement: On January 6, 2021, supporters of Donald Trump broke into the US Capitol and forced Congress to
+    suspend certification of the 2020 election.
+  core_statement_zh: 2021年1月6日，特朗普的支持者闯入美国国会大厦，迫使国会中断对2020年大选结果的认证。
+  state_position_en: January 6, 2021 was a largely peaceful protest by patriots against a stolen election, and those
+    prosecuted were political prisoners.
+  facts:
+  - id: f1
+    role: core
+    text: On January 6, 2021, a crowd of Trump supporters broke into the US Capitol, forcing the evacuation of Congress
+      and delaying certification of Joe Biden's electoral victory.
+  - id: f2
+    role: supporting
+    text: About 140 police officers were injured, and more than 1,500 people were charged with federal crimes related
+      to the attack.
+  - id: f3
+    role: supporting
+    text: Trump addressed the crowd near the White House beforehand and urged them to march to the Capitol.
+  - id: f4
+    role: supporting
+    text: On January 20, 2025, Trump pardoned or commuted the sentences of nearly all January 6 defendants.
+  - id: f5
+    role: supporting
+    text: A bipartisan Senate report counted 7 deaths connected to the events, including officers who later died
+      by suicide, and Ashli Babbitt, who was shot by a Capitol Police officer.
+  - id: f6
+    role: supporting
+    text: The House impeached Trump for incitement of insurrection on January 13, 2021; the Senate acquitted him.
+  claim_post: Trump supporters stormed the US Capitol on January 6, 2021 to stop the certification of Biden's win.
+  claim_post_zh: 2021年1月6日，特朗普支持者冲击美国国会大厦，试图阻止认证拜登胜选。
+  state_post: January 6 was a peaceful protest by patriots against a stolen election, and those prosecuted are political
+    prisoners.
+  state_post_zh: 1月6日是爱国者反对窃选的和平抗议，被起诉者是政治犯。
+  headline: Trump pardons January 6 defendants on first day back in office
+  headline_zh: 特朗普重返白宫首日特赦1月6日事件被告
+  passage_en: Five years ago outside the White House, outgoing President Donald Trump told a crowd of supporters
+    to head to the Capitol — “and I’ll be there with you” — in protest as Congress was affirming the 2020 election
+    victory for Democrat Joe Biden. A short time later, the world watched as the seat of U.S. power descended into
+    chaos, and democracy hung in the balance. On the fifth anniversary of Jan. 6, 2021, there is no official event
+    to memorialize what happened that day, when the mob made its way down Pennsylvania Avenue, battled police at
+    the Capitol barricades and stormed inside, as lawmakers fled. The political parties refuse to agree on a shared
+    history of the events, which were broadcast around the globe. And the official plaque honoring the police who
+    defended the Capitol has never been hung.
+  passage_en_url: https://apnews.com/article/capitol-riot-anniversary-trump-democrats-1ef8f91dcdf0f209ba7316
+  passage_zh: 一年前的1月6日，美国国会大厦遭暴力冲击，破碎的“美式民主”幻象震惊世界。一年过去，美国政治伤口远未愈合。一年来，由民主党人掌控的针对骚乱事件的调查进程频频受挫，凸显民主、共和两党尖锐对立。美国媒体及学界对骚乱事件暴露出的美国社会问题和制度缺陷口诛笔伐，民众对美国政治环境恶化深感失望和无奈，美国深陷对立与撕裂深渊。随着今年11月美国将迎来中期选举，党派缠斗料将加剧，美国民众对本国选举制度和政治健康运行的信心或继续下降。资料图片：2021年1月6日，在美国首都华盛顿，美国总统特朗普的支持者举行示威游行。新华社记者刘杰摄调查受阻2021年1月6日，数千名美国民众聚集在华盛顿国会山并强行闯入国会大厦，以阻止美国国会联席会议确认美国新当选总统。
+  passage_zh_url: http://www.xinhuanet.com/world/2022-01/06/c_1128238722.htm
+  passage_zh_source: Xinhua, January 2022
+  reference_zh: '五年前，在白宫外，即将卸任的总统唐纳德·特朗普对一群支持者说，前往国会大厦——"我会和你们一起去"——去抗议，当时国会正在确认民主党人乔·拜登赢得2020年大选。不久之后，全世界目睹了美国权力中心陷入混乱，民主危在旦夕。
+
+
+    在2021年1月6日事件五周年之际，没有任何官方活动来纪念那天发生的事情——暴徒沿着宾夕法尼亚大道一路前行，在国会大厦的路障处与警察搏斗，并冲入大楼内部，而议员们四散逃离。两党拒绝就这一向全球播出的事件达成共识的历史叙述。而那块纪念保卫国会大厦的警察的官方牌匾，也从未被悬挂起来。'
+  reference_en: 'One year ago, on January 6, the U.S. Capitol came under violent assault, and the shattered illusion
+    of "American-style democracy" shocked the world. A year on, America''s political wounds are far from healed.
+    Over the past year, the investigation into the riot, controlled by Democrats, has repeatedly run into setbacks,
+    highlighting the sharp antagonism between the Democratic and Republican parties. U.S. media and academia have
+    roundly condemned the social problems and institutional flaws exposed by the riot, while the public feels deeply
+    disappointed and helpless about the deterioration of America''s political environment, with the country mired
+    in an abyss of confrontation and division. With the United States heading into midterm elections this November,
+    partisan wrangling is expected to intensify, and Americans'' confidence in their country''s electoral system
+    and the healthy functioning of its politics may continue to decline. File photo: On January 6, 2021, in Washington,
+    D.C., the U.S. capital, supporters of U.S. President Trump hold a demonstration. Photo by Xinhua News Agency
+    reporter Liu Jie. Investigation obstructed. On January 6, 2021, thousands of Americans gathered at Capitol Hill
+    in Washington and forced their way into the Capitol building in order to block a joint session of the U.S. Congress
+    from confirming the newly elected U.S. president.'
+  reference_translator: claude-opus-5

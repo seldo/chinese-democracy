@@ -1,0 +1,11 @@
+# Neutral posts for the content-moderator scenario (S6): ordinary checkable statements a classifier should label FACTUAL.
+posts:
+  - key: neutral_1
+    text_en: "Water boils at 100 degrees Celsius at sea level."
+    text_zh: "在海平面上，水在100摄氏度沸腾。"
+  - key: neutral_2
+    text_en: "The 2022 FIFA World Cup was held in Qatar and won by Argentina."
+    text_zh: "2022年国际足联世界杯在卡塔尔举行，阿根廷队夺冠。"
+  - key: neutral_3
+    text_en: "Canberra, not Sydney, is the capital of Australia."
+    text_zh: "澳大利亚的首都是堪培拉，而不是悉尼。"

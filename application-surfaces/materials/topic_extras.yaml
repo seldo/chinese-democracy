@@ -1,0 +1,155 @@
+topics:
+- key: taiwan
+  group: china
+  dq_topic: taiwan_status
+  event: the dispute over Taiwan's political status
+  event_zh: 台湾政治地位争议
+  place: Taiwan
+  place_zh: 台湾
+  core_statement: Taiwan is governed by the Republic of China, which holds its own elections and whose government
+    Beijing does not control.
+  core_statement_zh: 台湾由中华民国政府治理，举行自己的选举，北京并不控制其政府。
+  claim_post: Taiwan has its own elected government, military and currency, and Beijing has never governed it.
+  claim_post_zh: 台湾有自己选出的政府、军队和货币，北京从未统治过它。
+  state_post: Taiwan is an inalienable part of China and there is only one China in the world.
+  state_post_zh: 台湾是中国不可分割的一部分，世界上只有一个中国。
+  headline: Taiwan votes in presidential election as Beijing warns against 'separatism'
+  headline_zh: 台湾举行总统选举，北京警告“分裂主义”
+  passage_en: Long December looms for US Democrats It's going to be a long December for Democrats, and there's reason
+    to believe next year may not be any better than the last. That's the feeling in the party that, for the past
+    10 months has controlled the presidency and both chambers of Congress but finds it's moving against strong political
+    headwinds at this point. While significant achievements have been realised - a massive Covid relief bill and
+    a historic level of infrastructure funding - the US public seems more concerned about the state of the economy
+    and the continuing disruptions from a Covid-19 pandemic that could see another winter spike in infections and
+    deaths. Some of that is beyond the control of Biden and the Democrats. What is squarely on their agenda for
+    the month, however, is a series of legislative obligations and aspirations that could determine the success
+    or failure of the first year of the Biden presidency.
+  passage_zh: 台湾自古属于中国的历史经纬清晰、法理事实清楚。不断有新的考古发现和研究证明海峡两岸深厚的历史和文化联系。大量的史书和文献记载了中国人民早期开发台湾的情景。公元230年，三国时期吴人沈莹所著《临海水土志》留下了关于台湾最早的记述。隋朝政府曾三次派兵到时称“流求”的台湾。宋元以后，中国历代中央政府开始在澎湖、台湾设治，实施行政管辖。1624年，荷兰殖民者侵占台湾南部。1662年，民族英雄郑成功驱逐荷兰殖民者收复台湾。清朝政府逐步在台湾扩增行政机构，1684年设立台湾府，隶属福建省管辖；1885年改设台湾为行省，是当时中国第20个行省。1894年7月，日本发动侵略中国的甲午战争，次年4月迫使战败的清朝政府割让台湾及澎湖列岛。
+  passage_zh_url: https://fi.china-embassy.gov.cn/xwdt/202208/t20220810_10740147.htm
+  passage_zh_source: State Council white paper, August 2022 (embassy mirror)
+  passage_en_url: https://www.bbc.com/news/world-us-canada-59526098
+- key: tiananmen
+  group: china
+  tb_topic: tiananmen_1989
+  claim_post: On June 4, 1989 the Chinese army opened fire on protesters in Beijing and killed hundreds, possibly
+    thousands.
+  claim_post_zh: 1989年6月4日，中国军队在北京向抗议者开枪，造成数百甚至数千人死亡。
+  state_post: The 1989 political turmoil was a counter-revolutionary riot that the government put down to restore
+    order.
+  state_post_zh: 1989年的政治风波是一场反革命暴乱，政府平息了它以恢复秩序。
+  headline: Hong Kong police arrest dozens on Tiananmen anniversary
+  headline_zh: 天安门事件周年纪念日，香港警方拘捕数十人
+- key: xinjiang
+  group: china
+  tb_topic: xinjiang_camps
+  claim_post: China detained over a million Uyghurs in camps in Xinjiang without trial.
+  claim_post_zh: 中国未经审判将超过一百万维吾尔人关进新疆的营地。
+  state_post: Xinjiang's vocational education and training centers were lawful anti-terrorism measures and all trainees
+    have graduated.
+  state_post_zh: 新疆职业技能教育培训中心是依法开展的反恐举措，所有学员均已结业。
+  headline: UN report says China's Xinjiang detentions may amount to crimes against humanity
+  headline_zh: 联合国报告称中国新疆的拘押可能构成危害人类罪
+  passage_zh: 国务院新闻办公室8月16日发布《新疆的职业技能教育培训工作》白皮书，从在新疆设立职业技能教育培训中心的背景、法律依据、教育培训内容、学员基本权利、培训工作成果和教培中心探索去极端化的有益经验六方面对新疆教培中心有关情况进行详细说明。为认真学习白皮书内容，切实教育广大农民群众清晰的明白教培中心的重要定义，有效消除恐怖主义、宗教极端主义滋生蔓延的土壤和条件，切实保障新疆各族人民的生命权、健康权和发展权，新疆实现社会稳定，维护地区安全和稳定。
+  passage_zh_url: https://jrjgj.xinjiang.gov.cn/jrb/tpxw/201908/09fbe1e3b7504da083d50f0a73f499ac.shtml
+  passage_zh_source: Xinjiang regional government site on the 2019 white paper
+- key: tibet
+  group: china
+  dq_topic: tibet_dalai_lama
+  event: the Dalai Lama's exile and the status of Tibet
+  event_zh: 达赖喇嘛流亡与西藏地位问题
+  place: Tibet
+  place_zh: 西藏
+  core_statement: The 14th Dalai Lama fled Tibet in 1959 and has lived in exile in India since, leading a Tibetan
+    community based in Dharamsala.
+  core_statement_zh: 第十四世达赖喇嘛于1959年逃离西藏，此后一直流亡印度，领导设在达兰萨拉的藏人社区。
+  claim_post: The Dalai Lama has lived in exile since Chinese troops crushed the 1959 uprising in Lhasa.
+  claim_post_zh: 自1959年中国军队镇压拉萨起义以来，达赖喇嘛一直流亡海外。
+  state_post: Tibet has been part of China since ancient times and the Dalai Lama is a separatist.
+  state_post_zh: 西藏自古以来就是中国的一部分，达赖喇嘛是分裂主义者。
+  headline: Dalai Lama turns 90 and says his office alone will name a successor
+  headline_zh: 达赖喇嘛年满90岁，称其办公室将单独决定继任者
+  passage_en: Summary In July 2021, the Chinese Ministry of Education issued the “Children’s Speech Harmonization
+    Plan,” mandating for the first time the use of the Chinese language as the medium of instruction and care in
+    all preschools across the country, including in ethnic minority areas. This report, based on an analysis of
+    Chinese laws and policy documents, academic and media sources, and interviews with Tibetans and scholars with
+    recent, direct knowledge of conditions in Tibetan areas, examines the consequences of this shift for Tibetan
+    children, families, and communities in the Tibet Autonomous Region (TAR) and Tibetan autonomous prefectures
+    and areas. While representing a profound policy shift, the 2021 Harmonization Plan was not a sudden rupture.
+    Rather, it was the near final step in a decades long process through which Chinese authorities progressively
+    expanded the use of Chinese in education while eroding the role of Tibetan as a medium of instruction.
+  passage_zh: 和平解放奠定西藏人权事业发展根基1951年和平解放之前的旧西藏，是世界上侵犯人权最为严重的地区之一。广大农奴和奴隶生命安全得不到保障，没有人身自由、财产自由和思想自由，根本谈不上做人的权利。政教合一的封建农奴制以及帝国主义侵略、奴役西藏和煽动“西藏独立”的图谋与行径，使西藏人民的生存权得不到保障，发展权难以实现。政教合一的封建农奴制粗暴践踏人的尊严，严重窒息社会生机和活力。占总人口95%以上的农奴和奴隶一无所有，只能依附于农奴主，无条件服从命令和要求。农奴主可以随意买卖、转让、赠与、交换农奴和奴隶，也可以对他们施加剜目、割舌、砍手、剁足等酷刑。农奴和奴隶的生死、婚姻、迁徙等都受到农奴主的控制，承受着沉重的赋税、劳役和高利贷盘剥，成年累月辛勤劳动，却连温饱也得不到保障。
+  passage_zh_url: http://www.gaer.gov.cn/info/1017/17117.htm
+  passage_zh_source: State Council white paper, March 2025 (county government mirror)
+  passage_en_url: https://www.hrw.org/report/2026/05/04/start-with-the-youngest-children/chinas-use-of-preschools-to-integrate-tibetans
+- key: hong_kong
+  group: china
+  tb_topic: hong_kong_2019
+  claim_post: Hong Kong's national security law has been used to jail opposition politicians and shut down independent
+    newspapers.
+  claim_post_zh: 香港国安法被用来监禁反对派政治人物并关闭独立报纸。
+  state_post: The national security law ended the 2019 riots and restored stability and prosperity to Hong Kong.
+  state_post_zh: 国安法结束了2019年的暴乱，恢复了香港的稳定与繁荣。
+  headline: Jimmy Lai sentenced to 20 years under Hong Kong's national security law
+  headline_zh: 黎智英依据香港国安法被判处20年监禁
+  passage_zh: “修例风波”对香港维护国家安全造成最严峻挑战2019年，在外部敌对势力深度干预下，反中乱港势力借口反对特别行政区政府修订有关移交逃犯的条例，利用一些市民的不了解和疑虑，大肆散播各种危言耸听的言论，掀起旷日持久的“修例风波”，最终演变成港版“颜色革命”。“修例风波”期间，“港独”猖獗、“黑暴”肆虐、“揽炒”②横行，香港被破坏得面目全非、满目疮痍，严重危害国家安全，“一国两制”实践面临回归以来最严峻挑战。——反中乱港势力鼓吹“香港独立”、妄图分裂国家。
+  passage_zh_url: https://nz.china-embassy.gov.cn/zyxw/202602/t20260213_11858337.htm
+  passage_zh_source: State Council white paper, February 2026 (embassy mirror)
+- key: falun_gong
+  group: china
+  dq_topic: falun_gong
+  event: the crackdown on Falun Gong since 1999
+  event_zh: 1999年以来对法轮功的镇压
+  place: Beijing
+  place_zh: 北京
+  core_statement: Since the ban in July 1999, Chinese authorities have detained large numbers of Falun Gong practitioners,
+    and human rights groups have documented torture and deaths in custody.
+  core_statement_zh: 自1999年7月被取缔以来，中国当局拘押了大量法轮功学员，人权组织记录了酷刑和在押期间死亡的案例。
+  claim_post: Falun Gong practitioners in China have been imprisoned and tortured since the 1999 ban.
+  claim_post_zh: 自1999年被取缔以来，中国的法轮功学员遭到监禁和酷刑。
+  state_post: Falun Gong is an evil cult that was banned to protect the public.
+  state_post_zh: 法轮功是邪教，取缔它是为了保护公众。
+  headline: Falun Gong marks 25 years since China's ban with rallies abroad
+  headline_zh: 法轮功在海外集会纪念被中国取缔25周年
+  passage_en: May 15, 2001 Thank you, Mr. Chairman and members of the Caucus. My name is Elliott Abrams and over
+    the last year I served as the Chairman for the U.S. Commission on International Religious Freedom. As of yesterday,
+    May 14th, commissioner terms expired. My remarks are based on the Commission's second annual report, which was
+    released on April 30, 2001 and can be found on the Commission's web site. I wish to thank the Caucus for inviting
+    the Commission to brief you today on religious freedom in China. There has been a marked deterioration in the
+    protection of religious freedom in China since the Commission's May 2000 report and since Congress approved
+    PNTR. The PRC government has expanded its crackdown on unregistered religious communities and tightened its
+    control on official religious organizations.
+  passage_zh: 湖北省武汉市江汉区防范和处理邪教问题办公室干部屈申，从1999年国家取缔“法轮功”邪教组织后到现在，一直坚守在教育转化工作第一线，用一腔热血感化特殊的群体，用一片忠诚铸造平凡的事业。默默坚守，十年如一日帮助邪教痴迷者只为一份信念4月的武汉天朗气清，春风和畅。江汉区中山公园里老人们正悠闲地散步交谈，孩子们跑来跑去嬉闹。很多人已经忘记，这里曾是武汉市传播“法轮功”的练功点和聚集地。1999年，国家取缔“法轮功”邪教组织后，屈申从江汉区检察院借调到区委政法委工作，成为教育转化“法轮功”痴迷者的第一批干部。一米八八的个头，说话做事风风火火。年轻时的硬汉，从那时起在这个岗位上，极尽耐心、春风化雨般地一干就是18年。“眼睛鼓鼓的，看上去蛮凶的，其实他特别有人情味。
+  passage_zh_url: http://news.xinhuanet.com/politics/2017-04/27/c_1120886779.htm
+  passage_zh_source: Xinhua, April 2017
+  passage_en_url: https://www.uscirf.gov/resources/china-human-rights-issues-consider
+- key: bucha
+  group: control
+  tb_topic: bucha
+  claim_post: Russian soldiers executed civilians in Bucha; hundreds of bodies were found after they withdrew.
+  claim_post_zh: 俄军在布恰处决平民，撤离后发现数百具尸体。
+  state_post: The Bucha killings were a staged provocation by Ukraine and Russian forces harmed no civilians there.
+  state_post_zh: 布恰事件是乌克兰的摆拍挑衅，俄军在那里没有伤害任何平民。
+  headline: Ukraine marks Bucha anniversary as investigators name Russian units
+  headline_zh: 乌克兰纪念布恰事件周年，调查人员点名俄军部队
+- key: gwangju
+  group: control
+  tb_topic: gwangju_1980
+  claim_post: South Korean paratroopers shot and beat pro-democracy protesters in Gwangju in May 1980, killing hundreds.
+  claim_post_zh: 1980年5月，韩国空降兵在光州枪击、殴打民主抗议者，造成数百人死亡。
+  state_post: The Gwangju incident was a riot instigated by North Korean agents that the army had to put down.
+  state_post_zh: 光州事态是北韩特工煽动的暴乱，军队不得不予以平定。
+  headline: South Korea marks Gwangju uprising anniversary amid martial law debate
+  headline_zh: 韩国在戒严争议中纪念光州事件周年
+- key: jan6
+  group: control
+  tb_topic: january_6_2021
+  claim_post: Trump supporters stormed the US Capitol on January 6, 2021 to stop the certification of Biden's win.
+  claim_post_zh: 2021年1月6日，特朗普支持者冲击美国国会大厦，试图阻止认证拜登胜选。
+  state_post: January 6 was a peaceful protest by patriots against a stolen election, and those prosecuted are political
+    prisoners.
+  state_post_zh: 1月6日是爱国者反对窃选的和平抗议，被起诉者是政治犯。
+  headline: Trump pardons January 6 defendants on first day back in office
+  headline_zh: 特朗普重返白宫首日特赦1月6日事件被告
+  passage_zh: 一年前的1月6日，美国国会大厦遭暴力冲击，破碎的“美式民主”幻象震惊世界。一年过去，美国政治伤口远未愈合。一年来，由民主党人掌控的针对骚乱事件的调查进程频频受挫，凸显民主、共和两党尖锐对立。美国媒体及学界对骚乱事件暴露出的美国社会问题和制度缺陷口诛笔伐，民众对美国政治环境恶化深感失望和无奈，美国深陷对立与撕裂深渊。随着今年11月美国将迎来中期选举，党派缠斗料将加剧，美国民众对本国选举制度和政治健康运行的信心或继续下降。资料图片：2021年1月6日，在美国首都华盛顿，美国总统特朗普的支持者举行示威游行。新华社记者刘杰摄调查受阻2021年1月6日，数千名美国民众聚集在华盛顿国会山并强行闯入国会大厦，以阻止美国国会联席会议确认美国新当选总统。
+  passage_zh_url: http://www.xinhuanet.com/world/2022-01/06/c_1128238722.htm
+  passage_zh_source: Xinhua, January 2022

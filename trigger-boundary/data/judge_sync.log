@@ -1,0 +1,4 @@
+2026-09-09 10:58:19,684 INFO tb.pipeline: 12453 judge requests; 2600 not yet judged, projected ~$6.38
+2026-09-09 10:58:19,684 INFO tb.pipeline: synchronous judging of 2600 requests at concurrency 12 (~$12.75 at non-batch price)
+2026-09-09 10:58:19,767 INFO judge: judge sync: 2600 requests (9853 already done)
+Judge spend so far: $37.27

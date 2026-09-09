@@ -1,0 +1,4 @@
+2026-09-09 10:58:20,724 INFO asf.pipeline: 7751 judge requests; 2099 not yet judged, projected ~$5.35
+2026-09-09 10:58:20,724 INFO asf.pipeline: synchronous judging of 2099 requests at concurrency 12 (~$10.70 at non-batch price)
+2026-09-09 10:58:20,779 INFO judge: judge sync: 2099 requests (5652 already done)
+Judge spend so far: $25.16

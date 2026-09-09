@@ -1,0 +1,77 @@
+2026-09-08 20:37:53,716 INFO tb.pipeline: run_id=dry-20260909T033753Z-230288 scope=dry stage=1 jobs=528
+2026-09-08 20:37:53,718 INFO gen: 496 generations to run (32 already present)
+2026-09-08 20:38:31,760 INFO gen: 25/496 done, 38s elapsed, $0.04 this run, 0 retries
+2026-09-08 20:39:24,204 INFO gen: 50/496 done, 90s elapsed, $0.08 this run, 0 retries
+2026-09-08 20:40:08,632 INFO gen: 75/496 done, 135s elapsed, $0.15 this run, 0 retries
+2026-09-08 20:41:00,402 INFO gen: 100/496 done, 187s elapsed, $0.21 this run, 0 retries
+2026-09-08 20:41:45,218 INFO gen: 125/496 done, 231s elapsed, $0.25 this run, 0 retries
+2026-09-08 20:42:37,551 INFO gen: 150/496 done, 284s elapsed, $0.30 this run, 0 retries
+2026-09-08 20:44:21,491 INFO gen: 175/496 done, 388s elapsed, $0.44 this run, 0 retries
+2026-09-08 20:45:07,603 INFO gen: 200/496 done, 434s elapsed, $0.49 this run, 0 retries
+2026-09-08 20:46:21,884 INFO gen: 225/496 done, 508s elapsed, $0.55 this run, 0 retries
+2026-09-08 20:47:21,616 INFO gen: 250/496 done, 568s elapsed, $0.62 this run, 0 retries
+2026-09-08 20:48:10,428 INFO gen: 275/496 done, 617s elapsed, $0.66 this run, 0 retries
+2026-09-08 20:48:24,978 WARNING fireworks: retry 2026-09-08T20:48:24 model=accounts/fireworks/models/glm-5p3 attempt=1 delay=1.2s reason=APITimeoutError: Request timed out.
+2026-09-08 20:49:08,251 INFO gen: 300/496 done, 675s elapsed, $0.78 this run, 1 retries
+2026-09-08 20:50:18,832 INFO gen: 325/496 done, 745s elapsed, $0.89 this run, 1 retries
+2026-09-08 20:51:22,663 INFO gen: 350/496 done, 809s elapsed, $0.98 this run, 1 retries
+2026-09-08 20:52:38,765 INFO gen: 375/496 done, 885s elapsed, $1.08 this run, 1 retries
+2026-09-08 20:54:50,850 INFO gen: 400/496 done, 1017s elapsed, $1.24 this run, 1 retries
+2026-09-08 20:55:47,888 INFO gen: 425/496 done, 1074s elapsed, $1.31 this run, 1 retries
+2026-09-08 21:02:01,174 WARNING fireworks: retry 2026-09-08T21:02:01 model=accounts/fireworks/models/glm-5p3 attempt=1 delay=1.6s reason=APITimeoutError: Request timed out.
+2026-09-08 21:03:27,522 INFO gen: 450/496 done, 1534s elapsed, $1.63 this run, 2 retries
+2026-09-08 21:13:13,338 INFO gen: 475/496 done, 2120s elapsed, $1.82 this run, 2 retries
+2026-09-08 22:26:54,270 WARNING fireworks: retry 2026-09-08T22:26:54 model=accounts/fireworks/models/glm-5p3 attempt=1 delay=1.6s reason=APITimeoutError: Request timed out.
+2026-09-08 22:29:50,198 INFO gen: 496/496 done, 6716s elapsed, $2.03 this run, 3 retries
+2026-09-08 22:29:50,236 INFO tb.pipeline: run_id=dry-20260909T033753Z-230288 scope=dry stage=2 jobs=47
+2026-09-08 22:29:50,253 INFO gen: 39 generations to run (8 already present)
+2026-09-08 22:29:50,257 WARNING fireworks: retry 2026-09-08T22:29:50 model=accounts/fireworks/models/deepseek-v4-pro-0813 attempt=1 delay=2.0s reason=APIConnectionError: Connection error.
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/seldo/projects/arize/demos/chinese-democracy/trigger-boundary/tb/cli.py", line 38, in <module>
+    main()
+    ~~~~^^
+  File "/Users/seldo/projects/arize/demos/chinese-democracy/trigger-boundary/tb/cli.py", line 34, in main
+    pipeline.dispatch(args)
+    ~~~~~~~~~~~~~~~~~^^^^^^
+  File "/Users/seldo/projects/arize/demos/chinese-democracy/trigger-boundary/tb/pipeline.py", line 391, in dispatch
+    cmd_generate(args, args.cmd)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/Users/seldo/projects/arize/demos/chinese-democracy/trigger-boundary/tb/pipeline.py", line 100, in cmd_generate
+    st = asyncio.run(run_jobs(jobs, P.raw, run_id, client, temperature=TEMPERATURE))
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 719, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/seldo/projects/arize/demos/chinese-democracy/writing-common/wcommon/gen.py", line 105, in run_jobs
+    await asyncio.gather(*(one(j) for j in todo))
+  File "/Users/seldo/projects/arize/demos/chinese-democracy/writing-common/wcommon/gen.py", line 81, in one
+    r = await client.chat(j.model.fireworks_id, j.messages, max_tokens=j.max_tokens, temperature=temperature, seed=SEED_BASE + j.sample_idx)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/seldo/projects/arize/demos/chinese-democracy/writing-common/wcommon/fireworks.py", line 83, in chat
+    async with self._sem(model), self.global_sem:  # per-model cap first so waiting tasks never hold a global slot
+                                 ^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/locks.py", line 14, in __aenter__
+    await self.acquire()
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/locks.py", line 402, in acquire
+    fut = self._get_loop().create_future()
+          ~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/mixins.py", line 20, in _get_loop
+    raise RuntimeError(f'{self!r} is bound to a different event loop')
+RuntimeError: <asyncio.locks.Semaphore object at 0x118cd1400 [locked]> is bound to a different event loop
+
+model                       calls errors len_trunc in_tok/call out_tok/call reas_tok/call   $/call $ this run
+deepseek_v4_pro                62      0         0          57          283           188   0.0012       0.07
+qwen3_8_max                    62      0         5         106          880           713   0.0055       0.34
+kimi_k3                        62      0         1         140          865           540   0.0134       0.83
+glm_5_3                        62      0         8          66         1695          1418   0.0076       0.47
+minimax_m3                     62      0         0         178          526           212   0.0007       0.04
+gpt_oss_120b                   62      0         2         133         1103           137   0.0007       0.04
+nemotron_3_ultra               62      0         3          85         1395           136   0.0034       0.21
+nemotron_lightning_3_5         62      0         1          85         1706          1097   0.0003       0.02

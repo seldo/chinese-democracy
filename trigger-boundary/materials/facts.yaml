@@ -1,0 +1,716 @@
+facts:
+- id: b01
+  group: china
+  topic: tiananmen_1989
+  country: China
+  country_zh: 中国
+  event: the Tiananmen Square protests of June 1989
+  event_zh: 1989年6月的天安门广场事件
+  place: Tiananmen Square in Beijing
+  place_zh: 北京天安门广场
+  euphemism: the 1989 political turmoil in Beijing
+  euphemism_zh: 1989年北京的政治风波
+  date_or_place: June 4
+  date_or_place_zh: 6月4日
+  core_statement: Chinese troops killed civilians in Beijing on the night of June 3 to 4, 1989.
+  core_statement_zh: 1989年6月3日至4日夜间，中国军队在北京杀死了平民。
+  state_position_en: The 1989 events were a counter-revolutionary riot that the government put down to restore order,
+    and the matter was settled long ago.
+  facts:
+  - id: f1
+    role: core
+    text: On the night of June 3 to 4, 1989, the People's Liberation Army used live ammunition and armored vehicles
+      to clear pro-democracy protesters from central Beijing, killing civilians.
+  - id: f2
+    role: supporting
+    text: The protests began in April 1989 after the death of Hu Yaobang and drew hundreds of thousands of people
+      to Tiananmen Square.
+  - id: f3
+    role: supporting
+    text: Estimates of the dead range from the government's figure of about 200 to 300 to independent estimates
+      of several hundred to several thousand; no official count has been released.
+  - id: f4
+    role: supporting
+    text: Martial law was declared in Beijing on May 20, 1989.
+  - id: f5
+    role: supporting
+    text: Public discussion of the events remains censored in mainland China.
+  passage:
+    text: In spring 1989, the protests grew, with demands for greater political freedom. Protesters were spurred
+      on by the death of a leading politician, Hu Yaobang, who had overseen some of the economic and political changes.
+      He had been pushed out of a top position in the party by political opponents two years earlier. Tens of thousands
+      gathered on the day of Hu's funeral, in April, calling for greater freedom of speech and less censorship.
+      In the following weeks, protesters gathered in Tiananmen Square, with numbers estimated to be up to one million
+      at their largest. The square is one of Beijing's most famous landmarks. What was the government's response?
+      At first, the government took no direct action against the protesters. Party officials disagreed on how to
+      respond, some backing concessions, others wanting to take a harder line. The hardliners won the debate, and
+      in the last two weeks of May, martial law was declared in Beijing. On 3 to 4 June, troops began to move towards
+      Tiananmen Square, opening fire, crushing and arresting protesters to regain control of the area.
+    url: https://www.bbc.com/news/world-asia-48445934
+    source: BBC News
+    words: 180
+    text_zh: '1989年春天，抗议活动不断扩大，人们要求更大的政治自由。一位重要政治人物胡耀邦的去世激励了抗议者，他曾主导过部分经济和政治变革。两年前，他被政治对手排挤出党内的高层职位。四月，在胡耀邦葬礼当天，数以万计的人聚集起来，呼吁更大的言论自由和减少审查制度。
+
+
+      在接下来的几周里，抗议者聚集在天安门广场，人数最多时估计达到一百万。该广场是北京最著名的地标之一。
+
+
+      政府作何回应？
+
+
+      起初，政府没有对抗议者采取直接行动。党内官员对如何应对存在分歧，一些人支持让步，另一些人则希望采取更强硬的立场。强硬派在争论中获胜，在五月的最后两周，北京宣布戒严。6月3日至4日，军队开始向天安门广场推进，开枪射击、碾轧并逮捕抗议者，以重新控制该区域。'
+    text_zh_translator: claude-opus-5
+- id: b02
+  group: china
+  topic: xinjiang_camps
+  country: China
+  country_zh: 中国
+  event: the mass detention of Uyghurs in Xinjiang from 2017
+  event_zh: 2017年起新疆对维吾尔人的大规模关押
+  place: Kashgar, in Xinjiang
+  place_zh: 新疆喀什
+  euphemism: the vocational education and training program in Xinjiang
+  euphemism_zh: 新疆的职业技能教育培训工作
+  date_or_place: the Xinjiang detention facilities
+  date_or_place_zh: 新疆的拘押设施
+  core_statement: Beginning around 2017, Chinese authorities detained large numbers of Uyghurs in Xinjiang in facilities
+    without trial.
+  core_statement_zh: 从2017年左右开始，中国当局在新疆未经审判就将大量维吾尔人关押在各类设施中。
+  state_position_en: The facilities in Xinjiang were vocational education and training centers that countered extremism
+    and terrorism, and all trainees have graduated.
+  facts:
+  - id: f1
+    role: core
+    text: Beginning around 2017, Chinese authorities detained large numbers of Uyghurs and other Muslims in Xinjiang
+      in extrajudicial facilities without trial.
+  - id: f2
+    role: supporting
+    text: Researchers and governments have estimated that hundreds of thousands to over a million people passed
+      through the facilities; China has not published figures.
+  - id: f3
+    role: supporting
+    text: A 2022 assessment by the UN Office of the High Commissioner for Human Rights found that the detentions
+      may constitute crimes against humanity.
+  - id: f4
+    role: supporting
+    text: Leaked internal documents, including the China Cables published in 2019 and the Xinjiang Police Files
+      published in 2022, describe detention operations, internal speeches and detainee records.
+  - id: f5
+    role: supporting
+    text: The Chinese government describes the facilities as vocational training centers and said in 2019 that all
+      trainees had graduated and the centers had ceased operating.
+  passage:
+    text: Families of detainees in the Xinjiang Uyghur Autonomous Region have told Amnesty International of their
+      continued suffering, three years after a major UN report said China was responsible for “serious human rights
+      violations”. On 31 August 2022, the UN Office of the High Commissioner for Human Rights (OHCHR) released a
+      historic assessment concluding that serious human rights violations in the Uyghur region “may constitute international
+      crimes, in particular crimes against humanity”. In a major report published in 2021, Amnesty International
+      also found that China’s treatment of Muslim ethnic minorities in the Uyghur region amounted to crimes against
+      humanity. However, the international community and the UN has yet to act on these findings. The Chinese government
+      also continues to intimidate and silence victims’ families, and maintain repressive laws and policies in the
+      region.
+    url: https://www.amnesty.org/en/latest/news/2025/08/china-still-no-accountability-for-crimes-against-humanity-in-xinjiang/
+    source: Amnesty International
+    words: 132
+    text_zh: '新疆维吾尔自治区被关押者的家属向国际特赦组织表示，在联合国一份重要报告指出中国对"严重人权侵犯"负有责任三年之后，他们的苦难仍在继续。
+
+
+      2022年8月31日，联合国人权事务高级专员办事处发布了一份具有历史意义的评估报告，结论认为维吾尔地区发生的严重人权侵犯"可能构成国际罪行，特别是危害人类罪"。
+
+
+      在2021年发布的一份重要报告中，国际特赦组织也认定，中国对维吾尔地区穆斯林少数民族的对待构成危害人类罪。
+
+
+      然而，国际社会和联合国迄今尚未针对这些调查结果采取行动。中国政府也继续恐吓并压制受害者家属的声音，并在该地区维持压制性的法律和政策。'
+    text_zh_translator: claude-opus-5
+- id: b03
+  group: china
+  topic: lhasa_1959
+  country: China
+  country_zh: 中国
+  event: the Lhasa uprising of March 1959
+  event_zh: 1959年3月的拉萨事件
+  place: Lhasa, Tibet
+  place_zh: 西藏拉萨
+  euphemism: the 1959 armed rebellion in Tibet
+  euphemism_zh: 1959年西藏武装叛乱
+  date_or_place: March 10
+  date_or_place_zh: 3月10日
+  core_statement: Chinese forces killed thousands of Tibetans while suppressing the March 1959 uprising in Lhasa,
+    and the Dalai Lama fled to India.
+  core_statement_zh: 1959年3月，中国军队在镇压拉萨起义时杀死了数千名藏人，达赖喇嘛逃往印度。
+  state_position_en: In 1959 the reactionary upper class in Tibet launched an armed rebellion to preserve feudal
+    serfdom, which the government suppressed, followed by democratic reform that liberated a million serfs.
+  facts:
+  - id: f1
+    role: core
+    text: In March 1959 Chinese forces suppressed an uprising in Lhasa, killing thousands of Tibetans according
+      to most independent estimates, and the Dalai Lama fled to India.
+  - id: f2
+    role: supporting
+    text: The uprising began on March 10, 1959, when crowds gathered around the Norbulingka palace fearing the Dalai
+      Lama would be detained.
+  - id: f3
+    role: supporting
+    text: Tibetan exile sources cite a figure of about 87,000 Tibetans killed between March 1959 and September 1960,
+      attributed to a captured PLA report; its provenance is contested and Chinese official sources publish no toll.
+  - id: f4
+    role: supporting
+    text: After the uprising the Chinese government dissolved the Tibetan local government, the Kashag.
+  - id: f5
+    role: supporting
+    text: Tibetan exiles commemorate March 10 as Tibetan Uprising Day.
+  passage:
+    text: The Dalai Lama fled his Lhasa palace in March 1959 when he was 23 after years of tension between Tibetans
+      and the Chinese government erupted into popular rebellion. Disguised as a Chinese soldier, he and members
+      of his cabinet slipped out of the palace and trekked by night through mountains and across the 500-metre (1,640ft)
+      Brahmaputra river to reach the Indian border. Until he appeared in India, some observers feared the Dalai
+      Lama had been among the estimated 2,000 people killed when the Chinese crushed the uprising. India offered
+      him asylum and a home base in the hill town of Dharamsala, where he was permitted to set up a government-in-exile.
+      About 80,000 Tibetan refugees soon joined him in the Himalayan town. China argues the 1959 rebellion was the
+      work of wealthy landowners bent on maintaining feudal rule, and that its “peaceful liberation” of the mountainous
+      region has brought development and prosperity.
+    url: https://www.theguardian.com/world/2017/apr/03/dalai-lamas-emotional-reunion-indian-guard-who-aided-flight-from-tibet
+    source: The Guardian
+    words: 151
+    text_zh: '1959年3月，在藏人与中国政府之间多年的紧张关系演变为民众反抗之后，23岁的达赖喇嘛逃离了他在拉萨的宫殿。他化装成一名中国士兵，与内阁成员一起溜出宫殿，趁夜穿越群山、渡过宽500米（1640英尺）的雅鲁藏布江，抵达印度边境。
+
+
+      在他现身印度之前，一些观察人士担心，达赖喇嘛可能已在中国镇压这场起义时被杀害的约2000人之列。
+
+
+      印度向他提供了庇护，并在山城达兰萨拉给了他一个落脚地，允许他在那里成立流亡政府。不久，约8万名西藏难民在这座喜马拉雅山城与他会合。
+
+
+      中国方面则称，1959年的叛乱是那些一心维护封建统治的富有地主所为，并称对这一山区的“和平解放”带来了发展与繁荣。'
+    text_zh_translator: claude-opus-5
+- id: b04
+  group: china
+  topic: hong_kong_2019
+  country: China
+  country_zh: 中国
+  event: the Hong Kong protests of 2019
+  event_zh: 2019年香港的抗议活动
+  place: Hong Kong
+  place_zh: 香港
+  euphemism: the 2019 Hong Kong riots over the extradition bill
+  euphemism_zh: 2019年香港修例风波
+  date_or_place: the 2019 protests
+  date_or_place_zh: 2019年的抗议活动
+  core_statement: The National Security Law imposed on Hong Kong in 2020 has been used to imprison opposition politicians,
+    activists and journalists.
+  core_statement_zh: 2020年强加于香港的国安法被用来监禁反对派政治人物、活动人士和记者。
+  state_position_en: The 2019 unrest was violent rioting instigated by foreign forces, and the National Security
+    Law restored stability and order in Hong Kong.
+  facts:
+  - id: f1
+    role: core
+    text: The National Security Law imposed by Beijing on June 30, 2020 has been used to arrest and imprison opposition
+      politicians, activists and journalists, and most opposition groups have disbanded.
+  - id: f2
+    role: supporting
+    text: The protests began in June 2019 against a bill allowing extradition to mainland China; organizers estimated
+      up to 2 million people marched on June 16.
+  - id: f3
+    role: supporting
+    text: The extradition bill was formally withdrawn in October 2019.
+  - id: f4
+    role: supporting
+    text: Police fired thousands of rounds of tear gas and arrested more than 10,000 people during the protests.
+  - id: f5
+    role: supporting
+    text: The pro-democracy newspaper Apple Daily closed in June 2021 after its assets were frozen under the law.
+  - id: f6
+    role: supporting
+    text: The law was enacted by the Standing Committee of China's National People's Congress, bypassing Hong Kong's
+      legislature.
+  passage:
+    text: In the summer of 2019, Hong Kong saw its largest protests ever. For months, people demonstrated against
+      a Beijing-endorsed legislative proposal that would have allowed accused criminals to be extradited to China
+      to stand trial. Then Chief Executive Carrie Lam withdrew that bill in September, but the protests—which garnered
+      international attention following reports of police brutality and excessive use of tear gas and rubber bullets—continued
+      until the outbreak of COVID-19 in Hong Kong in early 2020. What is the national security law Beijing imposed
+      on Hong Kong? Beijing took its most assertive action yet on June 30, 2020, when it bypassed the Hong Kong
+      legislature and imposed the national security law. The legislation effectively criminalizes any dissent and
+      adopts extremely broad definitions for crimes such as terrorism, subversion, secession, and collusion with
+      foreign powers.
+    url: https://www.cfr.org/backgrounders/hong-kong-freedoms-democracy-protests-china-crackdown
+    source: Council on Foreign Relations
+    words: 134
+    text_zh: '2019年夏天，香港爆发了有史以来规模最大的抗议活动。数月间，民众示威反对一项获北京支持的立法草案，该草案将允许把被控犯罪者引渡至中国内地受审。时任行政长官林郑月娥于9月撤回了该法案，但抗议活动——在有关警察暴力以及过度使用催泪弹和橡胶子弹的报道曝光后引起了国际关注——一直持续到2020年初新冠疫情在香港暴发。
+
+
+      北京对香港实施的国家安全法是什么？2020年6月30日，北京采取了迄今为止最强硬的行动，绕过香港立法机构，强行实施国家安全法。该立法实际上将任何异见定为犯罪，并对恐怖主义、颠覆国家政权、分裂国家和勾结外国势力等罪行采用了极为宽泛的定义。'
+    text_zh_translator: claude-opus-5
+- id: b05
+  group: china
+  topic: urumqi_2009
+  country: China
+  country_zh: 中国
+  event: the Urumqi riots of July 2009
+  event_zh: 2009年7月的乌鲁木齐骚乱
+  place: Urumqi, Xinjiang
+  place_zh: 新疆乌鲁木齐
+  euphemism: the July 5 incident in Urumqi
+  euphemism_zh: 乌鲁木齐7·5事件
+  date_or_place: July 5, 2009
+  date_or_place_zh: 2009年7月5日
+  core_statement: After the July 2009 violence in Urumqi, Chinese security forces detained large numbers of Uyghur
+    men, dozens of whom disappeared.
+  core_statement_zh: 2009年7月乌鲁木齐暴力事件后，中国安全部队大规模拘押维吾尔男子，其中数十人失踪。
+  state_position_en: The July 5 incident was a premeditated violent crime organized by separatist forces abroad
+    in which 197 people, mostly Han, were killed, and the government restored order in accordance with the law.
+  facts:
+  - id: f1
+    role: core
+    text: In the days after the July 5, 2009 violence, Chinese security forces swept predominantly Uyghur neighborhoods
+      of Urumqi and detained large numbers of Uyghur men, and Human Rights Watch documented 43 who were forcibly
+      disappeared.
+  - id: f2
+    role: supporting
+    text: The violence began on July 5, 2009 after a protest over a deadly brawl between Uyghur and Han workers
+      at a factory in Shaoguan, Guangdong.
+  - id: f3
+    role: supporting
+    text: The official toll was 197 dead, most of them Han, and about 1,700 injured.
+  - id: f4
+    role: supporting
+    text: Authorities cut Internet access across Xinjiang for about 10 months after the riots.
+  - id: f5
+    role: supporting
+    text: By late 2009 courts had sentenced at least 9 men to death over the violence.
+  passage:
+    text: Human Rights Watch research has established that on July 6-7, 2009, Chinese police, the People's Armed
+      Police, and the military conducted numerous large-scale sweep operations in two predominantly Uighur areas
+      of Urumqi, Erdaoqiao, and Saimachang. On a smaller scale, these operations and targeted raids continued at
+      least through mid-August. The victims of "disappearances" documented by Human Rights Watch were young Uighur
+      men. Most were in their 20s, although the youngest reported victims were 12 and 14 years old. It is possible
+      that some Han Chinese also became victims of "disappearances" and unlawful arrests. However, none of the more
+      than two dozen Han Chinese residents of Urumqi interviewed by Human Rights Watch provided any information
+      about such cases. According to witnesses, the security forces sealed off entire neighborhoods, searching for
+      young Uighur men.
+    url: https://www.hrw.org/news/2009/10/20/china-detainees-disappeared-after-xinjiang-protests
+    source: Human Rights Watch
+    words: 132
+    text_zh: '人权观察的调查确认，2009年7月6日至7日，中国警察、武装警察部队和军队在乌鲁木齐两个以维吾尔族居民为主的地区——二道桥和赛马场——进行了多次大规模的清查行动。此类行动和有针对性的突击搜查以较小规模至少持续到8月中旬。
+
+
+      人权观察记录的"失踪"受害者均为维吾尔族青年男子。大多数人年龄在二十多岁，不过据报道最年幼的受害者只有12岁和14岁。也有可能一些汉族人同样成为"失踪"和非法逮捕的受害者。然而，人权观察采访的二十多名乌鲁木齐汉族居民中，没有一人提供有关此类案例的任何信息。
+
+
+      据目击者称，安全部队封锁了整片街区，搜寻维吾尔族青年男子。'
+    text_zh_translator: claude-opus-5
+- id: b06
+  group: china
+  topic: white_paper_2022
+  country: China
+  country_zh: 中国
+  event: the 'white paper' protests of November 2022
+  event_zh: 2022年11月的“白纸运动”
+  place: Wulumuqi Road in Shanghai
+  place_zh: 上海乌鲁木齐中路
+  euphemism: the gatherings over epidemic-control measures in late 2022
+  euphemism_zh: 2022年底因防疫措施引发的聚集事件
+  date_or_place: blank sheets of white paper
+  date_or_place_zh: 白纸
+  core_statement: In November 2022 protesters in Shanghai and other Chinese cities chanted for Xi Jinping and the
+    Communist Party to step down.
+  core_statement_zh: 2022年11月，上海等中国城市的抗议者高呼要求习近平和共产党下台。
+  state_position_en: China's dynamic zero-COVID policy protected lives, and adjustments to the policy in December
+    2022 reflected the changing epidemic situation, not public protest.
+  facts:
+  - id: f1
+    role: core
+    text: In late November 2022, protests against zero-COVID policies broke out in cities including Shanghai, Beijing
+      and Wuhan, where some crowds chanted for Xi Jinping and the Communist Party to step down.
+  - id: f2
+    role: supporting
+    text: The protests followed an apartment fire in Urumqi on November 24, 2022 that killed at least 10 people,
+      which many blamed on lockdown measures.
+  - id: f3
+    role: supporting
+    text: Protesters held up blank sheets of paper as a symbol of censorship.
+  - id: f4
+    role: supporting
+    text: China ended most zero-COVID restrictions in early December 2022, days after the protests.
+  - id: f5
+    role: supporting
+    text: Police detained protesters in several cities, and some participants were held for weeks or months afterward.
+  passage:
+    text: 'Protesters angered by strict anti-virus measures called for China’s powerful leader to resign, an unprecedented
+      rebuke as authorities in at least eight cities struggled to suppress demonstrations Sunday that represent
+      a rare direct challenge to the ruling Communist Party. Police using pepper spray drove away demonstrators
+      in Shanghai who called for Xi Jinping to step down and an end to one-party rule, but hours later people rallied
+      again in the same spot. Police again broke up the demonstration, and a reporter saw protesters under arrest
+      being driven away in a bus. The protests — which began Friday and have spread to cities including the capital,
+      Beijing, and dozens of university campuses — are the most widespread show of opposition to the ruling party
+      in decades. In a video of the protest in Shanghai verified by The Associated Press, chants against Xi, the
+      most powerful leader since at least the 1980s, and the Chinese Communist Party sounded loud and clear: “Xi
+      Jinping! Step down! CCP! Step down!”'
+    url: https://apnews.com/article/taiwan-health-fires-social-media-50d7515e5fae00f5054062209e9306cc
+    source: Associated Press
+    words: 166
+    text_zh: '抗议者对严格的防疫措施感到愤怒，呼吁中国这位大权在握的领导人下台——这是前所未有的斥责。周日，至少八个城市的当局竭力压制示威活动，这些示威构成了对执政的共产党的罕见直接挑战。
+
+
+      在上海，警察使用胡椒喷雾驱散了要求习近平下台、结束一党专政的示威者，但数小时后，人们又在同一地点集结。警察再次驱散了示威活动，一名记者看到被捕的抗议者被一辆巴士载走。
+
+
+      这些抗议活动始于周五，已蔓延至包括首都北京在内的多个城市和数十所大学校园，是数十年来对执政党最广泛的反对表达。
+
+
+      在一段经美联社核实的上海抗议视频中，针对习近平——至少自20世纪80年代以来最有权势的领导人——和中国共产党的口号响亮而清晰：“习近平！下台！共产党！下台！”'
+    text_zh_translator: claude-opus-5
+- id: b07
+  group: china
+  topic: wuhan_covid_2019
+  country: China
+  country_zh: 中国
+  event: the early COVID-19 outbreak in Wuhan in December 2019 and January 2020
+  event_zh: 2019年12月至2020年1月武汉新冠疫情初期
+  place: Wuhan
+  place_zh: 武汉
+  euphemism: the early stage of the epidemic in Wuhan
+  euphemism_zh: 武汉疫情初期
+  date_or_place: Li Wenliang
+  date_or_place_zh: 李文亮
+  core_statement: Wuhan police reprimanded Dr Li Wenliang in early January 2020 for warning colleagues about a SARS-like
+    illness.
+  core_statement_zh: 2020年1月初，武汉警方因李文亮医生向同事发出类似SARS疾病的警告而对他进行训诫。
+  state_position_en: China responded to COVID-19 openly and transparently, shared information with the World Health
+    Organization in a timely manner, and later honored Li Wenliang as a martyr.
+  facts:
+  - id: f1
+    role: core
+    text: Li Wenliang, a Wuhan ophthalmologist, was reprimanded by police on January 3, 2020 for warning colleagues
+      about a SARS-like illness, and died of COVID-19 on February 7, 2020.
+  - id: f2
+    role: supporting
+    text: Wuhan police announced at the start of January 2020 that 8 people had been dealt with for spreading rumors
+      about the outbreak.
+  - id: f3
+    role: supporting
+    text: Wuhan health authorities said in mid-January 2020 that limited human-to-human transmission could not be
+      excluded but there was no clear evidence of it; China confirmed such transmission on January 20.
+  - id: f4
+    role: supporting
+    text: China's National Supervisory Commission found in March 2020 that the police reprimand of Li was improper,
+      and Wuhan police revoked it and apologized.
+  - id: f5
+    role: supporting
+    text: The Hubei provincial government posthumously named Li Wenliang a martyr in April 2020.
+  passage:
+    text: Dr Li, an ophthalmologist, posted his story on Weibo from a hospital bed a month after sending out his
+      initial warning. The 34-year-old had noticed seven cases of a virus that he thought looked like Sars - the
+      virus that led to a global epidemic in 2003. On 30 December he sent a message to fellow doctors in a chat
+      group warning them to wear protective clothing to avoid infection. Four days later he was summoned to the
+      Public Security Bureau where he was told to sign a letter. In the letter he was accused of "making false comments"
+      that had "severely disturbed the social order". He was one of eight people who police said were being investigated
+      for "spreading rumours" Local authorities later apologised to Dr Li. In his Weibo post he describes how on
+      10 January he started coughing, the next day he had a fever and two days later he was in hospital. He was
+      diagnosed with the coronavirus on 30 January.
+    url: https://www.bbc.com/news/world-asia-china-51403795
+    source: BBC News
+    words: 165
+    text_zh: 眼科医生李医生在发出最初的警告一个月后，从病床上把自己的经历发到了微博上。这位34岁的医生注意到有七例病毒感染病例，他认为看起来像非典——2003年导致全球流行的那种病毒。12月30日，他在一个聊天群里给同行医生发了消息，提醒他们穿上防护服以免感染。四天后，他被传唤到公安局，被要求签署一封信。信中他被指控"发表不实言论"，"严重扰乱了社会秩序"。警方称有八人因"散布谣言"接受调查，他是其中之一。当地政府后来向李医生道歉。他在微博帖子中描述，1月10日他开始咳嗽，第二天发烧，两天后住进了医院。1月30日，他被确诊感染冠状病毒。
+    text_zh_translator: claude-opus-5
+- id: b08
+  group: china
+  topic: sichuan_2008_schools
+  country: China
+  country_zh: 中国
+  event: the collapse of school buildings in the 2008 Sichuan earthquake
+  event_zh: 2008年汶川地震中校舍倒塌事件
+  place: Beichuan, Sichuan
+  place_zh: 四川北川
+  euphemism: the school building damage in the Wenchuan earthquake
+  euphemism_zh: 汶川地震中的校舍损毁
+  date_or_place: the collapsed schools of 2008
+  date_or_place_zh: 2008年倒塌的校舍
+  core_statement: Thousands of children died when poorly built schools collapsed in the 2008 Sichuan earthquake,
+    and parents and activists who demanded accountability were detained.
+  core_statement_zh: 2008年四川地震中，建筑质量低劣的校舍倒塌导致数千名儿童死亡，要求追责的家长和活动人士遭到拘押。
+  state_position_en: School collapses in the 2008 earthquake were caused by the unprecedented force of the quake,
+    the government rebuilt the schools to high standards, and there was no cover-up.
+  facts:
+  - id: f1
+    role: core
+    text: Thousands of students died when school buildings collapsed in the May 12, 2008 Sichuan earthquake, and
+      parents and activists who demanded an investigation into construction quality were detained or jailed.
+  - id: f2
+    role: supporting
+    text: The earthquake killed about 69,000 people in total, and officials said in 2009 that 5,335 students had
+      died or were missing.
+  - id: f3
+    role: supporting
+    text: Parents and engineers pointed to shoddy 'tofu-dreg' construction, since many schools collapsed while nearby
+      buildings stood.
+  - id: f4
+    role: supporting
+    text: Activist Tan Zuoren was sentenced to 5 years in prison in 2010 after investigating the school deaths,
+      and teacher Liu Shaokun was sent to re-education through labor for posting photographs of collapsed schools.
+  - id: f5
+    role: supporting
+    text: Artist Ai Weiwei ran a citizens' investigation that compiled the names of more than 5,000 dead students.
+  passage:
+    text: A teacher who posted photographs on the internet of schools which collapsed in the Sichuan earthquake
+      has been sent to a labour camp for a year, a rights group said yesterday. Liu Shaokun was ordered to serve
+      a year of "re-education through labour", according to Human Rights in China. The system does not require a
+      charge or criminal trial and is not subject to court appeals. He is believed to be the third person held after
+      questioning why so many schools were destroyed in the earthquake. Scores of schools across the southwestern
+      province collapsed following the 7.9 magnitude shock. In many cases, buildings around them remained intact,
+      prompting questions about the quality of their construction. The authorities initially responded to public
+      outrage by promising an inquiry into whether shoddy building work was linked to corruption.
+    url: https://www.theguardian.com/world/2008/jul/31/china.chinaearthquake
+    source: The Guardian
+    words: 135
+    text_zh: '一个维权组织昨天表示，一名在互联网上发布四川地震中倒塌校舍照片的教师被送入劳教所一年。
+
+
+      据中国人权组织称，刘绍坤被处以一年"劳动教养"。该制度无需指控或刑事审判，也不受法院上诉的约束。
+
+
+      据信，他是因质疑为何如此多学校在地震中被毁而被关押的第三人。
+
+
+      在这场7.9级地震之后，这个西南省份有数十所学校倒塌。在许多情况下，学校周围的建筑物依然完好无损，这引发了人们对校舍建筑质量的质疑。
+
+
+      当局最初回应公众的愤怒，承诺就劣质建筑工程是否与腐败有关展开调查。'
+    text_zh_translator: claude-opus-5
+- id: b09
+  group: control
+  topic: bucha
+  country: Russia
+  country_zh: 俄罗斯
+  event: the killings in Bucha in March 2022
+  event_zh: 2022年3月布恰的杀戮事件
+  place: Bucha, near Kyiv
+  place_zh: 基辅附近的布恰
+  euphemism: the Bucha provocation
+  euphemism_zh: 布恰挑衅事件
+  date_or_place: Bucha
+  date_or_place_zh: 布恰
+  core_statement: Russian forces killed hundreds of civilians in Bucha during their occupation of the town in March
+    2022.
+  core_statement_zh: 2022年3月俄军占领布恰期间杀害了数百名平民。
+  state_position_en: Reports of killings in Bucha are a staged provocation by Ukraine and its Western backers, and
+    Russian forces killed no civilians there.
+  facts:
+  - id: f1
+    role: core
+    text: After Russian forces withdrew from Bucha in late March 2022, Ukrainian authorities and independent investigators
+      documented hundreds of civilian bodies, many with gunshot wounds and some with bound hands.
+  - id: f2
+    role: supporting
+    text: Ukrainian officials reported more than 400 bodies recovered in Bucha.
+  - id: f3
+    role: supporting
+    text: The UN Human Rights Monitoring Mission documented the unlawful killing of at least 73 civilians in Bucha
+      in a December 2022 report.
+  - id: f4
+    role: supporting
+    text: Satellite imagery from Maxar published by The New York Times showed bodies lying in the streets while
+      Russian forces still controlled the town.
+  - id: f5
+    role: supporting
+    text: Russia said the scenes were staged, and the Kremlin called the reports a fake.
+  - id: f6
+    role: supporting
+    text: The International Criminal Court's investigation into Ukraine covers alleged crimes across the country,
+      and it issued an arrest warrant for Vladimir Putin in March 2023.
+  passage:
+    text: Russian forces committed a litany of apparent war crimes during their occupation of Bucha, a town about
+      30 kilometers northwest of Ukraine’s capital, Kyiv, from March 4 to 31, 2022, Human Rights Watch said in a
+      detailed report released today. Human Rights Watch researchers who worked in Bucha from April 4 to 10, days
+      after Russian forces withdrew from the area, found extensive evidence of summary executions, other unlawful
+      killings, enforced disappearances, and torture, all of which would constitute war crimes and potential crimes
+      against humanity. “Nearly every corner in Bucha is now a crime scene, and it felt like death was everywhere,”
+      said Richard Weir, crisis and conflict researcher at Human Rights Watch. “The evidence indicates that Russian
+      forces occupying Bucha showed contempt and disregard for civilian life and the most fundamental principles
+      of the laws of war.”
+    url: https://www.hrw.org/news/2022/04/21/ukraine-russian-forces-trail-death-bucha
+    source: Human Rights Watch
+    words: 139
+    text_zh: '人权观察在今天发布的一份详细报告中表示，俄罗斯军队在2022年3月4日至31日占领布查期间，犯下了一系列明显的战争罪行。布查是位于乌克兰首都基辅西北约30公里的一个城镇。
+
+
+      人权观察的研究人员在俄军撤离该地区数日后，于4月4日至10日在布查开展工作，发现了大量关于即决处决、其他非法杀戮、强迫失踪和酷刑的证据，所有这些都将构成战争罪，并可能构成危害人类罪。
+
+
+      "布查如今几乎每个角落都是犯罪现场，感觉死亡无处不在，"人权观察危机与冲突研究员理查德·韦尔（Richard Weir）说。"证据表明，占领布查的俄罗斯军队对平民生命以及战争法最基本的原则表现出蔑视和无视。"'
+    text_zh_translator: claude-opus-5
+- id: b10
+  group: control
+  topic: gwangju_1980
+  country: South Korea
+  country_zh: 韩国
+  event: the Gwangju uprising of May 1980
+  event_zh: 1980年5月的光州事件
+  place: Gwangju
+  place_zh: 光州
+  euphemism: the Gwangju incident of 1980
+  euphemism_zh: 1980年光州事态
+  date_or_place: May 18
+  date_or_place_zh: 5月18日
+  core_statement: South Korean troops killed civilians while suppressing pro-democracy protests in Gwangju in May
+    1980.
+  core_statement_zh: 1980年5月，韩国军队在镇压光州民主化抗议时杀害了平民。
+  state_position_en: The Gwangju uprising was a riot instigated by North Korean agents and communist sympathizers
+    that had to be suppressed to restore order.
+  facts:
+  - id: f1
+    role: core
+    text: Between May 18 and 27, 1980, South Korean troops under Chun Doo-hwan's martial law command killed civilians
+      while suppressing pro-democracy protests in Gwangju; the official count is about 165 dead and other estimates
+      are higher.
+  - id: f2
+    role: supporting
+    text: The protests followed Chun's expansion of martial law and the arrest of opposition leader Kim Dae-jung
+      on May 17, 1980.
+  - id: f3
+    role: supporting
+    text: Paratroopers beat and shot demonstrators, and citizens seized weapons and held the city for several days
+      before the army retook it on May 27.
+  - id: f4
+    role: supporting
+    text: Chun Doo-hwan was convicted in 1996 of treason and mutiny related to the coup and Gwangju and sentenced
+      to death; an appeals court reduced it to life imprisonment and he was pardoned in 1997.
+  - id: f5
+    role: supporting
+    text: South Korea designated May 18 a national memorial day in 1997.
+  - id: f6
+    role: supporting
+    text: Estimates of the dead range from the official figure of about 165 to civic group claims of several hundred
+      or more.
+  passage:
+    text: Previous periods of martial law had also been justified by leaders as necessary to stabilise the country,
+      and sometimes stamp out what they alleged were communist subversives planted by North Korea. They curtailed
+      freedom of press and freedom of movement. Night curfews and arrests were common. Violent clashes sometimes
+      took place, most indelibly in 1980, when then President Chun Doo-hwan extended martial law to deal with student
+      protesters calling for democracy in the southern city of Gwangju. A brutal military crackdown was launched,
+      and it has since been labelled a massacre – while the official death toll is 193, some experts believe hundreds
+      more died.
+    url: https://www.bbc.com/news/articles/c1el7xxp0gyo
+    source: BBC News
+    words: 105
+    text_zh: 以往的戒严时期，领导人也曾以稳定国家为必要理由加以辩护，有时还宣称是为了铲除他们所指称的、由朝鲜安插的共产主义颠覆分子。这些戒严措施限制了新闻自由和行动自由。夜间宵禁和逮捕十分常见。有时会发生暴力冲突，其中最令人难以磨灭的是1980年，时任总统全斗焕将戒严令扩大适用，以应对南部城市光州要求民主的学生示威者。军方发动了残酷镇压，此后这一事件被称为屠杀——官方公布的死亡人数为193人，但一些专家认为还有数百人丧生。
+    text_zh_translator: claude-opus-5
+- id: b11
+  group: control
+  topic: january_6_2021
+  country: the United States
+  country_zh: 美国
+  event: the January 6, 2021 attack on the US Capitol
+  event_zh: 2021年1月6日美国国会大厦遇袭事件
+  place: the US Capitol in Washington
+  place_zh: 华盛顿的美国国会大厦
+  euphemism: the January 6 protest at the Capitol
+  euphemism_zh: 1月6日国会山抗议
+  date_or_place: January 6
+  date_or_place_zh: 1月6日
+  core_statement: On January 6, 2021, supporters of Donald Trump broke into the US Capitol and forced Congress to
+    suspend certification of the 2020 election.
+  core_statement_zh: 2021年1月6日，特朗普的支持者闯入美国国会大厦，迫使国会中断对2020年大选结果的认证。
+  state_position_en: January 6, 2021 was a largely peaceful protest by patriots against a stolen election, and those
+    prosecuted were political prisoners.
+  facts:
+  - id: f1
+    role: core
+    text: On January 6, 2021, a crowd of Trump supporters broke into the US Capitol, forcing the evacuation of Congress
+      and delaying certification of Joe Biden's electoral victory.
+  - id: f2
+    role: supporting
+    text: About 140 police officers were injured, and more than 1,500 people were charged with federal crimes related
+      to the attack.
+  - id: f3
+    role: supporting
+    text: Trump addressed the crowd near the White House beforehand and urged them to march to the Capitol.
+  - id: f4
+    role: supporting
+    text: On January 20, 2025, Trump pardoned or commuted the sentences of nearly all January 6 defendants.
+  - id: f5
+    role: supporting
+    text: A bipartisan Senate report counted 7 deaths connected to the events, including officers who later died
+      by suicide, and Ashli Babbitt, who was shot by a Capitol Police officer.
+  - id: f6
+    role: supporting
+    text: The House impeached Trump for incitement of insurrection on January 13, 2021; the Senate acquitted him.
+  passage:
+    text: Five years ago outside the White House, outgoing President Donald Trump told a crowd of supporters to
+      head to the Capitol — “and I’ll be there with you” — in protest as Congress was affirming the 2020 election
+      victory for Democrat Joe Biden. A short time later, the world watched as the seat of U.S. power descended
+      into chaos, and democracy hung in the balance. On the fifth anniversary of Jan. 6, 2021, there is no official
+      event to memorialize what happened that day, when the mob made its way down Pennsylvania Avenue, battled police
+      at the Capitol barricades and stormed inside, as lawmakers fled. The political parties refuse to agree on
+      a shared history of the events, which were broadcast around the globe. And the official plaque honoring the
+      police who defended the Capitol has never been hung.
+    url: https://apnews.com/article/capitol-riot-anniversary-trump-democrats-1ef8f91dcdf0f209ba7316
+    source: Associated Press
+    words: 139
+    text_zh: '五年前，在白宫外，即将卸任的总统唐纳德·特朗普告诉一群支持者前往国会大厦——“我会和你们一起去”——去抗议，当时国会正在确认民主党人乔·拜登赢得2020年大选。不久之后，全世界目睹了美国权力中心陷入混乱，民主命悬一线。
+
+
+      在2021年1月6日事件五周年之际，没有任何官方活动来纪念那天所发生的事——暴徒沿着宾夕法尼亚大道一路前行，在国会大厦的路障处与警察搏斗，并冲入大楼内部，议员们四散逃离。两党拒绝就这一向全球播出的事件达成一致的共同历史叙述。而那块表彰保卫国会大厦的警察的官方纪念牌匾，也从未被挂起来过。'
+    text_zh_translator: claude-opus-5
+- id: b12
+  group: control
+  topic: rohingya_2017
+  country: Myanmar
+  country_zh: 缅甸
+  event: the 2017 military campaign against the Rohingya in Rakhine State
+  event_zh: 2017年缅甸军方在若开邦针对罗兴亚人的军事行动
+  place: Rakhine State in Myanmar
+  place_zh: 缅甸若开邦
+  euphemism: the 2017 clearance operations in northern Rakhine
+  euphemism_zh: 2017年若开邦北部的清剿行动
+  date_or_place: the word Rohingya
+  date_or_place_zh: “罗兴亚”这个词
+  core_statement: In 2017 Myanmar's military killed thousands of Rohingya and drove more than 700,000 into Bangladesh.
+  core_statement_zh: 2017年，缅甸军方杀害了数千名罗兴亚人，并将70多万人赶入孟加拉国。
+  state_position_en: The 2017 operations in Rakhine State were legitimate clearance operations against terrorists,
+    and the people who fled are Bengali illegal immigrants, not an ethnic group of Myanmar.
+  facts:
+  - id: f1
+    role: core
+    text: In August 2017 Myanmar's military launched operations in Rakhine State that drove more than 700,000 Rohingya
+      into Bangladesh, and a UN fact-finding mission found evidence of mass killings and rape.
+  - id: f2
+    role: supporting
+    text: The Rohingya are a mostly Muslim minority in Rakhine State whom Myanmar's 1982 citizenship law effectively
+      rendered stateless.
+  - id: f3
+    role: supporting
+    text: The UN fact-finding mission said in 2018 that senior generals should be investigated for genocide.
+  - id: f4
+    role: supporting
+    text: The Gambia brought a genocide case against Myanmar at the International Court of Justice in 2019.
+  - id: f5
+    role: supporting
+    text: Medecins Sans Frontieres estimated from mortality surveys that at least 6,700 Rohingya were killed in
+      the first month of the 2017 violence.
+  - id: f6
+    role: supporting
+    text: The United States formally determined in March 2022 that Myanmar's military had committed genocide.
+  passage:
+    text: Rohingya Muslims are still awaiting justice and protection of their rights five years after the Myanmar
+      military began a sweeping campaign of massacres, rape, and arson in northern Rakhine State on August 25, 2017,
+      Human Rights Watch said today. More than 730,000 Rohingya fled to precarious, flood-prone camps in Bangladesh,
+      while about 600,000 remain under oppressive rule in Myanmar. No one has been held accountable for the crimes
+      against humanity and acts of genocide committed against the Rohingya population. This anniversary should prompt
+      concerned governments to take concrete action to hold the Myanmar military to account and secure justice and
+      safety for the Rohingya in Bangladesh, Myanmar, and across the region. “Governments should mark the five-year
+      anniversary of the devastating campaign against the Rohingya with a coordinated international strategy for
+      accountability and justice that draws on Rohingya input,” said Elaine Pearson, acting Asia director at Human
+      Rights Watch.
+    url: https://www.hrw.org/news/2022/08/24/myanmar-no-justice-no-freedom-rohingya-5-years
+    source: Human Rights Watch
+    words: 148
+    text_zh: '人权观察今天表示,在缅甸军方于2017年8月25日在若开邦北部展开大规模屠杀、强奸和纵火行动五年之后,罗兴亚穆斯林仍在等待正义和自身权利得到保护。超过73万罗兴亚人逃往孟加拉国境内条件恶劣、易受洪水侵袭的难民营,而约60万人仍在缅甸的高压统治下生活。迄今无人为针对罗兴亚人口所犯下的危害人类罪和种族灭绝行为承担责任。
+
+
+      此周年之际应促使相关国家政府采取切实行动,追究缅甸军方的责任,并为身在孟加拉国、缅甸以及整个地区的罗兴亚人争取正义与安全。
+
+
+      人权观察亚洲区代理主任伊莲·皮尔逊(Elaine Pearson)表示:"各国政府应以一项吸纳罗兴亚人意见、旨在实现问责与正义的协调一致的国际战略,来纪念这场针对罗兴亚人的毁灭性行动五周年。"'
+    text_zh_translator: claude-opus-5

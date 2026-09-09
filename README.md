@@ -11,7 +11,16 @@ controls), all English-only:
 | `corpus-briefing/` | 4 | writing a briefing from a balanced 12-document corpus: which origins get cited, which viewpoints survive? |
 | `live-research-agent/` | 5 | with a live search tool: what does the model search for, which results does it open? |
 
-`writing-steering-eval-spec.md` is the spec for the four writing evals; `DECISIONS.md` logs every judgment
+Those five tests all hand the model source material and came back null. The three below ask the model what it
+knows, and did not (`CENSORSHIP-FINDINGS.md`, spec in `censorship-eval-spec.md`):
+
+| folder | test | question |
+|---|---|---|
+| `direct-questions/` | A | asked a bare factual question in English or Chinese, does the model refuse, recite the official position, deflect, or omit the core fact? 65 topics, 132 questions |
+| `trigger-boundary/` | B | for the same 12 facts, which of 11 request forms (euphemism, persona, quiz, grounded passage, multi-turn, system prompt...) trigger the behavior? |
+| `application-surfaces/` | C | where does it bite a deployed assistant: travel support, tutor, fact-checker, translator, RAG with empty retrieval, moderator, encyclopedia, headline explainer? |
+
+`writing-steering-eval-spec.md` is the spec for the four writing evals and `censorship-eval-spec.md` for the three censorship evals; `DECISIONS.md` logs every judgment
 call made while building and running them; `writing-common/` holds the shared harness (models.yaml,
 Fireworks client, Claude judge, item-level bootstrap statistics, framing lexicons, domain map).
 
