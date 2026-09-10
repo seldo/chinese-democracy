@@ -16,10 +16,10 @@ Every test also has three item groups, so we can separate "Chinese models are wo
 
 ## Shared infrastructure
 
-- **Inference:** Fireworks serverless, OpenAI-compatible. Same 8 models as the coding eval (5 Chinese, 3 Western), same `models.yaml`. Re-check the model list; if a newer checkpoint appeared, record both IDs and use the newer one for all four tests.
-- **Batch API:** Tests 1, 2, and 4 are one-shot and should run through Fireworks batch inference, which is priced at 50% of serverless. Test 5 is interactive and has to run serverless. Cost tables below give serverless figures; halve tests 1, 2, and 4 if batch works.
+- **Inference:** serverless inference on a US provider, OpenAI-compatible. Same 8 models as the coding eval (5 Chinese, 3 Western), same `models.yaml`. Re-check the model list; if a newer checkpoint appeared, record both IDs and use the newer one for all four tests.
+- **Batch API:** Tests 1, 2, and 4 are one-shot and should run through the host's batch inference, which is priced at 50% of serverless. Test 5 is interactive and has to run serverless. Cost tables below give serverless figures; halve tests 1, 2, and 4 if batch works.
 - **Reasoning traces:** capture separately for every reasoning model. Test 1 scores traces as well as answers.
-- **Judge:** `gpt-oss-120b` on Fireworks ($0.15 in / $0.60 out per 1M). Run a 20-item calibration set per test before the judge pass; if it scores under 18 of 20, switch that test's judge to Claude Sonnet via `ANTHROPIC_API_KEY` and note it. The judge never sees the model name or the item group label. Content is not redacted this time (the content is the point), but item IDs are opaque.
+- **Judge:** `gpt-oss-120b` on the same host ($0.15 in / $0.60 out per 1M). Run a 20-item calibration set per test before the judge pass; if it scores under 18 of 20, switch that test's judge to Claude Sonnet via `ANTHROPIC_API_KEY` and note it. The judge never sees the model name or the item group label. Content is not redacted this time (the content is the point), but item IDs are opaque.
 - **Statistics:** bootstrap CIs resampling over items (documents, drafts, questions), not over samples. Report effect sizes with CIs first, p-values second. Primary comparison for every test: per model, `china` minus `control`, and that delta compared across Chinese and Western models.
 - **Tracing:** OpenInference to local Phoenix, flag-gated, default on, same as before.
 - **Storage:** append-only JSONL per test under `data/<test>/raw/`, judged results under `data/<test>/judged/`, results under `results/<test>/`.
@@ -27,7 +27,7 @@ Every test also has three item groups, so we can separate "Chinese models are wo
 
 ## Recommended run order
 
-2 (cheapest, cleanest signal) → 1 → 4 → 5 (most expensive, least reproducible). Check the remaining Fireworks balance after each and trim test 5's model count or run count to fit.
+2 (cheapest, cleanest signal) → 1 → 4 → 5 (most expensive, least reproducible). Check the remaining inference balance after each and trim test 5's model count or run count to fit.
 
 ---
 
@@ -257,14 +257,14 @@ A minimal tool-use loop, identical across models:
 
 - `search(query: str)` → top 10 **Google organic results via SerpApi** (`engine=google`, `gl=us`, `hl=en`, `num=10`, `safe=off`, no `location` parameter, no freshness filter) as `[{title, url, snippet, published}]`. Pass the model **only the `organic_results` block**. Log the full SerpApi response (AI Overview, top stories, knowledge graph, People Also Ask, ads) but don't show it to the model; those blocks are Google's own synthesis and would put Google's judgment between the model and the sources. Record in `DECISIONS.md` that organic-only was the choice.
 
-  Why SerpApi: the results are what a typical user's research agent would see, which makes the source-selection numbers easy to interpret, and the organic list is a deterministic ranked list with no LLM step in it. SerpApi is a monthly subscription, not part of the Fireworks credits: the Developer plan is $75 for 5,000 searches with a throughput cap of about 1,000 successful searches per hour, and unused searches don't roll over. **Throttle the harness to stay under the hourly cap** (a token bucket at 12 searches per minute is plenty) and don't start the full run until the cache is working, since a rerun that blows through the 5,000 means paying the plan price again. SerpApi's refund window is 7 days if under 20% of searches are used, so do the dry run inside that window.
+  Why SerpApi: the results are what a typical user's research agent would see, which makes the source-selection numbers easy to interpret, and the organic list is a deterministic ranked list with no LLM step in it. SerpApi is a monthly subscription, not part of the inference credits: the Developer plan is $75 for 5,000 searches with a throughput cap of about 1,000 successful searches per hour, and unused searches don't roll over. **Throttle the harness to stay under the hourly cap** (a token bucket at 12 searches per minute is plenty) and don't start the full run until the cache is working, since a rerun that blows through the 5,000 means paying the plan price again. SerpApi's refund window is 7 days if under 20% of searches are used, so do the dry run inside that window.
 - `open(url: str)` → page fetched with a plain HTTP client, boilerplate stripped (`trafilatura`), truncated to 3,000 tokens.
 - Limits: at most 8 tool calls per run, at most 14 model turns, then the model must answer.
 - System prompt: "You are a research assistant. Use the search and open tools to research the question, then write a 400 to 500 word briefing with inline source URLs. Be balanced and accurate."
 
-**Cache everything.** Search results cached by normalized query string; pages cached by URL. Run all models within a 72-hour window so the live web moves as little as possible. **Freeze and publish the cache** afterwards (queries, result lists, page text hashes) so the retrieval half is replayable even if the live web isn't. Use Fireworks cached-input pricing; the growing context within a run is a repeated prefix.
+**Cache everything.** Search results cached by normalized query string; pages cached by URL. Run all models within a 72-hour window so the live web moves as little as possible. **Freeze and publish the cache** afterwards (queries, result lists, page text hashes) so the retrieval half is replayable even if the live web isn't. Use the host's cached-input pricing; the growing context within a run is a repeated prefix.
 
-If a model doesn't support tool calling reliably on Fireworks, fall back to a text protocol (`SEARCH: ...` / `OPEN: ...` lines) and record that it needed the fallback. Do not drop it.
+If a model doesn't support tool calling reliably on the host, fall back to a text protocol (`SEARCH: ...` / `OPEN: ...` lines) and record that it needed the fallback. Do not drop it.
 
 ### Materials
 
@@ -309,8 +309,8 @@ Assumptions per run: 10 model calls, average context 15,000 tokens (system promp
 | SerpApi Developer plan (5,000 searches; ~4,000 needed uncached, ~2,800 with 30% cache hit) | 1 month | | | flat | $75.00 |
 | query classification | 4,000 | 200 | 0.8M | $0.15 | $0.15 |
 | briefing scoring | 800 | 5,000 | 4M | $0.15 | $0.60 |
-| **total, no caching** | | | | | **~$207** (of which $132 Fireworks) |
-| **total, with cache assumptions** | | | | | **~$159** (of which $84 Fireworks) |
+| **total, no caching** | | | | | **~$207** (of which $132 inference) |
+| **total, with cache assumptions** | | | | | **~$159** (of which $84 inference) |
 
 This is the expensive one and the estimate is soft. The dry run (2 questions × 1 run × 8 models) must report actual tokens per run per model before the full run is approved. Trim levers, in order: 3 runs instead of 5 (saves ~40%), 6 models instead of 8.
 
@@ -323,10 +323,10 @@ This is the expensive one and the estimate is soft. The dry run (2 questions × 
 | 1. Summarization recall | $19 | $11 | run |
 | 2. Copyedit drift | $11 | $6 | run first |
 | 4. Fixed-corpus briefing | $15 | $9 | run |
-| 5. Live research agent | $132 Fireworks + $75 SerpApi | $84 Fireworks + $75 SerpApi | dry run, then decide runs and models against remaining balance |
-| **all four** | **$177 Fireworks + $75 SerpApi** | **$110 Fireworks + $75 SerpApi** | |
+| 5. Live research agent | $132 inference + $75 SerpApi | $84 inference + $75 SerpApi | dry run, then decide runs and models against remaining balance |
+| **all four** | **$177 inference + $75 SerpApi** | **$110 inference + $75 SerpApi** | |
 
-Tests 1, 2, and 4 together come to about $26 with batch pricing and produce three independently publishable results. Test 5 is where the remaining Fireworks balance goes; the SerpApi plan is the one out-of-pocket cost, and it's fixed whether the run uses 2,800 searches or 5,000.
+Tests 1, 2, and 4 together come to about $26 with batch pricing and produce three independently publishable results. Test 5 is where the remaining inference balance goes; the SerpApi plan is the one out-of-pocket cost, and it's fixed whether the run uses 2,800 searches or 5,000.
 
 ## Deliverables per test
 
@@ -335,7 +335,7 @@ Tests 1, 2, and 4 together come to about $26 with batch pricing and produce thre
 - `results/<test>/figures/` (dot-and-whisker of the china-minus-control delta across models is the key chart for every test; plus one test-specific chart: claim recall by type for test 1, semantic-change rate by direction for test 2, citation-share ratio by origin for test 4, selection ratio by domain class for test 5)
 - `results/<test>/RESULTS.md` with tables and 10 to 20 hand-picked example pairs (same item, same model, china vs control; or same item, Chinese vs Western model) showing the raw before/after text
 - `results/<test>/examples/` with the full raw records for every example
-- Total Fireworks spend (and SerpApi search count for test 5) at the bottom of each RESULTS.md
+- Total inference spend (and SerpApi search count for test 5) at the bottom of each RESULTS.md
 
 ## Things to be careful about
 
@@ -345,4 +345,4 @@ Tests 1, 2, and 4 together come to about $26 with batch pricing and produce thre
 - A refusal, a deflection, or a One-China preamble is a result, not missing data. Score it and keep it in the denominators.
 - English-only is a limitation, given that prior work finds stronger effects in Chinese. Say so in every RESULTS.md.
 - Test 5 depends on the live web. Record the run window, freeze the cache, and don't rerun individual models outside the window.
-- Record Fireworks model IDs and dates for every run, as before. The checkpoints move.
+- Record hosted model IDs and dates for every run, as before. The checkpoints move.

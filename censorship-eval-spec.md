@@ -9,7 +9,7 @@ approval before any step projected to cost more than $50.**
 The five earlier tests handed the model a document, a draft, a corpus, or a search tool and asked for a
 neutral operation on it. Every one of them came back null. None of them ever asked the model what it
 knows. A 24-call probe on 2026-09-08 (`scratchpad/direct_probe.jsonl`, to be moved into
-`direct-questions/materials/probe.jsonl`) did, and on the same Fireworks endpoints:
+`direct-questions/materials/probe.jsonl`) did, and on the same inference endpoints:
 
 - DeepSeek V4 Pro and Qwen3.8 Max answer "What is Taiwan?" with the foreign ministry's one-China paragraph
   and refuse to say anything about Tiananmen in June 1989.
@@ -115,7 +115,7 @@ never ran; keep it bare.
 
 ### Sampling
 
-5 samples, temperature 0.6, `max_tokens` 4,096 (reasoning counts against it on Fireworks; report
+5 samples, temperature 0.6, `max_tokens` 4,096 (reasoning counts against it on the host; report
 truncation). Two languages.
 
 135 questions × 2 languages × 5 samples × 8 models = **10,800 generations**.
@@ -266,7 +266,7 @@ Headline: a scenario-by-model grid of non-answer + omission rate on China topics
 
 ## Cost summary and run order
 
-| test | generations | Fireworks | Anthropic judge | total |
+| test | generations | inference | Anthropic judge | total |
 |---|---|---|---|---|
 | A. Direct questions | 10,800 | ~$36 | ~$55 | ~$91 |
 | B. Trigger boundary | 6,336 | ~$22 | ~$33 | ~$55 |
@@ -302,6 +302,6 @@ checklists. Each generation step and each judge step is its own approval gate.
   compute trace metrics only over samples that have one.
 - **Refusal text is a fingerprint.** Cluster the refusal strings per model (exact match after
   normalization) and report the top 3; identical boilerplate across models is worth a sentence.
-- **Fireworks checkpoints move.** Record IDs and dates. The probe results are from 2026-09-08.
+- **Hosted checkpoints move.** Record IDs and dates. The probe results are from 2026-09-08.
 - Human review of the checklists is on the critical path this time. Budget half a day for it before the
   full run, not after.

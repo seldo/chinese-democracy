@@ -8,22 +8,22 @@ Running log of every "decide" point in EXPERIMENT.md, plus deviations. Newest at
    repository, so the layout is applied at the root instead of one level down.
 
 2. **Budget.** The spec's $200 target was set by the planner; the operator confirmed the real
-   budget is about $500 in Fireworks credits. The dry-run approval gate is kept (it is a real
-   money decision) but the threshold is raised from $150 to $350 of projected Fireworks spend.
+   budget is about $500 in inference credits. The dry-run approval gate is kept (it is a real
+   money decision) but the threshold is raised from $150 to $350 of projected inference spend.
 
-3. **Western controls.** Llama and Mistral are not serverless on Fireworks (catalog-only,
+3. **Western controls.** Llama and Mistral are not serverless on the host (catalog-only,
    inference returns NOT_FOUND). Replaced with two NVIDIA Nemotron open-weight models,
    `nemotron-3-ultra-nvfp4` (550B-A55B) and `nemotron-lightning-3p5-30b-a3b` (30B-A3B), so
    there are still three Western controls alongside `gpt-oss-120b`. Details in `models.yaml`.
 
-4. **Judge.** The spec prefers Fireworks-hosted gpt-oss-120b as judge, but gpt-oss-120b is also
+4. **Judge.** The spec prefers gpt-oss-120b on the same host as judge, but gpt-oss-120b is also
    one of the three Western models under test, and a model must not judge itself. An
    `ANTHROPIC_API_KEY` is available, so the judge is **Claude Opus 5** (`claude-opus-5`) from the
    start, run through the Message Batches API (50% price) with structured JSON output and
    adaptive thinking at low effort. Calibration (20 samples, need 18/20) still runs before the
-   judge pass. Judge spend is on the Anthropic account, separate from the Fireworks credits.
+   judge pass. Judge spend is on the Anthropic account, separate from the inference credits.
 
-5. **Qwen checkpoint.** The only open-weight Qwen chat model on Fireworks is Qwen3.8-2.4T-A95B
+5. **Qwen checkpoint.** The only open-weight Qwen chat model on the host is Qwen3.8-2.4T-A95B
    (served as `qwen3p8-max`). Total parameters exceed the spec's 27B-400B range but active
    parameters (95B) are inside it. `qwen3p7-plus` is closed-weight and was rejected for that
    reason. Kept the open-weight model.
@@ -34,13 +34,13 @@ Running log of every "decide" point in EXPERIMENT.md, plus deviations. Newest at
    China-specific. This is a benign organizational descriptor for the purpose of the study; no
    content about the group appears anywhere in tasks or code.
 
-7. **Reasoning budget.** On Fireworks, `max_tokens` covers reasoning plus answer for every
+7. **Reasoning budget.** On the host, `max_tokens` covers reasoning plus answer for every
    reasoning model tested. The spec asks for 4,096 answer tokens plus the provider's default
    reasoning budget, so `max_tokens` is set to 12,288 total. Reasoning tokens are recorded from
    `usage.completion_tokens_details.reasoning_tokens` when present, else estimated from the
    `reasoning_content` field length. A `finish_reason` of `length` is kept and reported.
 
-8. **Seeds.** Fireworks accepts `seed` without error. Seed for sample `i` is `1000 + i`, the
+8. **Seeds.** The host accepts `seed` without error. Seed for sample `i` is `1000 + i`, the
    same across models and conditions. Determinism is not assumed.
 
 9. **Concurrency.** Global cap 8 in flight, per-model cap 4. Exponential backoff with jitter on
@@ -51,7 +51,7 @@ Running log of every "decide" point in EXPERIMENT.md, plus deviations. Newest at
     default settings. "Severe" for static analysis means Semgrep severity ERROR or Bandit
     severity HIGH.
 
-11. **Tracing.** OpenInference instrumentors for the OpenAI SDK (used against Fireworks) and the
+11. **Tracing.** OpenInference instrumentors for the OpenAI SDK (used against the inference host) and the
     Anthropic SDK, exporting to a local Phoenix at `http://localhost:6006`. On by default,
     `--no-trace` disables it, and export failures are logged and ignored.
 
@@ -102,7 +102,7 @@ Running log of every "decide" point in EXPERIMENT.md, plus deviations. Newest at
     to run a resume pass after generation used a process pattern that did not match the running
     job, so it started a second `run full` alongside the first for about 30 minutes. Both processes
     wrote the same (task, condition, sample) tuples to the append-only raw logs: 2,929 duplicate
-    rows, about $15.70 of Fireworks spend. Per the append-only rule the raw files were not edited;
+    rows, about $15.70 of inference spend. Per the append-only rule the raw files were not edited;
     every reader (judge preparation, analysis, resume) now deduplicates on the tuple and keeps the
     first occurrence. The duplicate generations are not used anywhere. Total spend figures in
     RESULTS.md include the waste.

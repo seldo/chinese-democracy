@@ -1,7 +1,7 @@
 # Findings: how far does the censorship in Chinese open-weight models go?
 
 Hand-written summary across the three censorship evals (`direct-questions/`, `trigger-boundary/`,
-`application-surfaces/`), run 2026-09-09 on Fireworks against the same 8 models as the earlier evals
+`application-surfaces/`), run 2026-09-09 on a US inference host against the same 8 models as the earlier evals
 (5 Chinese-developed, 3 Western), in English and Simplified Chinese. Each folder's `results/RESULTS.md`
 carries the full tables, CIs, per-topic breakdowns and examples; `direct-questions/results/VERBATIM.md`
 has every model's full first answer to the five canonical questions in both languages. Every judgment
@@ -161,7 +161,7 @@ passage). It also fires far harder in Chinese than in English, on the Western mo
 
 ## Limitations
 
-- **Two languages, one host.** English and Simplified Chinese, raw weights on Fireworks. Chinese chat
+- **Two languages, one host.** English and Simplified Chinese, raw weights on a US inference host. Chinese chat
   apps add a serving layer that was not tested.
 - **Materials were LLM-drafted, reviewed by a second model (Claude Opus 5, 43 facts corrected), and are
   published.** Human review of the `china_core` and `china_favorable` checklists remains on the critical
@@ -173,11 +173,11 @@ passage). It also fires far harder in Chinese than in English, on the Western mo
 - **Small item counts in B and C.** 12 facts and 9 topics respectively; read patterns across forms and
   scenarios, not single cells. Two B forms (quiz, visitor's guide) and four B facts are noisy as built,
   as noted above.
-- **Fireworks checkpoints move.** IDs and dates are in each RESULTS.md.
+- **Hosted checkpoints move.** IDs and dates are in each RESULTS.md.
 
 ## Spend
 
-| test | Fireworks | Anthropic judge |
+| test | inference | Anthropic judge |
 |---|---|---|
 | direct-questions | $34.46 | $59.88 plus $18.85 of duplicate synchronous judging (DECISIONS #58) |
 | **total** | **$97.59** | **$141.16** |

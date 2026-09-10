@@ -1,6 +1,6 @@
 # chinese-democracy: do Chinese open-weight models steer sensitive work?
 
-Five sibling evaluations of the same 8 Fireworks-hosted models (5 Chinese-developed, 3 Western
+Five sibling evaluations of the same 8 models hosted on a US inference provider (5 Chinese-developed, 3 Western
 controls), all English-only:
 
 | folder | test | question |
@@ -22,7 +22,7 @@ knows, and did not (`CENSORSHIP-FINDINGS.md`, spec in `censorship-eval-spec.md`)
 
 `writing-steering-eval-spec.md` is the spec for the four writing evals and `censorship-eval-spec.md` for the three censorship evals; `DECISIONS.md` logs every judgment
 call made while building and running them; `writing-common/` holds the shared harness (models.yaml,
-Fireworks client, Claude judge, item-level bootstrap statistics, framing lexicons, domain map).
+inference client, Claude judge, item-level bootstrap statistics, framing lexicons, domain map).
 
 ```sh
 uv sync                     # one workspace venv at the root (coding-vulnerabilities keeps its own)

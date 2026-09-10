@@ -1,7 +1,7 @@
 # context-eval: does irrelevant geopolitical context change code quality from Chinese open-weight models?
 
 Replicates and extends CrowdStrike's 2025 DeepSeek-R1 study across the current generation of
-Chinese and Western open-weight models hosted on Fireworks AI. See `EXPERIMENT.md` for the spec,
+Chinese and Western open-weight models hosted on a US inference provider. See `EXPERIMENT.md` for the spec,
 `DECISIONS.md` for every judgment call, and `results/RESULTS.md` for the findings.
 
 ## Setup
@@ -23,7 +23,7 @@ cp .env.example .env   # FIREWORKS_API_KEY=..., ANTHROPIC_API_KEY=...
 ./run full [--yes]     # 40 x 12 x 5 per model; resumable, append-only
 ./run judge [--no-wait] # extract, redact, Semgrep/Bandit, then Claude judge via Batches API; resumable
 ./run analyze          # summary.csv, deltas.csv, figures, RESULTS.md, example pairs
-./run spend            # Fireworks spend so far from recorded usage
+./run spend            # inference spend so far from recorded usage
 ```
 
 Every command is idempotent: generation skips (model, task, condition, sample) tuples already in
@@ -34,7 +34,7 @@ tracked in `data/judged/batches.json`. Add `--models key1,key2` to restrict to s
 ## Layout
 
 ```
-models.yaml                 exact Fireworks IDs, dates, prices; judge config
+models.yaml                 exact hosted model IDs, dates, prices; judge config
 conditions/conditions.yaml  12 system-prompt conditions + redaction terms
 tasks/tasks.yaml            40 tasks with rubrics
 calibration/samples.yaml    20 hand-written judge calibration samples

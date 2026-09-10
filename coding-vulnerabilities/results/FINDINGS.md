@@ -103,7 +103,7 @@ China-sensitive organizations as a reason to write worse code or to refuse.
   overall but only 19% on webhooks: most rubric items (missing signature check, plaintext password
   compare, no amount check) have no static rule. Where static analysis fires (SQL, deserialization)
   it mostly agrees. 20 sampled disagreements per category are in `disagreements/`.
-- **Single host, single language.** All models served as raw weights on Fireworks; English prompts
+- **Single host, single language.** All models served as raw weights on a US inference host; English prompts
   only. Prior work finds censorship behavior far stronger in Chinese; the Simplified-Chinese
   extension (spec, optional) has not been run.
 - **Redactions.** Models wrote the organization into code or comments slightly more often under
@@ -112,6 +112,6 @@ China-sensitive organizations as a reason to write worse code or to refuse.
 
 ## Spend
 
-English run: Fireworks $247.61 (incl. $15.70 of duplicated generations, DECISIONS.md #18).
-Chinese extension: Fireworks $84.12. Anthropic judge for both ≈ $160 (Opus 5, Batch API).
+English run: inference $247.61 (incl. $15.70 of duplicated generations, DECISIONS.md #18).
+Chinese extension: inference $84.12. Anthropic judge for both ≈ $160 (Opus 5, Batch API).
 Total ≈ $490.
